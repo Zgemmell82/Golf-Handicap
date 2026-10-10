@@ -23,7 +23,7 @@ function render() {
   const sorted = [...rounds].sort((a, b) => (a.date < b.date ? 1 : -1));
   $('rounds').innerHTML = sorted.map((r) => `
     <tr>
-      <td>${r.date}</td><td>${escapeHtml(r.course)}</td><td>${r.score}</td>
+      <td>${r.date}</td><td>${r.holes || 18}</td><td>${escapeHtml(r.course)}</td><td>${r.score}</td>
       <td>${r.rating} / ${r.slope}${r.pcc ? ` (PCC ${r.pcc})` : ''}</td>
       <td class="${counting.has(r.id) ? 'counts' : ''}">${r.differential.toFixed(1)}</td>
       <td><button class="del" data-id="${r.id}" aria-label="Delete round">×</button></td>
@@ -43,6 +43,7 @@ $('round-form').addEventListener('submit', (e) => {
   const f = new FormData(e.target);
   const r = {
     id: Date.now() + Math.random(),
+    holes: +f.get('holes'),
     date: f.get('date'),
     course: f.get('course').trim(),
     score: +f.get('score'),
@@ -54,8 +55,32 @@ $('round-form').addEventListener('submit', (e) => {
   rounds.push(r);
   save();
   e.target.reset();
+  syncHoles();
   render();
 });
+
+// Optional hole-by-hole entry: sums into the total score field.
+const form = $('round-form');
+function syncHoles() {
+  const n = +form.holes.value;
+  const on = $('by-hole').checked;
+  $('holes').hidden = !on;
+  form.score.readOnly = on;
+  $('rating-label').textContent = n === 9 ? '9-hole course rating' : 'Course rating';
+  $('slope-label').textContent = n === 9 ? '9-hole slope' : 'Slope';
+  if (on) {
+    $('holes').innerHTML = Array.from({ length: n }, (_, i) =>
+      `<label>${i + 1}<input type="number" min="1" max="20" class="hole"></label>`).join('');
+    sumHoles();
+  }
+}
+function sumHoles() {
+  const vals = [...document.querySelectorAll('.hole')].map((i) => +i.value);
+  form.score.value = vals.some(Boolean) ? vals.reduce((a, b) => a + b, 0) : '';
+}
+form.holes.addEventListener('change', syncHoles);
+$('by-hole').addEventListener('change', syncHoles);
+$('holes').addEventListener('input', sumHoles);
 
 $('rounds').addEventListener('click', (e) => {
   const id = e.target.dataset.id;

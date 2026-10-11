@@ -35,6 +35,24 @@
     </section>
 
     <section class="card">
+      <h2>Import past rounds <small>(18Birdies or any CSV/spreadsheet)</small></h2>
+      <p class="muted">Upload a CSV file, or paste rows copied from a spreadsheet (include the header row). Rounds are matched to columns automatically; check the matches below before importing.</p>
+      <div class="row">
+        <label class="file secondary">Choose CSV file <input id="csv-file" type="file" accept=".csv,.tsv,.txt,text/csv" hidden></label>
+      </div>
+      <textarea id="csv-text" rows="4" placeholder="Date,Course,Score,Course Rating,Slope&#10;2026-05-01,Pebble Beach,88,72.5,135"></textarea>
+      <div id="import-map" hidden>
+        <div class="row" id="map-fields"></div>
+        <div class="row">
+          <label>Default rating <small>(if missing)</small> <input id="def-rating" type="number" step="0.1"></label>
+          <label>Default slope <small>(if missing)</small> <input id="def-slope" type="number"></label>
+        </div>
+        <p id="import-summary" class="muted"></p>
+        <button id="import-go" type="button">Import rounds</button>
+      </div>
+    </section>
+
+    <section class="card">
       <h2>Course handicap calculator</h2>
       <div class="row">
         <label>Slope <input id="ch-slope" type="number" min="55" max="155"></label>
@@ -60,6 +78,7 @@
     </section>
   </main>
   <script src="handicap.js"></script>
+  <script src="importer.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

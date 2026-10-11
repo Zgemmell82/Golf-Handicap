@@ -13,7 +13,7 @@ h1 { font-size:1.5rem; } h2 { font-size:1.1rem; margin-top:0; }
 .muted, small { color:var(--muted); font-size:.85rem; font-weight:normal; }
 form { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); gap:12px; align-items:end; }
 label { display:flex; flex-direction:column; gap:4px; font-size:.85rem; }
-input, select { padding:8px; border:1px solid var(--border); border-radius:8px; background:var(--bg); color:var(--fg); font:inherit; }
+input, select, textarea { padding:8px; border:1px solid var(--border); border-radius:8px; background:var(--bg); color:var(--fg); font:inherit; }
 button, .file { padding:10px 14px; border:0; border-radius:8px; background:var(--accent); color:#fff; font:inherit; cursor:pointer; text-align:center; }
 .secondary { background:transparent; color:var(--accent); border:1px solid var(--accent); }
 .row { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
@@ -27,3 +27,4 @@ label.check { flex-direction:row; align-items:center; }
 .holes { grid-column:1/-1; display:grid; grid-template-columns:repeat(auto-fill, minmax(56px,1fr)); gap:8px; }
 .holes label { font-size:.75rem; }
 [hidden] { display:none !important; }
+textarea { width:100%; margin:8px 0; padding:8px; border:1px solid var(--border); border-radius:8px; background:var(--bg); color:var(--fg); font:inherit; }

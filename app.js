@@ -111,4 +111,65 @@ $('import').addEventListener('change', async (e) => {
   e.target.value = '';
 });
 
+// ---- CSV import ----
+let importRows = [];
+const FIELD_NAMES = { date: 'Date', course: 'Course', score: 'Score', rating: 'Rating', slope: 'Slope', holes: 'Holes', pcc: 'PCC' };
+
+function currentMapping() {
+  const m = {};
+  document.querySelectorAll('.map-select').forEach((sel) => { m[sel.dataset.field] = +sel.value; });
+  return m;
+}
+function importDefaults() {
+  return { rating: +$('def-rating').value || 0, slope: +$('def-slope').value || 0 };
+}
+function previewImport() {
+  const { rounds: ok, skipped } = rowsToRounds(importRows, currentMapping(), importDefaults());
+  const why = [...new Set(skipped.map((s) => s.reason))].join(', ');
+  $('import-summary').textContent = `${ok.length} round(s) ready to import.` +
+    (skipped.length ? ` ${skipped.length} row(s) will be skipped (${why}).` : '');
+  $('import-go').disabled = ok.length === 0;
+}
+function loadImportText(text) {
+  const table = parseCSV(text);
+  if (table.length < 2) { $('import-map').hidden = true; return; }
+  const headers = table[0];
+  importRows = table.slice(1);
+  const guess = guessMapping(headers);
+  $('map-fields').innerHTML = Object.entries(FIELD_NAMES).map(([f, label]) => `
+    <label>${label}<select class="map-select" data-field="${f}">
+      <option value="-1">— none —</option>
+      ${headers.map((h, i) => `<option value="${i}" ${guess[f] === i ? 'selected' : ''}>${escapeHtml(h || 'Column ' + (i + 1))}</option>`).join('')}
+    </select></label>`).join('');
+  $('import-map').hidden = false;
+  previewImport();
+}
+$('csv-file').addEventListener('change', async (e) => {
+  if (e.target.files[0]) {
+    const t = await e.target.files[0].text();
+    $('csv-text').value = t;
+    loadImportText(t);
+  }
+  e.target.value = '';
+});
+$('csv-text').addEventListener('input', (e) => loadImportText(e.target.value));
+$('import-map').addEventListener('input', previewImport);
+$('import-go').addEventListener('click', () => {
+  const { rounds: ok } = rowsToRounds(importRows, currentMapping(), importDefaults());
+  const seen = new Set(rounds.map((r) => `${r.date}|${r.course}|${r.score}|${r.holes || 18}`));
+  let added = 0;
+  ok.forEach((r) => {
+    const key = `${r.date}|${r.course}|${r.score}|${r.holes}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    rounds.push({ ...r, id: Date.now() + Math.random() });
+    added++;
+  });
+  save();
+  render();
+  $('csv-text').value = '';
+  $('import-map').hidden = true;
+  alert(`Imported ${added} round(s)` + (added < ok.length ? `, ${ok.length - added} duplicate(s) skipped` : '') + '.');
+});
+
 render();

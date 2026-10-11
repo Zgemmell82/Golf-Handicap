@@ -1,0 +1,29 @@
+:root { --bg:#f3f6f1; --card:#fff; --fg:#1d2b1f; --muted:#667; --accent:#2e7d32; --hl:#d7f0d9; --border:#dde4dc; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#121a13; --card:#1b261c; --fg:#e8f0e8; --muted:#9aa89b; --accent:#66bb6a; --hl:#27432a; --border:#2d3b2e; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.4 system-ui, sans-serif; }
+main { max-width:760px; margin:0 auto; padding:16px; }
+h1 { font-size:1.5rem; } h2 { font-size:1.1rem; margin-top:0; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:16px; }
+.index-card { text-align:center; }
+.big { font-size:3.5rem; font-weight:700; color:var(--accent); }
+.label { text-transform:uppercase; letter-spacing:.08em; font-size:.8rem; color:var(--muted); }
+.muted, small { color:var(--muted); font-size:.85rem; font-weight:normal; }
+form { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); gap:12px; align-items:end; }
+label { display:flex; flex-direction:column; gap:4px; font-size:.85rem; }
+input, select { padding:8px; border:1px solid var(--border); border-radius:8px; background:var(--bg); color:var(--fg); font:inherit; }
+button, .file { padding:10px 14px; border:0; border-radius:8px; background:var(--accent); color:#fff; font:inherit; cursor:pointer; text-align:center; }
+.secondary { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+.row { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
+.row label { flex:1; min-width:90px; }
+.table-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:.9rem; }
+th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--border); white-space:nowrap; }
+td.counts { background:var(--hl); font-weight:700; }
+.del { background:none; color:var(--muted); padding:2px 8px; font-size:1.1rem; }
+label.check { flex-direction:row; align-items:center; }
+.holes { grid-column:1/-1; display:grid; grid-template-columns:repeat(auto-fill, minmax(56px,1fr)); gap:8px; }
+.holes label { font-size:.75rem; }
+[hidden] { display:none !important; }

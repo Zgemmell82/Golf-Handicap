@@ -1,0 +1,31 @@
+name: Gather voting evidence
+on:
+  workflow_dispatch:
+    inputs:
+      states:
+        description: 'Comma-separated state codes'
+        default: 'NC,VA'
+permissions:
+  contents: write
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Gather
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: node scripts/gather-evidence.mjs /tmp/evidence --states "${{ inputs.states }}"
+      - name: Publish to the research-evidence branch
+        run: |
+          mkdir -p /tmp/publish/evidence && cp -r /tmp/evidence/. /tmp/publish/evidence/
+          cd /tmp/publish
+          git init -q -b research-evidence
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Gathered voting evidence"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" research-evidence

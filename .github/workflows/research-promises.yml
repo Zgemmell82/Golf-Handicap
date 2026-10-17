@@ -1,0 +1,40 @@
+name: Research promises
+on:
+  workflow_dispatch:
+    inputs:
+      states:
+        description: 'Comma-separated state codes to research'
+        default: 'NC,VA'
+      max_officials:
+        description: 'Only research the first N officials not yet researched (0 = all). Use 2 for a trial.'
+        default: '0'
+permissions:
+  contents: write
+  actions: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci
+      - name: Research promises
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/research-promises.mjs --states "${{ inputs.states }}" --max-officials ${{ inputs.max_officials || '0' }}
+      - run: node --test tests/*.test.js tests/*.test.mjs
+      - run: node scripts/validate-data.mjs
+      - name: Commit and redeploy if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Add researched promises (${{ inputs.states }})"
+          git pull --rebase origin main
+          git push
+          gh workflow run pages.yml

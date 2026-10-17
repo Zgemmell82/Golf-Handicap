@@ -25,6 +25,7 @@ jobs:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: |
           if [ -z "$CONGRESS_API_KEY" ]; then echo "CONGRESS_API_KEY not set; skipping votes"; else node scripts/build-votes.mjs; fi
+      - run: npm ci
       - run: node --test tests/*.test.js tests/*.test.mjs
       - run: node scripts/validate-data.mjs
       - name: Commit and redeploy if changed

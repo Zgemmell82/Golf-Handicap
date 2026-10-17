@@ -26,6 +26,7 @@ jobs:
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
         run: node scripts/build-finance.mjs --limit ${{ inputs.limit || '0' }} ${{ inputs.force && '--force' || '' }}
+      - run: npm ci
       - run: node --test tests/*.test.js tests/*.test.mjs
       - run: node scripts/validate-data.mjs
       - name: Commit and redeploy if changed

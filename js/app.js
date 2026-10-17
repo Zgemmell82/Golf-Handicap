@@ -128,8 +128,8 @@
     const conf = Core.confidence(p, D.sources);
     const cat = D.catById[p.category];
     const outletName = (id) => (D.srcById[id] ? D.srcById[id].name : id);
-    const lean = (id) => (D.srcById[id] && D.srcById[id].lean !== 'n/a' ? ` <span class="chip">${esc(D.srcById[id].lean)}-leaning</span>` : '');
-    const rel = (id) => (D.srcById[id] ? `<span class="chip">${esc(D.srcById[id].kind === 'primary' ? 'primary' : D.srcById[id].kind === 'factcheck' ? 'fact-check' : 'news')}</span> <span class="chip">${esc(D.srcById[id].reliability)} reliability</span>` : '');
+    const lean = (id) => (D.srcById[id] && !['n/a', 'unrated'].includes(D.srcById[id].lean) ? ` <span class="chip">${esc(D.srcById[id].lean)}-leaning</span>` : '');
+    const rel = (id) => (D.srcById[id] ? `<span class="chip">${esc(D.srcById[id].kind === 'primary' ? 'primary' : D.srcById[id].kind === 'factcheck' ? 'fact-check' : D.srcById[id].kind === 'unrated' ? 'source' : 'news')}</span> <span class="chip">${D.srcById[id].reliability === 'unrated' ? 'reliability not yet rated' : esc(D.srcById[id].reliability) + ' reliability'}</span>` : '');
     const ev = (p.evidence || []).slice().sort((a, b) => (D.srcById[a.outletId].kind === 'primary' ? 0 : 1) - (D.srcById[b.outletId].kind === 'primary' ? 0 : 1));
     const related = Core.votesForPromise(p.id, p.officialId, D.votes);
     const contradicts = related.filter((r) => r.relation === 'contradicts');
@@ -139,8 +139,10 @@
       <div class="promise-body">
         ${eff.downgraded ? `<div class="note"><strong>Shown as Unverifiable.</strong> ${esc(eff.reason)}</div>` : ''}
         ${contradicts.map((r) => `<div class="flag"><strong>Vote that did not match this promise:</strong> ${esc(r.vote.title)} (${esc(fmtDate(r.vote.date))}). The official voted <strong>${esc(r.cast)}</strong>. ${esc(r.explain)}</div>`).join('')}
+        ${/^unreviewed/.test(p.review || '') ? `<div class="note"><strong>Not yet human-reviewed.</strong> This promise was found automatically. Its wording was checked word-for-word against the source, but a person has not yet confirmed it.</div>` : ''}
         <h4>The promise</h4>
-        <p>Made ${esc(fmtDate(p.madeOn))}. Source: <a href="${esc(p.source.url)}" rel="noopener">${esc(p.source.title)}</a> (${esc(outletName(p.source.outletId))}).</p>
+        ${p.quote ? `<blockquote class="quote">“${esc(p.quote)}”</blockquote>` : ''}
+        <p>Dated ${esc(fmtDate(p.madeOn))}. Source: <a href="${esc(p.source.url)}" rel="noopener">${esc(p.source.title)}</a> (${esc(outletName(p.source.outletId))}).</p>
         <h4>Evidence</h4>
         ${ev.length ? `<ul class="evidence">${ev.map((e) => `<li><a href="${esc(e.url)}" rel="noopener">${esc(e.title)}</a><br><span class="muted">${esc(outletName(e.outletId))}, ${esc(fmtDate(e.date))}</span> ${rel(e.outletId)}${lean(e.outletId)}</li>`).join('')}</ul>` : `<p class="muted">No evidence on file yet.</p>`}
         ${p.contested ? `<div class="note"><strong>Contested rating.</strong> Sources are shown across the spectrum where available. Leans: ${[...new Set(ev.map((e) => D.srcById[e.outletId].lean).filter((l) => l !== 'n/a'))].map(esc).join(', ') || 'none rated'}.</div>` : ''}
@@ -314,7 +316,8 @@
       <ul><li><strong>Two independent sources are required</strong> for Kept or Broken (currently ${R.minIndependentSources}). Two links to the same outlet count once. If fewer are on file, the promise is shown as Unverifiable and says why.</li>
       <li>Primary sources come first: Congress.gov, official voting records, FEC filings and the official's own statements. Fact-checkers (PolitiFact, FactCheck.org) are secondary.</li>
       <li>Where a rating is contested, we show sources from across the political spectrum, and confidence is capped until they span it.</li>
-      <li>Missing data is shown as missing. We never fill gaps with guesses.</li></ul>
+      <li>Missing data is shown as missing. We never fill gaps with guesses.</li>
+      <li><strong>Automatically found promises</strong> are labeled "not yet human-reviewed". They are kept only if the quoted words appear word-for-word on a real, dated page we fetched, and they stay Unverifiable until evidence is reviewed.</li></ul>
       <h2>Confidence</h2><p><strong>High</strong>: two or more independent sources including at least one primary record. <strong>Medium</strong>: two or more independent sources, but none primary or some lower reliability. <strong>Low</strong>: one or no independent source.</p>
       <h2>Sources and their ratings</h2><div class="card"><table><thead><tr><th>Source</th><th>Type</th><th>Reliability</th><th>Lean</th></tr></thead><tbody>
         ${D.sources.map((s) => `<tr><td>${esc(s.name)}<br><span class="muted">${esc(s.note)}</span></td><td>${esc(s.kind)}</td><td>${esc(s.reliability)}</td><td>${esc(s.lean)}</td></tr>`).join('')}</tbody></table></div>

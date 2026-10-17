@@ -202,5 +202,5 @@
     return errors;
   }
 
-  return { STATUSES, RULES, effectiveStatus, confidence, scorecard, biasCheck, conflicts, votesForPromise, alertsFor, validateData, independentSources, money };
+  return { LOADED, STATUSES, RULES, effectiveStatus, confidence, scorecard, biasCheck, conflicts, votesForPromise, alertsFor, validateData, independentSources, money };
 });

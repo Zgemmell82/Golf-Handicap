@@ -30,5 +30,49 @@
  {
   "id": "public-safety",
   "name": "Public safety"
+ },
+ {
+  "id": "defense",
+  "name": "Defense & national security"
+ },
+ {
+  "id": "veterans",
+  "name": "Veterans"
+ },
+ {
+  "id": "agriculture",
+  "name": "Agriculture"
+ },
+ {
+  "id": "technology",
+  "name": "Technology & privacy"
+ },
+ {
+  "id": "government-reform",
+  "name": "Government & elections"
+ },
+ {
+  "id": "foreign-policy",
+  "name": "Foreign policy & trade"
+ },
+ {
+  "id": "guns",
+  "name": "Gun policy"
+ },
+ {
+  "id": "reproductive-health",
+  "name": "Reproductive health"
+ },
+ {
+  "id": "energy",
+  "name": "Energy"
+ },
+ {
+  "id": "housing",
+  "name": "Housing & cost of living"
+ },
+ {
+  "id": "other",
+  "name": "Other"
  }
 ]

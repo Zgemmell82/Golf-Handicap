@@ -115,3 +115,36 @@ export function ensureOutlet(sources, source, officialSiteHost) {
   });
   return true;
 }
+
+// ---------- free (no-API) research flow: fetch pages in CI, extract in a Claude session, verify here ----------
+
+// Best-effort publication date from a page: archive timestamp, JSON-LD, meta tags, <time>, or /YYYY/MM/DD/ in the URL.
+export function findPublishedDate(html, url) {
+  const wb = parseWayback(url);
+  if (wb) return wb.snapshotDate;
+  const patterns = [
+    /"datePublished"\s*:\s*"([^"]+)"/i,
+    /<meta[^>]+(?:property|name|itemprop)=["'](?:article:published_time|og:published_time|date|pubdate|publishdate|datepublished|dc\.date|dcterms\.created)["'][^>]*content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name|itemprop)=["'](?:article:published_time|og:published_time|date|pubdate|publishdate|datepublished)["']/i,
+    /<time[^>]+datetime=["']([^"']+)["']/i,
+  ];
+  for (const re of patterns) {
+    const m = String(html).match(re);
+    const d = m && toIsoDate(m[1].trim());
+    if (d) return d;
+  }
+  const u = String(url).match(/\/((?:19|20)\d{2})\/(0?[1-9]|1[0-2])\/(0?[1-9]|[12]\d|3[01])(?:\/|$)/);
+  if (u) return `${u[1]}-${u[2].padStart(2, '0')}-${u[3].padStart(2, '0')}`;
+  return null;
+}
+
+const CUES = /\b(I|we)\s+(will|would|won't|support|oppose|pledge|promise|am committed|believe|fight|vote|introduce|sponsor|cut|protect|repeal|expand|lower|reduce|end|ban|fund|work)\b|\b(pledged|promised|vowed|plans? to|would work to|committed to|priorit(?:y|ies))\b/i;
+
+// Shrinks a page to the lines worth reading: first-person commitments and lines naming the official.
+export function focusText(text, surnameLower, cap = 14000) {
+  const keep = text.split('\n').map((l) => l.trim()).filter((l) => l.length >= 40 && (CUES.test(l) || l.toLowerCase().includes(surnameLower)));
+  const out = [];
+  let n = 0;
+  for (const l of keep) { if (n + l.length > cap) break; out.push(l); n += l.length; }
+  return out.join('\n');
+}

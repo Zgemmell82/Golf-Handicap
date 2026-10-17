@@ -2,6 +2,9 @@
  {
   "id": "ak-s-s001198",
   "bioguide": "S001198",
+  "fecIds": [
+   "S4AK00214"
+  ],
   "chamber": "senate",
   "name": "Dan Sullivan",
   "party": "R",
@@ -26,6 +29,9 @@
  {
   "id": "ak-s-m001153",
   "bioguide": "M001153",
+  "fecIds": [
+   "S4AK00099"
+  ],
   "chamber": "senate",
   "name": "Lisa Murkowski",
   "party": "R",
@@ -50,6 +56,9 @@
  {
   "id": "ak-00-b001323",
   "bioguide": "B001323",
+  "fecIds": [
+   "H2AK01083"
+  ],
   "chamber": "house",
   "name": "Nicholas J. Begich III",
   "party": "R",
@@ -73,6 +82,9 @@
  {
   "id": "al-s-b001319",
   "bioguide": "B001319",
+  "fecIds": [
+   "S2AL00145"
+  ],
   "chamber": "senate",
   "name": "Katie Boyd Britt",
   "party": "R",
@@ -98,6 +110,9 @@
  {
   "id": "al-s-t000278",
   "bioguide": "T000278",
+  "fecIds": [
+   "S0AL00230"
+  ],
   "chamber": "senate",
   "name": "Tommy Tuberville",
   "party": "R",
@@ -123,6 +138,10 @@
  {
   "id": "al-01-m001212",
   "bioguide": "M001212",
+  "fecIds": [
+   "H8AL02171",
+   "S6AL00476"
+  ],
   "chamber": "house",
   "name": "Barry Moore",
   "party": "R",
@@ -145,6 +164,9 @@
  {
   "id": "al-02-f000481",
   "bioguide": "F000481",
+  "fecIds": [
+   "H4AL02170"
+  ],
   "chamber": "house",
   "name": "Shomari Figures",
   "party": "D",
@@ -167,6 +189,9 @@
  {
   "id": "al-03-r000575",
   "bioguide": "R000575",
+  "fecIds": [
+   "H2AL03032"
+  ],
   "chamber": "house",
   "name": "Mike Rogers",
   "party": "R",
@@ -188,6 +213,9 @@
  {
   "id": "al-04-a000055",
   "bioguide": "A000055",
+  "fecIds": [
+   "H6AL04098"
+  ],
   "chamber": "house",
   "name": "Robert B. Aderholt",
   "party": "R",
@@ -209,6 +237,9 @@
  {
   "id": "al-05-s001220",
   "bioguide": "S001220",
+  "fecIds": [
+   "H2AL05102"
+  ],
   "chamber": "house",
   "name": "Dale W. Strong",
   "party": "R",
@@ -231,6 +262,9 @@
  {
   "id": "al-06-p000609",
   "bioguide": "P000609",
+  "fecIds": [
+   "H4AL06098"
+  ],
   "chamber": "house",
   "name": "Gary J. Palmer",
   "party": "R",
@@ -253,6 +287,9 @@
  {
   "id": "al-07-s001185",
   "bioguide": "S001185",
+  "fecIds": [
+   "H0AL07086"
+  ],
   "chamber": "house",
   "name": "Terri A. Sewell",
   "party": "D",
@@ -276,6 +313,10 @@
  {
   "id": "ar-s-b001236",
   "bioguide": "B001236",
+  "fecIds": [
+   "H2AR03176",
+   "S0AR00150"
+  ],
   "chamber": "senate",
   "name": "John Boozman",
   "party": "R",
@@ -302,6 +343,10 @@
  {
   "id": "ar-s-c001095",
   "bioguide": "C001095",
+  "fecIds": [
+   "H2AR04083",
+   "S4AR00103"
+  ],
   "chamber": "senate",
   "name": "Tom Cotton",
   "party": "R",
@@ -326,6 +371,9 @@
  {
   "id": "ar-01-c001087",
   "bioguide": "C001087",
+  "fecIds": [
+   "H0AR01083"
+  ],
   "chamber": "house",
   "name": "Eric A. \"Rick\" Crawford",
   "party": "R",
@@ -349,6 +397,9 @@
  {
   "id": "ar-02-h001072",
   "bioguide": "H001072",
+  "fecIds": [
+   "H4AR02141"
+  ],
   "chamber": "house",
   "name": "J. French Hill",
   "party": "R",
@@ -371,6 +422,9 @@
  {
   "id": "ar-03-w000809",
   "bioguide": "W000809",
+  "fecIds": [
+   "H0AR03055"
+  ],
   "chamber": "house",
   "name": "Steve Womack",
   "party": "R",
@@ -392,6 +446,9 @@
  {
   "id": "ar-04-w000821",
   "bioguide": "W000821",
+  "fecIds": [
+   "H4AR04048"
+  ],
   "chamber": "house",
   "name": "Bruce Westerman",
   "party": "R",
@@ -414,6 +471,9 @@
  {
   "id": "as-00-r000600",
   "bioguide": "R000600",
+  "fecIds": [
+   "H4AS00036"
+  ],
   "chamber": "house",
   "name": "Aumua Amata Coleman Radewagen",
   "party": "R",
@@ -437,6 +497,9 @@
  {
   "id": "az-s-k000377",
   "bioguide": "K000377",
+  "fecIds": [
+   "S0AZ00350"
+  ],
   "chamber": "senate",
   "name": "Mark Kelly",
   "party": "D",
@@ -462,6 +525,10 @@
  {
   "id": "az-s-g000574",
   "bioguide": "G000574",
+  "fecIds": [
+   "H4AZ07043",
+   "S4AZ00139"
+  ],
   "chamber": "senate",
   "name": "Ruben Gallego",
   "party": "D",
@@ -487,6 +554,10 @@
  {
   "id": "az-01-s001183",
   "bioguide": "S001183",
+  "fecIds": [
+   "H4AZ06045",
+   "H8AZ05097"
+  ],
   "chamber": "house",
   "name": "David Schweikert",
   "party": "R",
@@ -509,6 +580,9 @@
  {
   "id": "az-02-c001132",
   "bioguide": "C001132",
+  "fecIds": [
+   "H2AZ01354"
+  ],
   "chamber": "house",
   "name": "Elijah Crane",
   "party": "R",
@@ -531,6 +605,9 @@
  {
   "id": "az-03-a000381",
   "bioguide": "A000381",
+  "fecIds": [
+   "H4AZ03109"
+  ],
   "chamber": "house",
   "name": "Yassamin Ansari",
   "party": "D",
@@ -553,6 +630,9 @@
  {
   "id": "az-04-s001211",
   "bioguide": "S001211",
+  "fecIds": [
+   "H8AZ09040"
+  ],
   "chamber": "house",
   "name": "Greg Stanton",
   "party": "D",
@@ -576,6 +656,9 @@
  {
   "id": "az-05-b001302",
   "bioguide": "B001302",
+  "fecIds": [
+   "H6AZ05083"
+  ],
   "chamber": "house",
   "name": "Andy Biggs",
   "party": "R",
@@ -598,6 +681,9 @@
  {
   "id": "az-06-c001133",
   "bioguide": "C001133",
+  "fecIds": [
+   "H2AZ02360"
+  ],
   "chamber": "house",
   "name": "Juan Ciscomani",
   "party": "R",
@@ -620,6 +706,9 @@
  {
   "id": "az-07-g000606",
   "bioguide": "G000606",
+  "fecIds": [
+   "H6AZ07121"
+  ],
   "chamber": "house",
   "name": "Adelita S. Grijalva",
   "party": "D",
@@ -642,6 +731,9 @@
  {
   "id": "az-08-h001098",
   "bioguide": "H001098",
+  "fecIds": [
+   "H4AZ08108"
+  ],
   "chamber": "house",
   "name": "Abraham J. Hamadeh",
   "party": "R",
@@ -664,6 +756,9 @@
  {
   "id": "az-09-g000565",
   "bioguide": "G000565",
+  "fecIds": [
+   "H0AZ01259"
+  ],
   "chamber": "house",
   "name": "Paul A. Gosar",
   "party": "R",
@@ -686,6 +781,10 @@
  {
   "id": "ca-s-s001150",
   "bioguide": "S001150",
+  "fecIds": [
+   "H0CA27085",
+   "S4CA00555"
+  ],
   "chamber": "senate",
   "name": "Adam B. Schiff",
   "party": "D",
@@ -710,6 +809,9 @@
  {
   "id": "ca-s-p000145",
   "bioguide": "P000145",
+  "fecIds": [
+   "S2CA00955"
+  ],
   "chamber": "senate",
   "name": "Alex Padilla",
   "party": "D",
@@ -737,6 +839,9 @@
  {
   "id": "ca-01-g000607",
   "bioguide": "G000607",
+  "fecIds": [
+   "H6CA01285"
+  ],
   "chamber": "house",
   "name": "James Gallagher",
   "party": "R",
@@ -760,6 +865,9 @@
  {
   "id": "ca-02-h001068",
   "bioguide": "H001068",
+  "fecIds": [
+   "H2CA06259"
+  ],
   "chamber": "house",
   "name": "Jared Huffman",
   "party": "D",
@@ -782,6 +890,9 @@
  {
   "id": "ca-03-k000401",
   "bioguide": "K000401",
+  "fecIds": [
+   "H2CA03157"
+  ],
   "chamber": "house",
   "name": "Kevin Kiley",
   "party": "I",
@@ -805,6 +916,9 @@
  {
   "id": "ca-04-t000460",
   "bioguide": "T000460",
+  "fecIds": [
+   "H8CA01109"
+  ],
   "chamber": "house",
   "name": "Mike Thompson",
   "party": "D",
@@ -826,6 +940,10 @@
  {
   "id": "ca-05-m001177",
   "bioguide": "M001177",
+  "fecIds": [
+   "H8CA04152",
+   "H6CA21135"
+  ],
   "chamber": "house",
   "name": "Tom McClintock",
   "party": "R",
@@ -849,6 +967,9 @@
  {
   "id": "ca-06-b001287",
   "bioguide": "B001287",
+  "fecIds": [
+   "H0CA03078"
+  ],
   "chamber": "house",
   "name": "Ami Bera",
   "party": "D",
@@ -871,6 +992,9 @@
  {
   "id": "ca-07-m001163",
   "bioguide": "M001163",
+  "fecIds": [
+   "H6CA05195"
+  ],
   "chamber": "house",
   "name": "Doris O. Matsui",
   "party": "D",
@@ -892,6 +1016,9 @@
  {
   "id": "ca-08-g000559",
   "bioguide": "G000559",
+  "fecIds": [
+   "H0CA10149"
+  ],
   "chamber": "house",
   "name": "John Garamendi",
   "party": "D",
@@ -914,6 +1041,9 @@
  {
   "id": "ca-09-h001090",
   "bioguide": "H001090",
+  "fecIds": [
+   "H8CA10126"
+  ],
   "chamber": "house",
   "name": "Josh Harder",
   "party": "D",
@@ -935,6 +1065,9 @@
  {
   "id": "ca-10-d000623",
   "bioguide": "D000623",
+  "fecIds": [
+   "H0CA10073"
+  ],
   "chamber": "house",
   "name": "Mark DeSaulnier",
   "party": "D",
@@ -958,6 +1091,9 @@
  {
   "id": "ca-11-p000197",
   "bioguide": "P000197",
+  "fecIds": [
+   "H8CA05035"
+  ],
   "chamber": "house",
   "name": "Nancy Pelosi",
   "party": "D",
@@ -977,6 +1113,9 @@
  {
   "id": "ca-12-s001231",
   "bioguide": "S001231",
+  "fecIds": [
+   "H4CA12154"
+  ],
   "chamber": "house",
   "name": "Lateefah Simon",
   "party": "D",
@@ -999,6 +1138,9 @@
  {
   "id": "ca-13-g000605",
   "bioguide": "G000605",
+  "fecIds": [
+   "H2CA13115"
+  ],
   "chamber": "house",
   "name": "Adam Gray",
   "party": "D",
@@ -1021,6 +1163,9 @@
  {
   "id": "ca-14-w000832",
   "bioguide": "W000832",
+  "fecIds": [
+   "H0CA15213"
+  ],
   "chamber": "house",
   "name": "Aisha Wahab",
   "party": "D",
@@ -1040,6 +1185,9 @@
  {
   "id": "ca-15-m001225",
   "bioguide": "M001225",
+  "fecIds": [
+   "H2CA14162"
+  ],
   "chamber": "house",
   "name": "Kevin Mullin",
   "party": "D",
@@ -1061,6 +1209,9 @@
  {
   "id": "ca-16-l000607",
   "bioguide": "L000607",
+  "fecIds": [
+   "H4CA16197"
+  ],
   "chamber": "house",
   "name": "Sam T. Liccardo",
   "party": "D",
@@ -1082,6 +1233,9 @@
  {
   "id": "ca-17-k000389",
   "bioguide": "K000389",
+  "fecIds": [
+   "H4CA12055"
+  ],
   "chamber": "house",
   "name": "Ro Khanna",
   "party": "D",
@@ -1105,6 +1259,9 @@
  {
   "id": "ca-18-l000397",
   "bioguide": "L000397",
+  "fecIds": [
+   "H4CA16049"
+  ],
   "chamber": "house",
   "name": "Zoe Lofgren",
   "party": "D",
@@ -1127,6 +1284,9 @@
  {
   "id": "ca-19-p000613",
   "bioguide": "P000613",
+  "fecIds": [
+   "H6CA20152"
+  ],
   "chamber": "house",
   "name": "Jimmy Panetta",
   "party": "D",
@@ -1149,6 +1309,9 @@
  {
   "id": "ca-20-f000480",
   "bioguide": "F000480",
+  "fecIds": [
+   "H4CA20181"
+  ],
   "chamber": "house",
   "name": "Vince Fong",
   "party": "R",
@@ -1172,6 +1335,9 @@
  {
   "id": "ca-21-c001059",
   "bioguide": "C001059",
+  "fecIds": [
+   "H4CA20082"
+  ],
   "chamber": "house",
   "name": "Jim Costa",
   "party": "D",
@@ -1194,6 +1360,9 @@
  {
   "id": "ca-22-v000129",
   "bioguide": "V000129",
+  "fecIds": [
+   "H2CA20094"
+  ],
   "chamber": "house",
   "name": "David G. Valadao",
   "party": "R",
@@ -1217,6 +1386,9 @@
  {
   "id": "ca-23-o000019",
   "bioguide": "O000019",
+  "fecIds": [
+   "H0CA08135"
+  ],
   "chamber": "house",
   "name": "Jay Obernolte",
   "party": "R",
@@ -1240,6 +1412,9 @@
  {
   "id": "ca-24-c001112",
   "bioguide": "C001112",
+  "fecIds": [
+   "H6CA24303"
+  ],
   "chamber": "house",
   "name": "Salud O. Carbajal",
   "party": "D",
@@ -1263,6 +1438,9 @@
  {
   "id": "ca-25-r000599",
   "bioguide": "R000599",
+  "fecIds": [
+   "H2CA36439"
+  ],
   "chamber": "house",
   "name": "Raul Ruiz",
   "party": "D",
@@ -1284,6 +1462,9 @@
  {
   "id": "ca-26-b001285",
   "bioguide": "B001285",
+  "fecIds": [
+   "H2CA00120"
+  ],
   "chamber": "house",
   "name": "Julia Brownley",
   "party": "D",
@@ -1307,6 +1488,9 @@
  {
   "id": "ca-27-w000830",
   "bioguide": "W000830",
+  "fecIds": [
+   "H4CA27111"
+  ],
   "chamber": "house",
   "name": "George Whitesides",
   "party": "D",
@@ -1329,6 +1513,9 @@
  {
   "id": "ca-28-c001080",
   "bioguide": "C001080",
+  "fecIds": [
+   "H0CA32101"
+  ],
   "chamber": "house",
   "name": "Judy Chu",
   "party": "D",
@@ -1351,6 +1538,9 @@
  {
   "id": "ca-29-r000620",
   "bioguide": "R000620",
+  "fecIds": [
+   "H4CA29141"
+  ],
   "chamber": "house",
   "name": "Luz M. Rivas",
   "party": "D",
@@ -1373,6 +1563,9 @@
  {
   "id": "ca-30-f000483",
   "bioguide": "F000483",
+  "fecIds": [
+   "H4CA30149"
+  ],
   "chamber": "house",
   "name": "Laura Friedman",
   "party": "D",
@@ -1395,6 +1588,10 @@
  {
   "id": "ca-31-c001123",
   "bioguide": "C001123",
+  "fecIds": [
+   "H8CA39174",
+   "H4CA31170"
+  ],
   "chamber": "house",
   "name": "Gilbert Ray Cisneros, Jr.",
   "party": "D",
@@ -1417,6 +1614,9 @@
  {
   "id": "ca-32-s000344",
   "bioguide": "S000344",
+  "fecIds": [
+   "H6CA24113"
+  ],
   "chamber": "house",
   "name": "Brad Sherman",
   "party": "D",
@@ -1439,6 +1639,9 @@
  {
   "id": "ca-33-a000371",
   "bioguide": "A000371",
+  "fecIds": [
+   "H2CA31125"
+  ],
   "chamber": "house",
   "name": "Pete Aguilar",
   "party": "D",
@@ -1460,6 +1663,9 @@
  {
   "id": "ca-34-g000585",
   "bioguide": "G000585",
+  "fecIds": [
+   "H8CA34266"
+  ],
   "chamber": "house",
   "name": "Jimmy Gomez",
   "party": "D",
@@ -1482,6 +1688,9 @@
  {
   "id": "ca-35-t000474",
   "bioguide": "T000474",
+  "fecIds": [
+   "H4CA35031"
+  ],
   "chamber": "house",
   "name": "Norma J. Torres",
   "party": "D",
@@ -1504,6 +1713,9 @@
  {
   "id": "ca-36-l000582",
   "bioguide": "L000582",
+  "fecIds": [
+   "H4CA33119"
+  ],
   "chamber": "house",
   "name": "Ted Lieu",
   "party": "D",
@@ -1526,6 +1738,9 @@
  {
   "id": "ca-37-k000400",
   "bioguide": "K000400",
+  "fecIds": [
+   "H2CA37304"
+  ],
   "chamber": "house",
   "name": "Sydney Kamlager-Dove",
   "party": "D",
@@ -1548,6 +1763,9 @@
  {
   "id": "ca-38-s001156",
   "bioguide": "S001156",
+  "fecIds": [
+   "H2CA39078"
+  ],
   "chamber": "house",
   "name": "Linda T. Sánchez",
   "party": "D",
@@ -1569,6 +1787,9 @@
  {
   "id": "ca-39-t000472",
   "bioguide": "T000472",
+  "fecIds": [
+   "H2CA43245"
+  ],
   "chamber": "house",
   "name": "Mark Takano",
   "party": "D",
@@ -1591,6 +1812,9 @@
  {
   "id": "ca-40-k000397",
   "bioguide": "K000397",
+  "fecIds": [
+   "H8CA39240"
+  ],
   "chamber": "house",
   "name": "Young Kim",
   "party": "R",
@@ -1614,6 +1838,9 @@
  {
   "id": "ca-41-c000059",
   "bioguide": "C000059",
+  "fecIds": [
+   "H2CA37023"
+  ],
   "chamber": "house",
   "name": "Ken Calvert",
   "party": "R",
@@ -1635,6 +1862,9 @@
  {
   "id": "ca-42-g000598",
   "bioguide": "G000598",
+  "fecIds": [
+   "H2CA47188"
+  ],
   "chamber": "house",
   "name": "Robert Garcia",
   "party": "D",
@@ -1657,6 +1887,9 @@
  {
   "id": "ca-43-w000187",
   "bioguide": "W000187",
+  "fecIds": [
+   "H4CA23011"
+  ],
   "chamber": "house",
   "name": "Maxine Waters",
   "party": "D",
@@ -1678,6 +1911,9 @@
  {
   "id": "ca-44-b001300",
   "bioguide": "B001300",
+  "fecIds": [
+   "H6CA44103"
+  ],
   "chamber": "house",
   "name": "Nanette Diaz Barragán",
   "party": "D",
@@ -1699,6 +1935,9 @@
  {
   "id": "ca-45-t000491",
   "bioguide": "T000491",
+  "fecIds": [
+   "H4CA45170"
+  ],
   "chamber": "house",
   "name": "Derek Tran",
   "party": "D",
@@ -1721,6 +1960,9 @@
  {
   "id": "ca-46-c001110",
   "bioguide": "C001110",
+  "fecIds": [
+   "H6CA46116"
+  ],
   "chamber": "house",
   "name": "J. Luis Correa",
   "party": "D",
@@ -1743,6 +1985,9 @@
  {
   "id": "ca-47-m001241",
   "bioguide": "M001241",
+  "fecIds": [
+   "H4CA47085"
+  ],
   "chamber": "house",
   "name": "Dave Min",
   "party": "D",
@@ -1766,6 +2011,10 @@
  {
   "id": "ca-48-i000056",
   "bioguide": "I000056",
+  "fecIds": [
+   "H0CA48024",
+   "S8CA00135"
+  ],
   "chamber": "house",
   "name": "Darrell Issa",
   "party": "R",
@@ -1789,6 +2038,9 @@
  {
   "id": "ca-49-l000593",
   "bioguide": "L000593",
+  "fecIds": [
+   "H8CA49058"
+  ],
   "chamber": "house",
   "name": "Mike Levin",
   "party": "D",
@@ -1810,6 +2062,9 @@
  {
   "id": "ca-50-p000608",
   "bioguide": "P000608",
+  "fecIds": [
+   "H2CA52089"
+  ],
   "chamber": "house",
   "name": "Scott H. Peters",
   "party": "D",
@@ -1832,6 +2087,9 @@
  {
   "id": "ca-51-j000305",
   "bioguide": "J000305",
+  "fecIds": [
+   "H8CA49074"
+  ],
   "chamber": "house",
   "name": "Sara Jacobs",
   "party": "D",
@@ -1854,6 +2112,9 @@
  {
   "id": "ca-52-v000130",
   "bioguide": "V000130",
+  "fecIds": [
+   "H2CA50026"
+  ],
   "chamber": "house",
   "name": "Juan Vargas",
   "party": "D",
@@ -1875,6 +2136,9 @@
  {
   "id": "co-s-h000273",
   "bioguide": "H000273",
+  "fecIds": [
+   "S0CO00575"
+  ],
   "chamber": "senate",
   "name": "John W. Hickenlooper",
   "party": "D",
@@ -1899,6 +2163,9 @@
  {
   "id": "co-s-b001267",
   "bioguide": "B001267",
+  "fecIds": [
+   "S0CO00211"
+  ],
   "chamber": "senate",
   "name": "Michael F. Bennet",
   "party": "D",
@@ -1923,6 +2190,9 @@
  {
   "id": "co-01-d000197",
   "bioguide": "D000197",
+  "fecIds": [
+   "H6CO01141"
+  ],
   "chamber": "house",
   "name": "Diana DeGette",
   "party": "D",
@@ -1944,6 +2214,9 @@
  {
   "id": "co-02-n000191",
   "bioguide": "N000191",
+  "fecIds": [
+   "H8CO02160"
+  ],
   "chamber": "house",
   "name": "Joe Neguse",
   "party": "D",
@@ -1967,6 +2240,9 @@
  {
   "id": "co-03-h001100",
   "bioguide": "H001100",
+  "fecIds": [
+   "H4CO03357"
+  ],
   "chamber": "house",
   "name": "Jeff Hurd",
   "party": "R",
@@ -1990,6 +2266,9 @@
  {
   "id": "co-04-b000825",
   "bioguide": "B000825",
+  "fecIds": [
+   "H0CO03165"
+  ],
   "chamber": "house",
   "name": "Lauren Boebert",
   "party": "R",
@@ -2012,6 +2291,9 @@
  {
   "id": "co-05-c001137",
   "bioguide": "C001137",
+  "fecIds": [
+   "H6CO05142"
+  ],
   "chamber": "house",
   "name": "Jeff Crank",
   "party": "R",
@@ -2034,6 +2316,9 @@
  {
   "id": "co-06-c001121",
   "bioguide": "C001121",
+  "fecIds": [
+   "H8CO06229"
+  ],
   "chamber": "house",
   "name": "Jason Crow",
   "party": "D",
@@ -2056,6 +2341,9 @@
  {
   "id": "co-07-p000620",
   "bioguide": "P000620",
+  "fecIds": [
+   "H8CO07045"
+  ],
   "chamber": "house",
   "name": "Brittany Pettersen",
   "party": "D",
@@ -2077,6 +2365,9 @@
  {
   "id": "co-08-e000300",
   "bioguide": "E000300",
+  "fecIds": [
+   "H4CO08034"
+  ],
   "chamber": "house",
   "name": "Gabe Evans",
   "party": "R",
@@ -2099,6 +2390,10 @@
  {
   "id": "ct-s-m001169",
   "bioguide": "M001169",
+  "fecIds": [
+   "H6CT05124",
+   "S2CT00132"
+  ],
   "chamber": "senate",
   "name": "Christopher Murphy",
   "party": "D",
@@ -2122,6 +2417,9 @@
  {
   "id": "ct-s-b001277",
   "bioguide": "B001277",
+  "fecIds": [
+   "S0CT00177"
+  ],
   "chamber": "senate",
   "name": "Richard Blumenthal",
   "party": "D",
@@ -2147,6 +2445,9 @@
  {
   "id": "ct-01-l000557",
   "bioguide": "L000557",
+  "fecIds": [
+   "H8CT01046"
+  ],
   "chamber": "house",
   "name": "John B. Larson",
   "party": "D",
@@ -2168,6 +2469,9 @@
  {
   "id": "ct-02-c001069",
   "bioguide": "C001069",
+  "fecIds": [
+   "H2CT02112"
+  ],
   "chamber": "house",
   "name": "Joe Courtney",
   "party": "D",
@@ -2190,6 +2494,9 @@
  {
   "id": "ct-03-d000216",
   "bioguide": "D000216",
+  "fecIds": [
+   "H0CT03072"
+  ],
   "chamber": "house",
   "name": "Rosa L. DeLauro",
   "party": "D",
@@ -2211,6 +2518,9 @@
  {
   "id": "ct-04-h001047",
   "bioguide": "H001047",
+  "fecIds": [
+   "H8CT04172"
+  ],
   "chamber": "house",
   "name": "James A. Himes",
   "party": "D",
@@ -2233,6 +2543,9 @@
  {
   "id": "ct-05-h001081",
   "bioguide": "H001081",
+  "fecIds": [
+   "H8CT05245"
+  ],
   "chamber": "house",
   "name": "Jahana Hayes",
   "party": "D",
@@ -2255,6 +2568,9 @@
  {
   "id": "dc-00-n000147",
   "bioguide": "N000147",
+  "fecIds": [
+   "H0DC00058"
+  ],
   "chamber": "house",
   "name": "Eleanor Holmes Norton",
   "party": "D",
@@ -2277,6 +2593,9 @@
  {
   "id": "de-s-c001088",
   "bioguide": "C001088",
+  "fecIds": [
+   "S0DE00092"
+  ],
   "chamber": "senate",
   "name": "Christopher A. Coons",
   "party": "D",
@@ -2302,6 +2621,10 @@
  {
   "id": "de-s-b001303",
   "bioguide": "B001303",
+  "fecIds": [
+   "H6DE00206",
+   "S4DE00060"
+  ],
   "chamber": "senate",
   "name": "Lisa Blunt Rochester",
   "party": "D",
@@ -2326,6 +2649,9 @@
  {
   "id": "de-00-m001238",
   "bioguide": "M001238",
+  "fecIds": [
+   "H4DE00045"
+  ],
   "chamber": "house",
   "name": "Sarah McBride",
   "party": "D",
@@ -2348,6 +2674,9 @@
  {
   "id": "fl-s-m001244",
   "bioguide": "M001244",
+  "fecIds": [
+   "S6FL00640"
+  ],
   "chamber": "senate",
   "name": "Ashley Moody",
   "party": "R",
@@ -2374,6 +2703,9 @@
  {
   "id": "fl-s-s001217",
   "bioguide": "S001217",
+  "fecIds": [
+   "S8FL00273"
+  ],
   "chamber": "senate",
   "name": "Rick Scott",
   "party": "R",
@@ -2399,6 +2731,9 @@
  {
   "id": "fl-01-p000622",
   "bioguide": "P000622",
+  "fecIds": [
+   "H6FL01390"
+  ],
   "chamber": "house",
   "name": "Jimmy Patronis",
   "party": "R",
@@ -2421,6 +2756,9 @@
  {
   "id": "fl-02-d000628",
   "bioguide": "D000628",
+  "fecIds": [
+   "H6FL02208"
+  ],
   "chamber": "house",
   "name": "Neal P. Dunn",
   "party": "R",
@@ -2443,6 +2781,9 @@
  {
   "id": "fl-03-c001039",
   "bioguide": "C001039",
+  "fecIds": [
+   "H0FL03175"
+  ],
   "chamber": "house",
   "name": "Kat Cammack",
   "party": "R",
@@ -2465,6 +2806,9 @@
  {
   "id": "fl-04-b001314",
   "bioguide": "B001314",
+  "fecIds": [
+   "H2FL04211"
+  ],
   "chamber": "house",
   "name": "Aaron Bean",
   "party": "R",
@@ -2486,6 +2830,9 @@
  {
   "id": "fl-05-r000609",
   "bioguide": "R000609",
+  "fecIds": [
+   "H6FL04105"
+  ],
   "chamber": "house",
   "name": "John H. Rutherford",
   "party": "R",
@@ -2507,6 +2854,9 @@
  {
   "id": "fl-06-f000484",
   "bioguide": "F000484",
+  "fecIds": [
+   "H6FL06258"
+  ],
   "chamber": "house",
   "name": "Randy Fine",
   "party": "R",
@@ -2529,6 +2879,9 @@
  {
   "id": "fl-07-m001216",
   "bioguide": "M001216",
+  "fecIds": [
+   "H2FL07156"
+  ],
   "chamber": "house",
   "name": "Cory Mills",
   "party": "R",
@@ -2551,6 +2904,9 @@
  {
   "id": "fl-08-h001099",
   "bioguide": "H001099",
+  "fecIds": [
+   "H4FL08168"
+  ],
   "chamber": "house",
   "name": "Mike Haridopolos",
   "party": "R",
@@ -2573,6 +2929,9 @@
  {
   "id": "fl-09-s001200",
   "bioguide": "S001200",
+  "fecIds": [
+   "H6FL09179"
+  ],
   "chamber": "house",
   "name": "Darren Soto",
   "party": "D",
@@ -2595,6 +2954,9 @@
  {
   "id": "fl-10-f000476",
   "bioguide": "F000476",
+  "fecIds": [
+   "H2FL10259"
+  ],
   "chamber": "house",
   "name": "Maxwell Frost",
   "party": "D",
@@ -2617,6 +2979,10 @@
  {
   "id": "fl-11-w000806",
   "bioguide": "W000806",
+  "fecIds": [
+   "H0FL08208",
+   "S4FL00256"
+  ],
   "chamber": "house",
   "name": "Daniel Webster",
   "party": "R",
@@ -2640,6 +3006,9 @@
  {
   "id": "fl-12-b001257",
   "bioguide": "B001257",
+  "fecIds": [
+   "H6FL09070"
+  ],
   "chamber": "house",
   "name": "Gus M. Bilirakis",
   "party": "R",
@@ -2662,6 +3031,9 @@
  {
   "id": "fl-13-l000596",
   "bioguide": "L000596",
+  "fecIds": [
+   "H0FL13158"
+  ],
   "chamber": "house",
   "name": "Anna Paulina Luna",
   "party": "R",
@@ -2684,6 +3056,10 @@
  {
   "id": "fl-14-c001066",
   "bioguide": "C001066",
+  "fecIds": [
+   "H6FL11126",
+   "H6FL11134"
+  ],
   "chamber": "house",
   "name": "Kathy Castor",
   "party": "D",
@@ -2706,6 +3082,9 @@
  {
   "id": "fl-15-l000597",
   "bioguide": "L000597",
+  "fecIds": [
+   "H2FL15241"
+  ],
   "chamber": "house",
   "name": "Laurel M. Lee",
   "party": "R",
@@ -2729,6 +3108,9 @@
  {
   "id": "fl-16-b001260",
   "bioguide": "B001260",
+  "fecIds": [
+   "H6FL13148"
+  ],
   "chamber": "house",
   "name": "Vern Buchanan",
   "party": "R",
@@ -2751,6 +3133,9 @@
  {
   "id": "fl-17-s001214",
   "bioguide": "S001214",
+  "fecIds": [
+   "H8FL17053"
+  ],
   "chamber": "house",
   "name": "W. Gregory Steube",
   "party": "R",
@@ -2773,6 +3158,9 @@
  {
   "id": "fl-18-f000472",
   "bioguide": "F000472",
+  "fecIds": [
+   "H0FL15104"
+  ],
   "chamber": "house",
   "name": "Scott Franklin",
   "party": "R",
@@ -2795,6 +3183,9 @@
  {
   "id": "fl-19-d000032",
   "bioguide": "D000032",
+  "fecIds": [
+   "H2FL14186"
+  ],
   "chamber": "house",
   "name": "Byron Donalds",
   "party": "R",
@@ -2817,6 +3208,9 @@
  {
   "id": "fl-21-m001199",
   "bioguide": "M001199",
+  "fecIds": [
+   "H6FL18097"
+  ],
   "chamber": "house",
   "name": "Brian J. Mast",
   "party": "R",
@@ -2839,6 +3233,10 @@
  {
   "id": "fl-22-f000462",
   "bioguide": "F000462",
+  "fecIds": [
+   "H2FL14053",
+   "H2FL22080"
+  ],
   "chamber": "house",
   "name": "Lois Frankel",
   "party": "D",
@@ -2860,6 +3258,9 @@
  {
   "id": "fl-23-m001217",
   "bioguide": "M001217",
+  "fecIds": [
+   "H2FL22171"
+  ],
   "chamber": "house",
   "name": "Jared Moskowitz",
   "party": "D",
@@ -2883,6 +3284,9 @@
  {
   "id": "fl-24-w000808",
   "bioguide": "W000808",
+  "fecIds": [
+   "H0FL17068"
+  ],
   "chamber": "house",
   "name": "Frederica S. Wilson",
   "party": "D",
@@ -2905,6 +3309,9 @@
  {
   "id": "fl-25-w000797",
   "bioguide": "W000797",
+  "fecIds": [
+   "H4FL20023"
+  ],
   "chamber": "house",
   "name": "Debbie Wasserman Schultz",
   "party": "D",
@@ -2927,6 +3334,9 @@
  {
   "id": "fl-26-d000600",
   "bioguide": "D000600",
+  "fecIds": [
+   "H2FL25018"
+  ],
   "chamber": "house",
   "name": "Mario Diaz-Balart",
   "party": "R",
@@ -2948,6 +3358,9 @@
  {
   "id": "fl-27-s000168",
   "bioguide": "S000168",
+  "fecIds": [
+   "H8FL27185"
+  ],
   "chamber": "house",
   "name": "Maria Elvira Salazar",
   "party": "R",
@@ -2970,6 +3383,9 @@
  {
   "id": "fl-28-g000593",
   "bioguide": "G000593",
+  "fecIds": [
+   "H0FL26036"
+  ],
   "chamber": "house",
   "name": "Carlos A. Gimenez",
   "party": "R",
@@ -2993,6 +3409,10 @@
  {
   "id": "ga-s-o000174",
   "bioguide": "O000174",
+  "fecIds": [
+   "H8GA06195",
+   "S8GA00180"
+  ],
   "chamber": "senate",
   "name": "Jon Ossoff",
   "party": "D",
@@ -3016,6 +3436,9 @@
  {
   "id": "ga-s-w000790",
   "bioguide": "W000790",
+  "fecIds": [
+   "S0GA00559"
+  ],
   "chamber": "senate",
   "name": "Raphael G. Warnock",
   "party": "D",
@@ -3040,6 +3463,10 @@
  {
   "id": "ga-01-c001103",
   "bioguide": "C001103",
+  "fecIds": [
+   "H4GA01039",
+   "S6GA00374"
+  ],
   "chamber": "house",
   "name": "Earl L. \"Buddy\" Carter",
   "party": "R",
@@ -3062,6 +3489,9 @@
  {
   "id": "ga-02-b000490",
   "bioguide": "B000490",
+  "fecIds": [
+   "H2GA02031"
+  ],
   "chamber": "house",
   "name": "Sanford D. Bishop, Jr.",
   "party": "D",
@@ -3083,6 +3513,9 @@
  {
   "id": "ga-03-j000311",
   "bioguide": "J000311",
+  "fecIds": [
+   "H4GA03126"
+  ],
   "chamber": "house",
   "name": "Brian Jack",
   "party": "R",
@@ -3106,6 +3539,9 @@
  {
   "id": "ga-04-j000288",
   "bioguide": "J000288",
+  "fecIds": [
+   "H6GA04129"
+  ],
   "chamber": "house",
   "name": "Henry C. \"Hank\" Johnson, Jr.",
   "party": "D",
@@ -3128,6 +3564,9 @@
  {
   "id": "ga-05-w000788",
   "bioguide": "W000788",
+  "fecIds": [
+   "H0GA05301"
+  ],
   "chamber": "house",
   "name": "Nikema Williams",
   "party": "D",
@@ -3149,6 +3588,9 @@
  {
   "id": "ga-06-m001208",
   "bioguide": "M001208",
+  "fecIds": [
+   "H8GA06393"
+  ],
   "chamber": "house",
   "name": "Lucy McBath",
   "party": "D",
@@ -3171,6 +3613,9 @@
  {
   "id": "ga-07-m001218",
   "bioguide": "M001218",
+  "fecIds": [
+   "H0GA07273"
+  ],
   "chamber": "house",
   "name": "Richard McCormick",
   "party": "R",
@@ -3194,6 +3639,9 @@
  {
   "id": "ga-08-s001189",
   "bioguide": "S001189",
+  "fecIds": [
+   "H0GA08099"
+  ],
   "chamber": "house",
   "name": "Austin Scott",
   "party": "R",
@@ -3218,6 +3666,9 @@
  {
   "id": "ga-09-c001116",
   "bioguide": "C001116",
+  "fecIds": [
+   "H0GA09246"
+  ],
   "chamber": "house",
   "name": "Andrew S. Clyde",
   "party": "R",
@@ -3240,6 +3691,10 @@
  {
   "id": "ga-10-c001129",
   "bioguide": "C001129",
+  "fecIds": [
+   "H4GA10071",
+   "S6GA00390"
+  ],
   "chamber": "house",
   "name": "Mike Collins",
   "party": "R",
@@ -3263,6 +3718,9 @@
  {
   "id": "ga-11-l000583",
   "bioguide": "L000583",
+  "fecIds": [
+   "H4GA11061"
+  ],
   "chamber": "house",
   "name": "Barry Loudermilk",
   "party": "R",
@@ -3286,6 +3744,9 @@
  {
   "id": "ga-12-a000372",
   "bioguide": "A000372",
+  "fecIds": [
+   "H2GA12121"
+  ],
   "chamber": "house",
   "name": "Rick W. Allen",
   "party": "R",
@@ -3308,6 +3769,9 @@
  {
   "id": "ga-13-b001328",
   "bioguide": "B001328",
+  "fecIds": [
+   "H6GA13062"
+  ],
   "chamber": "house",
   "name": "Everton Blair Jr.",
   "party": "D",
@@ -3327,6 +3791,9 @@
  {
   "id": "ga-14-f000485",
   "bioguide": "F000485",
+  "fecIds": [
+   "H0GA14030"
+  ],
   "chamber": "house",
   "name": "Clay Fuller",
   "party": "R",
@@ -3349,6 +3816,9 @@
  {
   "id": "gu-00-m001219",
   "bioguide": "M001219",
+  "fecIds": [
+   "H2GU01031"
+  ],
   "chamber": "house",
   "name": "James C. Moylan",
   "party": "R",
@@ -3372,6 +3842,10 @@
  {
   "id": "hi-s-s001194",
   "bioguide": "S001194",
+  "fecIds": [
+   "S4HI00136",
+   "H6HI02244"
+  ],
   "chamber": "senate",
   "name": "Brian Schatz",
   "party": "D",
@@ -3397,6 +3871,10 @@
  {
   "id": "hi-s-h001042",
   "bioguide": "H001042",
+  "fecIds": [
+   "H6HI02251",
+   "S2HI00106"
+  ],
   "chamber": "senate",
   "name": "Mazie K. Hirono",
   "party": "D",
@@ -3422,6 +3900,9 @@
  {
   "id": "hi-01-c001055",
   "bioguide": "C001055",
+  "fecIds": [
+   "H2HI02128"
+  ],
   "chamber": "house",
   "name": "Ed Case",
   "party": "D",
@@ -3443,6 +3924,9 @@
  {
   "id": "hi-02-t000487",
   "bioguide": "T000487",
+  "fecIds": [
+   "H2HI02581"
+  ],
   "chamber": "house",
   "name": "Jill N. Tokuda",
   "party": "D",
@@ -3466,6 +3950,9 @@
  {
   "id": "ia-s-g000386",
   "bioguide": "G000386",
+  "fecIds": [
+   "S0IA00028"
+  ],
   "chamber": "senate",
   "name": "Chuck Grassley",
   "party": "R",
@@ -3492,6 +3979,9 @@
  {
   "id": "ia-s-e000295",
   "bioguide": "E000295",
+  "fecIds": [
+   "S4IA00129"
+  ],
   "chamber": "senate",
   "name": "Joni Ernst",
   "party": "R",
@@ -3516,6 +4006,9 @@
  {
   "id": "ia-01-m001215",
   "bioguide": "M001215",
+  "fecIds": [
+   "H8IA02043"
+  ],
   "chamber": "house",
   "name": "Mariannette Miller-Meeks",
   "party": "R",
@@ -3538,6 +4031,9 @@
  {
   "id": "ia-02-h001091",
   "bioguide": "H001091",
+  "fecIds": [
+   "H0IA01174"
+  ],
   "chamber": "house",
   "name": "Ashley Hinson",
   "party": "R",
@@ -3561,6 +4057,9 @@
  {
   "id": "ia-03-n000193",
   "bioguide": "N000193",
+  "fecIds": [
+   "H2IA03119"
+  ],
   "chamber": "house",
   "name": "Zachary Nunn",
   "party": "R",
@@ -3584,6 +4083,9 @@
  {
   "id": "ia-04-f000446",
   "bioguide": "F000446",
+  "fecIds": [
+   "H0IA04145"
+  ],
   "chamber": "house",
   "name": "Randy Feenstra",
   "party": "R",
@@ -3606,6 +4108,9 @@
  {
   "id": "id-s-r000584",
   "bioguide": "R000584",
+  "fecIds": [
+   "S8ID00092"
+  ],
   "chamber": "senate",
   "name": "James E. Risch",
   "party": "R",
@@ -3632,6 +4137,10 @@
  {
   "id": "id-s-c000880",
   "bioguide": "C000880",
+  "fecIds": [
+   "S8ID00027",
+   "H2ID02034"
+  ],
   "chamber": "senate",
   "name": "Mike Crapo",
   "party": "R",
@@ -3656,6 +4165,9 @@
  {
   "id": "id-01-f000469",
   "bioguide": "F000469",
+  "fecIds": [
+   "H8ID01124"
+  ],
   "chamber": "house",
   "name": "Russ Fulcher",
   "party": "R",
@@ -3678,6 +4190,9 @@
  {
   "id": "id-02-s001148",
   "bioguide": "S001148",
+  "fecIds": [
+   "H8ID02064"
+  ],
   "chamber": "house",
   "name": "Michael K. Simpson",
   "party": "R",
@@ -3699,6 +4214,10 @@
  {
   "id": "il-s-d000563",
   "bioguide": "D000563",
+  "fecIds": [
+   "S6IL00151",
+   "H2IL20026"
+  ],
   "chamber": "senate",
   "name": "Richard J. Durbin",
   "party": "D",
@@ -3722,6 +4241,10 @@
  {
   "id": "il-s-d000622",
   "bioguide": "D000622",
+  "fecIds": [
+   "H6IL06141",
+   "S6IL00292"
+  ],
   "chamber": "senate",
   "name": "Tammy Duckworth",
   "party": "D",
@@ -3746,6 +4269,9 @@
  {
   "id": "il-01-j000309",
   "bioguide": "J000309",
+  "fecIds": [
+   "H2IL01349"
+  ],
   "chamber": "house",
   "name": "Jonathan L. Jackson",
   "party": "D",
@@ -3768,6 +4294,10 @@
  {
   "id": "il-02-k000385",
   "bioguide": "K000385",
+  "fecIds": [
+   "H2IL02172",
+   "S6IL00474"
+  ],
   "chamber": "house",
   "name": "Robin L. Kelly",
   "party": "D",
@@ -3789,6 +4319,9 @@
  {
   "id": "il-03-r000617",
   "bioguide": "R000617",
+  "fecIds": [
+   "H2IL03162"
+  ],
   "chamber": "house",
   "name": "Delia C. Ramirez",
   "party": "D",
@@ -3811,6 +4344,9 @@
  {
   "id": "il-04-g000586",
   "bioguide": "G000586",
+  "fecIds": [
+   "H8IL04134"
+  ],
   "chamber": "house",
   "name": "Jesús G. \"Chuy\" García",
   "party": "D",
@@ -3833,6 +4369,9 @@
  {
   "id": "il-05-q000023",
   "bioguide": "Q000023",
+  "fecIds": [
+   "H0IL05096"
+  ],
   "chamber": "house",
   "name": "Mike Quigley",
   "party": "D",
@@ -3855,6 +4394,9 @@
  {
   "id": "il-06-c001117",
   "bioguide": "C001117",
+  "fecIds": [
+   "H8IL06139"
+  ],
   "chamber": "house",
   "name": "Sean Casten",
   "party": "D",
@@ -3877,6 +4419,9 @@
  {
   "id": "il-07-d000096",
   "bioguide": "D000096",
+  "fecIds": [
+   "H4IL07037"
+  ],
   "chamber": "house",
   "name": "Danny K. Davis",
   "party": "D",
@@ -3898,6 +4443,10 @@
  {
   "id": "il-08-k000391",
   "bioguide": "K000391",
+  "fecIds": [
+   "H6IL08147",
+   "S6IL00482"
+  ],
   "chamber": "house",
   "name": "Raja Krishnamoorthi",
   "party": "D",
@@ -3921,6 +4470,9 @@
  {
   "id": "il-09-s001145",
   "bioguide": "S001145",
+  "fecIds": [
+   "H8IL09067"
+  ],
   "chamber": "house",
   "name": "Janice D. Schakowsky",
   "party": "D",
@@ -3942,6 +4494,9 @@
  {
   "id": "il-10-s001190",
   "bioguide": "S001190",
+  "fecIds": [
+   "H2IL10068"
+  ],
   "chamber": "house",
   "name": "Bradley Scott Schneider",
   "party": "D",
@@ -3964,6 +4519,10 @@
  {
   "id": "il-11-f000454",
   "bioguide": "F000454",
+  "fecIds": [
+   "H8IL14067",
+   "H2IL11124"
+  ],
   "chamber": "house",
   "name": "Bill Foster",
   "party": "D",
@@ -3986,6 +4545,9 @@
  {
   "id": "il-12-b001295",
   "bioguide": "B001295",
+  "fecIds": [
+   "H4IL12060"
+  ],
   "chamber": "house",
   "name": "Mike Bost",
   "party": "R",
@@ -4009,6 +4571,9 @@
  {
   "id": "il-13-b001315",
   "bioguide": "B001315",
+  "fecIds": [
+   "H2IL13153"
+  ],
   "chamber": "house",
   "name": "Nikki Budzinski",
   "party": "D",
@@ -4031,6 +4596,9 @@
  {
   "id": "il-14-u000040",
   "bioguide": "U000040",
+  "fecIds": [
+   "H8IL14174"
+  ],
   "chamber": "house",
   "name": "Lauren Underwood",
   "party": "D",
@@ -4052,6 +4620,9 @@
  {
   "id": "il-15-m001211",
   "bioguide": "M001211",
+  "fecIds": [
+   "H0IL15129"
+  ],
   "chamber": "house",
   "name": "Mary E. Miller",
   "party": "R",
@@ -4076,6 +4647,9 @@
  {
   "id": "il-16-l000585",
   "bioguide": "L000585",
+  "fecIds": [
+   "H6IL18088"
+  ],
   "chamber": "house",
   "name": "Darin LaHood",
   "party": "R",
@@ -4099,6 +4673,9 @@
  {
   "id": "il-17-s001225",
   "bioguide": "S001225",
+  "fecIds": [
+   "H2IL17147"
+  ],
   "chamber": "house",
   "name": "Eric Sorensen",
   "party": "D",
@@ -4121,6 +4698,10 @@
  {
   "id": "in-s-b001299",
   "bioguide": "B001299",
+  "fecIds": [
+   "H6IN03229",
+   "S4IN00196"
+  ],
   "chamber": "senate",
   "name": "Jim Banks",
   "party": "R",
@@ -4145,6 +4726,10 @@
  {
   "id": "in-s-y000064",
   "bioguide": "Y000064",
+  "fecIds": [
+   "H0IN09070",
+   "S6IN00191"
+  ],
   "chamber": "senate",
   "name": "Todd Young",
   "party": "R",
@@ -4169,6 +4754,9 @@
  {
   "id": "in-01-m001214",
   "bioguide": "M001214",
+  "fecIds": [
+   "H0IN01150"
+  ],
   "chamber": "house",
   "name": "Frank J. Mrvan",
   "party": "D",
@@ -4190,6 +4778,9 @@
  {
   "id": "in-02-y000067",
   "bioguide": "Y000067",
+  "fecIds": [
+   "H2IN02295"
+  ],
   "chamber": "house",
   "name": "Rudy Yakym III",
   "party": "R",
@@ -4211,6 +4802,10 @@
  {
   "id": "in-03-s001188",
   "bioguide": "S001188",
+  "fecIds": [
+   "H0IN03198",
+   "S0IN00095"
+  ],
   "chamber": "house",
   "name": "Marlin A. Stutzman",
   "party": "R",
@@ -4233,6 +4828,9 @@
  {
   "id": "in-04-b001307",
   "bioguide": "B001307",
+  "fecIds": [
+   "H8IN04199"
+  ],
   "chamber": "house",
   "name": "James R. Baird",
   "party": "R",
@@ -4256,6 +4854,9 @@
  {
   "id": "in-05-s000929",
   "bioguide": "S000929",
+  "fecIds": [
+   "H0IN05326"
+  ],
   "chamber": "house",
   "name": "Victoria Spartz",
   "party": "R",
@@ -4277,6 +4878,9 @@
  {
   "id": "in-06-s001229",
   "bioguide": "S001229",
+  "fecIds": [
+   "H4IN06185"
+  ],
   "chamber": "house",
   "name": "Jefferson Shreve",
   "party": "R",
@@ -4298,6 +4902,9 @@
  {
   "id": "in-07-c001072",
   "bioguide": "C001072",
+  "fecIds": [
+   "H8IN07184"
+  ],
   "chamber": "house",
   "name": "André Carson",
   "party": "D",
@@ -4321,6 +4928,9 @@
  {
   "id": "in-08-m001233",
   "bioguide": "M001233",
+  "fecIds": [
+   "H4IN08249"
+  ],
   "chamber": "house",
   "name": "Mark B. Messmer",
   "party": "R",
@@ -4344,6 +4954,9 @@
  {
   "id": "in-09-h001093",
   "bioguide": "H001093",
+  "fecIds": [
+   "H6IN09143"
+  ],
   "chamber": "house",
   "name": "Erin Houchin",
   "party": "R",
@@ -4367,6 +4980,10 @@
  {
   "id": "ks-s-m000934",
   "bioguide": "M000934",
+  "fecIds": [
+   "H6KS01096",
+   "S0KS00091"
+  ],
   "chamber": "senate",
   "name": "Jerry Moran",
   "party": "R",
@@ -4393,6 +5010,10 @@
  {
   "id": "ks-s-m001198",
   "bioguide": "M001198",
+  "fecIds": [
+   "H6KS01179",
+   "S0KS00315"
+  ],
   "chamber": "senate",
   "name": "Roger Marshall",
   "party": "R",
@@ -4417,6 +5038,9 @@
  {
   "id": "ks-01-m000871",
   "bioguide": "M000871",
+  "fecIds": [
+   "H0KS01123"
+  ],
   "chamber": "house",
   "name": "Tracey Mann",
   "party": "R",
@@ -4439,6 +5063,9 @@
  {
   "id": "ks-02-s001228",
   "bioguide": "S001228",
+  "fecIds": [
+   "H4KS02164"
+  ],
   "chamber": "house",
   "name": "Derek Schmidt",
   "party": "R",
@@ -4462,6 +5089,9 @@
  {
   "id": "ks-03-d000629",
   "bioguide": "D000629",
+  "fecIds": [
+   "H8KS03155"
+  ],
   "chamber": "house",
   "name": "Sharice Davids",
   "party": "D",
@@ -4484,6 +5114,9 @@
  {
   "id": "ks-04-e000298",
   "bioguide": "E000298",
+  "fecIds": [
+   "H8KS04112"
+  ],
   "chamber": "house",
   "name": "Ron Estes",
   "party": "R",
@@ -4507,6 +5140,9 @@
  {
   "id": "ky-s-m000355",
   "bioguide": "M000355",
+  "fecIds": [
+   "S2KY00012"
+  ],
   "chamber": "senate",
   "name": "Mitch McConnell",
   "party": "R",
@@ -4532,6 +5168,9 @@
  {
   "id": "ky-s-p000603",
   "bioguide": "P000603",
+  "fecIds": [
+   "S0KY00156"
+  ],
   "chamber": "senate",
   "name": "Rand Paul",
   "party": "R",
@@ -4556,6 +5195,9 @@
  {
   "id": "ky-01-c001108",
   "bioguide": "C001108",
+  "fecIds": [
+   "H6KY01110"
+  ],
   "chamber": "house",
   "name": "James Comer",
   "party": "R",
@@ -4578,6 +5220,9 @@
  {
   "id": "ky-02-g000558",
   "bioguide": "G000558",
+  "fecIds": [
+   "H8KY02031"
+  ],
   "chamber": "house",
   "name": "Brett Guthrie",
   "party": "R",
@@ -4599,6 +5244,9 @@
  {
   "id": "ky-03-m001220",
   "bioguide": "M001220",
+  "fecIds": [
+   "H2KY03206"
+  ],
   "chamber": "house",
   "name": "Morgan McGarvey",
   "party": "D",
@@ -4622,6 +5270,9 @@
  {
   "id": "ky-04-m001184",
   "bioguide": "M001184",
+  "fecIds": [
+   "H2KY04121"
+  ],
   "chamber": "house",
   "name": "Thomas Massie",
   "party": "R",
@@ -4644,6 +5295,9 @@
  {
   "id": "ky-05-r000395",
   "bioguide": "R000395",
+  "fecIds": [
+   "H0KY05015"
+  ],
   "chamber": "house",
   "name": "Harold Rogers",
   "party": "R",
@@ -4665,6 +5319,10 @@
  {
   "id": "ky-06-b001282",
   "bioguide": "B001282",
+  "fecIds": [
+   "H0KY06104",
+   "S6KY00286"
+  ],
   "chamber": "house",
   "name": "Andy Barr",
   "party": "R",
@@ -4688,6 +5346,10 @@
  {
   "id": "la-s-c001075",
   "bioguide": "C001075",
+  "fecIds": [
+   "H8LA00017",
+   "S4LA00107"
+  ],
   "chamber": "senate",
   "name": "Bill Cassidy",
   "party": "R",
@@ -4712,6 +5374,9 @@
  {
   "id": "la-s-k000393",
   "bioguide": "K000393",
+  "fecIds": [
+   "S4LA00065"
+  ],
   "chamber": "senate",
   "name": "John Kennedy",
   "party": "R",
@@ -4736,6 +5401,9 @@
  {
   "id": "la-01-s001176",
   "bioguide": "S001176",
+  "fecIds": [
+   "H0LA01087"
+  ],
   "chamber": "house",
   "name": "Steve Scalise",
   "party": "R",
@@ -4755,6 +5423,9 @@
  {
   "id": "la-02-c001125",
   "bioguide": "C001125",
+  "fecIds": [
+   "H2LA02149"
+  ],
   "chamber": "house",
   "name": "Troy A. Carter",
   "party": "D",
@@ -4777,6 +5448,9 @@
  {
   "id": "la-03-h001077",
   "bioguide": "H001077",
+  "fecIds": [
+   "H6LA03148"
+  ],
   "chamber": "house",
   "name": "Clay Higgins",
   "party": "R",
@@ -4800,6 +5474,9 @@
  {
   "id": "la-04-j000299",
   "bioguide": "J000299",
+  "fecIds": [
+   "H6LA04138"
+  ],
   "chamber": "house",
   "name": "Mike Johnson",
   "party": "R",
@@ -4819,6 +5496,10 @@
  {
   "id": "la-05-l000595",
   "bioguide": "L000595",
+  "fecIds": [
+   "H2LA05126",
+   "S6LA00664"
+  ],
   "chamber": "house",
   "name": "Julia Letlow",
   "party": "R",
@@ -4841,6 +5522,9 @@
  {
   "id": "la-06-f000110",
   "bioguide": "F000110",
+  "fecIds": [
+   "H4LA06211"
+  ],
   "chamber": "house",
   "name": "Cleo Fields",
   "party": "D",
@@ -4862,6 +5546,10 @@
  {
   "id": "ma-s-m000133",
   "bioguide": "M000133",
+  "fecIds": [
+   "H6MA07101",
+   "S4MA00028"
+  ],
   "chamber": "senate",
   "name": "Edward J. Markey",
   "party": "D",
@@ -4886,6 +5574,9 @@
  {
   "id": "ma-s-w000817",
   "bioguide": "W000817",
+  "fecIds": [
+   "S2MA00170"
+  ],
   "chamber": "senate",
   "name": "Elizabeth Warren",
   "party": "D",
@@ -4910,6 +5601,9 @@
  {
   "id": "ma-01-n000015",
   "bioguide": "N000015",
+  "fecIds": [
+   "H8MA02041"
+  ],
   "chamber": "house",
   "name": "Richard E. Neal",
   "party": "D",
@@ -4932,6 +5626,9 @@
  {
   "id": "ma-02-m000312",
   "bioguide": "M000312",
+  "fecIds": [
+   "H4MA03022"
+  ],
   "chamber": "house",
   "name": "James P. McGovern",
   "party": "D",
@@ -4954,6 +5651,9 @@
  {
   "id": "ma-03-t000482",
   "bioguide": "T000482",
+  "fecIds": [
+   "H8MA03106"
+  ],
   "chamber": "house",
   "name": "Lori Trahan",
   "party": "D",
@@ -4975,6 +5675,9 @@
  {
   "id": "ma-04-a000148",
   "bioguide": "A000148",
+  "fecIds": [
+   "H0MA04192"
+  ],
   "chamber": "house",
   "name": "Jake Auchincloss",
   "party": "D",
@@ -4996,6 +5699,9 @@
  {
   "id": "ma-05-c001101",
   "bioguide": "C001101",
+  "fecIds": [
+   "H4MA05084"
+  ],
   "chamber": "house",
   "name": "Katherine M. Clark",
   "party": "D",
@@ -5015,6 +5721,10 @@
  {
   "id": "ma-06-m001196",
   "bioguide": "M001196",
+  "fecIds": [
+   "H4MA06090",
+   "S6MA00296"
+  ],
   "chamber": "house",
   "name": "Seth Moulton",
   "party": "D",
@@ -5038,6 +5748,9 @@
  {
   "id": "ma-07-p000617",
   "bioguide": "P000617",
+  "fecIds": [
+   "H8MA07032"
+  ],
   "chamber": "house",
   "name": "Ayanna Pressley",
   "party": "D",
@@ -5060,6 +5773,10 @@
  {
   "id": "ma-08-l000562",
   "bioguide": "L000562",
+  "fecIds": [
+   "H2MA09072",
+   "S0MA00083"
+  ],
   "chamber": "house",
   "name": "Stephen F. Lynch",
   "party": "D",
@@ -5082,6 +5799,9 @@
  {
   "id": "ma-09-k000375",
   "bioguide": "K000375",
+  "fecIds": [
+   "H0MA10082"
+  ],
   "chamber": "house",
   "name": "William R. Keating",
   "party": "D",
@@ -5104,6 +5824,9 @@
  {
   "id": "md-s-a000382",
   "bioguide": "A000382",
+  "fecIds": [
+   "S4MD00327"
+  ],
   "chamber": "senate",
   "name": "Angela D. Alsobrooks",
   "party": "D",
@@ -5128,6 +5851,10 @@
  {
   "id": "md-s-v000128",
   "bioguide": "V000128",
+  "fecIds": [
+   "H2MD08126",
+   "S6MD03441"
+  ],
   "chamber": "senate",
   "name": "Chris Van Hollen",
   "party": "D",
@@ -5152,6 +5879,9 @@
  {
   "id": "md-01-h001052",
   "bioguide": "H001052",
+  "fecIds": [
+   "H8MD01094"
+  ],
   "chamber": "house",
   "name": "Andy Harris",
   "party": "R",
@@ -5173,6 +5903,9 @@
  {
   "id": "md-02-o000176",
   "bioguide": "O000176",
+  "fecIds": [
+   "H4MD02232"
+  ],
   "chamber": "house",
   "name": "Johnny Olszewski, Jr.",
   "party": "D",
@@ -5195,6 +5928,9 @@
  {
   "id": "md-03-e000301",
   "bioguide": "E000301",
+  "fecIds": [
+   "H4MD03156"
+  ],
   "chamber": "house",
   "name": "Sarah Elfreth",
   "party": "D",
@@ -5217,6 +5953,10 @@
  {
   "id": "md-04-i000058",
   "bioguide": "I000058",
+  "fecIds": [
+   "H2MD04315",
+   "H2MD04232"
+  ],
   "chamber": "house",
   "name": "Glenn Ivey",
   "party": "D",
@@ -5239,6 +5979,9 @@
  {
   "id": "md-05-h000874",
   "bioguide": "H000874",
+  "fecIds": [
+   "H2MD05155"
+  ],
   "chamber": "house",
   "name": "Steny H. Hoyer",
   "party": "D",
@@ -5260,6 +6003,9 @@
  {
   "id": "md-06-m001232",
   "bioguide": "M001232",
+  "fecIds": [
+   "H4MD06340"
+  ],
   "chamber": "house",
   "name": "April McClain Delaney",
   "party": "D",
@@ -5282,6 +6028,11 @@
  {
   "id": "md-07-m000687",
   "bioguide": "M000687",
+  "fecIds": [
+   "S6MD03185",
+   "H6MD07020",
+   "H0MD07114"
+  ],
   "chamber": "house",
   "name": "Kweisi Mfume",
   "party": "D",
@@ -5304,6 +6055,9 @@
  {
   "id": "md-08-r000606",
   "bioguide": "R000606",
+  "fecIds": [
+   "H6MD08457"
+  ],
   "chamber": "house",
   "name": "Jamie Raskin",
   "party": "D",
@@ -5325,6 +6079,9 @@
  {
   "id": "me-s-k000383",
   "bioguide": "K000383",
+  "fecIds": [
+   "S2ME00109"
+  ],
   "chamber": "senate",
   "name": "Angus S. King, Jr.",
   "party": "I",
@@ -5349,6 +6106,9 @@
  {
   "id": "me-s-c001035",
   "bioguide": "C001035",
+  "fecIds": [
+   "S6ME00159"
+  ],
   "chamber": "senate",
   "name": "Susan M. Collins",
   "party": "R",
@@ -5372,6 +6132,10 @@
  {
   "id": "me-01-p000597",
   "bioguide": "P000597",
+  "fecIds": [
+   "H8ME01120",
+   "S0ME00038"
+  ],
   "chamber": "house",
   "name": "Chellie Pingree",
   "party": "D",
@@ -5394,6 +6158,9 @@
  {
   "id": "me-02-g000592",
   "bioguide": "G000592",
+  "fecIds": [
+   "H8ME02185"
+  ],
   "chamber": "house",
   "name": "Jared F. Golden",
   "party": "D",
@@ -5416,6 +6183,10 @@
  {
   "id": "mi-s-s001208",
   "bioguide": "S001208",
+  "fecIds": [
+   "H8MI08102",
+   "S4MI00470"
+  ],
   "chamber": "senate",
   "name": "Elissa Slotkin",
   "party": "D",
@@ -5440,6 +6211,10 @@
  {
   "id": "mi-s-p000595",
   "bioguide": "P000595",
+  "fecIds": [
+   "H8MI09068",
+   "S4MI00355"
+  ],
   "chamber": "senate",
   "name": "Gary C. Peters",
   "party": "D",
@@ -5464,6 +6239,9 @@
  {
   "id": "mi-01-b001301",
   "bioguide": "B001301",
+  "fecIds": [
+   "H6MI01226"
+  ],
   "chamber": "house",
   "name": "Jack Bergman",
   "party": "R",
@@ -5487,6 +6265,9 @@
  {
   "id": "mi-02-m001194",
   "bioguide": "M001194",
+  "fecIds": [
+   "H4MI04126"
+  ],
   "chamber": "house",
   "name": "John R. Moolenaar",
   "party": "R",
@@ -5509,6 +6290,9 @@
  {
   "id": "mi-03-s001221",
   "bioguide": "S001221",
+  "fecIds": [
+   "H0MI03316"
+  ],
   "chamber": "house",
   "name": "Hillary J. Scholten",
   "party": "D",
@@ -5531,6 +6315,9 @@
  {
   "id": "mi-04-h001058",
   "bioguide": "H001058",
+  "fecIds": [
+   "H0MI02094"
+  ],
   "chamber": "house",
   "name": "Bill Huizenga",
   "party": "R",
@@ -5553,6 +6340,9 @@
  {
   "id": "mi-05-w000798",
   "bioguide": "W000798",
+  "fecIds": [
+   "H4MI07103"
+  ],
   "chamber": "house",
   "name": "Tim Walberg",
   "party": "R",
@@ -5575,6 +6365,9 @@
  {
   "id": "mi-06-d000624",
   "bioguide": "D000624",
+  "fecIds": [
+   "H4MI12079"
+  ],
   "chamber": "house",
   "name": "Debbie Dingell",
   "party": "D",
@@ -5597,6 +6390,9 @@
  {
   "id": "mi-07-b001321",
   "bioguide": "B001321",
+  "fecIds": [
+   "H2MI07123"
+  ],
   "chamber": "house",
   "name": "Tom Barrett",
   "party": "R",
@@ -5619,6 +6415,9 @@
  {
   "id": "mi-08-m001237",
   "bioguide": "M001237",
+  "fecIds": [
+   "H4MI08218"
+  ],
   "chamber": "house",
   "name": "Kristen McDonald Rivet",
   "party": "D",
@@ -5641,6 +6440,9 @@
  {
   "id": "mi-09-m001136",
   "bioguide": "M001136",
+  "fecIds": [
+   "H0MI10287"
+  ],
   "chamber": "house",
   "name": "Lisa C. McClain",
   "party": "R",
@@ -5663,6 +6465,10 @@
  {
   "id": "mi-10-j000307",
   "bioguide": "J000307",
+  "fecIds": [
+   "H2MI10150",
+   "S8MI00372"
+  ],
   "chamber": "house",
   "name": "John James",
   "party": "R",
@@ -5684,6 +6490,10 @@
  {
   "id": "mi-11-s001215",
   "bioguide": "S001215",
+  "fecIds": [
+   "H8MI11254",
+   "S6MI00426"
+  ],
   "chamber": "house",
   "name": "Haley M. Stevens",
   "party": "D",
@@ -5707,6 +6517,9 @@
  {
   "id": "mi-12-t000481",
   "bioguide": "T000481",
+  "fecIds": [
+   "H8MI13250"
+  ],
   "chamber": "house",
   "name": "Rashida Tlaib",
   "party": "D",
@@ -5729,6 +6542,9 @@
  {
   "id": "mi-13-t000488",
   "bioguide": "T000488",
+  "fecIds": [
+   "H2MI13204"
+  ],
   "chamber": "house",
   "name": "Shri Thanedar",
   "party": "D",
@@ -5751,6 +6567,9 @@
  {
   "id": "mn-s-k000367",
   "bioguide": "K000367",
+  "fecIds": [
+   "S6MN00267"
+  ],
   "chamber": "senate",
   "name": "Amy Klobuchar",
   "party": "D",
@@ -5777,6 +6596,9 @@
  {
   "id": "mn-s-s001203",
   "bioguide": "S001203",
+  "fecIds": [
+   "S8MN00578"
+  ],
   "chamber": "senate",
   "name": "Tina Smith",
   "party": "D",
@@ -5801,6 +6623,9 @@
  {
   "id": "mn-01-f000475",
   "bioguide": "F000475",
+  "fecIds": [
+   "H2MN01223"
+  ],
   "chamber": "house",
   "name": "Brad Finstad",
   "party": "R",
@@ -5824,6 +6649,10 @@
  {
   "id": "mn-02-c001119",
   "bioguide": "C001119",
+  "fecIds": [
+   "H6MN02131",
+   "S6MN00499"
+  ],
   "chamber": "house",
   "name": "Angie Craig",
   "party": "D",
@@ -5845,6 +6674,9 @@
  {
   "id": "mn-03-m001234",
   "bioguide": "M001234",
+  "fecIds": [
+   "H4MN03118"
+  ],
   "chamber": "house",
   "name": "Kelly Morrison",
   "party": "D",
@@ -5867,6 +6699,9 @@
  {
   "id": "mn-04-m001143",
   "bioguide": "M001143",
+  "fecIds": [
+   "H0MN04049"
+  ],
   "chamber": "house",
   "name": "Betty McCollum",
   "party": "D",
@@ -5888,6 +6723,9 @@
  {
   "id": "mn-05-o000173",
   "bioguide": "O000173",
+  "fecIds": [
+   "H8MN05239"
+  ],
   "chamber": "house",
   "name": "Ilhan Omar",
   "party": "D",
@@ -5910,6 +6748,9 @@
  {
   "id": "mn-06-e000294",
   "bioguide": "E000294",
+  "fecIds": [
+   "H4MN06087"
+  ],
   "chamber": "house",
   "name": "Tom Emmer",
   "party": "R",
@@ -5931,6 +6772,9 @@
  {
   "id": "mn-07-f000470",
   "bioguide": "F000470",
+  "fecIds": [
+   "H0MN07091"
+  ],
   "chamber": "house",
   "name": "Michelle Fischbach",
   "party": "R",
@@ -5953,6 +6797,9 @@
  {
   "id": "mn-08-s001212",
   "bioguide": "S001212",
+  "fecIds": [
+   "H8MN08043"
+  ],
   "chamber": "house",
   "name": "Pete Stauber",
   "party": "R",
@@ -5976,6 +6823,9 @@
  {
   "id": "mo-s-s001227",
   "bioguide": "S001227",
+  "fecIds": [
+   "S2MO00544"
+  ],
   "chamber": "senate",
   "name": "Eric Schmitt",
   "party": "R",
@@ -6000,6 +6850,9 @@
  {
   "id": "mo-s-h001089",
   "bioguide": "H001089",
+  "fecIds": [
+   "S8MO00160"
+  ],
   "chamber": "senate",
   "name": "Josh Hawley",
   "party": "R",
@@ -6024,6 +6877,10 @@
  {
   "id": "mo-01-b001324",
   "bioguide": "B001324",
+  "fecIds": [
+   "H4MO01134",
+   "S4MO00250"
+  ],
   "chamber": "house",
   "name": "Wesley Bell",
   "party": "D",
@@ -6047,6 +6904,9 @@
  {
   "id": "mo-02-w000812",
   "bioguide": "W000812",
+  "fecIds": [
+   "H2MO02102"
+  ],
   "chamber": "house",
   "name": "Ann Wagner",
   "party": "R",
@@ -6069,6 +6929,10 @@
  {
   "id": "mo-03-o000177",
   "bioguide": "O000177",
+  "fecIds": [
+   "H8MO09146",
+   "H4MO03221"
+  ],
   "chamber": "house",
   "name": "Robert F. Onder, Jr.",
   "party": "R",
@@ -6092,6 +6956,9 @@
  {
   "id": "mo-04-a000379",
   "bioguide": "A000379",
+  "fecIds": [
+   "H2MO04207"
+  ],
   "chamber": "house",
   "name": "Mark Alford",
   "party": "R",
@@ -6114,6 +6981,9 @@
  {
   "id": "mo-05-c001061",
   "bioguide": "C001061",
+  "fecIds": [
+   "H4MO05234"
+  ],
   "chamber": "house",
   "name": "Emanuel Cleaver",
   "party": "D",
@@ -6135,6 +7005,9 @@
  {
   "id": "mo-06-g000546",
   "bioguide": "G000546",
+  "fecIds": [
+   "H0MO06073"
+  ],
   "chamber": "house",
   "name": "Sam Graves",
   "party": "R",
@@ -6157,6 +7030,9 @@
  {
   "id": "mo-07-b001316",
   "bioguide": "B001316",
+  "fecIds": [
+   "H2MO07143"
+  ],
   "chamber": "house",
   "name": "Eric Burlison",
   "party": "R",
@@ -6179,6 +7055,9 @@
  {
   "id": "mo-08-s001195",
   "bioguide": "S001195",
+  "fecIds": [
+   "H4MO08162"
+  ],
   "chamber": "house",
   "name": "Jason Smith",
   "party": "R",
@@ -6201,6 +7080,9 @@
  {
   "id": "mp-00-k000404",
   "bioguide": "K000404",
+  "fecIds": [
+   "H4MP01022"
+  ],
   "chamber": "house",
   "name": "Kimberlyn King-Hinds",
   "party": "R",
@@ -6224,6 +7106,9 @@
  {
   "id": "ms-s-h001079",
   "bioguide": "H001079",
+  "fecIds": [
+   "S8MS00261"
+  ],
   "chamber": "senate",
   "name": "Cindy Hyde-Smith",
   "party": "R",
@@ -6249,6 +7134,10 @@
  {
   "id": "ms-s-w000437",
   "bioguide": "W000437",
+  "fecIds": [
+   "H4MS01078",
+   "S8MS00196"
+  ],
   "chamber": "senate",
   "name": "Roger F. Wicker",
   "party": "R",
@@ -6275,6 +7164,9 @@
  {
   "id": "ms-01-k000388",
   "bioguide": "K000388",
+  "fecIds": [
+   "H6MS01131"
+  ],
   "chamber": "house",
   "name": "Trent Kelly",
   "party": "R",
@@ -6298,6 +7190,9 @@
  {
   "id": "ms-02-t000193",
   "bioguide": "T000193",
+  "fecIds": [
+   "H4MS02068"
+  ],
   "chamber": "house",
   "name": "Bennie G. Thompson",
   "party": "D",
@@ -6319,6 +7214,9 @@
  {
   "id": "ms-03-g000591",
   "bioguide": "G000591",
+  "fecIds": [
+   "H8MS03125"
+  ],
   "chamber": "house",
   "name": "Michael Guest",
   "party": "R",
@@ -6342,6 +7240,9 @@
  {
   "id": "ms-04-e000235",
   "bioguide": "E000235",
+  "fecIds": [
+   "H2MS04258"
+  ],
   "chamber": "house",
   "name": "Mike Ezell",
   "party": "R",
@@ -6364,6 +7265,10 @@
  {
   "id": "mt-s-d000618",
   "bioguide": "D000618",
+  "fecIds": [
+   "H2MT01060",
+   "S2MT00096"
+  ],
   "chamber": "senate",
   "name": "Steve Daines",
   "party": "R",
@@ -6388,6 +7293,9 @@
  {
   "id": "mt-s-s001232",
   "bioguide": "S001232",
+  "fecIds": [
+   "S4MT00183"
+  ],
   "chamber": "senate",
   "name": "Tim Sheehy",
   "party": "R",
@@ -6411,6 +7319,9 @@
  {
   "id": "mt-01-z000018",
   "bioguide": "Z000018",
+  "fecIds": [
+   "H4MT01041"
+  ],
   "chamber": "house",
   "name": "Ryan K. Zinke",
   "party": "R",
@@ -6433,6 +7344,9 @@
  {
   "id": "mt-02-d000634",
   "bioguide": "D000634",
+  "fecIds": [
+   "H4MT02098"
+  ],
   "chamber": "house",
   "name": "Troy Downing",
   "party": "R",
@@ -6455,6 +7369,10 @@
  {
   "id": "nc-s-b001305",
   "bioguide": "B001305",
+  "fecIds": [
+   "H6NC13129",
+   "S2NC00505"
+  ],
   "chamber": "senate",
   "name": "Ted Budd",
   "party": "R",
@@ -6480,6 +7398,9 @@
  {
   "id": "nc-s-t000476",
   "bioguide": "T000476",
+  "fecIds": [
+   "S4NC00162"
+  ],
   "chamber": "senate",
   "name": "Thom Tillis",
   "party": "R",
@@ -6505,6 +7426,9 @@
  {
   "id": "nc-01-d000230",
   "bioguide": "D000230",
+  "fecIds": [
+   "H2NC02287"
+  ],
   "chamber": "house",
   "name": "Donald G. Davis",
   "party": "D",
@@ -6527,6 +7451,9 @@
  {
   "id": "nc-02-r000305",
   "bioguide": "R000305",
+  "fecIds": [
+   "H0NC02125"
+  ],
   "chamber": "house",
   "name": "Deborah K. Ross",
   "party": "D",
@@ -6550,6 +7477,9 @@
  {
   "id": "nc-03-m001210",
   "bioguide": "M001210",
+  "fecIds": [
+   "H0NC03172"
+  ],
   "chamber": "house",
   "name": "Gregory F. Murphy",
   "party": "R",
@@ -6574,6 +7504,9 @@
  {
   "id": "nc-04-f000477",
   "bioguide": "F000477",
+  "fecIds": [
+   "H2NC06114"
+  ],
   "chamber": "house",
   "name": "Valerie P. Foushee",
   "party": "D",
@@ -6596,6 +7529,9 @@
  {
   "id": "nc-05-f000450",
   "bioguide": "F000450",
+  "fecIds": [
+   "H4NC05146"
+  ],
   "chamber": "house",
   "name": "Virginia Foxx",
   "party": "R",
@@ -6619,6 +7555,9 @@
  {
   "id": "nc-06-m001240",
   "bioguide": "M001240",
+  "fecIds": [
+   "H4NC06177"
+  ],
   "chamber": "house",
   "name": "Addison P. McDowell",
   "party": "R",
@@ -6642,6 +7581,9 @@
  {
   "id": "nc-07-r000603",
   "bioguide": "R000603",
+  "fecIds": [
+   "H2NC07096"
+  ],
   "chamber": "house",
   "name": "David Rouzer",
   "party": "R",
@@ -6665,6 +7607,10 @@
  {
   "id": "nc-08-h001102",
   "bioguide": "H001102",
+  "fecIds": [
+   "H6NC09200",
+   "H4NC08066"
+  ],
   "chamber": "house",
   "name": "Mark Harris",
   "party": "R",
@@ -6688,6 +7634,9 @@
  {
   "id": "nc-09-h001067",
   "bioguide": "H001067",
+  "fecIds": [
+   "H2NC08185"
+  ],
   "chamber": "house",
   "name": "Richard Hudson",
   "party": "R",
@@ -6709,6 +7658,9 @@
  {
   "id": "nc-10-h001101",
   "bioguide": "H001101",
+  "fecIds": [
+   "H2NC13243"
+  ],
   "chamber": "house",
   "name": "Pat Harrigan",
   "party": "R",
@@ -6731,6 +7683,9 @@
  {
   "id": "nc-11-e000246",
   "bioguide": "E000246",
+  "fecIds": [
+   "H2NC14050"
+  ],
   "chamber": "house",
   "name": "Chuck Edwards",
   "party": "R",
@@ -6753,6 +7708,9 @@
  {
   "id": "nc-12-a000370",
   "bioguide": "A000370",
+  "fecIds": [
+   "H4NC12100"
+  ],
   "chamber": "house",
   "name": "Alma S. Adams",
   "party": "D",
@@ -6775,6 +7733,9 @@
  {
   "id": "nc-13-k000405",
   "bioguide": "K000405",
+  "fecIds": [
+   "H4NC13116"
+  ],
   "chamber": "house",
   "name": "Brad Knott",
   "party": "R",
@@ -6799,6 +7760,9 @@
  {
   "id": "nc-14-m001236",
   "bioguide": "M001236",
+  "fecIds": [
+   "H4NC14015"
+  ],
   "chamber": "house",
   "name": "Tim Moore",
   "party": "R",
@@ -6821,6 +7785,9 @@
  {
   "id": "nd-s-h001061",
   "bioguide": "H001061",
+  "fecIds": [
+   "S0ND00093"
+  ],
   "chamber": "senate",
   "name": "John Hoeven",
   "party": "R",
@@ -6845,6 +7812,11 @@
  {
   "id": "nd-s-c001096",
   "bioguide": "C001096",
+  "fecIds": [
+   "H0ND01026",
+   "H6ND00074",
+   "S8ND00120"
+  ],
   "chamber": "senate",
   "name": "Kevin Cramer",
   "party": "R",
@@ -6869,6 +7841,9 @@
  {
   "id": "nd-00-f000482",
   "bioguide": "F000482",
+  "fecIds": [
+   "H4ND00061"
+  ],
   "chamber": "house",
   "name": "Julie Fedorchak",
   "party": "R",
@@ -6890,6 +7865,9 @@
  {
   "id": "ne-s-f000463",
   "bioguide": "F000463",
+  "fecIds": [
+   "S2NE00094"
+  ],
   "chamber": "senate",
   "name": "Deb Fischer",
   "party": "R",
@@ -6918,6 +7896,9 @@
  {
   "id": "ne-s-r000618",
   "bioguide": "R000618",
+  "fecIds": [
+   "S6NE00129"
+  ],
   "chamber": "senate",
   "name": "Pete Ricketts",
   "party": "R",
@@ -6942,6 +7923,9 @@
  {
   "id": "ne-01-f000474",
   "bioguide": "F000474",
+  "fecIds": [
+   "H2NE01118"
+  ],
   "chamber": "house",
   "name": "Mike Flood",
   "party": "R",
@@ -6963,6 +7947,9 @@
  {
   "id": "ne-02-b001298",
   "bioguide": "B001298",
+  "fecIds": [
+   "H6NE02125"
+  ],
   "chamber": "house",
   "name": "Don Bacon",
   "party": "R",
@@ -6985,6 +7972,9 @@
  {
   "id": "ne-03-s001172",
   "bioguide": "S001172",
+  "fecIds": [
+   "H6NE03115"
+  ],
   "chamber": "house",
   "name": "Adrian Smith",
   "party": "R",
@@ -7007,6 +7997,9 @@
  {
   "id": "nh-s-s001181",
   "bioguide": "S001181",
+  "fecIds": [
+   "S0NH00219"
+  ],
   "chamber": "senate",
   "name": "Jeanne Shaheen",
   "party": "D",
@@ -7033,6 +8026,9 @@
  {
   "id": "nh-s-h001076",
   "bioguide": "H001076",
+  "fecIds": [
+   "S6NH00091"
+  ],
   "chamber": "senate",
   "name": "Margaret Wood Hassan",
   "party": "D",
@@ -7058,6 +8054,10 @@
  {
   "id": "nh-01-p000614",
   "bioguide": "P000614",
+  "fecIds": [
+   "H8NH01210",
+   "S6NH00141"
+  ],
   "chamber": "house",
   "name": "Chris Pappas",
   "party": "D",
@@ -7080,6 +8080,9 @@
  {
   "id": "nh-02-g000604",
   "bioguide": "G000604",
+  "fecIds": [
+   "H4NH02399"
+  ],
   "chamber": "house",
   "name": "Maggie Goodlander",
   "party": "D",
@@ -7103,6 +8106,10 @@
  {
   "id": "nj-s-k000394",
   "bioguide": "K000394",
+  "fecIds": [
+   "H8NJ03206",
+   "S4NJ00466"
+  ],
   "chamber": "senate",
   "name": "Andy Kim",
   "party": "D",
@@ -7128,6 +8135,9 @@
  {
   "id": "nj-s-b001288",
   "bioguide": "B001288",
+  "fecIds": [
+   "S4NJ00185"
+  ],
   "chamber": "senate",
   "name": "Cory A. Booker",
   "party": "D",
@@ -7152,6 +8162,9 @@
  {
   "id": "nj-01-n000188",
   "bioguide": "N000188",
+  "fecIds": [
+   "H4NJ01084"
+  ],
   "chamber": "house",
   "name": "Donald Norcross",
   "party": "D",
@@ -7174,6 +8187,9 @@
  {
   "id": "nj-02-v000133",
   "bioguide": "V000133",
+  "fecIds": [
+   "H8NJ02166"
+  ],
   "chamber": "house",
   "name": "Jefferson Van Drew",
   "party": "R",
@@ -7196,6 +8212,9 @@
  {
   "id": "nj-03-c001136",
   "bioguide": "C001136",
+  "fecIds": [
+   "H4NJ03080"
+  ],
   "chamber": "house",
   "name": "Herbert C. Conaway, Jr.",
   "party": "D",
@@ -7218,6 +8237,9 @@
  {
   "id": "nj-04-s000522",
   "bioguide": "S000522",
+  "fecIds": [
+   "H8NJ04014"
+  ],
   "chamber": "house",
   "name": "Christopher H. Smith",
   "party": "R",
@@ -7239,6 +8261,9 @@
  {
   "id": "nj-05-g000583",
   "bioguide": "G000583",
+  "fecIds": [
+   "H6NJ05171"
+  ],
   "chamber": "house",
   "name": "Josh Gottheimer",
   "party": "D",
@@ -7261,6 +8286,10 @@
  {
   "id": "nj-06-p000034",
   "bioguide": "P000034",
+  "fecIds": [
+   "H8NJ03073",
+   "S6NJ00263"
+  ],
   "chamber": "house",
   "name": "Frank Pallone, Jr.",
   "party": "D",
@@ -7282,6 +8311,9 @@
  {
   "id": "nj-07-k000398",
   "bioguide": "K000398",
+  "fecIds": [
+   "H0NJ07261"
+  ],
   "chamber": "house",
   "name": "Thomas H. Kean, Jr.",
   "party": "R",
@@ -7304,6 +8336,9 @@
  {
   "id": "nj-08-m001226",
   "bioguide": "M001226",
+  "fecIds": [
+   "H2NJ08232"
+  ],
   "chamber": "house",
   "name": "Robert Menendez",
   "party": "D",
@@ -7325,6 +8360,9 @@
  {
   "id": "nj-09-p000621",
   "bioguide": "P000621",
+  "fecIds": [
+   "H4NJ09194"
+  ],
   "chamber": "house",
   "name": "Nellie Pou",
   "party": "D",
@@ -7347,6 +8385,9 @@
  {
   "id": "nj-10-m001229",
   "bioguide": "M001229",
+  "fecIds": [
+   "H4NJ10176"
+  ],
   "chamber": "house",
   "name": "LaMonica McIver",
   "party": "D",
@@ -7369,6 +8410,9 @@
  {
   "id": "nj-11-m001246",
   "bioguide": "M001246",
+  "fecIds": [
+   "H6NJ11286"
+  ],
   "chamber": "house",
   "name": "Analilia Mejia",
   "party": "D",
@@ -7391,6 +8435,9 @@
  {
   "id": "nj-12-w000822",
   "bioguide": "W000822",
+  "fecIds": [
+   "H4NJ12149"
+  ],
   "chamber": "house",
   "name": "Bonnie Watson Coleman",
   "party": "D",
@@ -7413,6 +8460,10 @@
  {
   "id": "nm-s-l000570",
   "bioguide": "L000570",
+  "fecIds": [
+   "H8NM03196",
+   "S0NM00058"
+  ],
   "chamber": "senate",
   "name": "Ben Ray Luján",
   "party": "D",
@@ -7439,6 +8490,10 @@
  {
   "id": "nm-s-h001046",
   "bioguide": "H001046",
+  "fecIds": [
+   "H8NM01224",
+   "S2NM00088"
+  ],
   "chamber": "senate",
   "name": "Martin Heinrich",
   "party": "D",
@@ -7463,6 +8518,9 @@
  {
   "id": "nm-01-s001218",
   "bioguide": "S001218",
+  "fecIds": [
+   "H2NM01144"
+  ],
   "chamber": "house",
   "name": "Melanie A. Stansbury",
   "party": "D",
@@ -7485,6 +8543,9 @@
  {
   "id": "nm-02-v000136",
   "bioguide": "V000136",
+  "fecIds": [
+   "H2NM02191"
+  ],
   "chamber": "house",
   "name": "Gabe Vasquez",
   "party": "D",
@@ -7507,6 +8568,9 @@
  {
   "id": "nm-03-l000273",
   "bioguide": "L000273",
+  "fecIds": [
+   "H0NM03102"
+  ],
   "chamber": "house",
   "name": "Teresa Leger Fernandez",
   "party": "D",
@@ -7529,6 +8593,9 @@
  {
   "id": "nv-s-c001113",
   "bioguide": "C001113",
+  "fecIds": [
+   "S6NV00200"
+  ],
   "chamber": "senate",
   "name": "Catherine Cortez Masto",
   "party": "D",
@@ -7553,6 +8620,10 @@
  {
   "id": "nv-s-r000608",
   "bioguide": "R000608",
+  "fecIds": [
+   "H6NV03139",
+   "S8NV00156"
+  ],
   "chamber": "senate",
   "name": "Jacky Rosen",
   "party": "D",
@@ -7577,6 +8648,9 @@
  {
   "id": "nv-01-t000468",
   "bioguide": "T000468",
+  "fecIds": [
+   "H8NV03036"
+  ],
   "chamber": "house",
   "name": "Dina Titus",
   "party": "D",
@@ -7599,6 +8673,11 @@
  {
   "id": "nv-02-a000369",
   "bioguide": "A000369",
+  "fecIds": [
+   "H2NV02395",
+   "H1NV02017",
+   "S0NV00237"
+  ],
   "chamber": "house",
   "name": "Mark E. Amodei",
   "party": "R",
@@ -7621,6 +8700,9 @@
  {
   "id": "nv-03-l000590",
   "bioguide": "L000590",
+  "fecIds": [
+   "H6NV04020"
+  ],
   "chamber": "house",
   "name": "Susie Lee",
   "party": "D",
@@ -7643,6 +8725,9 @@
  {
   "id": "nv-04-h001066",
   "bioguide": "H001066",
+  "fecIds": [
+   "H2NV04011"
+  ],
   "chamber": "house",
   "name": "Steven Horsford",
   "party": "D",
@@ -7664,6 +8749,10 @@
  {
   "id": "ny-s-s000148",
   "bioguide": "S000148",
+  "fecIds": [
+   "S8NY00082",
+   "H0NY16010"
+  ],
   "chamber": "senate",
   "name": "Charles E. Schumer",
   "party": "D",
@@ -7686,6 +8775,10 @@
  {
   "id": "ny-s-g000555",
   "bioguide": "G000555",
+  "fecIds": [
+   "H6NY20167",
+   "S0NY00410"
+  ],
   "chamber": "senate",
   "name": "Kirsten E. Gillibrand",
   "party": "D",
@@ -7710,6 +8803,9 @@
  {
   "id": "ny-01-l000598",
   "bioguide": "L000598",
+  "fecIds": [
+   "H2NY01190"
+  ],
   "chamber": "house",
   "name": "Nick LaLota",
   "party": "R",
@@ -7732,6 +8828,9 @@
  {
   "id": "ny-02-g000597",
   "bioguide": "G000597",
+  "fecIds": [
+   "H0NY02234"
+  ],
   "chamber": "house",
   "name": "Andrew R. Garbarino",
   "party": "R",
@@ -7755,6 +8854,9 @@
  {
   "id": "ny-03-s001201",
   "bioguide": "S001201",
+  "fecIds": [
+   "H6NY03247"
+  ],
   "chamber": "house",
   "name": "Thomas R. Suozzi",
   "party": "D",
@@ -7777,6 +8879,10 @@
  {
   "id": "ny-04-g000602",
   "bioguide": "G000602",
+  "fecIds": [
+   "H4NY04158",
+   "H2NY04244"
+  ],
   "chamber": "house",
   "name": "Laura Gillen",
   "party": "D",
@@ -7799,6 +8905,9 @@
  {
   "id": "ny-05-m001137",
   "bioguide": "M001137",
+  "fecIds": [
+   "H8NY06048"
+  ],
   "chamber": "house",
   "name": "Gregory W. Meeks",
   "party": "D",
@@ -7821,6 +8930,9 @@
  {
   "id": "ny-06-m001188",
   "bioguide": "M001188",
+  "fecIds": [
+   "H2NY06116"
+  ],
   "chamber": "house",
   "name": "Grace Meng",
   "party": "D",
@@ -7842,6 +8954,9 @@
  {
   "id": "ny-07-v000081",
   "bioguide": "V000081",
+  "fecIds": [
+   "H2NY00010"
+  ],
   "chamber": "house",
   "name": "Nydia M. Velázquez",
   "party": "D",
@@ -7864,6 +8979,9 @@
  {
   "id": "ny-08-j000294",
   "bioguide": "J000294",
+  "fecIds": [
+   "H2NY10092"
+  ],
   "chamber": "house",
   "name": "Hakeem S. Jeffries",
   "party": "D",
@@ -7883,6 +9001,9 @@
  {
   "id": "ny-09-c001067",
   "bioguide": "C001067",
+  "fecIds": [
+   "H4NY11138"
+  ],
   "chamber": "house",
   "name": "Yvette D. Clarke",
   "party": "D",
@@ -7904,6 +9025,9 @@
  {
   "id": "ny-10-g000599",
   "bioguide": "G000599",
+  "fecIds": [
+   "H2NY10308"
+  ],
   "chamber": "house",
   "name": "Daniel S. Goldman",
   "party": "D",
@@ -7926,6 +9050,9 @@
  {
   "id": "ny-11-m000317",
   "bioguide": "M000317",
+  "fecIds": [
+   "H0NY11078"
+  ],
   "chamber": "house",
   "name": "Nicole Malliotakis",
   "party": "R",
@@ -7948,6 +9075,9 @@
  {
   "id": "ny-12-n000002",
   "bioguide": "N000002",
+  "fecIds": [
+   "H2NY17071"
+  ],
   "chamber": "house",
   "name": "Jerrold Nadler",
   "party": "D",
@@ -7970,6 +9100,9 @@
  {
   "id": "ny-13-e000297",
   "bioguide": "E000297",
+  "fecIds": [
+   "H2NY13096"
+  ],
   "chamber": "house",
   "name": "Adriano Espaillat",
   "party": "D",
@@ -7991,6 +9124,9 @@
  {
   "id": "ny-14-o000172",
   "bioguide": "O000172",
+  "fecIds": [
+   "H8NY15148"
+  ],
   "chamber": "house",
   "name": "Alexandria Ocasio-Cortez",
   "party": "D",
@@ -8012,6 +9148,9 @@
  {
   "id": "ny-15-t000486",
   "bioguide": "T000486",
+  "fecIds": [
+   "H0NY15160"
+  ],
   "chamber": "house",
   "name": "Ritchie Torres",
   "party": "D",
@@ -8034,6 +9173,9 @@
  {
   "id": "ny-16-l000606",
   "bioguide": "L000606",
+  "fecIds": [
+   "H4NY16087"
+  ],
   "chamber": "house",
   "name": "George Latimer",
   "party": "D",
@@ -8056,6 +9198,9 @@
  {
   "id": "ny-17-l000599",
   "bioguide": "L000599",
+  "fecIds": [
+   "H2NY17162"
+  ],
   "chamber": "house",
   "name": "Michael Lawler",
   "party": "R",
@@ -8078,6 +9223,9 @@
  {
   "id": "ny-18-r000579",
   "bioguide": "R000579",
+  "fecIds": [
+   "H8NY19223"
+  ],
   "chamber": "house",
   "name": "Patrick Ryan",
   "party": "D",
@@ -8100,6 +9248,9 @@
  {
   "id": "ny-19-r000622",
   "bioguide": "R000622",
+  "fecIds": [
+   "H8NY22177"
+  ],
   "chamber": "house",
   "name": "Josh Riley",
   "party": "D",
@@ -8122,6 +9273,9 @@
  {
   "id": "ny-20-t000469",
   "bioguide": "T000469",
+  "fecIds": [
+   "H8NY21203"
+  ],
   "chamber": "house",
   "name": "Paul Tonko",
   "party": "D",
@@ -8144,6 +9298,9 @@
  {
   "id": "ny-21-s001196",
   "bioguide": "S001196",
+  "fecIds": [
+   "H4NY21079"
+  ],
   "chamber": "house",
   "name": "Elise M. Stefanik",
   "party": "R",
@@ -8167,6 +9324,9 @@
  {
   "id": "ny-22-m001231",
   "bioguide": "M001231",
+  "fecIds": [
+   "H4NY22085"
+  ],
   "chamber": "house",
   "name": "John W. Mannion",
   "party": "D",
@@ -8189,6 +9349,9 @@
  {
   "id": "ny-23-l000600",
   "bioguide": "L000600",
+  "fecIds": [
+   "H2NY23228"
+  ],
   "chamber": "house",
   "name": "Nicholas A. Langworthy",
   "party": "R",
@@ -8212,6 +9375,9 @@
  {
   "id": "ny-24-t000478",
   "bioguide": "T000478",
+  "fecIds": [
+   "H4NY22051"
+  ],
   "chamber": "house",
   "name": "Claudia Tenney",
   "party": "R",
@@ -8235,6 +9401,9 @@
  {
   "id": "ny-25-m001206",
   "bioguide": "M001206",
+  "fecIds": [
+   "H8NY25105"
+  ],
   "chamber": "house",
   "name": "Joseph D. Morelle",
   "party": "D",
@@ -8259,6 +9428,9 @@
  {
   "id": "ny-26-k000402",
   "bioguide": "K000402",
+  "fecIds": [
+   "H4NY26078"
+  ],
   "chamber": "house",
   "name": "Timothy M. Kennedy",
   "party": "D",
@@ -8281,6 +9453,9 @@
  {
   "id": "oh-s-m001242",
   "bioguide": "M001242",
+  "fecIds": [
+   "S4OH00192"
+  ],
   "chamber": "senate",
   "name": "Bernie Moreno",
   "party": "R",
@@ -8306,6 +9481,9 @@
  {
   "id": "oh-s-h001104",
   "bioguide": "H001104",
+  "fecIds": [
+   "S6OH00304"
+  ],
   "chamber": "senate",
   "name": "Jon Husted",
   "party": "R",
@@ -8331,6 +9509,9 @@
  {
   "id": "oh-01-l000601",
   "bioguide": "L000601",
+  "fecIds": [
+   "H2OH01194"
+  ],
   "chamber": "house",
   "name": "Greg Landsman",
   "party": "D",
@@ -8352,6 +9533,9 @@
  {
   "id": "oh-02-t000490",
   "bioguide": "T000490",
+  "fecIds": [
+   "H4OH02248"
+  ],
   "chamber": "house",
   "name": "David J. Taylor",
   "party": "R",
@@ -8374,6 +9558,9 @@
  {
   "id": "oh-03-b001281",
   "bioguide": "B001281",
+  "fecIds": [
+   "H2OH03125"
+  ],
   "chamber": "house",
   "name": "Joyce Beatty",
   "party": "D",
@@ -8395,6 +9582,9 @@
  {
   "id": "oh-04-j000289",
   "bioguide": "J000289",
+  "fecIds": [
+   "H6OH04082"
+  ],
   "chamber": "house",
   "name": "Jim Jordan",
   "party": "R",
@@ -8417,6 +9607,9 @@
  {
   "id": "oh-05-l000566",
   "bioguide": "L000566",
+  "fecIds": [
+   "H8OH05036"
+  ],
   "chamber": "house",
   "name": "Robert E. Latta",
   "party": "R",
@@ -8438,6 +9631,9 @@
  {
   "id": "oh-06-r000619",
   "bioguide": "R000619",
+  "fecIds": [
+   "H4OH06165"
+  ],
   "chamber": "house",
   "name": "Michael A. Rulli",
   "party": "R",
@@ -8460,6 +9656,9 @@
  {
   "id": "oh-07-m001222",
   "bioguide": "M001222",
+  "fecIds": [
+   "H2OH16051"
+  ],
   "chamber": "house",
   "name": "Max L. Miller",
   "party": "R",
@@ -8482,6 +9681,9 @@
  {
   "id": "oh-08-d000626",
   "bioguide": "D000626",
+  "fecIds": [
+   "H6OH08315"
+  ],
   "chamber": "house",
   "name": "Warren Davidson",
   "party": "R",
@@ -8504,6 +9706,9 @@
  {
   "id": "oh-09-k000009",
   "bioguide": "K000009",
+  "fecIds": [
+   "H2OH09031"
+  ],
   "chamber": "house",
   "name": "Marcy Kaptur",
   "party": "D",
@@ -8526,6 +9731,10 @@
  {
   "id": "oh-10-t000463",
   "bioguide": "T000463",
+  "fecIds": [
+   "H2OH03067",
+   "H2OH03091"
+  ],
   "chamber": "house",
   "name": "Michael R. Turner",
   "party": "R",
@@ -8548,6 +9757,9 @@
  {
   "id": "oh-11-b001313",
   "bioguide": "B001313",
+  "fecIds": [
+   "H2OH11169"
+  ],
   "chamber": "house",
   "name": "Shontel M. Brown",
   "party": "D",
@@ -8571,6 +9783,9 @@
  {
   "id": "oh-12-b001306",
   "bioguide": "B001306",
+  "fecIds": [
+   "H8OH12180"
+  ],
   "chamber": "house",
   "name": "Troy Balderson",
   "party": "R",
@@ -8592,6 +9807,9 @@
  {
   "id": "oh-13-s001223",
   "bioguide": "S001223",
+  "fecIds": [
+   "H2OH13264"
+  ],
   "chamber": "house",
   "name": "Emilia Strong Sykes",
   "party": "D",
@@ -8614,6 +9832,9 @@
  {
   "id": "oh-14-j000295",
   "bioguide": "J000295",
+  "fecIds": [
+   "H2OH14064"
+  ],
   "chamber": "house",
   "name": "David P. Joyce",
   "party": "R",
@@ -8636,6 +9857,9 @@
  {
   "id": "oh-15-c001126",
   "bioguide": "C001126",
+  "fecIds": [
+   "H2OH15228"
+  ],
   "chamber": "house",
   "name": "Mike Carey",
   "party": "R",
@@ -8660,6 +9884,7 @@
  {
   "id": "ok-s-a000383",
   "bioguide": "A000383",
+  "fecIds": [],
   "chamber": "senate",
   "name": "Alan Armstrong",
   "party": "R",
@@ -8682,6 +9907,10 @@
  {
   "id": "ok-s-l000575",
   "bioguide": "L000575",
+  "fecIds": [
+   "H0OK05114",
+   "S4OK00232"
+  ],
   "chamber": "senate",
   "name": "James Lankford",
   "party": "R",
@@ -8706,6 +9935,10 @@
  {
   "id": "ok-01-h001082",
   "bioguide": "H001082",
+  "fecIds": [
+   "H8OK01157",
+   "S6OK04247"
+  ],
   "chamber": "house",
   "name": "Kevin Hern",
   "party": "R",
@@ -8727,6 +9960,9 @@
  {
   "id": "ok-02-b001317",
   "bioguide": "B001317",
+  "fecIds": [
+   "H2OK02315"
+  ],
   "chamber": "house",
   "name": "Josh Brecheen",
   "party": "R",
@@ -8749,6 +9985,9 @@
  {
   "id": "ok-03-l000491",
   "bioguide": "L000491",
+  "fecIds": [
+   "H4OK06056"
+  ],
   "chamber": "house",
   "name": "Frank D. Lucas",
   "party": "R",
@@ -8771,6 +10010,9 @@
  {
   "id": "ok-04-c001053",
   "bioguide": "C001053",
+  "fecIds": [
+   "H2OK04055"
+  ],
   "chamber": "house",
   "name": "Tom Cole",
   "party": "R",
@@ -8792,6 +10034,9 @@
  {
   "id": "ok-05-b000740",
   "bioguide": "B000740",
+  "fecIds": [
+   "H0OK05205"
+  ],
   "chamber": "house",
   "name": "Stephanie I. Bice",
   "party": "R",
@@ -8814,6 +10059,9 @@
  {
   "id": "or-s-m001176",
   "bioguide": "M001176",
+  "fecIds": [
+   "S8OR00207"
+  ],
   "chamber": "senate",
   "name": "Jeff Merkley",
   "party": "D",
@@ -8840,6 +10088,10 @@
  {
   "id": "or-s-w000779",
   "bioguide": "W000779",
+  "fecIds": [
+   "S6OR00110",
+   "H0OR03026"
+  ],
   "chamber": "senate",
   "name": "Ron Wyden",
   "party": "D",
@@ -8865,6 +10117,9 @@
  {
   "id": "or-01-b001278",
   "bioguide": "B001278",
+  "fecIds": [
+   "H2OR01133"
+  ],
   "chamber": "house",
   "name": "Suzanne Bonamici",
   "party": "D",
@@ -8887,6 +10142,9 @@
  {
   "id": "or-02-b000668",
   "bioguide": "B000668",
+  "fecIds": [
+   "H0OR02127"
+  ],
   "chamber": "house",
   "name": "Cliff Bentz",
   "party": "R",
@@ -8909,6 +10167,9 @@
  {
   "id": "or-03-d000635",
   "bioguide": "D000635",
+  "fecIds": [
+   "H4OR03192"
+  ],
   "chamber": "house",
   "name": "Maxine Dexter",
   "party": "D",
@@ -8931,6 +10192,9 @@
  {
   "id": "or-04-h001094",
   "bioguide": "H001094",
+  "fecIds": [
+   "H2OR04095"
+  ],
   "chamber": "house",
   "name": "Val T. Hoyle",
   "party": "D",
@@ -8953,6 +10217,9 @@
  {
   "id": "or-05-b001326",
   "bioguide": "B001326",
+  "fecIds": [
+   "H4OR05304"
+  ],
   "chamber": "house",
   "name": "Janelle S. Bynum",
   "party": "D",
@@ -8974,6 +10241,9 @@
  {
   "id": "or-06-s001226",
   "bioguide": "S001226",
+  "fecIds": [
+   "H2OR06066"
+  ],
   "chamber": "house",
   "name": "Andrea Salinas",
   "party": "D",
@@ -8996,6 +10266,9 @@
  {
   "id": "pa-s-m001243",
   "bioguide": "M001243",
+  "fecIds": [
+   "S2PA00661"
+  ],
   "chamber": "senate",
   "name": "David McCormick",
   "party": "R",
@@ -9021,6 +10294,9 @@
  {
   "id": "pa-s-f000479",
   "bioguide": "F000479",
+  "fecIds": [
+   "S6PA00274"
+  ],
   "chamber": "senate",
   "name": "John Fetterman",
   "party": "D",
@@ -9045,6 +10321,9 @@
  {
   "id": "pa-01-f000466",
   "bioguide": "F000466",
+  "fecIds": [
+   "H6PA08277"
+  ],
   "chamber": "house",
   "name": "Brian K. Fitzpatrick",
   "party": "R",
@@ -9067,6 +10346,9 @@
  {
   "id": "pa-02-b001296",
   "bioguide": "B001296",
+  "fecIds": [
+   "H4PA13199"
+  ],
   "chamber": "house",
   "name": "Brendan F. Boyle",
   "party": "D",
@@ -9089,6 +10371,9 @@
  {
   "id": "pa-03-e000296",
   "bioguide": "E000296",
+  "fecIds": [
+   "H6PA02171"
+  ],
   "chamber": "house",
   "name": "Dwight Evans",
   "party": "D",
@@ -9110,6 +10395,9 @@
  {
   "id": "pa-04-d000631",
   "bioguide": "D000631",
+  "fecIds": [
+   "H8PA04116"
+  ],
   "chamber": "house",
   "name": "Madeleine Dean",
   "party": "D",
@@ -9132,6 +10420,9 @@
  {
   "id": "pa-05-s001205",
   "bioguide": "S001205",
+  "fecIds": [
+   "H8PA07200"
+  ],
   "chamber": "house",
   "name": "Mary Gay Scanlon",
   "party": "D",
@@ -9154,6 +10445,9 @@
  {
   "id": "pa-06-h001085",
   "bioguide": "H001085",
+  "fecIds": [
+   "H8PA06087"
+  ],
   "chamber": "house",
   "name": "Chrissy Houlahan",
   "party": "D",
@@ -9176,6 +10470,9 @@
  {
   "id": "pa-07-m001230",
   "bioguide": "M001230",
+  "fecIds": [
+   "H8PA15195"
+  ],
   "chamber": "house",
   "name": "Ryan Mackenzie",
   "party": "R",
@@ -9199,6 +10496,9 @@
  {
   "id": "pa-08-b001327",
   "bioguide": "B001327",
+  "fecIds": [
+   "H4PA08124"
+  ],
   "chamber": "house",
   "name": "Robert P. Bresnahan, Jr.",
   "party": "R",
@@ -9222,6 +10522,9 @@
  {
   "id": "pa-09-m001204",
   "bioguide": "M001204",
+  "fecIds": [
+   "H8PA10147"
+  ],
   "chamber": "house",
   "name": "Daniel Meuser",
   "party": "R",
@@ -9244,6 +10547,9 @@
  {
   "id": "pa-10-p000605",
   "bioguide": "P000605",
+  "fecIds": [
+   "H2PA04135"
+  ],
   "chamber": "house",
   "name": "Scott Perry",
   "party": "R",
@@ -9268,6 +10574,9 @@
  {
   "id": "pa-11-s001199",
   "bioguide": "S001199",
+  "fecIds": [
+   "H6PA16320"
+  ],
   "chamber": "house",
   "name": "Lloyd Smucker",
   "party": "R",
@@ -9291,6 +10600,9 @@
  {
   "id": "pa-12-l000602",
   "bioguide": "L000602",
+  "fecIds": [
+   "H2PA18200"
+  ],
   "chamber": "house",
   "name": "Summer L. Lee",
   "party": "D",
@@ -9313,6 +10625,9 @@
  {
   "id": "pa-13-j000302",
   "bioguide": "J000302",
+  "fecIds": [
+   "H8PA13125"
+  ],
   "chamber": "house",
   "name": "John Joyce",
   "party": "R",
@@ -9334,6 +10649,9 @@
  {
   "id": "pa-14-r000610",
   "bioguide": "R000610",
+  "fecIds": [
+   "H8PA18199"
+  ],
   "chamber": "house",
   "name": "Guy Reschenthaler",
   "party": "R",
@@ -9355,6 +10673,9 @@
  {
   "id": "pa-15-t000467",
   "bioguide": "T000467",
+  "fecIds": [
+   "H8PA05071"
+  ],
   "chamber": "house",
   "name": "Glenn Thompson",
   "party": "R",
@@ -9377,6 +10698,9 @@
  {
   "id": "pa-16-k000376",
   "bioguide": "K000376",
+  "fecIds": [
+   "H0PA03271"
+  ],
   "chamber": "house",
   "name": "Mike Kelly",
   "party": "R",
@@ -9398,6 +10722,9 @@
  {
   "id": "pa-17-d000530",
   "bioguide": "D000530",
+  "fecIds": [
+   "H2PA17103"
+  ],
   "chamber": "house",
   "name": "Christopher R. Deluzio",
   "party": "D",
@@ -9420,6 +10747,9 @@
  {
   "id": "pr-00-h001103",
   "bioguide": "H001103",
+  "fecIds": [
+   "H4PR01010"
+  ],
   "chamber": "house",
   "name": "Pablo José Hernández",
   "party": "D",
@@ -9442,6 +10772,10 @@
  {
   "id": "ri-s-r000122",
   "bioguide": "R000122",
+  "fecIds": [
+   "S6RI00163",
+   "H0RI02071"
+  ],
   "chamber": "senate",
   "name": "Jack Reed",
   "party": "D",
@@ -9466,6 +10800,9 @@
  {
   "id": "ri-s-w000802",
   "bioguide": "W000802",
+  "fecIds": [
+   "S6RI00221"
+  ],
   "chamber": "senate",
   "name": "Sheldon Whitehouse",
   "party": "D",
@@ -9492,6 +10829,9 @@
  {
   "id": "ri-01-a000380",
   "bioguide": "A000380",
+  "fecIds": [
+   "H4RI01265"
+  ],
   "chamber": "house",
   "name": "Gabe Amo",
   "party": "D",
@@ -9515,6 +10855,9 @@
  {
   "id": "ri-02-m001223",
   "bioguide": "M001223",
+  "fecIds": [
+   "H2RI02184"
+  ],
   "chamber": "house",
   "name": "Seth Magaziner",
   "party": "D",
@@ -9537,6 +10880,7 @@
  {
   "id": "sc-s-g000608",
   "bioguide": "G000608",
+  "fecIds": [],
   "chamber": "senate",
   "name": "Darline Graham",
   "party": "R",
@@ -9556,6 +10900,10 @@
  {
   "id": "sc-s-s001184",
   "bioguide": "S001184",
+  "fecIds": [
+   "H0SC01279",
+   "S4SC00240"
+  ],
   "chamber": "senate",
   "name": "Tim Scott",
   "party": "R",
@@ -9580,6 +10928,9 @@
  {
   "id": "sc-01-m000194",
   "bioguide": "M000194",
+  "fecIds": [
+   "H0SC01394"
+  ],
   "chamber": "house",
   "name": "Nancy Mace",
   "party": "R",
@@ -9603,6 +10954,9 @@
  {
   "id": "sc-02-w000795",
   "bioguide": "W000795",
+  "fecIds": [
+   "H2SC02059"
+  ],
   "chamber": "house",
   "name": "Joe Wilson",
   "party": "R",
@@ -9626,6 +10980,9 @@
  {
   "id": "sc-03-b001325",
   "bioguide": "B001325",
+  "fecIds": [
+   "H4SC01313"
+  ],
   "chamber": "house",
   "name": "Sheri Biggs",
   "party": "R",
@@ -9649,6 +11006,9 @@
  {
   "id": "sc-04-t000480",
   "bioguide": "T000480",
+  "fecIds": [
+   "H8SC04250"
+  ],
   "chamber": "house",
   "name": "William R. Timmons IV",
   "party": "R",
@@ -9671,6 +11031,10 @@
  {
   "id": "sc-05-n000190",
   "bioguide": "N000190",
+  "fecIds": [
+   "H8SC05158",
+   "S6SC04445"
+  ],
   "chamber": "house",
   "name": "Ralph Norman",
   "party": "R",
@@ -9694,6 +11058,9 @@
  {
   "id": "sc-06-c000537",
   "bioguide": "C000537",
+  "fecIds": [
+   "H2SC02042"
+  ],
   "chamber": "house",
   "name": "James E. Clyburn",
   "party": "D",
@@ -9715,6 +11082,10 @@
  {
   "id": "sc-07-f000478",
   "bioguide": "F000478",
+  "fecIds": [
+   "H2SC07280",
+   "S6SC04403"
+  ],
   "chamber": "house",
   "name": "Russell Fry",
   "party": "R",
@@ -9737,6 +11108,10 @@
  {
   "id": "sd-s-t000250",
   "bioguide": "T000250",
+  "fecIds": [
+   "S2SD00068",
+   "H6SD00085"
+  ],
   "chamber": "senate",
   "name": "John Thune",
   "party": "R",
@@ -9761,6 +11136,9 @@
  {
   "id": "sd-s-r000605",
   "bioguide": "R000605",
+  "fecIds": [
+   "S4SD00049"
+  ],
   "chamber": "senate",
   "name": "Mike Rounds",
   "party": "R",
@@ -9787,6 +11165,9 @@
  {
   "id": "sd-00-j000301",
   "bioguide": "J000301",
+  "fecIds": [
+   "H8SD01055"
+  ],
   "chamber": "house",
   "name": "Dusty Johnson",
   "party": "R",
@@ -9810,6 +11191,9 @@
  {
   "id": "tn-s-h000601",
   "bioguide": "H000601",
+  "fecIds": [
+   "S0TN00169"
+  ],
   "chamber": "senate",
   "name": "Bill Hagerty",
   "party": "R",
@@ -9835,6 +11219,10 @@
  {
   "id": "tn-s-b001243",
   "bioguide": "B001243",
+  "fecIds": [
+   "H2TN06030",
+   "S8TN00337"
+  ],
   "chamber": "senate",
   "name": "Marsha Blackburn",
   "party": "R",
@@ -9860,6 +11248,9 @@
  {
   "id": "tn-01-h001086",
   "bioguide": "H001086",
+  "fecIds": [
+   "H0TN01118"
+  ],
   "chamber": "house",
   "name": "Diana Harshbarger",
   "party": "R",
@@ -9881,6 +11272,9 @@
  {
   "id": "tn-02-b001309",
   "bioguide": "B001309",
+  "fecIds": [
+   "H8TN02119"
+  ],
   "chamber": "house",
   "name": "Tim Burchett",
   "party": "R",
@@ -9904,6 +11298,9 @@
  {
   "id": "tn-03-f000459",
   "bioguide": "F000459",
+  "fecIds": [
+   "H0TN03254"
+  ],
   "chamber": "house",
   "name": "Charles J. \"Chuck\" Fleischmann",
   "party": "R",
@@ -9926,6 +11323,9 @@
  {
   "id": "tn-04-d000616",
   "bioguide": "D000616",
+  "fecIds": [
+   "H0TN04195"
+  ],
   "chamber": "house",
   "name": "Scott DesJarlais",
   "party": "R",
@@ -9948,6 +11348,9 @@
  {
   "id": "tn-05-o000175",
   "bioguide": "O000175",
+  "fecIds": [
+   "H2TN05446"
+  ],
   "chamber": "house",
   "name": "Andrew Ogles",
   "party": "R",
@@ -9970,6 +11373,9 @@
  {
   "id": "tn-06-r000612",
   "bioguide": "R000612",
+  "fecIds": [
+   "H8TN06094"
+  ],
   "chamber": "house",
   "name": "John W. Rose",
   "party": "R",
@@ -9992,6 +11398,9 @@
  {
   "id": "tn-07-v000139",
   "bioguide": "V000139",
+  "fecIds": [
+   "H6TN07161"
+  ],
   "chamber": "house",
   "name": "Matt Van Epps",
   "party": "R",
@@ -10014,6 +11423,9 @@
  {
   "id": "tn-08-k000392",
   "bioguide": "K000392",
+  "fecIds": [
+   "H2TN07103"
+  ],
   "chamber": "house",
   "name": "David Kustoff",
   "party": "R",
@@ -10035,6 +11447,9 @@
  {
   "id": "tn-09-c001068",
   "bioguide": "C001068",
+  "fecIds": [
+   "H6TN09068"
+  ],
   "chamber": "house",
   "name": "Steve Cohen",
   "party": "D",
@@ -10057,6 +11472,9 @@
  {
   "id": "tx-s-c001056",
   "bioguide": "C001056",
+  "fecIds": [
+   "S2TX00106"
+  ],
   "chamber": "senate",
   "name": "John Cornyn",
   "party": "R",
@@ -10084,6 +11502,9 @@
  {
   "id": "tx-s-c001098",
   "bioguide": "C001098",
+  "fecIds": [
+   "S2TX00312"
+  ],
   "chamber": "senate",
   "name": "Ted Cruz",
   "party": "R",
@@ -10108,6 +11529,9 @@
  {
   "id": "tx-01-m001224",
   "bioguide": "M001224",
+  "fecIds": [
+   "H2TX01112"
+  ],
   "chamber": "house",
   "name": "Nathaniel Moran",
   "party": "R",
@@ -10131,6 +11555,9 @@
  {
   "id": "tx-02-c001120",
   "bioguide": "C001120",
+  "fecIds": [
+   "H8TX02166"
+  ],
   "chamber": "house",
   "name": "Dan Crenshaw",
   "party": "R",
@@ -10153,6 +11580,10 @@
  {
   "id": "tx-03-s001224",
   "bioguide": "S001224",
+  "fecIds": [
+   "H2TX03290",
+   "H2TX00064"
+  ],
   "chamber": "house",
   "name": "Keith Self",
   "party": "R",
@@ -10176,6 +11607,9 @@
  {
   "id": "tx-04-f000246",
   "bioguide": "F000246",
+  "fecIds": [
+   "H0TX04219"
+  ],
   "chamber": "house",
   "name": "Pat Fallon",
   "party": "R",
@@ -10199,6 +11633,9 @@
  {
   "id": "tx-05-g000589",
   "bioguide": "G000589",
+  "fecIds": [
+   "H8TX05144"
+  ],
   "chamber": "house",
   "name": "Lance Gooden",
   "party": "R",
@@ -10221,6 +11658,9 @@
  {
   "id": "tx-06-e000071",
   "bioguide": "E000071",
+  "fecIds": [
+   "H8TX06266"
+  ],
   "chamber": "house",
   "name": "Jake Ellzey",
   "party": "R",
@@ -10243,6 +11683,9 @@
  {
   "id": "tx-07-f000468",
   "bioguide": "F000468",
+  "fecIds": [
+   "H8TX07140"
+  ],
   "chamber": "house",
   "name": "Lizzie Fletcher",
   "party": "D",
@@ -10264,6 +11707,9 @@
  {
   "id": "tx-08-l000603",
   "bioguide": "L000603",
+  "fecIds": [
+   "H2TX08182"
+  ],
   "chamber": "house",
   "name": "Morgan Luttrell",
   "party": "R",
@@ -10287,6 +11733,9 @@
  {
   "id": "tx-09-g000553",
   "bioguide": "G000553",
+  "fecIds": [
+   "H4TX09095"
+  ],
   "chamber": "house",
   "name": "Al Green",
   "party": "D",
@@ -10309,6 +11758,9 @@
  {
   "id": "tx-10-m001157",
   "bioguide": "M001157",
+  "fecIds": [
+   "H4TX10093"
+  ],
   "chamber": "house",
   "name": "Michael T. McCaul",
   "party": "R",
@@ -10331,6 +11783,9 @@
  {
   "id": "tx-11-p000048",
   "bioguide": "P000048",
+  "fecIds": [
+   "H0TX11230"
+  ],
   "chamber": "house",
   "name": "August Pfluger",
   "party": "R",
@@ -10353,6 +11808,9 @@
  {
   "id": "tx-12-g000601",
   "bioguide": "G000601",
+  "fecIds": [
+   "H4TX12065"
+  ],
   "chamber": "house",
   "name": "Craig A. Goldman",
   "party": "R",
@@ -10374,6 +11832,9 @@
  {
   "id": "tx-13-j000304",
   "bioguide": "J000304",
+  "fecIds": [
+   "H0TX13228"
+  ],
   "chamber": "house",
   "name": "Ronny Jackson",
   "party": "R",
@@ -10398,6 +11859,9 @@
  {
   "id": "tx-14-w000814",
   "bioguide": "W000814",
+  "fecIds": [
+   "H2TX14149"
+  ],
   "chamber": "house",
   "name": "Randy K. Weber, Sr.",
   "party": "R",
@@ -10420,6 +11884,9 @@
  {
   "id": "tx-15-d000594",
   "bioguide": "D000594",
+  "fecIds": [
+   "H0TX15124"
+  ],
   "chamber": "house",
   "name": "Monica De La Cruz",
   "party": "R",
@@ -10442,6 +11909,9 @@
  {
   "id": "tx-16-e000299",
   "bioguide": "E000299",
+  "fecIds": [
+   "H8TX16109"
+  ],
   "chamber": "house",
   "name": "Veronica Escobar",
   "party": "D",
@@ -10464,6 +11934,9 @@
  {
   "id": "tx-17-s000250",
   "bioguide": "S000250",
+  "fecIds": [
+   "H2TX03126"
+  ],
   "chamber": "house",
   "name": "Pete Sessions",
   "party": "R",
@@ -10486,6 +11959,9 @@
  {
   "id": "tx-18-m001245",
   "bioguide": "M001245",
+  "fecIds": [
+   "H6TX18232"
+  ],
   "chamber": "house",
   "name": "Christian D. Menefee",
   "party": "D",
@@ -10508,6 +11984,9 @@
  {
   "id": "tx-19-a000375",
   "bioguide": "A000375",
+  "fecIds": [
+   "H6TX19099"
+  ],
   "chamber": "house",
   "name": "Jodey C. Arrington",
   "party": "R",
@@ -10531,6 +12010,9 @@
  {
   "id": "tx-20-c001091",
   "bioguide": "C001091",
+  "fecIds": [
+   "H2TX35011"
+  ],
   "chamber": "house",
   "name": "Joaquin Castro",
   "party": "D",
@@ -10553,6 +12035,9 @@
  {
   "id": "tx-21-r000614",
   "bioguide": "R000614",
+  "fecIds": [
+   "H8TX21307"
+  ],
   "chamber": "house",
   "name": "Chip Roy",
   "party": "R",
@@ -10576,6 +12061,9 @@
  {
   "id": "tx-22-n000026",
   "bioguide": "N000026",
+  "fecIds": [
+   "H0TX22302"
+  ],
   "chamber": "house",
   "name": "Troy E. Nehls",
   "party": "R",
@@ -10599,6 +12087,9 @@
  {
   "id": "tx-24-v000134",
   "bioguide": "V000134",
+  "fecIds": [
+   "H0TX24209"
+  ],
   "chamber": "house",
   "name": "Beth Van Duyne",
   "party": "R",
@@ -10621,6 +12112,10 @@
  {
   "id": "tx-25-w000816",
   "bioguide": "W000816",
+  "fecIds": [
+   "H2TX33040",
+   "S2TX00270"
+  ],
   "chamber": "house",
   "name": "Roger Williams",
   "party": "R",
@@ -10643,6 +12138,9 @@
  {
   "id": "tx-26-g000603",
   "bioguide": "G000603",
+  "fecIds": [
+   "H4TX26149"
+  ],
   "chamber": "house",
   "name": "Brandon Gill",
   "party": "R",
@@ -10666,6 +12164,9 @@
  {
   "id": "tx-27-c001115",
   "bioguide": "C001115",
+  "fecIds": [
+   "H8TX27049"
+  ],
   "chamber": "house",
   "name": "Michael Cloud",
   "party": "R",
@@ -10688,6 +12189,9 @@
  {
   "id": "tx-28-c001063",
   "bioguide": "C001063",
+  "fecIds": [
+   "H2TX23082"
+  ],
   "chamber": "house",
   "name": "Henry Cuellar",
   "party": "D",
@@ -10709,6 +12213,9 @@
  {
   "id": "tx-29-g000587",
   "bioguide": "G000587",
+  "fecIds": [
+   "H8TX29052"
+  ],
   "chamber": "house",
   "name": "Sylvia R. Garcia",
   "party": "D",
@@ -10731,6 +12238,10 @@
  {
   "id": "tx-30-c001130",
   "bioguide": "C001130",
+  "fecIds": [
+   "H2TX30178",
+   "S6TX00552"
+  ],
   "chamber": "house",
   "name": "Jasmine Crockett",
   "party": "D",
@@ -10754,6 +12265,9 @@
  {
   "id": "tx-31-c001051",
   "bioguide": "C001051",
+  "fecIds": [
+   "H2TX31044"
+  ],
   "chamber": "house",
   "name": "John R. Carter",
   "party": "R",
@@ -10775,6 +12289,9 @@
  {
   "id": "tx-32-j000310",
   "bioguide": "J000310",
+  "fecIds": [
+   "H4TX32089"
+  ],
   "chamber": "house",
   "name": "Julie Johnson",
   "party": "D",
@@ -10799,6 +12316,9 @@
  {
   "id": "tx-33-v000131",
   "bioguide": "V000131",
+  "fecIds": [
+   "H2TX33073"
+  ],
   "chamber": "house",
   "name": "Marc A. Veasey",
   "party": "D",
@@ -10820,6 +12340,9 @@
  {
   "id": "tx-34-g000581",
   "bioguide": "G000581",
+  "fecIds": [
+   "H6TX15162"
+  ],
   "chamber": "house",
   "name": "Vicente Gonzalez",
   "party": "D",
@@ -10841,6 +12364,9 @@
  {
   "id": "tx-35-c001131",
   "bioguide": "C001131",
+  "fecIds": [
+   "H2TX35144"
+  ],
   "chamber": "house",
   "name": "Greg Casar",
   "party": "D",
@@ -10863,6 +12389,9 @@
  {
   "id": "tx-36-b001291",
   "bioguide": "B001291",
+  "fecIds": [
+   "H6TX02079"
+  ],
   "chamber": "house",
   "name": "Brian Babin",
   "party": "R",
@@ -10885,6 +12414,9 @@
  {
   "id": "tx-37-d000399",
   "bioguide": "D000399",
+  "fecIds": [
+   "H4TX10028"
+  ],
   "chamber": "house",
   "name": "Lloyd Doggett",
   "party": "D",
@@ -10908,6 +12440,10 @@
  {
   "id": "tx-38-h001095",
   "bioguide": "H001095",
+  "fecIds": [
+   "H0TX07170",
+   "S6TX00511"
+  ],
   "chamber": "house",
   "name": "Wesley Hunt",
   "party": "R",
@@ -10930,6 +12466,10 @@
  {
   "id": "ut-s-c001114",
   "bioguide": "C001114",
+  "fecIds": [
+   "H8UT03238",
+   "S4UT00282"
+  ],
   "chamber": "senate",
   "name": "John R. Curtis",
   "party": "R",
@@ -10954,6 +12494,9 @@
  {
   "id": "ut-s-l000577",
   "bioguide": "L000577",
+  "fecIds": [
+   "S0UT00165"
+  ],
   "chamber": "senate",
   "name": "Mike Lee",
   "party": "R",
@@ -10978,6 +12521,9 @@
  {
   "id": "ut-01-m001213",
   "bioguide": "M001213",
+  "fecIds": [
+   "H0UT01205"
+  ],
   "chamber": "house",
   "name": "Blake D. Moore",
   "party": "R",
@@ -11000,6 +12546,9 @@
  {
   "id": "ut-02-m001228",
   "bioguide": "M001228",
+  "fecIds": [
+   "H4UT02296"
+  ],
   "chamber": "house",
   "name": "Celeste Maloy",
   "party": "R",
@@ -11022,6 +12571,9 @@
  {
   "id": "ut-03-k000403",
   "bioguide": "K000403",
+  "fecIds": [
+   "H4UT03260"
+  ],
   "chamber": "house",
   "name": "Mike Kennedy",
   "party": "R",
@@ -11045,6 +12597,9 @@
  {
   "id": "ut-04-o000086",
   "bioguide": "O000086",
+  "fecIds": [
+   "H0UT04076"
+  ],
   "chamber": "house",
   "name": "Burgess Owens",
   "party": "R",
@@ -11067,6 +12622,10 @@
  {
   "id": "va-s-w000805",
   "bioguide": "W000805",
+  "fecIds": [
+   "S6VA00093",
+   "P80003023"
+  ],
   "chamber": "senate",
   "name": "Mark R. Warner",
   "party": "D",
@@ -11092,6 +12651,9 @@
  {
   "id": "va-s-k000384",
   "bioguide": "K000384",
+  "fecIds": [
+   "S2VA00142"
+  ],
   "chamber": "senate",
   "name": "Tim Kaine",
   "party": "D",
@@ -11116,6 +12678,9 @@
  {
   "id": "va-01-w000804",
   "bioguide": "W000804",
+  "fecIds": [
+   "H8VA01147"
+  ],
   "chamber": "house",
   "name": "Robert J. Wittman",
   "party": "R",
@@ -11139,6 +12704,9 @@
  {
   "id": "va-02-k000399",
   "bioguide": "K000399",
+  "fecIds": [
+   "H2VA02064"
+  ],
   "chamber": "house",
   "name": "Jennifer A. Kiggans",
   "party": "R",
@@ -11162,6 +12730,9 @@
  {
   "id": "va-03-s000185",
   "bioguide": "S000185",
+  "fecIds": [
+   "H6VA01117"
+  ],
   "chamber": "house",
   "name": "Robert C. \"Bobby\" Scott",
   "party": "D",
@@ -11184,6 +12755,9 @@
  {
   "id": "va-04-m001227",
   "bioguide": "M001227",
+  "fecIds": [
+   "H4VA04066"
+  ],
   "chamber": "house",
   "name": "Jennifer L. McClellan",
   "party": "D",
@@ -11205,6 +12779,10 @@
  {
   "id": "va-05-m001239",
   "bioguide": "M001239",
+  "fecIds": [
+   "H2VA07196",
+   "H0VA07133"
+  ],
   "chamber": "house",
   "name": "John J. McGuire III",
   "party": "R",
@@ -11227,6 +12805,9 @@
  {
   "id": "va-06-c001118",
   "bioguide": "C001118",
+  "fecIds": [
+   "H8VA06104"
+  ],
   "chamber": "house",
   "name": "Ben Cline",
   "party": "R",
@@ -11251,6 +12832,9 @@
  {
   "id": "va-07-v000138",
   "bioguide": "V000138",
+  "fecIds": [
+   "H4VA07234"
+  ],
   "chamber": "house",
   "name": "Eugene Simon Vindman",
   "party": "D",
@@ -11273,6 +12857,9 @@
  {
   "id": "va-08-b001292",
   "bioguide": "B001292",
+  "fecIds": [
+   "H4VA08224"
+  ],
   "chamber": "house",
   "name": "Donald S. Beyer, Jr.",
   "party": "D",
@@ -11295,6 +12882,9 @@
  {
   "id": "va-09-g000568",
   "bioguide": "G000568",
+  "fecIds": [
+   "H0VA09055"
+  ],
   "chamber": "house",
   "name": "H. Morgan Griffith",
   "party": "R",
@@ -11319,6 +12909,9 @@
  {
   "id": "va-10-s001230",
   "bioguide": "S001230",
+  "fecIds": [
+   "H4VA10279"
+  ],
   "chamber": "house",
   "name": "Suhas Subramanyam",
   "party": "D",
@@ -11342,6 +12935,9 @@
  {
   "id": "va-11-w000831",
   "bioguide": "W000831",
+  "fecIds": [
+   "H6VA11066"
+  ],
   "chamber": "house",
   "name": "James R. Walkinshaw",
   "party": "D",
@@ -11364,6 +12960,9 @@
  {
   "id": "vi-00-p000610",
   "bioguide": "P000610",
+  "fecIds": [
+   "H2VI00082"
+  ],
   "chamber": "house",
   "name": "Stacey E. Plaskett",
   "party": "D",
@@ -11387,6 +12986,10 @@
  {
   "id": "vt-s-s000033",
   "bioguide": "S000033",
+  "fecIds": [
+   "H8VT01016",
+   "S4VT00033"
+  ],
   "chamber": "senate",
   "name": "Bernard Sanders",
   "party": "I",
@@ -11412,6 +13015,11 @@
  {
   "id": "vt-s-w000800",
   "bioguide": "W000800",
+  "fecIds": [
+   "H6VT00160",
+   "H8VT00034",
+   "S2VT00235"
+  ],
   "chamber": "senate",
   "name": "Peter Welch",
   "party": "D",
@@ -11436,6 +13044,9 @@
  {
   "id": "vt-00-b001318",
   "bioguide": "B001318",
+  "fecIds": [
+   "H2VT01076"
+  ],
   "chamber": "house",
   "name": "Becca Balint",
   "party": "D",
@@ -11458,6 +13069,10 @@
  {
   "id": "wa-s-c000127",
   "bioguide": "C000127",
+  "fecIds": [
+   "S8WA00194",
+   "H2WA01054"
+  ],
   "chamber": "senate",
   "name": "Maria Cantwell",
   "party": "D",
@@ -11484,6 +13099,9 @@
  {
   "id": "wa-s-m001111",
   "bioguide": "M001111",
+  "fecIds": [
+   "S2WA00189"
+  ],
   "chamber": "senate",
   "name": "Patty Murray",
   "party": "D",
@@ -11508,6 +13126,9 @@
  {
   "id": "wa-01-d000617",
   "bioguide": "D000617",
+  "fecIds": [
+   "H0WA08046"
+  ],
   "chamber": "house",
   "name": "Suzan K. DelBene",
   "party": "D",
@@ -11529,6 +13150,9 @@
  {
   "id": "wa-02-l000560",
   "bioguide": "L000560",
+  "fecIds": [
+   "H0WA02080"
+  ],
   "chamber": "house",
   "name": "Rick Larsen",
   "party": "D",
@@ -11550,6 +13174,9 @@
  {
   "id": "wa-03-g000600",
   "bioguide": "G000600",
+  "fecIds": [
+   "H2WA03217"
+  ],
   "chamber": "house",
   "name": "Marie Gluesenkamp Perez",
   "party": "D",
@@ -11571,6 +13198,9 @@
  {
   "id": "wa-04-n000189",
   "bioguide": "N000189",
+  "fecIds": [
+   "H4WA04104"
+  ],
   "chamber": "house",
   "name": "Dan Newhouse",
   "party": "R",
@@ -11594,6 +13224,9 @@
  {
   "id": "wa-05-b001322",
   "bioguide": "B001322",
+  "fecIds": [
+   "H4WA05234"
+  ],
   "chamber": "house",
   "name": "Michael Baumgartner",
   "party": "R",
@@ -11617,6 +13250,9 @@
  {
   "id": "wa-06-r000621",
   "bioguide": "R000621",
+  "fecIds": [
+   "H4WA06117"
+  ],
   "chamber": "house",
   "name": "Emily Randall",
   "party": "D",
@@ -11639,6 +13275,9 @@
  {
   "id": "wa-07-j000298",
   "bioguide": "J000298",
+  "fecIds": [
+   "H6WA07458"
+  ],
   "chamber": "house",
   "name": "Pramila Jayapal",
   "party": "D",
@@ -11662,6 +13301,9 @@
  {
   "id": "wa-08-s001216",
   "bioguide": "S001216",
+  "fecIds": [
+   "H8WA08189"
+  ],
   "chamber": "house",
   "name": "Kim Schrier",
   "party": "D",
@@ -11683,6 +13325,9 @@
  {
   "id": "wa-09-s000510",
   "bioguide": "S000510",
+  "fecIds": [
+   "H6WA09025"
+  ],
   "chamber": "house",
   "name": "Adam Smith",
   "party": "D",
@@ -11704,6 +13349,9 @@
  {
   "id": "wa-10-s001159",
   "bioguide": "S001159",
+  "fecIds": [
+   "H0WA10034"
+  ],
   "chamber": "house",
   "name": "Marilyn Strickland",
   "party": "D",
@@ -11726,6 +13374,9 @@
  {
   "id": "wi-s-j000293",
   "bioguide": "J000293",
+  "fecIds": [
+   "S0WI00197"
+  ],
   "chamber": "senate",
   "name": "Ron Johnson",
   "party": "R",
@@ -11750,6 +13401,10 @@
  {
   "id": "wi-s-b001230",
   "bioguide": "B001230",
+  "fecIds": [
+   "H8WI00018",
+   "S2WI00219"
+  ],
   "chamber": "senate",
   "name": "Tammy Baldwin",
   "party": "D",
@@ -11773,6 +13428,9 @@
  {
   "id": "wi-01-s001213",
   "bioguide": "S001213",
+  "fecIds": [
+   "H8WI01156"
+  ],
   "chamber": "house",
   "name": "Bryan Steil",
   "party": "R",
@@ -11797,6 +13455,9 @@
  {
   "id": "wi-02-p000607",
   "bioguide": "P000607",
+  "fecIds": [
+   "H2WI02124"
+  ],
   "chamber": "house",
   "name": "Mark Pocan",
   "party": "D",
@@ -11819,6 +13480,9 @@
  {
   "id": "wi-03-v000135",
   "bioguide": "V000135",
+  "fecIds": [
+   "H0WI03175"
+  ],
   "chamber": "house",
   "name": "Derrick Van Orden",
   "party": "R",
@@ -11842,6 +13506,9 @@
  {
   "id": "wi-04-m001160",
   "bioguide": "M001160",
+  "fecIds": [
+   "H4WI04183"
+  ],
   "chamber": "house",
   "name": "Gwen Moore",
   "party": "D",
@@ -11864,6 +13531,9 @@
  {
   "id": "wi-05-f000471",
   "bioguide": "F000471",
+  "fecIds": [
+   "H0WI05113"
+  ],
   "chamber": "house",
   "name": "Scott Fitzgerald",
   "party": "R",
@@ -11886,6 +13556,9 @@
  {
   "id": "wi-06-g000576",
   "bioguide": "G000576",
+  "fecIds": [
+   "H4WI06048"
+  ],
   "chamber": "house",
   "name": "Glenn Grothman",
   "party": "R",
@@ -11910,6 +13583,9 @@
  {
   "id": "wi-07-t000165",
   "bioguide": "T000165",
+  "fecIds": [
+   "H0WI07101"
+  ],
   "chamber": "house",
   "name": "Thomas P. Tiffany",
   "party": "R",
@@ -11932,6 +13608,9 @@
  {
   "id": "wi-08-w000829",
   "bioguide": "W000829",
+  "fecIds": [
+   "H4WI08119"
+  ],
   "chamber": "house",
   "name": "Tony Wied",
   "party": "R",
@@ -11955,6 +13634,9 @@
  {
   "id": "wv-s-j000312",
   "bioguide": "J000312",
+  "fecIds": [
+   "S4WV00332"
+  ],
   "chamber": "senate",
   "name": "James C. Justice",
   "party": "R",
@@ -11979,6 +13661,10 @@
  {
   "id": "wv-s-c001047",
   "bioguide": "C001047",
+  "fecIds": [
+   "H0WV02138",
+   "S4WV00159"
+  ],
   "chamber": "senate",
   "name": "Shelley Moore Capito",
   "party": "R",
@@ -12003,6 +13689,9 @@
  {
   "id": "wv-01-m001205",
   "bioguide": "M001205",
+  "fecIds": [
+   "H8WV03097"
+  ],
   "chamber": "house",
   "name": "Carol D. Miller",
   "party": "R",
@@ -12024,6 +13713,9 @@
  {
   "id": "wv-02-m001235",
   "bioguide": "M001235",
+  "fecIds": [
+   "H4WV02205"
+  ],
   "chamber": "house",
   "name": "Riley M. Moore",
   "party": "R",
@@ -12045,6 +13737,10 @@
  {
   "id": "wy-s-l000571",
   "bioguide": "L000571",
+  "fecIds": [
+   "H8WY00148",
+   "S0WY00137"
+  ],
   "chamber": "senate",
   "name": "Cynthia M. Lummis",
   "party": "R",
@@ -12068,6 +13764,9 @@
  {
   "id": "wy-s-b001261",
   "bioguide": "B001261",
+  "fecIds": [
+   "S6WY00068"
+  ],
   "chamber": "senate",
   "name": "John Barrasso",
   "party": "R",
@@ -12091,6 +13790,10 @@
  {
   "id": "wy-00-h001096",
   "bioguide": "H001096",
+  "fecIds": [
+   "H2WY00166",
+   "S6WY00209"
+  ],
   "chamber": "house",
   "name": "Harriet M. Hageman",
   "party": "R",

@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: node --test tests/*.test.js
+      - run: node --test tests/*.test.js tests/*.test.mjs
       - run: node scripts/validate-data.mjs
   deploy:
     if: github.ref == 'refs/heads/main'

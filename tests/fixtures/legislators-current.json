@@ -1,0 +1,12 @@
+[
+ {"id":{"bioguide":"X000001"},"name":{"first":"Alex","last":"Test","official_full":"Alex Test"},
+  "terms":[{"type":"rep","start":"2019-01-03","end":"2021-01-03","state":"OH","district":2,"party":"Democrat"},
+           {"type":"rep","start":"2021-01-03","end":"2027-01-03","state":"OH","district":2,"party":"Democrat","url":"https://example.org/x1","phone":"202-555-0101","address":"1 Test Bldg"}]},
+ {"id":{"bioguide":"X000002"},"name":{"first":"Bo","last":"Sample"},
+  "terms":[{"type":"rep","start":"2015-01-03","end":"2017-01-03","state":"TX","district":5,"party":"Republican"},
+           {"type":"sen","start":"2017-01-03","end":"2029-01-03","state":"TX","class":1,"party":"Republican"}]},
+ {"id":{"bioguide":"X000003"},"name":{"first":"Cy","last":"Delegate","official_full":"Cy Delegate"},
+  "terms":[{"type":"rep","start":"2023-01-03","end":"2027-01-03","state":"GU","district":0,"party":"Independent"}]},
+ {"id":{"bioguide":"X000004"},"name":{"first":"Old","last":"Timer"},
+  "terms":[{"type":"rep","start":"2001-01-03","end":"2003-01-03","state":"OH","district":1,"party":"Democrat"}]}
+]

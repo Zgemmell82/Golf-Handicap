@@ -44,7 +44,7 @@
     const fav = favs().includes(o.id);
     return `<div class="card"><div class="row">
       <a class="official row grow" href="#/official/${o.id}">
-        <span class="avatar">${o.photo ? `<img src="${esc(o.photo)}" alt="">` : esc(initials(o.name))}</span>
+        <span class="avatar">${o.photo ? `<img src="${esc(o.photo)}" alt="" loading="lazy" data-initials="${esc(initials(o.name))}">` : esc(initials(o.name))}</span>
         <span class="grow"><span class="name">${esc(officialLabel(o))}</span><br>
         <span class="muted">${partyChip(o.party)} ${esc(seat(o))}${o.sample ? ' <span class="chip sample">sample</span>' : ''}</span></span>
       </a>
@@ -182,7 +182,7 @@
         <tr><th>Office</th><td>${esc(o.contact.office || 'Not on file')}</td></tr></tbody></table></div>`;
     }
     return `<p><a href="#/state/${esc(o.state)}">← ${esc(stateName(o.state))}</a></p>
-      <div class="row"><span class="avatar lg">${o.photo ? `<img src="${esc(o.photo)}" alt="Photo of ${esc(o.name)}">` : esc(initials(o.name))}</span>
+      <div class="row"><span class="avatar lg">${o.photo ? `<img src="${esc(o.photo)}" alt="Photo of ${esc(o.name)}" data-initials="${esc(initials(o.name))}">` : esc(initials(o.name))}</span>
         <div class="grow"><h1 style="margin:0">${esc(officialLabel(o))}</h1><span class="muted">${partyChip(o.party)} ${esc(seat(o))}${o.sample ? ' <span class="chip sample">sample</span>' : ''}</span></div>
         <button class="star" data-fav="${o.id}" aria-pressed="${fav}" aria-label="${fav ? 'Remove from' : 'Add to'} favorites">${fav ? '★' : '☆'}</button></div>
       <div class="card" style="margin-top:12px">${scoreBar(proms)}</div>
@@ -450,6 +450,11 @@
     }
     if (e.target.id === 'theme') { store.set('theme', e.target.value); applyTheme(); }
   });
+  // A photo that fails to load falls back to initials.
+  document.addEventListener('error', (e) => {
+    const img = e.target;
+    if (img.tagName === 'IMG' && img.closest('.avatar')) img.parentNode.textContent = img.dataset.initials || '';
+  }, true);
   window.addEventListener('hashchange', route);
 
   function applyTheme() {

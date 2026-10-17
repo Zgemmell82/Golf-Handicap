@@ -27,5 +27,9 @@ node --test tests/*.test.js
 node scripts/validate-data.mjs
 ```
 
-## Real data pipeline (next steps)
-Needs free keys from api.data.gov for Congress.gov and OpenFEC, stored as GitHub secrets. Planned scripts: roster (unitedstates/congress-legislators), ZIP-to-district (Census), votes (Congress.gov / Voteview), finance (OpenFEC). Promises are researched with required source links and human review; they are not auto-published.
+## Real data pipeline
+**Roster (done):** `scripts/build-roster.mjs` builds `data/officials.json` from the public unitedstates/congress-legislators dataset (current House members, delegates and Senators, with committees, contact info and photos). No API key needed. Tested against fixtures only; it has not yet been run against the live files from this sandbox, so the first real run (below) is the real test.
+
+To switch from sample to real data: GitHub, **Actions, Refresh roster, Run workflow**, tick "Replace the fictional sample data". This clears the sample promises, votes, finance and ZIP data (they describe fictional people), commits the real roster and redeploys. After that the app lists real officials with "No promises researched yet" until promises are added. A weekly run keeps the roster current.
+
+**Still to build:** ZIP-to-district (Census), votes (Congress.gov / Voteview), finance (OpenFEC). These need free keys from api.data.gov, stored as GitHub secrets. Promises are researched with required source links and human review; they are never auto-published.

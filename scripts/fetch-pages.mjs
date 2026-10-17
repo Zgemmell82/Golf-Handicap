@@ -17,7 +17,7 @@ async function fetchHtml(url) {
     if (!res.ok) return { ok: false, status: res.status };
     const type = res.headers.get('content-type') || '';
     if (!/html|text\/plain|xml/i.test(type)) return { ok: false, status: `unsupported type ${type}` };
-    return { ok: true, html: (await res.text()).slice(0, 2000000) };
+    return { ok: true, finalUrl: res.url || url, html: (await res.text()).slice(0, 2000000) };
   } catch (e) {
     return { ok: false, status: e.name === 'AbortError' ? 'timeout' : e.message };
   } finally {
@@ -40,7 +40,7 @@ async function main() {
       if (!r.ok) { rec = { ok: false, officialId, url: item.url, status: r.status }; failed++; }
       else {
         const text = htmlToText(r.html).slice(0, 120000);
-        rec = { ok: true, officialId, url: item.url, title: item.title || '', fetchedAt: new Date().toISOString(), date: findPublishedDate(r.html, item.url), text, focus: '' };
+        rec = { ok: true, officialId, url: item.url, finalUrl: r.finalUrl, title: item.title || '', fetchedAt: new Date().toISOString(), date: findPublishedDate(r.html, r.finalUrl), text, focus: '' };
         rec.focus = focusText(text, sur);
         ok++;
       }

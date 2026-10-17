@@ -1,0 +1,162 @@
+[
+ {
+  "id": "v1",
+  "date": "2026-10-08",
+  "chamber": "house",
+  "rollCall": 612,
+  "billId": "H.R. 9300 (sample)",
+  "title": "Rural Clinic Funding Extension",
+  "question": "On passage",
+  "result": "Passed 228-201",
+  "byOfficial": {
+   "tx02": "Yea",
+   "oh01": "Yea",
+   "ca01": "Yea",
+   "pa01": "Yea",
+   "oh02": "Nay",
+   "tx01": "Nay",
+   "ca02": "Yea",
+   "pa02": "Yea"
+  },
+  "issues": [
+   "healthcare"
+  ],
+  "outletId": "congress-gov",
+  "url": "https://www.congress.gov/",
+  "promiseLinks": [
+   {
+    "promiseId": "tx02:2",
+    "relation": "consistent",
+    "explain": "This extends funding for rural clinics, which matches the promise to expand access to rural clinics."
+   }
+  ]
+ },
+ {
+  "id": "v2",
+  "date": "2026-10-01",
+  "chamber": "house",
+  "rollCall": 598,
+  "billId": "H.R. 9310 (sample)",
+  "title": "Public Lands Lease Review Act",
+  "question": "On passage",
+  "result": "Passed 215-212",
+  "byOfficial": {
+   "oh01": "Nay",
+   "ca01": "Yea",
+   "tx01": "Nay",
+   "pa02": "Yea",
+   "oh02": "Nay",
+   "ca02": "Nay",
+   "tx02": "Yea",
+   "pa01": "Yea"
+  },
+  "issues": [
+   "environment"
+  ],
+  "outletId": "congress-gov",
+  "url": "https://www.congress.gov/",
+  "promiseLinks": [
+   {
+    "promiseId": "oh01:2",
+    "relation": "consistent",
+    "explain": "The bill would have required fewer reviews before new leases. The official promised to oppose new drilling and voted no, which fits the promise."
+   }
+  ]
+ },
+ {
+  "id": "v3",
+  "date": "2026-09-24",
+  "chamber": "house",
+  "rollCall": 580,
+  "billId": "H.R. 9320 (sample)",
+  "title": "Police Hiring Grants Act",
+  "question": "On passage",
+  "result": "Passed 230-199",
+  "byOfficial": {
+   "pa02": "Nay",
+   "pa01": "Yea",
+   "oh02": "Yea",
+   "tx01": "Yea",
+   "ca01": "Yea",
+   "ca02": "Yea",
+   "oh01": "Yea",
+   "tx02": "Yea"
+  },
+  "issues": [
+   "public-safety"
+  ],
+  "outletId": "congress-gov",
+  "url": "https://www.congress.gov/",
+  "promiseLinks": [
+   {
+    "promiseId": "pa02:2",
+    "relation": "contradicts",
+    "explain": "This bill funds police hiring, which the official promised to support. The official voted no and cited unrelated provisions in the bill."
+   }
+  ]
+ },
+ {
+  "id": "v4",
+  "date": "2026-09-10",
+  "chamber": "house",
+  "rollCall": 561,
+  "billId": "H.R. 9330 (sample)",
+  "title": "Clean Grid Act",
+  "question": "On passage",
+  "result": "Failed 201-228",
+  "byOfficial": {
+   "ca01": "Yea",
+   "oh01": "Yea",
+   "pa01": "Yea",
+   "tx02": "Yea",
+   "oh02": "Nay",
+   "tx01": "Nay",
+   "ca02": "Nay",
+   "pa02": "Nay"
+  },
+  "issues": [
+   "environment"
+  ],
+  "outletId": "congress-gov",
+  "url": "https://www.congress.gov/",
+  "promiseLinks": [
+   {
+    "promiseId": "ca01:1",
+    "relation": "consistent",
+    "explain": "This bill sets the 2035 clean electricity target the official promised. The official voted yes; the bill did not pass."
+   }
+  ]
+ },
+ {
+  "id": "v5",
+  "date": "2026-08-30",
+  "chamber": "house",
+  "rollCall": 540,
+  "billId": "H.R. 9340 (sample)",
+  "title": "State and Local Tax Deduction Act",
+  "question": "On passage",
+  "result": "Passed 219-210",
+  "byOfficial": {
+   "ca02": "Yea",
+   "pa01": "Yea",
+   "oh02": "Yea",
+   "oh01": "Nay",
+   "tx01": "Yea",
+   "tx02": "Nay",
+   "ca01": "Nay",
+   "pa02": "Yea"
+  },
+  "issues": [
+   "taxes"
+  ],
+  "outletId": "congress-gov",
+  "url": "https://www.congress.gov/",
+  "promiseLinks": [
+   {
+    "promiseId": "ca02:1",
+    "relation": "consistent",
+    "explain": "Raises the deduction cap further. The official promised repeal and voted yes on this step."
+   }
+  ]
+ }
+]

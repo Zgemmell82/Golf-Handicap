@@ -1,0 +1,34 @@
+[
+ {
+  "id": "healthcare",
+  "name": "Healthcare"
+ },
+ {
+  "id": "taxes",
+  "name": "Taxes"
+ },
+ {
+  "id": "economy",
+  "name": "Economy & jobs"
+ },
+ {
+  "id": "immigration",
+  "name": "Immigration"
+ },
+ {
+  "id": "environment",
+  "name": "Environment & energy"
+ },
+ {
+  "id": "education",
+  "name": "Education"
+ },
+ {
+  "id": "infrastructure",
+  "name": "Infrastructure"
+ },
+ {
+  "id": "public-safety",
+  "name": "Public safety"
+ }
+]

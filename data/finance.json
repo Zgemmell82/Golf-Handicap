@@ -1,0 +1,344 @@
+{
+ "oh01": {
+  "cycle": "2024",
+  "totalRaised": 1850000,
+  "smallDollarPct": 34,
+  "largeDollarPct": 66,
+  "selfFundedPct": 0,
+  "topDonors": [
+   {
+    "name": "Sample Health Partners PAC",
+    "amount": 15000
+   },
+   {
+    "name": "Lakeside Teachers Fund",
+    "amount": 12000
+   }
+  ],
+  "industries": [
+   {
+    "id": "pharma",
+    "name": "Pharmaceuticals",
+    "amount": 142000
+   },
+   {
+    "id": "education",
+    "name": "Education",
+    "amount": 98000
+   },
+   {
+    "id": "energy",
+    "name": "Energy",
+    "amount": 61000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Sample Health Partners PAC",
+    "amount": 15000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "oh02": {
+  "cycle": "2024",
+  "totalRaised": 2300000,
+  "smallDollarPct": 12,
+  "largeDollarPct": 86,
+  "selfFundedPct": 2,
+  "topDonors": [
+   {
+    "name": "Buckeye Business Alliance",
+    "amount": 20000
+   },
+   {
+    "name": "Midwest Pharma PAC",
+    "amount": 18000
+   }
+  ],
+  "industries": [
+   {
+    "id": "pharma",
+    "name": "Pharmaceuticals",
+    "amount": 310000
+   },
+   {
+    "id": "finance",
+    "name": "Finance",
+    "amount": 220000
+   },
+   {
+    "id": "energy",
+    "name": "Energy",
+    "amount": 90000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Midwest Pharma PAC",
+    "amount": 18000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "ohs1": {
+  "cycle": "2024",
+  "totalRaised": 6100000,
+  "smallDollarPct": 18,
+  "largeDollarPct": 82,
+  "selfFundedPct": 0,
+  "topDonors": [
+   {
+    "name": "Heartland Manufacturers PAC",
+    "amount": 25000
+   }
+  ],
+  "industries": [
+   {
+    "id": "manufacturing",
+    "name": "Manufacturing",
+    "amount": 540000
+   },
+   {
+    "id": "finance",
+    "name": "Finance",
+    "amount": 410000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Heartland Manufacturers PAC",
+    "amount": 25000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "tx01": {
+  "cycle": "2024",
+  "totalRaised": 2750000,
+  "smallDollarPct": 15,
+  "largeDollarPct": 85,
+  "selfFundedPct": 0,
+  "topDonors": [
+   {
+    "name": "Lone Star Energy PAC",
+    "amount": 30000
+   }
+  ],
+  "industries": [
+   {
+    "id": "energy",
+    "name": "Energy",
+    "amount": 480000
+   },
+   {
+    "id": "finance",
+    "name": "Finance",
+    "amount": 230000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Lone Star Energy PAC",
+    "amount": 30000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "tx02": {
+  "cycle": "2024",
+  "totalRaised": 1400000,
+  "smallDollarPct": 41,
+  "largeDollarPct": 59,
+  "selfFundedPct": 0,
+  "topDonors": [
+   {
+    "name": "Educators United",
+    "amount": 11000
+   }
+  ],
+  "industries": [
+   {
+    "id": "education",
+    "name": "Education",
+    "amount": 120000
+   },
+   {
+    "id": "finance",
+    "name": "Finance",
+    "amount": 70000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Educators United",
+    "amount": 11000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "ca01": {
+  "cycle": "2024",
+  "totalRaised": 2100000,
+  "smallDollarPct": 39,
+  "largeDollarPct": 61,
+  "selfFundedPct": 0,
+  "topDonors": [
+   {
+    "name": "Pacific Clean Power PAC",
+    "amount": 14000
+   }
+  ],
+  "industries": [
+   {
+    "id": "energy",
+    "name": "Energy",
+    "amount": 160000
+   },
+   {
+    "id": "environmental-groups",
+    "name": "Environmental groups",
+    "amount": 130000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Pacific Clean Power PAC",
+    "amount": 14000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "ca02": {
+  "cycle": "2024",
+  "totalRaised": 1900000,
+  "smallDollarPct": 22,
+  "largeDollarPct": 70,
+  "selfFundedPct": 8,
+  "topDonors": [
+   {
+    "name": "Central Valley Growers",
+    "amount": 16000
+   }
+  ],
+  "industries": [
+   {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "amount": 260000
+   },
+   {
+    "id": "energy",
+    "name": "Energy",
+    "amount": 75000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Central Valley Growers",
+    "amount": 16000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "pa01": {
+  "cycle": "2024",
+  "totalRaised": 1600000,
+  "smallDollarPct": 36,
+  "largeDollarPct": 64,
+  "selfFundedPct": 0,
+  "topDonors": [
+   {
+    "name": "Keystone Labor Fund",
+    "amount": 13000
+   }
+  ],
+  "industries": [
+   {
+    "id": "labor",
+    "name": "Labor unions",
+    "amount": 190000
+   },
+   {
+    "id": "finance",
+    "name": "Finance",
+    "amount": 90000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Keystone Labor Fund",
+    "amount": 13000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ },
+ "pa02": {
+  "cycle": "2024",
+  "totalRaised": 1500000,
+  "smallDollarPct": 20,
+  "largeDollarPct": 80,
+  "selfFundedPct": 0,
+  "topDonors": [
+   {
+    "name": "Pennsylvania Builders PAC",
+    "amount": 12000
+   }
+  ],
+  "industries": [
+   {
+    "id": "construction",
+    "name": "Construction",
+    "amount": 205000
+   },
+   {
+    "id": "energy",
+    "name": "Energy",
+    "amount": 80000
+   }
+  ],
+  "pacs": [
+   {
+    "name": "Pennsylvania Builders PAC",
+    "amount": 12000
+   }
+  ],
+  "source": {
+   "label": "FEC filings (sample numbers)",
+   "url": "https://www.fec.gov/"
+  },
+  "updated": "2026-10-17"
+ }
+}

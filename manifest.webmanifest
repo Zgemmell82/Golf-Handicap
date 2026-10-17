@@ -1,0 +1,11 @@
+{
+  "name": "Promise Tracker",
+  "short_name": "Promises",
+  "description": "See whether elected officials kept their promises.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#1f2933",
+  "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

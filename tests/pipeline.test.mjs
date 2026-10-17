@@ -12,12 +12,13 @@ const results = [
 ];
 
 test('buildVote maps members to official ids and formats the bill', () => {
-  const v = buildVote(item, results, { A000055: 'al-05-a000055', A000148: 'ma-06-a000148' }, 'Some Act');
+  const v = buildVote(item, results, { A000055: 'al-05-a000055', A000148: 'ma-06-a000148' }, 'Some Act', 'On Passage');
+  assert.strictEqual(v.question, 'On Passage');
   assert.strictEqual(v.id, 'h119-1-240');
   assert.strictEqual(v.date, '2025-09-08');
   assert.strictEqual(v.billId, 'H.R. 3424');
   assert.strictEqual(v.title, 'Some Act');
-  assert.deepStrictEqual(v.byOfficial, { 'al-05-a000055': 'Aye', 'ma-06-a000148': 'No' });
+  assert.deepStrictEqual(v.byOfficial, { 'al-05-a000055': 'Yea', 'ma-06-a000148': 'Nay' });
   assert.strictEqual(v.url, item.legislationUrl);
 });
 test('buildVote falls back for votes with no bill', () => {
@@ -45,4 +46,28 @@ test('buildFinance computes shares and filters non-employers', () => {
 test('buildFinance handles zero receipts without dividing by zero', () => {
   const f = buildFinance('H1', 2024, {}, [], '2026-10-17');
   assert.deepStrictEqual([f.totalRaised, f.smallDollarPct, f.largeDollarPct, f.selfFundedPct], [0, 0, 100, 0]);
+});
+
+import { buildZip } from '../scripts/build-zip.mjs';
+// Layout copied from the real Census file (columns trimmed to the ones that matter, same header names).
+const H = 'GEOID_CD119_20|NAMELSAD_CD119_20|GEOID_ZCTA5_20|AREALAND_ZCTA5_20|AREALAND_PART';
+const zipText = [H,
+  '0101|Congressional District 1||||558858619',            // district with no ZCTA row: skipped
+  '0101|Congressional District 1|36009|417245447|4938464', // ZIP wholly inside one district
+  '3901|Congressional District 1|43215|1000|600',          // ZIP split across two districts
+  '3903|Congressional District 3|43215|1000|390',
+  '3902|Congressional District 2|43215|1000|5',            // 0.5% sliver: ignored
+  '1198|Delegate|20001|2000|2000',                         // DC delegate -> 00
+  '4800|At large|99999|10|10',
+].join('\n');
+test('buildZip groups districts per ZIP, ignores slivers, maps delegates to 00', () => {
+  const z = buildZip(zipText);
+  assert.deepStrictEqual(z['36009'], ['AL-01']);
+  assert.deepStrictEqual(z['43215'], ['OH-01', 'OH-03']);
+  assert.deepStrictEqual(z['20001'], ['DC-00']);
+  assert.strictEqual(z['99999'][0], 'TX-00');
+  assert.strictEqual(Object.keys(z).length, 4);
+});
+test('buildZip rejects an unexpected layout', () => {
+  assert.throws(() => buildZip('a|b\n1|2'), /Unexpected column layout/);
 });

@@ -10,9 +10,12 @@ const BILL_LABEL = { HR: 'H.R.', HRES: 'H.Res.', HJRES: 'H.J.Res.', HCONRES: 'H.
 const billLabel = (type, num) => (type ? `${BILL_LABEL[type] || type} ${num}` : 'Procedural vote');
 
 // listItem: an entry of houseRollCallVotes; results: houseRollCallVoteMemberVotes.results.
-export function buildVote(listItem, results, bioguideToId, title) {
+// The House records the same two answers as Aye/No on voice-style votes and Yea/Nay on roll calls.
+const CAST = { Aye: 'Yea', No: 'Nay' };
+
+export function buildVote(listItem, results, bioguideToId, title, question) {
   const byOfficial = {};
-  results.forEach((r) => { const id = bioguideToId[r.bioguideID]; if (id && r.voteCast) byOfficial[id] = r.voteCast; });
+  results.forEach((r) => { const id = bioguideToId[r.bioguideID]; if (id && r.voteCast) byOfficial[id] = CAST[r.voteCast] || r.voteCast; });
   return {
     id: `h${listItem.congress}-${listItem.sessionNumber}-${listItem.rollCallNumber}`,
     date: String(listItem.startDate).slice(0, 10),
@@ -20,7 +23,7 @@ export function buildVote(listItem, results, bioguideToId, title) {
     rollCall: listItem.rollCallNumber,
     billId: billLabel(listItem.legislationType, listItem.legislationNumber),
     title: title || billLabel(listItem.legislationType, listItem.legislationNumber),
-    question: listItem.voteType || '',
+    question: question || listItem.voteType || '',
     result: listItem.result || '',
     byOfficial,
     issues: [],
@@ -63,7 +66,8 @@ async function main() {
   const votes = [];
   for (const item of recent) {
     const mem = await getJson(`${BASE}/house-vote/${item.congress}/${item.sessionNumber}/${item.rollCallNumber}/members?format=json&api_key=${key}`, { keys: [key] });
-    const results = (mem.houseRollCallVoteMemberVotes || {}).results || [];
+    const detail = mem.houseRollCallVoteMemberVotes || {};
+    const results = detail.results || [];
     let title = null;
     if (item.legislationType && item.legislationNumber) {
       try {
@@ -71,7 +75,7 @@ async function main() {
         title = b.bill && b.bill.title;
       } catch { /* keep the bill number as the title */ }
     }
-    votes.push(buildVote(item, results, bioguideToId, title));
+    votes.push(buildVote(item, results, bioguideToId, title, detail.voteQuestion));
   }
 
   // Keep older votes only if they carry promise links, and keep links on refreshed votes.

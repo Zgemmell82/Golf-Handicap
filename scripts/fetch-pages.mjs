@@ -6,10 +6,10 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { htmlToText, findPublishedDate, focusText, surname } from './research-lib.mjs';
+import { htmlToText, findPublishedDate, focusText, parseWayback, surname } from './research-lib.mjs';
 import { readData, sleep } from './lib.mjs';
 
-async function fetchHtml(url) {
+async function fetchOnce(url) {
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), 25000);
   try {
@@ -17,12 +17,20 @@ async function fetchHtml(url) {
     if (!res.ok) return { ok: false, status: res.status };
     const type = res.headers.get('content-type') || '';
     if (!/html|text\/plain|xml/i.test(type)) return { ok: false, status: `unsupported type ${type}` };
-    return { ok: true, html: (await res.text()).slice(0, 2000000) };
+    return { ok: true, finalUrl: res.url || url, html: (await res.text()).slice(0, 2000000) };
   } catch (e) {
     return { ok: false, status: e.name === 'AbortError' ? 'timeout' : e.message };
   } finally {
     clearTimeout(timer);
   }
+}
+
+// Many news sites block automated requests; the Internet Archive's copy of the same page is the fallback.
+async function fetchHtml(url) {
+  const r = await fetchOnce(url);
+  if (r.ok || parseWayback(url)) return r;
+  const a = await fetchOnce(`https://web.archive.org/web/2/${url}`);
+  return a.ok ? { ...a, viaArchive: true } : r;
 }
 
 async function main() {
@@ -40,7 +48,7 @@ async function main() {
       if (!r.ok) { rec = { ok: false, officialId, url: item.url, status: r.status }; failed++; }
       else {
         const text = htmlToText(r.html).slice(0, 120000);
-        rec = { ok: true, officialId, url: item.url, title: item.title || '', fetchedAt: new Date().toISOString(), date: findPublishedDate(r.html, item.url), text, focus: '' };
+        rec = { ok: true, officialId, url: item.url, finalUrl: r.finalUrl, title: item.title || '', fetchedAt: new Date().toISOString(), date: findPublishedDate(r.html, parseWayback(item.url) ? r.finalUrl : item.url), viaArchive: !!r.viaArchive, text, focus: '' };
         rec.focus = focusText(text, sur);
         ok++;
       }

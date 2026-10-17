@@ -165,7 +165,10 @@
     const tabs = [['promises', 'Promises'], ['votes', 'Votes'], ['money', 'Money'], ['about', 'About']];
     let body = '';
     if (tab === 'promises') {
-      body = proms.length ? proms.map((p) => promiseCard(p, o)).join('') : `<div class="note">No promises have been researched for this official yet. We don't guess; missing data stays missing.</div>`;
+      const ran = (D.researchLog || {})[id];
+      body = proms.length ? proms.map((p) => promiseCard(p, o)).join('') : ran
+        ? `<div class="note">We searched for this official's promises on ${esc(fmtDate(ran.ranAt))} and did not find a specific, dated, checkable statement we could verify. That is not a judgment about them; coverage is still growing. We don't guess; missing data stays missing.</div>`
+        : `<div class="note">No promises have been researched for this official yet. We don't guess; missing data stays missing.</div>`;
     } else if (tab === 'votes') {
       const vs = D.votes.filter((v) => v.byOfficial[id]).sort((a, b) => (a.date < b.date ? 1 : -1));
       body = vs.length ? vs.map((v) => `<div class="card"><div class="name">${esc(v.title)}</div>
@@ -506,6 +509,7 @@
       $app.innerHTML = '<h1>Promise Tracker</h1><div class="note">We could not load the data. Check your connection and reload.</div>';
       return;
     }
+    try { D.researchLog = await fetch('data/research-log.json').then((r) => (r.ok ? r.json() : {})); } catch { D.researchLog = {}; }
     D.byOfficial = byId(D.officials); D.catById = byId(D.categories); D.srcById = byId(D.sources);
     const banner = document.getElementById('sample-banner');
     if (D.meta.isSample) { banner.hidden = false; banner.textContent = 'SAMPLE DATA: all officials, promises, votes and dollar amounts here are fictional, for demonstration.'; }

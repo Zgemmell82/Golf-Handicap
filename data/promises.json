@@ -1,1 +1,48 @@
-[]
+[
+ {
+  "id": "nc-02-r000305:1",
+  "officialId": "nc-02-r000305",
+  "category": "housing",
+  "text": "Says Congress needs to renew and extend the tax credit that helps builders create affordable housing.",
+  "quote": "Congress needs to renew and extend the Low Income Tax Credit, which gives builders a tax credit for building affordable housing.",
+  "madeOn": "2024-02-05",
+  "source": {
+   "outletId": "wsoctv-com",
+   "title": "Rep. Deborah Ross shares plan: affordable housing, health care, childcare",
+   "date": "2024-02-05",
+   "url": "https://wsoctv.com/news/local/rep-deborah-ross-shares-plan-affordable-housing-health-care-childcare/G6QMUD4KWZATLHYQUKAHUIPZKY",
+   "type": "interview"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+ },
+ {
+  "id": "nc-02-r000305:2",
+  "officialId": "nc-02-r000305",
+  "category": "healthcare",
+  "text": "Is working with members of both parties to cut out middlemen in drug pricing.",
+  "quote": "I’m working in a bipartisan way to kind of cut out the middlemen for drug prices",
+  "madeOn": "2024-02-05",
+  "source": {
+   "outletId": "wsoctv-com",
+   "title": "Rep. Deborah Ross shares plan: affordable housing, health care, childcare",
+   "date": "2024-02-05",
+   "url": "https://wsoctv.com/news/local/rep-deborah-ross-shares-plan-affordable-housing-health-care-childcare/G6QMUD4KWZATLHYQUKAHUIPZKY",
+   "type": "interview"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+ }
+]

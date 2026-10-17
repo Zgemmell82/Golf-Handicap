@@ -6,10 +6,10 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { htmlToText, findPublishedDate, focusText, surname } from './research-lib.mjs';
+import { htmlToText, findPublishedDate, focusText, parseWayback, surname } from './research-lib.mjs';
 import { readData, sleep } from './lib.mjs';
 
-async function fetchHtml(url) {
+async function fetchOnce(url) {
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), 25000);
   try {
@@ -23,6 +23,14 @@ async function fetchHtml(url) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+// Many news sites block automated requests; the Internet Archive's copy of the same page is the fallback.
+async function fetchHtml(url) {
+  const r = await fetchOnce(url);
+  if (r.ok || parseWayback(url)) return r;
+  const a = await fetchOnce(`https://web.archive.org/web/2/${url}`);
+  return a.ok ? { ...a, viaArchive: true } : r;
 }
 
 async function main() {
@@ -40,7 +48,7 @@ async function main() {
       if (!r.ok) { rec = { ok: false, officialId, url: item.url, status: r.status }; failed++; }
       else {
         const text = htmlToText(r.html).slice(0, 120000);
-        rec = { ok: true, officialId, url: item.url, finalUrl: r.finalUrl, title: item.title || '', fetchedAt: new Date().toISOString(), date: findPublishedDate(r.html, r.finalUrl), text, focus: '' };
+        rec = { ok: true, officialId, url: item.url, finalUrl: r.finalUrl, title: item.title || '', fetchedAt: new Date().toISOString(), date: findPublishedDate(r.html, parseWayback(item.url) ? r.finalUrl : item.url), viaArchive: !!r.viaArchive, text, focus: '' };
         rec.focus = focusText(text, sur);
         ok++;
       }

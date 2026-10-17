@@ -1,0 +1,8 @@
+{
+ "nc-02-r000305": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ }
+}

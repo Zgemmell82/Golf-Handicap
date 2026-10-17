@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       urls_json:
-        description: 'JSON object: { "<officialId>": [ { "url": "...", "title": "..." } ] }'
+        description: 'JSON object { "<officialId>": [ { "url": "..." } ] }, or @path/to/file.json in the repo'
         required: true
 permissions:
   contents: write
@@ -18,7 +18,11 @@ jobs:
         env:
           URLS_JSON: ${{ inputs.urls_json }}
         run: |
-          printf '%s' "$URLS_JSON" > /tmp/urls.json
+          # A value like @research/urls/nc-va.json means "read the list from that file in the repo".
+          case "$URLS_JSON" in
+            @*) cp "${URLS_JSON#@}" /tmp/urls.json ;;
+            *) printf '%s' "$URLS_JSON" > /tmp/urls.json ;;
+          esac
           node scripts/fetch-pages.mjs /tmp/urls.json /tmp/pages
       - name: Publish pages to the research-pages branch
         run: |

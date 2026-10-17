@@ -70,5 +70,13 @@
   "reliability": "high",
   "lean": "center",
   "note": "Fictional wire service used in the sample data."
+ },
+ {
+  "id": "wsoctv-com",
+  "name": "wsoctv.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
  }
 ]

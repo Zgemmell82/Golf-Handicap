@@ -1,0 +1,17 @@
+name: Probe data APIs
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Probe
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: node scripts/probe-apis.mjs

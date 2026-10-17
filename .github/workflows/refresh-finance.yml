@@ -1,0 +1,42 @@
+name: Refresh campaign finance
+on:
+  schedule:
+    - cron: '41 5 1 * *' # monthly
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Only fetch the first N officials (0 = everyone). Use a small number to test.'
+        default: '0'
+      force:
+        description: 'Refetch even entries that are recent'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  actions: write
+jobs:
+  finance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330 # OpenFEC allows ~1000 calls/hour; a full first run takes a few hours
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Build finance data
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: node scripts/build-finance.mjs --limit ${{ inputs.limit || '0' }} ${{ inputs.force && '--force' || '' }}
+      - run: node --test tests/*.test.js tests/*.test.mjs
+      - run: node scripts/validate-data.mjs
+      - name: Commit and redeploy if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Refresh campaign finance data"
+          git pull --rebase origin main
+          git push
+          gh workflow run pages.yml

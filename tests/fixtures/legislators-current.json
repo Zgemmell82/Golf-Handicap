@@ -1,5 +1,5 @@
 [
- {"id":{"bioguide":"X000001"},"name":{"first":"Alex","last":"Test","official_full":"Alex Test"},
+ {"id":{"bioguide":"X000001","fec":["H8OH02001","H0OH02002"]},"name":{"first":"Alex","last":"Test","official_full":"Alex Test"},
   "terms":[{"type":"rep","start":"2019-01-03","end":"2021-01-03","state":"OH","district":2,"party":"Democrat"},
            {"type":"rep","start":"2021-01-03","end":"2027-01-03","state":"OH","district":2,"party":"Democrat","url":"https://example.org/x1","phone":"202-555-0101","address":"1 Test Bldg"}]},
  {"id":{"bioguide":"X000002"},"name":{"first":"Bo","last":"Sample"},

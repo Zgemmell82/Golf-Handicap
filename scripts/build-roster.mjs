@@ -52,6 +52,7 @@ export function buildRoster(legislators, committees, membership, today = new Dat
     officials.push({
       id: slug.toLowerCase(),
       bioguide: bio,
+      fecIds: l.id.fec || [],
       chamber,
       name: l.name.official_full || `${l.name.first} ${l.name.last}`,
       party: partyCode(current.party),

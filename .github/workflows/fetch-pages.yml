@@ -1,0 +1,32 @@
+name: Fetch research pages
+on:
+  workflow_dispatch:
+    inputs:
+      urls_json:
+        description: 'JSON object: { "<officialId>": [ { "url": "...", "title": "..." } ] }'
+        required: true
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Fetch pages
+        env:
+          URLS_JSON: ${{ inputs.urls_json }}
+        run: |
+          printf '%s' "$URLS_JSON" > /tmp/urls.json
+          node scripts/fetch-pages.mjs /tmp/urls.json /tmp/pages
+      - name: Publish pages to the research-pages branch
+        run: |
+          mkdir -p /tmp/publish/pages && cp -r /tmp/pages/. /tmp/publish/pages/
+          cd /tmp/publish
+          git init -q -b research-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Fetched research pages"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" research-pages

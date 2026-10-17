@@ -191,6 +191,10 @@
       ${body}${updatedLine(o.updated)}`;
   }
 
+  function section(title, rows, label) {
+    if (!rows || !rows.length) return '';
+    return `<h2>${title}</h2><div class="card"><table><tbody>${rows.map((i) => `<tr><td>${esc(label(i))}</td><td>${Core.money(i.amount)}</td></tr>`).join('')}</tbody></table></div>`;
+  }
   function moneyView(o, fin) {
     if (!fin) return `<div class="note">No campaign finance data on file for this official yet.</div>`;
     const cs = Core.conflicts(o, D.promises, fin);
@@ -199,9 +203,10 @@
         <span style="width:${fin.smallDollarPct}%"></span><span style="width:${fin.largeDollarPct}%"></span><span style="width:${fin.selfFundedPct}%"></span></div>
       <div class="legend"><span>Small-dollar <b>${fin.smallDollarPct}%</b></span><span>Large-dollar <b>${fin.largeDollarPct}%</b></span><span>Self-funded <b>${fin.selfFundedPct}%</b></span></div></div>
       ${cs.length ? `<h2>Possible conflicts</h2>${cs.map((c) => `<div class="note">${esc(c.text)}</div>`).join('')}` : ''}
-      <h2>Top industries</h2><div class="card"><table><tbody>${fin.industries.map((i) => `<tr><td>${esc(i.name)}</td><td>${Core.money(i.amount)}</td></tr>`).join('')}</tbody></table></div>
-      <h2>Top donors</h2><div class="card"><table><tbody>${fin.topDonors.map((i) => `<tr><td>${esc(i.name)}</td><td>${Core.money(i.amount)}</td></tr>`).join('')}</tbody></table></div>
-      <h2>PACs</h2><div class="card"><table><tbody>${fin.pacs.map((i) => `<tr><td>${esc(i.name)}</td><td>${Core.money(i.amount)}</td></tr>`).join('')}</tbody></table></div>
+      ${section('Top industries', fin.industries, (i) => i.name, 'amount')}
+      ${section('Top employers of donors <span class="muted">(as reported to the FEC; not an industry classification)</span>', fin.employers, (i) => i.name, 'amount')}
+      ${section('Top donors', fin.topDonors, (i) => i.name, 'amount')}
+      ${section('PACs', fin.pacs, (i) => i.name, 'amount')}
       <p class="muted">Source: <a href="${esc(fin.source.url)}" rel="noopener">${esc(fin.source.label)}</a>. Industry totals group donors by employer or committee type and can be imperfect. A donation is not proof of influence.</p>${updatedLine(fin.updated)}`;
   }
 

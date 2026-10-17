@@ -18,6 +18,7 @@ test('house member fields', () => {
   assert.strictEqual(o.inOfficeSince, 2019);
   assert.deepStrictEqual(o.committees, ['Ways and Means']); // subcommittee excluded
   assert.strictEqual(o.contact.phone, '202-555-0101');
+  assert.deepStrictEqual(o.fecIds, ['H8OH02001', 'H0OH02002']);
 });
 test('senator who moved from the House counts years in the Senate only', () => {
   const o = roster.find((x) => x.bioguide === 'X000002');

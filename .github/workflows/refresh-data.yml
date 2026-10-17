@@ -1,4 +1,4 @@
-name: Refresh roster
+name: Refresh roster and votes
 on:
   schedule:
     - cron: '17 6 * * 1' # weekly, Monday
@@ -20,6 +20,11 @@ jobs:
         with: { node-version: 22 }
       - name: Build roster
         run: node scripts/build-roster.mjs ${{ inputs.replace_sample && '--replace-sample' || '' }}
+      - name: Build House votes
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: |
+          if [ -z "$CONGRESS_API_KEY" ]; then echo "CONGRESS_API_KEY not set; skipping votes"; else node scripts/build-votes.mjs; fi
       - run: node --test tests/*.test.js tests/*.test.mjs
       - run: node scripts/validate-data.mjs
       - name: Commit and redeploy if changed
@@ -31,6 +36,7 @@ jobs:
           git add data
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Refresh roster data"
+          git pull --rebase origin main
           git push
           # Pushes made with GITHUB_TOKEN do not start other workflows, so start the deploy explicitly.
           gh workflow run pages.yml

@@ -78,5 +78,205 @@
   "reliability": "unrated",
   "lean": "unrated",
   "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "abc11-com",
+  "name": "abc11.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "disabilityrightsnc-org",
+  "name": "disabilityrightsnc.org",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "wral-com",
+  "name": "wral.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "cardinalpine-com",
+  "name": "cardinalpine.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "valeriefoushee-com",
+  "name": "valeriefoushee.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "wfae-org",
+  "name": "wfae.org",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "news-yahoo-com",
+  "name": "news.yahoo.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "cityviewnc-com",
+  "name": "cityviewnc.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "harrigan-house-gov",
+  "name": "harrigan.house.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "coloradopolitics-com",
+  "name": "coloradopolitics.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "cnycentral-com",
+  "name": "cnycentral.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "wbtv-com",
+  "name": "wbtv.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "northcarolinahealthnews-org",
+  "name": "northcarolinahealthnews.org",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "carolinajournal-com",
+  "name": "carolinajournal.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "fox5dc-com",
+  "name": "fox5dc.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "virginiamercury-com",
+  "name": "virginiamercury.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "wjla-com",
+  "name": "wjla.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "commonwealthtimes-org",
+  "name": "commonwealthtimes.org",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "29news-com",
+  "name": "29news.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "whsv-com",
+  "name": "whsv.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "armytimes-com",
+  "name": "armytimes.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "potomaclocal-com",
+  "name": "potomaclocal.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "arlnow-com",
+  "name": "arlnow.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "wsls-com",
+  "name": "wsls.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "wdbj7-com",
+  "name": "wdbj7.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
  }
 ]

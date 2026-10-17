@@ -4,5 +4,131 @@
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
   "promisesAdded": 2
+ },
+ "nc-s-b001305": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "nc-01-d000230": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 5
+ },
+ "nc-04-f000477": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 11
+ },
+ "nc-06-m001240": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "nc-07-r000603": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 3
+ },
+ "nc-08-h001102": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "nc-09-h001067": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "nc-10-h001101": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "nc-11-e000246": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "nc-12-a000370": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 3
+ },
+ "nc-13-k000405": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "nc-14-m001236": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "va-s-k000384": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "va-01-w000804": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 3
+ },
+ "va-02-k000399": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "va-04-m001227": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "va-06-c001118": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 5
+ },
+ "va-07-v000138": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "va-08-b001292": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 3
+ },
+ "va-09-g000568": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 3
+ },
+ "va-11-w000831": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 3
  }
 }

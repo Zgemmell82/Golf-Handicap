@@ -9,7 +9,7 @@
   "ranAt": "2026-10-17",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 1
+  "promisesAdded": 3
  },
  "nc-01-d000230": {
   "ranAt": "2026-10-17",
@@ -27,7 +27,7 @@
   "ranAt": "2026-10-17",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 1
+  "promisesAdded": 2
  },
  "nc-07-r000603": {
   "ranAt": "2026-10-17",
@@ -39,19 +39,19 @@
   "ranAt": "2026-10-17",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 1
+  "promisesAdded": 3
  },
  "nc-09-h001067": {
   "ranAt": "2026-10-17",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 2
+  "promisesAdded": 4
  },
  "nc-10-h001101": {
   "ranAt": "2026-10-17",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 2
+  "promisesAdded": 3
  },
  "nc-11-e000246": {
   "ranAt": "2026-10-17",
@@ -130,5 +130,29 @@
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
   "promisesAdded": 3
+ },
+ "nc-s-t000476": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "va-03-s000185": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "va-05-m001239": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "va-s-w000805": {
+  "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
  }
 }

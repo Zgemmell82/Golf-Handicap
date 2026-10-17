@@ -278,5 +278,69 @@
   "reliability": "unrated",
   "lean": "unrated",
   "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "mcdowell-house-gov",
+  "name": "mcdowell.house.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "markharris-house-gov",
+  "name": "markharris.house.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "hudson-house-gov",
+  "name": "hudson.house.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "budd-senate-gov",
+  "name": "budd.senate.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "tillis-senate-gov",
+  "name": "tillis.senate.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "bobbyscott-house-gov",
+  "name": "bobbyscott.house.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "mcguire-house-gov",
+  "name": "mcguire.house.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
+ },
+ {
+  "id": "warner-senate-gov",
+  "name": "warner.senate.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "unrated",
+  "note": "The official's own website."
  }
 ]

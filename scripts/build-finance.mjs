@@ -9,7 +9,7 @@ import { getJson, readData, writeData } from './lib.mjs';
 
 const FEC = 'https://api.open.fec.gov/v1';
 const CYCLES = [2026, 2024];
-const NOT_AN_EMPLOYER = /^(N\/?A|NONE|NOT EMPLOYED|RETIRED|SELF|SELF[- ]?EMPLOYED|HOMEMAKER|UNEMPLOYED|STUDENT|REQUESTED|INFORMATION REQUESTED.*|ATTORNEY|REFUSED|\.)$/i;
+const NOT_AN_EMPLOYER = /^(N\/?A|NONE|NULL|NOT APPLICABLE|NOT EMPLOYED|RETIRED|SELF|SELF[- ]?EMPLOYED|HOMEMAKER|UNEMPLOYED|STUDENT|REQUESTED|INFORMATION REQUESTED.*|ATTORNEY|REFUSED|\.)$/i;
 
 const num = (x) => (typeof x === 'number' && isFinite(x) ? x : 0);
 const pct = (part, whole) => (whole > 0 ? Math.max(0, Math.min(100, Math.round((part / whole) * 100))) : 0);

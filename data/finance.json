@@ -7,10 +7,6 @@
   "selfFundedPct": 0,
   "employers": [
    {
-    "name": "NULL",
-    "amount": 84724
-   },
-   {
     "name": "KKR",
     "amount": 49841
    },
@@ -63,10 +59,6 @@
   "largeDollarPct": 97,
   "selfFundedPct": 0,
   "employers": [
-   {
-    "name": "NULL",
-    "amount": 45350
-   },
    {
     "name": "TRIBE",
     "amount": 12100
@@ -121,10 +113,6 @@
   "selfFundedPct": 0,
   "employers": [
    {
-    "name": "NULL",
-    "amount": 224873
-   },
-   {
     "name": "KKR",
     "amount": 35961
    },
@@ -178,20 +166,12 @@
   "selfFundedPct": 0,
   "employers": [
    {
-    "name": "NULL",
-    "amount": 148410
-   },
-   {
     "name": "BEASLEY ALLEN",
     "amount": 21000
    },
    {
     "name": "SULLIVAN BROTHERS FAMILY OF COMPANIES",
     "amount": 10500
-   },
-   {
-    "name": "NOT APPLICABLE",
-    "amount": 10200
    },
    {
     "name": "ATSC",
@@ -245,10 +225,6 @@
    {
     "name": "RADIANCE TECHNOLOGIES",
     "amount": 15423
-   },
-   {
-    "name": "NULL",
-    "amount": 14818
    },
    {
     "name": "COINBASE",

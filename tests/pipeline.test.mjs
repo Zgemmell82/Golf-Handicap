@@ -31,7 +31,7 @@ test('buildVote falls back for votes with no bill', () => {
 test('buildFinance computes shares and filters non-employers', () => {
   const totals = { receipts: 1000000, individual_unitemized_contributions: 250000, candidate_contribution: 50000 };
   const employers = [
-    { employer: 'RETIRED', total: 90000 }, { employer: 'N/A', total: 80000 },
+    { employer: 'NULL', total: 95000 }, { employer: 'NOT APPLICABLE', total: 92000 }, { employer: 'RETIRED', total: 90000 }, { employer: 'N/A', total: 80000 },
     { employer: 'ACME HEALTH', total: 40000.4 }, { employer: 'Self-Employed', total: 30000 }, { employer: 'INFORMATION REQUESTED PER BEST EFFORTS', total: 20000 }, { employer: 'LAKESIDE SCHOOLS', total: 10000 },
   ];
   const f = buildFinance('H0OH01234', 2024, totals, employers, '2026-10-17');

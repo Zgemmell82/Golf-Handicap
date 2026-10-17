@@ -19,6 +19,7 @@
   const PARTY = { D: 'Democratic', R: 'Republican', I: 'Independent', L: 'Libertarian', G: 'Green' };
   const partyChip = (p) => `<span class="chip" title="${esc(PARTY[p] || p)}">${esc(PARTY[p] || p)}</span>`;
   const byId = (arr) => Object.fromEntries(arr.map((x) => [x.id, x]));
+  const castLabel = (c) => ({ Aye: 'Yea', No: 'Nay' }[c] || c);
   const officialLabel = (o) => (o.chamber === 'senate' ? 'Senator' : o.chamber === 'house' ? 'Rep.' : 'Official') + ' ' + o.name;
   const seat = (o) => (o.chamber === 'senate' ? `${o.state} Senate` : o.chamber === 'house' ? `${o.state}-${o.district}` : o.state);
   const initials = (n) => n.split(/\s+/).map((w) => w[0]).slice(0, 2).join('');
@@ -110,7 +111,7 @@
     const who = members.filter((o) => v.byOfficial[o.id]);
     return `<div class="card"><div class="name">${esc(v.title)}</div>
       <p class="muted">${esc(v.billId)} · ${esc(fmtDate(v.date))} · ${esc(v.question)} · ${esc(v.result)} · <a href="${esc(v.url)}" rel="noopener">source</a></p>
-      ${who.length ? `<table><tbody>${who.map((o) => `<tr><td><a href="#/official/${o.id}">${esc(o.name)}</a> ${partyChip(o.party)}</td><td>${esc(v.byOfficial[o.id])}</td></tr>`).join('')}</tbody></table>` : ''}</div>`;
+      ${who.length ? `<table><tbody>${who.map((o) => `<tr><td><a href="#/official/${o.id}">${esc(o.name)}</a> ${partyChip(o.party)}</td><td>${esc(castLabel(v.byOfficial[o.id]))}</td></tr>`).join('')}</tbody></table>` : ''}</div>`;
   }
 
   function viewStates() {
@@ -167,7 +168,7 @@
       const vs = D.votes.filter((v) => v.byOfficial[id]).sort((a, b) => (a.date < b.date ? 1 : -1));
       body = vs.length ? vs.map((v) => `<div class="card"><div class="name">${esc(v.title)}</div>
         <p class="muted">${esc(v.billId)} · ${esc(fmtDate(v.date))} · ${esc(v.result)} · <a href="${esc(v.url)}" rel="noopener">source</a></p>
-        <p>Voted: <strong>${esc(v.byOfficial[id])}</strong></p></div>`).join('') : `<p class="muted">No votes on file.</p>`;
+        <p>Voted: <strong>${esc(castLabel(v.byOfficial[id]))}</strong></p></div>`).join('') : `<p class="muted">No votes on file.</p>`;
     } else if (tab === 'money') {
       body = moneyView(o, fin);
     } else {
@@ -328,10 +329,32 @@
   }
 
   // ---------- onboarding logic ----------
+  // ZIP data is large and only needed here, so it loads on demand. Values look like "OH-01".
+  let zipData = null;
+  async function zipDistricts(zip) {
+    if (!zipData) {
+      try { zipData = await fetch('data/zip.json').then((r) => (r.ok ? r.json() : {})); } catch { zipData = {}; }
+    }
+    return (zipData[zip] || []).map((s) => { const [state, district] = s.split('-'); return { state, district }; });
+  }
+
+  // The Census geocoder does not allow cross-origin fetch from a web page, but it supports JSONP.
+  function jsonp(url, ms = 8000) {
+    return new Promise((resolve, reject) => {
+      const cb = 'pt_cb_' + Math.random().toString(36).slice(2);
+      const script = document.createElement('script');
+      const done = () => { delete window[cb]; script.remove(); clearTimeout(timer); };
+      const timer = setTimeout(() => { done(); reject(new Error('timeout')); }, ms);
+      window[cb] = (data) => { done(); resolve(data); };
+      script.onerror = () => { done(); reject(new Error('network')); };
+      script.src = `${url}&format=jsonp&callback=${cb}`;
+      document.head.appendChild(script);
+    });
+  }
+
   async function lookupAddress(addr) {
-    const url = 'https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?benchmark=Public_AR_Current&vintage=Current_Current&format=json&address=' + encodeURIComponent(addr);
-    const res = await fetch(url);
-    const json = await res.json();
+    const url = 'https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?benchmark=Public_AR_Current&vintage=Current_Current&address=' + encodeURIComponent(addr);
+    const json = await jsonp(url);
     const m = json.result && json.result.addressMatches && json.result.addressMatches[0];
     if (!m) return null;
     const geos = m.geographies || {};
@@ -339,7 +362,8 @@
     const rec = key && geos[key][0];
     const field = rec && Object.keys(rec).find((k) => /^CD\d+$/.test(k));
     if (!field) return null;
-    return { state: m.addressComponents ? m.addressComponents.state : null, district: String(rec[field]).padStart(2, '0') };
+    const d = String(rec[field]);
+    return { state: m.addressComponents ? m.addressComponents.state : null, district: d === '98' ? '00' : d.padStart(2, '0') };
   }
 
   function districtPicker(state, districts) {
@@ -358,7 +382,8 @@
       extra.innerHTML = '<p class="muted">Looking up your address…</p>';
       try {
         const r = await lookupAddress(addrEl.value.trim());
-        if (r && r.district) district = r.district;
+        // Only trust a district we actually have a member for (maps changed in some states).
+        if (r && r.district && officialsIn(st).some((o) => o.chamber === 'house' && o.district === r.district)) district = r.district;
       } catch { /* network or browser restriction */ }
       if (!district) {
         const ds = [...new Set(officialsIn(st).filter((o) => o.chamber === 'house').map((o) => o.district))];
@@ -368,7 +393,7 @@
     }
     if (!district && zip) {
       if (!/^\d{5}$/.test(zip)) { extra.innerHTML = '<div class="note">ZIP codes have 5 digits.</div>'; return; }
-      const hits = (D.zip[zip] || []).filter((h) => h.state === st);
+      const hits = (await zipDistricts(zip)).filter((h) => h.state === st);
       if (hits.length === 1) district = hits[0].district;
       else if (hits.length > 1) {
         extra.innerHTML = `<div class="note">That ZIP code spans more than one district. Enter your street address to pinpoint yours.</div>
@@ -471,7 +496,7 @@
   async function boot() {
     applyTheme();
     try {
-      const names = ['categories', 'sources', 'officials', 'promises', 'votes', 'finance', 'zip', 'meta'];
+      const names = ['categories', 'sources', 'officials', 'promises', 'votes', 'finance', 'meta'];
       const res = await Promise.all(names.map((n) => fetch(`data/${n}.json`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); })));
       names.forEach((n, i) => { D[n] = res[i]; });
     } catch (err) {

@@ -166,6 +166,6 @@ out('officials', officials);
 out('promises', promises);
 out('votes', votes);
 out('finance', finance);
-out('zip', zip);
+out('zip', Object.fromEntries(Object.entries(zip).map(([z, hits]) => [z, hits.map((h) => `${h.state}-${h.district}`)])));
 out('meta', { isSample: true, generated: TODAY, note: 'Fictional sample data. Replace by running the data pipeline (see README).' });
 console.log('sample data written');

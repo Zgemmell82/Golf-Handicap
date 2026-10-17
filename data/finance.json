@@ -1,1 +1,287 @@
-{}
+{
+ "ak-s-s001198": {
+  "cycle": "2026",
+  "totalRaised": 11161123.71,
+  "smallDollarPct": 7,
+  "largeDollarPct": 93,
+  "selfFundedPct": 0,
+  "employers": [
+   {
+    "name": "NULL",
+    "amount": 84724
+   },
+   {
+    "name": "KKR",
+    "amount": 49841
+   },
+   {
+    "name": "APOLLO",
+    "amount": 41300
+   },
+   {
+    "name": "BLACKSTONE",
+    "amount": 39250
+   },
+   {
+    "name": "ANTHROPIC",
+    "amount": 28000
+   },
+   {
+    "name": "APOLLO GLOBAL MANAGEMENT",
+    "amount": 22700
+   },
+   {
+    "name": "RDV CORPORATION",
+    "amount": 21000
+   },
+   {
+    "name": "GCI LIBERTY",
+    "amount": 20000
+   },
+   {
+    "name": "ATLAS AIR",
+    "amount": 19500
+   },
+   {
+    "name": "ECHOSTAR",
+    "amount": 19000
+   }
+  ],
+  "industries": [],
+  "topDonors": [],
+  "pacs": [],
+  "source": {
+   "label": "FEC filings via OpenFEC",
+   "url": "https://www.fec.gov/data/candidate/S4AK00214/"
+  },
+  "updated": "2026-10-17"
+ },
+ "ak-s-m001153": {
+  "cycle": "2026",
+  "totalRaised": 1380020.21,
+  "smallDollarPct": 3,
+  "largeDollarPct": 97,
+  "selfFundedPct": 0,
+  "employers": [
+   {
+    "name": "NULL",
+    "amount": 45350
+   },
+   {
+    "name": "TRIBE",
+    "amount": 12100
+   },
+   {
+    "name": "GCI",
+    "amount": 11500
+   },
+   {
+    "name": "JANE STREET CAPITAL",
+    "amount": 10500
+   },
+   {
+    "name": "CONOCOPHILLIPS",
+    "amount": 9500
+   },
+   {
+    "name": "LYNDEN",
+    "amount": 9000
+   },
+   {
+    "name": "EUGENE A HOFFMAN MANAGEMENT INC",
+    "amount": 8000
+   },
+   {
+    "name": "ASRC ENERGY",
+    "amount": 7500
+   },
+   {
+    "name": "TRIDENT SEAFOODS",
+    "amount": 7500
+   },
+   {
+    "name": "KNOWLEDGE CREATORS",
+    "amount": 7000
+   }
+  ],
+  "industries": [],
+  "topDonors": [],
+  "pacs": [],
+  "source": {
+   "label": "FEC filings via OpenFEC",
+   "url": "https://www.fec.gov/data/candidate/S4AK00099/"
+  },
+  "updated": "2026-10-17"
+ },
+ "ak-00-b001323": {
+  "cycle": "2026",
+  "totalRaised": 6320644.24,
+  "smallDollarPct": 19,
+  "largeDollarPct": 81,
+  "selfFundedPct": 0,
+  "employers": [
+   {
+    "name": "NULL",
+    "amount": 224873
+   },
+   {
+    "name": "KKR",
+    "amount": 35961
+   },
+   {
+    "name": "CONOCOPHILLIPS",
+    "amount": 21500
+   },
+   {
+    "name": "SAULSBURY INDUSTRIES",
+    "amount": 20000
+   },
+   {
+    "name": "GCI",
+    "amount": 17300
+   },
+   {
+    "name": "TEAMHEALTH EMERGENCY PHYSICIANS",
+    "amount": 16950
+   },
+   {
+    "name": "MIDLAND ENERGY",
+    "amount": 14000
+   },
+   {
+    "name": "FOUNDERS FUND",
+    "amount": 14000
+   },
+   {
+    "name": "ULINE",
+    "amount": 14000
+   },
+   {
+    "name": "STARKEY HEARING TECHNOLOGIES",
+    "amount": 14000
+   }
+  ],
+  "industries": [],
+  "topDonors": [],
+  "pacs": [],
+  "source": {
+   "label": "FEC filings via OpenFEC",
+   "url": "https://www.fec.gov/data/candidate/H2AK01083/"
+  },
+  "updated": "2026-10-17"
+ },
+ "al-s-b001319": {
+  "cycle": "2026",
+  "totalRaised": 2978134.8,
+  "smallDollarPct": 33,
+  "largeDollarPct": 67,
+  "selfFundedPct": 0,
+  "employers": [
+   {
+    "name": "NULL",
+    "amount": 148410
+   },
+   {
+    "name": "BEASLEY ALLEN",
+    "amount": 21000
+   },
+   {
+    "name": "SULLIVAN BROTHERS FAMILY OF COMPANIES",
+    "amount": 10500
+   },
+   {
+    "name": "NOT APPLICABLE",
+    "amount": 10200
+   },
+   {
+    "name": "ATSC",
+    "amount": 8000
+   },
+   {
+    "name": "SHIELD AI",
+    "amount": 7500
+   },
+   {
+    "name": "TAMERON AUTOMOTIVE GROUP",
+    "amount": 7000
+   },
+   {
+    "name": "68 VENTURES",
+    "amount": 7000
+   },
+   {
+    "name": "VAN SCOYOC ASSOCIATES",
+    "amount": 7000
+   },
+   {
+    "name": "BUD BUSCH DIST",
+    "amount": 7000
+   }
+  ],
+  "industries": [],
+  "topDonors": [],
+  "pacs": [],
+  "source": {
+   "label": "FEC filings via OpenFEC",
+   "url": "https://www.fec.gov/data/candidate/S2AL00145/"
+  },
+  "updated": "2026-10-17"
+ },
+ "al-s-t000278": {
+  "cycle": "2026",
+  "totalRaised": 726222.5,
+  "smallDollarPct": 24,
+  "largeDollarPct": 76,
+  "selfFundedPct": 0,
+  "employers": [
+   {
+    "name": "SYNERGI PARTNERS",
+    "amount": 21000
+   },
+   {
+    "name": "BLACKSTONE",
+    "amount": 20000
+   },
+   {
+    "name": "RADIANCE TECHNOLOGIES",
+    "amount": 15423
+   },
+   {
+    "name": "NULL",
+    "amount": 14818
+   },
+   {
+    "name": "COINBASE",
+    "amount": 7000
+   },
+   {
+    "name": "WINKLEVOSS CAPITAL MANAGEMENT",
+    "amount": 7000
+   },
+   {
+    "name": "HUNT COMPANIES INC.",
+    "amount": 7000
+   },
+   {
+    "name": "AUDAX GROUP",
+    "amount": 7000
+   },
+   {
+    "name": "THE ANSCHUTZ CORPORATION",
+    "amount": 7000
+   },
+   {
+    "name": "J.W. CHILDS ASSOCIATES",
+    "amount": 7000
+   }
+  ],
+  "industries": [],
+  "topDonors": [],
+  "pacs": [],
+  "source": {
+   "label": "FEC filings via OpenFEC",
+   "url": "https://www.fec.gov/data/candidate/S0AL00230/"
+  },
+  "updated": "2026-10-17"
+ }
+}

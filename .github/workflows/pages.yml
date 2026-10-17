@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: node --test tests/*.test.js
+      - run: node scripts/validate-data.mjs
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: test
@@ -26,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      - run: mkdir _site && cp index.html style.css app.js handicap.js importer.js _site/
+      - run: mkdir _site && cp -r index.html sw.js manifest.webmanifest css js data icons _site/
       - uses: actions/upload-pages-artifact@v3
       - id: deployment
         uses: actions/deploy-pages@v4

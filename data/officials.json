@@ -1,0 +1,200 @@
+[
+ {
+  "id": "oh01",
+  "chamber": "house",
+  "name": "Morgan Ellis",
+  "party": "D",
+  "state": "OH",
+  "district": "01",
+  "firstElected": 2020,
+  "inOfficeSince": 2021,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Energy and Commerce",
+   "Veterans' Affairs"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "oh02",
+  "chamber": "house",
+  "name": "Casey Whitfield",
+  "party": "R",
+  "state": "OH",
+  "district": "02",
+  "firstElected": 2018,
+  "inOfficeSince": 2019,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Ways and Means",
+   "Budget"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "ohs1",
+  "chamber": "senate",
+  "name": "Riley Navarro",
+  "party": "R",
+  "state": "OH",
+  "district": null,
+  "firstElected": 2016,
+  "inOfficeSince": 2017,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Finance",
+   "Agriculture"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "tx01",
+  "chamber": "house",
+  "name": "Taylor Brandt",
+  "party": "R",
+  "state": "TX",
+  "district": "01",
+  "firstElected": 2022,
+  "inOfficeSince": 2023,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Energy and Commerce",
+   "Homeland Security"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "tx02",
+  "chamber": "house",
+  "name": "Jamie Okafor",
+  "party": "D",
+  "state": "TX",
+  "district": "02",
+  "firstElected": 2020,
+  "inOfficeSince": 2021,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Education and Workforce",
+   "Small Business"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "ca01",
+  "chamber": "house",
+  "name": "Quinn Halloran",
+  "party": "D",
+  "state": "CA",
+  "district": "01",
+  "firstElected": 2018,
+  "inOfficeSince": 2019,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Natural Resources",
+   "Transportation"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "ca02",
+  "chamber": "house",
+  "name": "Avery Lindgren",
+  "party": "R",
+  "state": "CA",
+  "district": "02",
+  "firstElected": 2022,
+  "inOfficeSince": 2023,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Agriculture",
+   "Natural Resources"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "pa01",
+  "chamber": "house",
+  "name": "Sam Delacroix",
+  "party": "D",
+  "state": "PA",
+  "district": "01",
+  "firstElected": 2016,
+  "inOfficeSince": 2017,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Ways and Means",
+   "Education and Workforce"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "pa02",
+  "chamber": "house",
+  "name": "Drew Kowalski",
+  "party": "R",
+  "state": "PA",
+  "district": "02",
+  "firstElected": 2020,
+  "inOfficeSince": 2021,
+  "photo": null,
+  "sample": true,
+  "committees": [
+   "Transportation",
+   "Energy and Commerce"
+  ],
+  "contact": {
+   "phone": "(202) 555-0100",
+   "website": "https://example.org/sample",
+   "office": "Sample Office Building, Washington, DC"
+  },
+  "updated": "2026-10-17"
+ }
+]

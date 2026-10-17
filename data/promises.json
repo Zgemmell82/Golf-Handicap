@@ -1,0 +1,592 @@
+[
+ {
+  "id": "oh01:1",
+  "officialId": "oh01",
+  "category": "healthcare",
+  "text": "Lower prescription drug costs for seniors.",
+  "madeOn": "2020-09-14",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2020-09-14",
+   "url": "https://example.org/sample/statement/2020-09-14"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9001 (sample): Senior Drug Cost Act, signed into law",
+    "date": "2023-03-02",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-wire",
+    "title": "Senior drug cap becomes law",
+    "date": "2023-03-03",
+    "url": "https://example.org/sample/sample-wire/2023-03-03"
+   },
+   {
+    "outletId": "politifact",
+    "title": "Rated: Promise Kept",
+    "date": "2023-04-10",
+    "url": "https://example.org/sample/politifact/2023-04-10"
+   }
+  ],
+  "howRated": "A bill the official sponsored became law and capped out-of-pocket drug costs for seniors. The law text, the wire report and a fact-check agree.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [
+   "pharma"
+  ],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "oh01:2",
+  "officialId": "oh01",
+  "category": "environment",
+  "text": "Oppose new drilling on public lands.",
+  "madeOn": "2020-10-01",
+  "source": {
+   "outletId": "own-words",
+   "title": "Debate transcript",
+   "date": "2020-10-01",
+   "url": "https://example.org/sample/statement/2020-10-01"
+  },
+  "status": "partial",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 212 (sample): voted for restrictions on new leases",
+    "date": "2022-06-09",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 340 (sample): voted for a bill that allowed some leases",
+    "date": "2023-11-02",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-ledger",
+    "title": "Mixed record on leases",
+    "date": "2023-11-04",
+    "url": "https://example.org/sample/sample-ledger/2023-11-04"
+   }
+  ],
+  "howRated": "Voted for restrictions once and for a bill that allowed some new leases once. Both votes are linked below.",
+  "statusNote": "",
+  "contested": true,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "oh01:3",
+  "officialId": "oh01",
+  "category": "infrastructure",
+  "text": "Bring broadband to every rural county in the district.",
+  "madeOn": "2020-08-20",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2020-08-20",
+   "url": "https://example.org/sample/statement/2020-08-20"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9120 (sample): co-sponsored rural broadband grants, in committee",
+    "date": "2024-02-15",
+    "url": "https://www.congress.gov/"
+   }
+  ],
+  "howRated": "Co-sponsored a bill that has not passed. Work is ongoing, so no final rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "oh02:1",
+  "officialId": "oh02",
+  "category": "taxes",
+  "text": "Cut taxes for small businesses.",
+  "madeOn": "2018-09-12",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2018-09-12",
+   "url": "https://example.org/sample/statement/2018-09-12"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9002 (sample): Small Business Tax Relief Act, signed into law",
+    "date": "2021-12-14",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-wire",
+    "title": "Small business tax law signed",
+    "date": "2021-12-15",
+    "url": "https://example.org/sample/sample-wire/2021-12-15"
+   }
+  ],
+  "howRated": "Voted for and co-sponsored a law that lowered the small-business rate. Law text and a wire report agree.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "oh02:2",
+  "officialId": "oh02",
+  "category": "healthcare",
+  "text": "Lower prescription drug costs for seniors.",
+  "madeOn": "2018-10-10",
+  "source": {
+   "outletId": "own-words",
+   "title": "Debate transcript",
+   "date": "2018-10-10",
+   "url": "https://example.org/sample/statement/2018-10-10"
+  },
+  "status": "broken",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 188 (sample): voted against the Senior Drug Cost Act",
+    "date": "2023-02-24",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-ledger",
+    "title": "Voted no on drug cap",
+    "date": "2023-02-25",
+    "url": "https://example.org/sample/sample-ledger/2023-02-25"
+   },
+   {
+    "outletId": "sample-standard",
+    "title": "Why he voted no: cost concerns",
+    "date": "2023-02-26",
+    "url": "https://example.org/sample/sample-standard/2023-02-26"
+   }
+  ],
+  "howRated": "Voted against the main bill on this topic; the official has said the bill cost too much. Sources from different outlets agree on the vote.",
+  "statusNote": "",
+  "contested": true,
+  "opposesIndustries": [
+   "pharma"
+  ],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "oh02:3",
+  "officialId": "oh02",
+  "category": "economy",
+  "text": "Balance the federal budget within a decade.",
+  "madeOn": "2018-08-02",
+  "source": {
+   "outletId": "own-words",
+   "title": "Press release",
+   "date": "2018-08-02",
+   "url": "https://example.org/sample/statement/2018-08-02"
+  },
+  "status": "unverifiable",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Budget resolution votes (sample)",
+    "date": "2022-04-01",
+    "url": "https://www.congress.gov/"
+   }
+  ],
+  "howRated": "The promise has no measurable target date or bill. Only one independent source is on file.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "ohs1:1",
+  "officialId": "ohs1",
+  "category": "economy",
+  "text": "Protect manufacturing jobs in the state.",
+  "madeOn": "2016-09-09",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2016-09-09",
+   "url": "https://example.org/sample/statement/2016-09-09"
+  },
+  "status": "partial",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "S. 9003 (sample): manufacturing credit, passed",
+    "date": "2019-05-20",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-wire",
+    "title": "Plant closings continue despite credit",
+    "date": "2022-01-12",
+    "url": "https://example.org/sample/sample-wire/2022-01-12"
+   }
+  ],
+  "howRated": "Sponsored a credit that passed; job totals in the state have been mixed.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "tx01:1",
+  "officialId": "tx01",
+  "category": "public-safety",
+  "text": "Increase funding for border and port security.",
+  "madeOn": "2022-09-20",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2022-09-20",
+   "url": "https://example.org/sample/statement/2022-09-20"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 301 (sample): voted for the Port Security Funding Act",
+    "date": "2023-09-14",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9004 (sample): signed into law",
+    "date": "2023-10-01",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-standard",
+    "title": "Port funding signed",
+    "date": "2023-10-02",
+    "url": "https://example.org/sample/sample-standard/2023-10-02"
+   }
+  ],
+  "howRated": "Voted for and the law increased port security funding.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "tx01:2",
+  "officialId": "tx01",
+  "category": "environment",
+  "text": "Block new federal limits on oil and gas.",
+  "madeOn": "2022-10-05",
+  "source": {
+   "outletId": "own-words",
+   "title": "Debate transcript",
+   "date": "2022-10-05",
+   "url": "https://example.org/sample/statement/2022-10-05"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9130 (sample): co-sponsored, awaiting floor vote",
+    "date": "2024-03-02",
+    "url": "https://www.congress.gov/"
+   }
+  ],
+  "howRated": "Co-sponsored a bill that has not passed.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [
+   "environmental-groups"
+  ],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "tx02:1",
+  "officialId": "tx02",
+  "category": "education",
+  "text": "Make community college tuition-free.",
+  "madeOn": "2020-09-30",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2020-09-30",
+   "url": "https://example.org/sample/statement/2020-09-30"
+  },
+  "status": "broken",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 275 (sample): voted for the version of the bill that dropped the tuition provision",
+    "date": "2023-07-19",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-ledger",
+    "title": "Tuition provision dropped",
+    "date": "2023-07-20",
+    "url": "https://example.org/sample/sample-ledger/2023-07-20"
+   },
+   {
+    "outletId": "sample-standard",
+    "title": "Free college plan stalls",
+    "date": "2023-07-21",
+    "url": "https://example.org/sample/sample-standard/2023-07-21"
+   }
+  ],
+  "howRated": "The provision was removed and the official voted for the final bill without it. Sources from left- and right-leaning outlets agree on the facts.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "tx02:2",
+  "officialId": "tx02",
+  "category": "healthcare",
+  "text": "Expand access to rural clinics.",
+  "madeOn": "2020-09-30",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2020-09-30",
+   "url": "https://example.org/sample/statement/2020-09-30"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9005 (sample): Rural Clinics Act, signed into law",
+    "date": "2022-11-30",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "factcheck-org",
+    "title": "Checked: clinic funding claim",
+    "date": "2023-01-12",
+    "url": "https://example.org/sample/factcheck-org/2023-01-12"
+   }
+  ],
+  "howRated": "Sponsored a law that funded rural clinics.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "ca01:1",
+  "officialId": "ca01",
+  "category": "environment",
+  "text": "Reach 100% clean electricity by 2035.",
+  "madeOn": "2018-09-05",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2018-09-05",
+   "url": "https://example.org/sample/statement/2018-09-05"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9140 (sample): Clean Grid Act, in committee",
+    "date": "2024-04-10",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-ledger",
+    "title": "Clean grid target faces hurdles",
+    "date": "2024-05-01",
+    "url": "https://example.org/sample/sample-ledger/2024-05-01"
+   }
+  ],
+  "howRated": "Sponsor of a bill that has not passed, so the promise is still pending.",
+  "statusNote": "",
+  "contested": true,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "ca01:2",
+  "officialId": "ca01",
+  "category": "infrastructure",
+  "text": "Fund high-speed rail.",
+  "madeOn": "2018-09-05",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2018-09-05",
+   "url": "https://example.org/sample/statement/2018-09-05"
+  },
+  "status": "unverifiable",
+  "evidence": [
+   {
+    "outletId": "sample-ledger",
+    "title": "Rail project timeline",
+    "date": "2022-02-02",
+    "url": "https://example.org/sample/sample-ledger/2022-02-02"
+   }
+  ],
+  "howRated": "Only one independent source is on file and no bill ties directly to the promise.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "ca02:1",
+  "officialId": "ca02",
+  "category": "taxes",
+  "text": "Repeal the state and local tax cap.",
+  "madeOn": "2022-09-12",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2022-09-12",
+   "url": "https://example.org/sample/statement/2022-09-12"
+  },
+  "status": "partial",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 220 (sample): voted for a higher cap",
+    "date": "2023-06-01",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-wire",
+    "title": "Higher cap passes House, stalls",
+    "date": "2023-06-02",
+    "url": "https://example.org/sample/sample-wire/2023-06-02"
+   }
+  ],
+  "howRated": "Voted for raising the cap, which is not a full repeal.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "pa01:1",
+  "officialId": "pa01",
+  "category": "economy",
+  "text": "Raise the federal minimum wage.",
+  "madeOn": "2016-09-20",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2016-09-20",
+   "url": "https://example.org/sample/statement/2016-09-20"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 150 (sample): voted for the Wage Act",
+    "date": "2021-03-11",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9006 (sample): Wage Act signed",
+    "date": "2021-03-30",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-wire",
+    "title": "Minimum wage law signed",
+    "date": "2021-03-31",
+    "url": "https://example.org/sample/sample-wire/2021-03-31"
+   }
+  ],
+  "howRated": "The law passed with this official voting yes.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "pa02:1",
+  "officialId": "pa02",
+  "category": "infrastructure",
+  "text": "Repair roads and bridges in the district.",
+  "madeOn": "2020-09-18",
+  "source": {
+   "outletId": "own-words",
+   "title": "Campaign website, archived",
+   "date": "2020-09-18",
+   "url": "https://example.org/sample/statement/2020-09-18"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "H.R. 9007 (sample): Infrastructure Act, signed",
+    "date": "2021-11-15",
+    "url": "https://www.congress.gov/"
+   },
+   {
+    "outletId": "sample-standard",
+    "title": "Bridge repair funds arrive",
+    "date": "2022-06-01",
+    "url": "https://example.org/sample/sample-standard/2022-06-01"
+   }
+  ],
+  "howRated": "Voted for the law; district bridge funds were announced.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ },
+ {
+  "id": "pa02:2",
+  "officialId": "pa02",
+  "category": "public-safety",
+  "text": "Hire more police officers.",
+  "madeOn": "2020-09-18",
+  "source": {
+   "outletId": "own-words",
+   "title": "Press release",
+   "date": "2020-09-18",
+   "url": "https://example.org/sample/statement/2020-09-18"
+  },
+  "status": "broken",
+  "evidence": [
+   {
+    "outletId": "congress-gov",
+    "title": "Roll call 260 (sample): voted against a grant program for police hiring",
+    "date": "2023-05-10",
+    "url": "https://www.congress.gov/"
+   }
+  ],
+  "howRated": "Voted against a bill with police hiring grants, citing other provisions. Only the official vote record is on file so far.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-17",
+  "review": "human-reviewed (sample)"
+ }
+]

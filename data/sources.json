@@ -1,0 +1,74 @@
+[
+ {
+  "id": "congress-gov",
+  "name": "Congress.gov",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Official record of bills, votes and law status."
+ },
+ {
+  "id": "fec-gov",
+  "name": "FEC filings",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Federal Election Commission campaign finance filings."
+ },
+ {
+  "id": "govtrack",
+  "name": "GovTrack",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Open-data mirror of congressional records."
+ },
+ {
+  "id": "own-words",
+  "name": "Official's own statement",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Campaign site, press release, floor remarks or transcript."
+ },
+ {
+  "id": "politifact",
+  "name": "PolitiFact",
+  "kind": "factcheck",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Fact-checker (secondary source). We do not assign lean to fact-checkers; see Methodology."
+ },
+ {
+  "id": "factcheck-org",
+  "name": "FactCheck.org",
+  "kind": "factcheck",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Fact-checker (secondary source)."
+ },
+ {
+  "id": "sample-ledger",
+  "name": "Lakeshore Ledger (sample)",
+  "kind": "news",
+  "reliability": "medium",
+  "lean": "left",
+  "note": "Fictional outlet used in the sample data."
+ },
+ {
+  "id": "sample-standard",
+  "name": "Prairie Standard (sample)",
+  "kind": "news",
+  "reliability": "medium",
+  "lean": "right",
+  "note": "Fictional outlet used in the sample data."
+ },
+ {
+  "id": "sample-wire",
+  "name": "Capital Wire (sample)",
+  "kind": "news",
+  "reliability": "high",
+  "lean": "center",
+  "note": "Fictional wire service used in the sample data."
+ }
+]

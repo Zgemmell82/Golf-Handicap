@@ -1,19 +1,31 @@
-# Golf Handicap Tracker
+# Promise Tracker
 
-A static web app that tracks golf rounds and calculates a Handicap Index using World Handicap System rules.
+A mobile-first web app (installable PWA) that shows whether elected officials kept their promises, with the evidence and sources behind every rating.
 
-- Score differential = (113 / slope) × (adjusted gross − course rating − PCC)
-- Index = average of the best N differentials from your last 20 rounds (N per the WHS table, with the small-sample adjustments for 3–6 rounds), capped at 54.0
-- 9-hole rounds supported: pairs of 9-hole differentials are combined into one 18-hole differential; an unpaired 9-hole round uses an expected differential (0.52 × index + 1.2) for the other nine. Enter 9-hole rating and slope for 9-hole rounds.
-- Enter just a total score, or optionally hole-by-hole (summed for you)
-- Import past rounds from a CSV file or pasted spreadsheet rows (columns auto-matched; duplicates skipped)
-- Course handicap calculator (index × slope/113 + rating − par)
-- Data is stored in your browser (localStorage); export/import as JSON
+**Status: working prototype running on a FICTIONAL sample dataset.** Every official, promise, vote and dollar amount in `data/` is invented (see `scripts/make-sample.mjs`) and the app shows a banner saying so. Real data comes from the pipeline below.
 
-## Run
+## What's in it
+- State onboarding (50 states, DC, territories) with optional ZIP to find your House district; a ZIP spanning several districts asks for a street address (Census geocoder)
+- "Your Representatives" home with scorecards, browse-any-state tile map, state pages (delegation scorecard, members, recent votes)
+- Official profiles: promises with expandable evidence cards and "How we rated this", votes, campaign money with rule-based "possible conflict" flags, contact and committees
+- Directory with search and filters (party, chamber, committee, issue, promise status), compare-two-officials, favorites, and an in-app alerts feed
+- Methodology page with a live party bias check
 
-Open `index.html`, or serve the folder (`python3 -m http.server`). Deployed via GitHub Pages.
+## Rules (all in `js/core.js`, same for every official)
+- "Kept" or "Broken" needs 2 independent sources (different outlets); otherwise it is shown as Unverifiable with the reason
+- Confidence High/Medium/Low from source count, primary-record presence and reliability; contested ratings are capped until sources span the spectrum
+- Conflict flag only when a promise names an industry and filings show at least $25,000 and 5% of receipts from it; wording is neutral
+- `scripts/validate-data.mjs` rejects data with missing sources or loaded language ("lied", "betrayed", ...)
 
-## Test
+## Data model
+`data/*.json`: `officials` (chamber field supports house/senate/governor/state/local), `promises`, `votes`, `finance`, `sources` (reliability + lean ratings), `categories`, `zip`, `meta`.
 
-`node --test tests/*.test.js`
+## Run / test
+```
+python3 -m http.server   # then open http://localhost:8000
+node --test tests/*.test.js
+node scripts/validate-data.mjs
+```
+
+## Real data pipeline (next steps)
+Needs free keys from api.data.gov for Congress.gov and OpenFEC, stored as GitHub secrets. Planned scripts: roster (unitedstates/congress-legislators), ZIP-to-district (Census), votes (Congress.gov / Voteview), finance (OpenFEC). Promises are researched with required source links and human review; they are not auto-published.

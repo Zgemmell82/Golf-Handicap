@@ -1,5 +1,5 @@
 {
- "isSample": true,
+ "isSample": false,
  "generated": "2026-10-17",
- "note": "Fictional sample data. Replace by running the data pipeline (see README)."
+ "note": "Roster from unitedstates/congress-legislators. Promises, votes and finance are added separately, each with sources."
 }

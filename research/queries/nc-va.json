@@ -345,5 +345,130 @@
    "sexual assault"
   ],
   "since": "2025-09-01"
+ },
+ "nc-06-m001240:2": {
+  "keywords": [
+   "fentanyl",
+   "border",
+   "opioid",
+   "illegal",
+   "secure"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-08-h001102:2": {
+  "keywords": [
+   "born-alive",
+   "unborn",
+   "abortion",
+   "pro-life"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-08-h001102:3": {
+  "keywords": [
+   "border",
+   "immigration",
+   "secure",
+   "law enforcement",
+   "police"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-09-h001067:3": {
+  "keywords": [
+   "tax cuts",
+   "tax relief",
+   "spending",
+   "rescission",
+   "appropriations"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-09-h001067:4": {
+  "keywords": [
+   "concealed carry",
+   "reciprocity"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-b001305:2": {
+  "keywords": [
+   "border",
+   "wall",
+   "fentanyl",
+   "illegal"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-b001305:3": {
+  "keywords": [
+   "energy",
+   "drilling",
+   "pipeline",
+   "gas",
+   "nuclear"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-t000476:1": {
+  "keywords": [
+   "veteran",
+   "mental health",
+   "suicide"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-t000476:2": {
+  "keywords": [
+   "children's health",
+   "chip",
+   "medicaid"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-03-s000185:1": {
+  "keywords": [
+   "child care",
+   "childcare"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-03-s000185:2": {
+  "keywords": [
+   "head start",
+   "early childhood",
+   "child care"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-05-m001239:1": {
+  "keywords": [
+   "cost",
+   "tax",
+   "spending",
+   "reorganization",
+   "federal workforce"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-s-w000805:1": {
+  "keywords": [
+   "artificial intelligence",
+   "ai",
+   "workforce",
+   "workers"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-10-h001101:3": {
+  "keywords": [
+   "national defense",
+   "military",
+   "troops",
+   "pay raise",
+   "ndaa"
+  ],
+  "since": "2023-01-01"
  }
 }

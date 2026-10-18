@@ -1,0 +1,1241 @@
+[
+ {
+  "promiseId": "nc-02-r000305:1",
+  "status": "progress",
+  "rationale": "She cosponsored the housing credit bill in two Congresses; it has not advanced past committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "2725",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "3238",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-02-r000305:2",
+  "status": "unverifiable",
+  "rationale": "No bill or vote about pharmacy benefit managers was found in her record.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-s-b001305:1",
+  "status": "progress",
+  "rationale": "He sponsored and cosponsored energy bills that are still in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 118,
+    "type": "s",
+    "number": "3655",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "s",
+    "number": "1017",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "s",
+    "number": "883",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-s-b001305:2",
+  "status": "progress",
+  "rationale": "He sponsored a border wall bill that is still in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 118,
+    "type": "s",
+    "number": "422",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-s-b001305:3",
+  "status": "progress",
+  "rationale": "He sponsored a nuclear power resolution and cosponsored an energy infrastructure bill; the bill is still in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 118,
+    "type": "sres",
+    "number": "321",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "s",
+    "number": "4944",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-01-d000230:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-01-d000230:2",
+  "status": "unverifiable",
+  "rationale": "He sponsored a resolution supporting states that expand Medicaid, which is different from the federal alternative he described. No bill for that alternative was found.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-01-d000230:3",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-01-d000230:4",
+  "status": "progress",
+  "rationale": "He voted yes on the House farm bill and sponsored a commodity prices bill. The farm bill has passed the House but is not law.",
+  "votes": [
+   {
+    "id": "h119-2-154",
+    "relation": "consistent",
+    "explain": "Consistent with the promise."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "2043",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "5101",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-01-d000230:5",
+  "status": "unverifiable",
+  "rationale": "His votes are consistent with this stance, but no bill that codifies Roe v. Wade appears in his sponsored or cosponsored list.",
+  "votes": [
+   {
+    "id": "h119-1-27",
+    "relation": "consistent",
+    "explain": "He voted no on this bill, which is consistent with his stated position but does not codify Roe v. Wade."
+   },
+   {
+    "id": "h118-1-29",
+    "relation": "consistent",
+    "explain": "He voted no on this bill, which is consistent with his stated position but does not codify Roe v. Wade."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-04-f000477:1",
+  "status": "unverifiable",
+  "rationale": "No bill or vote on the child tax credit was found in her record.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-04-f000477:2",
+  "status": "progress",
+  "rationale": "She cosponsored the Raise the Wage Act in two Congresses; it has not advanced.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "2743",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "4889",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:3",
+  "status": "progress",
+  "rationale": "She cosponsored the John R. Lewis Voting Rights Advancement Act in two Congresses; it has not advanced.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "14",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "14",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:4",
+  "status": "progress",
+  "rationale": "She cosponsored the Medicare for All Act in two Congresses; it has not advanced.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "3069",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "3421",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:5",
+  "status": "progress",
+  "rationale": "She cosponsored child care bills. They are not the same as universal pre-K, and they remain in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "4418",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "953",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:6",
+  "status": "unverifiable",
+  "rationale": "The votes found on health care in her record do not show how she voted on extending the subsidies.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-04-f000477:7",
+  "status": "progress",
+  "rationale": "She cosponsored contraception and abortion access bills; none has advanced.",
+  "votes": [
+   {
+    "id": "h119-1-27",
+    "relation": "consistent",
+    "explain": "She voted no on this bill. This is consistent with her stated position."
+   },
+   {
+    "id": "h118-1-29",
+    "relation": "consistent",
+    "explain": "She voted no on this bill. This is consistent with her stated position."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "999",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "4121",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "1723",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:8",
+  "status": "progress",
+  "rationale": "She cosponsored debt and tuition bills that have not advanced, and voted no on a measure that would have overturned a student loan rule.",
+  "votes": [
+   {
+    "id": "h118-1-234",
+    "relation": "consistent",
+    "explain": "She voted no on overturning the Education Department student loan waiver rule."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "3543",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "4117",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "4986",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:9",
+  "status": "progress",
+  "rationale": "She cosponsored bills about ICE custody standards and a hiring freeze, and voted no on the Homeland Security appropriations bill. None of the bills has advanced.",
+  "votes": [
+   {
+    "id": "h119-2-87",
+    "relation": "consistent",
+    "explain": "She voted no on the Department of Homeland Security appropriations bill."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "7335",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "7392",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "3172",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:10",
+  "status": "kept",
+  "rationale": "She voted no on the 2025 tax law and cosponsored taxes on very high wealth. Both are consistent with her stated tax position.",
+  "votes": [
+   {
+    "id": "h119-1-145",
+    "relation": "consistent",
+    "explain": "She voted no on the 2025 reconciliation law, which cut taxes. This is consistent with her stated support for higher taxes on high earners."
+   },
+   {
+    "id": "h119-1-190",
+    "relation": "consistent",
+    "explain": "She voted no on the 2025 reconciliation law, which cut taxes. This is consistent with her stated support for higher taxes on high earners."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "8085",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "2671",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:11",
+  "status": "kept",
+  "rationale": "She voted no on repeated measures that rolled back climate rules and cosponsored Green New Deal bills.",
+  "votes": [
+   {
+    "id": "h119-1-52",
+    "relation": "consistent",
+    "explain": "She voted no on overturning an Environmental Protection Agency climate or pollution rule."
+   },
+   {
+    "id": "h118-2-438",
+    "relation": "consistent",
+    "explain": "She voted no on overturning an Environmental Protection Agency climate or pollution rule."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 118,
+    "type": "hres",
+    "number": "319",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "5784",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-06-m001240:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-06-m001240:2",
+  "status": "kept",
+  "rationale": "He voted yes on the fentanyl scheduling law and on the Secure America Act.",
+  "votes": [
+   {
+    "id": "h119-1-33",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about fentanyl or border security."
+   },
+   {
+    "id": "h119-1-166",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about fentanyl or border security."
+   },
+   {
+    "id": "h119-2-214",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about fentanyl or border security."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-07-r000603:1",
+  "status": "kept",
+  "rationale": "He voted yes on the 2025 reconciliation law, which made the 2017 individual tax rates permanent.",
+  "votes": [
+   {
+    "id": "h119-1-145",
+    "relation": "consistent",
+    "explain": "He voted yes on the 2025 reconciliation law that extended the 2017 tax cuts."
+   },
+   {
+    "id": "h119-1-190",
+    "relation": "consistent",
+    "explain": "He voted yes on the 2025 reconciliation law that extended the 2017 tax cuts."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-07-r000603:2",
+  "status": "kept",
+  "rationale": "He voted yes on the Born-Alive Abortion Survivors Protection Act in two Congresses and on a resolution condemning attacks on pro-life groups.",
+  "votes": [
+   {
+    "id": "h119-1-27",
+    "relation": "consistent",
+    "explain": "He voted yes on this pro-life measure."
+   },
+   {
+    "id": "h118-1-29",
+    "relation": "consistent",
+    "explain": "He voted yes on this pro-life measure."
+   },
+   {
+    "id": "h118-1-30",
+    "relation": "consistent",
+    "explain": "He voted yes on this pro-life measure."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-07-r000603:3",
+  "status": "partial",
+  "rationale": "He voted for fentanyl and opioid bills, but the PFAS clean-up promise is supported only by a cosponsored bill that has not advanced.",
+  "votes": [
+   {
+    "id": "h119-1-33",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about fentanyl or opioids."
+   },
+   {
+    "id": "h119-1-166",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about fentanyl or opioids."
+   },
+   {
+    "id": "h118-2-514",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about fentanyl or opioids."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "5259",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-08-h001102:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-08-h001102:2",
+  "status": "kept",
+  "rationale": "He voted yes on the Born-Alive Abortion Survivors Protection Act and sponsored related bills.",
+  "votes": [
+   {
+    "id": "h119-1-27",
+    "relation": "consistent",
+    "explain": "He voted yes on this pro-life bill."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "729",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-08-h001102:3",
+  "status": "kept",
+  "rationale": "He voted yes on the Secure America Act and on law enforcement bills, including one he sponsored.",
+  "votes": [
+   {
+    "id": "h119-2-214",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about border security or law enforcement."
+   },
+   {
+    "id": "h119-2-171",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about border security or law enforcement."
+   },
+   {
+    "id": "h119-2-169",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill about border security or law enforcement."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-09-h001067:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-09-h001067:2",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-09-h001067:3",
+  "status": "partial",
+  "rationale": "He voted yes on the 2025 reconciliation law that made tax cuts permanent. No recorded vote shows a lower overall level of federal spending or a smaller government.",
+  "votes": [
+   {
+    "id": "h119-1-145",
+    "relation": "consistent",
+    "explain": "He voted yes on the 2025 reconciliation law, which extended the tax cuts."
+   },
+   {
+    "id": "h119-1-190",
+    "relation": "consistent",
+    "explain": "He voted yes on the 2025 reconciliation law, which extended the tax cuts."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-09-h001067:4",
+  "status": "progress",
+  "rationale": "He sponsored the concealed carry reciprocity bill, which is on the House calendar but has not passed.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "38",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "38",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-10-h001101:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-10-h001101:2",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-10-h001101:3",
+  "status": "kept",
+  "rationale": "He voted yes on the defense authorization acts for fiscal years 2026 and 2027.",
+  "votes": [
+   {
+    "id": "h119-2-278",
+    "relation": "consistent",
+    "explain": "He voted yes on the National Defense Authorization Act."
+   },
+   {
+    "id": "h119-1-262",
+    "relation": "consistent",
+    "explain": "He voted yes on the National Defense Authorization Act."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-11-e000246:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-11-e000246:2",
+  "status": "unverifiable",
+  "rationale": "He voted yes on House Israel aid bills, but our data does not show the text of the bill so we cannot confirm the IRS offset.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-12-a000370:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-12-a000370:2",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-12-a000370:3",
+  "status": "unverifiable",
+  "rationale": "No bill or vote about preexisting condition coverage was found in her record.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-13-k000405:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-13-k000405:2",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-14-m001236:1",
+  "status": "unverifiable",
+  "rationale": "No term limit bill or vote was found in his record.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-s-t000476:1",
+  "status": "unverifiable",
+  "rationale": "He voted yes on veterans funding and cosponsored veterans bills, one of which became law, but no vote or bill is specific to veterans mental health.",
+  "votes": [
+   {
+    "id": "s119-1-480",
+    "relation": "consistent",
+    "explain": "He voted yes on the military construction and veterans affairs appropriations bill."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "s",
+    "number": "2392",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "s",
+    "number": "4744",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-s-t000476:2",
+  "status": "unverifiable",
+  "rationale": "No vote or bill specific to the Children's Health Insurance Program was found.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-s-k000384:1",
+  "status": "progress",
+  "rationale": "He voted yes on cloture for a tax credit bill that was rejected, and cosponsored the Tax Cut for Workers Act, which has not advanced.",
+  "votes": [
+   {
+    "id": "s118-2-230",
+    "relation": "consistent",
+    "explain": "He voted yes on moving the Tax Relief for American Families and Workers Act forward."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "s",
+    "number": "1372",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-01-w000804:1",
+  "status": "progress",
+  "rationale": "He voted yes on the House farm bill and on veterans benefits bills. The farm bill has passed the House but is not law.",
+  "votes": [
+   {
+    "id": "h119-2-154",
+    "relation": "consistent",
+    "explain": "He voted yes on a farm or veterans bill."
+   },
+   {
+    "id": "h119-2-191",
+    "relation": "consistent",
+    "explain": "He voted yes on a farm or veterans bill."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "va-01-w000804:2",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-01-w000804:3",
+  "status": "partial",
+  "rationale": "He sponsored a Chesapeake Bay bill and voted yes on law enforcement bills. No evidence on local government assistance was found.",
+  "votes": [
+   {
+    "id": "h119-2-171",
+    "relation": "consistent",
+    "explain": "He voted yes on a law enforcement bill."
+   },
+   {
+    "id": "h119-2-169",
+    "relation": "consistent",
+    "explain": "He voted yes on a law enforcement bill."
+   },
+   {
+    "id": "h119-2-165",
+    "relation": "consistent",
+    "explain": "He voted yes on a law enforcement bill."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "2091",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "6893",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-02-k000399:1",
+  "status": "kept",
+  "rationale": "She voted yes on the Born-Alive Abortion Survivors Protection Act in two Congresses. No recorded vote conflicts with her stated exceptions.",
+  "votes": [
+   {
+    "id": "h119-1-27",
+    "relation": "consistent",
+    "explain": "She voted yes on this pro-life bill."
+   },
+   {
+    "id": "h118-1-29",
+    "relation": "consistent",
+    "explain": "She voted yes on this pro-life bill."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "va-03-s000185:1",
+  "status": "progress",
+  "rationale": "He sponsored the Child Care for Working Families Act in two Congresses; it is still in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "4418",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "2976",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-03-s000185:2",
+  "status": "unverifiable",
+  "rationale": "No vote or bill specific to Head Start was found.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-04-m001227:1",
+  "status": "progress",
+  "rationale": "He cosponsored abortion and voting rights bills that remain in committee and voted no on the Born-Alive bill.",
+  "votes": [
+   {
+    "id": "h119-1-27",
+    "relation": "consistent",
+    "explain": "He voted no on this bill, which is consistent with his stated position."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "10600",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "4916",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-05-m001239:1",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-06-c001118:1",
+  "status": "unverifiable",
+  "rationale": "Town hall attendance is not recorded in votes or bills.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-06-c001118:2",
+  "status": "unverifiable",
+  "rationale": "No data center bill or vote was found.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-06-c001118:3",
+  "status": "unverifiable",
+  "rationale": "No Iran vote clearly fits this statement.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-06-c001118:4",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-06-c001118:5",
+  "status": "kept",
+  "rationale": "He voted yes on four bills that give police equipment, data or protections.",
+  "votes": [
+   {
+    "id": "h119-1-131",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill for law enforcement."
+   },
+   {
+    "id": "h119-1-130",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill for law enforcement."
+   },
+   {
+    "id": "h119-1-128",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill for law enforcement."
+   },
+   {
+    "id": "h119-1-42",
+    "relation": "consistent",
+    "explain": "He voted yes on a bill for law enforcement."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "va-07-v000138:1",
+  "status": "partial",
+  "rationale": "He voted yes on veterans bills and sponsored two more. The statement about keeping the military non-political cannot be measured from votes.",
+  "votes": [
+   {
+    "id": "h119-2-191",
+    "relation": "consistent",
+    "explain": "He voted yes on a veterans bill or the veterans funding bill."
+   },
+   {
+    "id": "h119-2-175",
+    "relation": "consistent",
+    "explain": "He voted yes on a veterans bill or the veterans funding bill."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "9533",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "9379",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-07-v000138:2",
+  "status": "progress",
+  "rationale": "He cosponsored the American High-Speed Rail Act, which has not advanced.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "9036",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-08-b001292:1",
+  "status": "progress",
+  "rationale": "He cosponsored gun safety and paid leave bills and sponsored a federal employee leave bill. None has advanced.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "18",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "3868",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "5390",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "9261",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-08-b001292:2",
+  "status": "kept",
+  "rationale": "He voted no on repeated measures that rolled back climate rules.",
+  "votes": [
+   {
+    "id": "h119-1-52",
+    "relation": "consistent",
+    "explain": "He voted no on overturning a climate or energy efficiency rule."
+   },
+   {
+    "id": "h118-2-438",
+    "relation": "consistent",
+    "explain": "He voted no on overturning a climate or energy efficiency rule."
+   },
+   {
+    "id": "h119-1-78",
+    "relation": "consistent",
+    "explain": "He voted no on overturning a climate or energy efficiency rule."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "va-08-b001292:3",
+  "status": "progress",
+  "rationale": "He cosponsored the DISCLOSE Act, which is in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "7802",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-09-g000568:1",
+  "status": "kept",
+  "rationale": "He sponsored the HALT Fentanyl Act, voted yes on it, and it became law.",
+  "votes": [
+   {
+    "id": "h119-1-33",
+    "relation": "consistent",
+    "explain": "He voted yes on a fentanyl bill."
+   },
+   {
+    "id": "h118-1-237",
+    "relation": "consistent",
+    "explain": "He voted yes on a fentanyl bill."
+   },
+   {
+    "id": "h119-1-166",
+    "relation": "consistent",
+    "explain": "He voted yes on a fentanyl bill."
+   },
+   {
+    "id": "h118-2-514",
+    "relation": "consistent",
+    "explain": "He voted yes on a fentanyl bill."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "27",
+    "role": "sponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "467",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-09-g000568:2",
+  "status": "partial",
+  "rationale": "He voted for law enforcement bills, consistent with opposing defunding. No vote on no-knock warrants or chokeholds was found.",
+  "votes": [
+   {
+    "id": "h119-2-171",
+    "relation": "consistent",
+    "explain": "He voted yes on a law enforcement bill."
+   },
+   {
+    "id": "h119-2-169",
+    "relation": "consistent",
+    "explain": "He voted yes on a law enforcement bill."
+   },
+   {
+    "id": "h119-2-165",
+    "relation": "consistent",
+    "explain": "He voted yes on a law enforcement bill."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "va-09-g000568:3",
+  "status": "unverifiable",
+  "rationale": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-11-w000831:1",
+  "status": "kept",
+  "rationale": "He sponsored the Limit on Sweeping Executive Reorganization Act within days of taking office.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "5249",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-11-w000831:2",
+  "status": "unverifiable",
+  "rationale": "No bill or vote about the possible health care cuts was found.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-11-w000831:3",
+  "status": "progress",
+  "rationale": "He cosponsored the Assault Weapons Ban of 2025, which is in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "3115",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-s-w000805:1",
+  "status": "progress",
+  "rationale": "He sponsored the National Workforce Transition Fund Act, which is in committee.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "s",
+    "number": "5055",
+    "role": "sponsored",
+    "explain": ""
+   }
+  ]
+ }
+]

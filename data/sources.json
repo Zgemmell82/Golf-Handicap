@@ -342,5 +342,29 @@
   "reliability": "high",
   "lean": "unrated",
   "note": "The official's own website."
+ },
+ {
+  "id": "house-clerk",
+  "name": "Clerk of the House (roll-call votes)",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Official record of House roll-call votes."
+ },
+ {
+  "id": "senate-gov",
+  "name": "U.S. Senate (roll-call votes)",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Official record of Senate roll-call votes."
+ },
+ {
+  "id": "voteview",
+  "name": "Voteview (UCLA)",
+  "kind": "primary",
+  "reliability": "high",
+  "lean": "n/a",
+  "note": "Independent research database of every congressional roll-call vote."
  }
 ]

@@ -116,6 +116,16 @@
     }));
   }
 
+  // Largest single donor group on file and its share of everything raised. Donor groups are the employers
+  // individual donors report to the FEC (PAC and organization rows are used first when a file has them).
+  function topDonor(finance) {
+    if (!finance || !(finance.totalRaised > 0)) return null;
+    const rows = [...(finance.pacs || []), ...(finance.topDonors || []), ...(finance.employers || [])].filter((r) => r && r.name && r.amount > 0);
+    if (!rows.length) return null;
+    const top = rows.reduce((a, b) => (b.amount > a.amount ? b : a));
+    const own = (finance.pacs || []).includes(top) || (finance.topDonors || []).includes(top);
+    return { name: top.name, amount: top.amount, pct: (top.amount / finance.totalRaised) * 100, kind: own ? 'organization' : 'employer' };
+  }
   const money = (n) => '$' + Math.round(n).toLocaleString('en-US');
 
   // Possible conflicts: a promise that names industries it would oppose, and
@@ -202,5 +212,5 @@
     return errors;
   }
 
-  return { LOADED, STATUSES, RULES, effectiveStatus, confidence, scorecard, biasCheck, conflicts, votesForPromise, alertsFor, validateData, independentSources, money };
+  return { LOADED, STATUSES, RULES, effectiveStatus, confidence, scorecard, biasCheck, conflicts, votesForPromise, alertsFor, validateData, independentSources, money, topDonor };
 });

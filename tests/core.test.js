@@ -69,3 +69,12 @@ test('validateData rejects loaded language and missing sources', () => {
   assert.ok(Core.validateData({ ...base, promises: [{ ...good, howRated: 'He lied about it' }] }).length);
   assert.ok(Core.validateData({ ...base, promises: [{ ...good, source: null }] }).length);
 });
+
+test('topDonor returns the largest donor group and its share of money raised', () => {
+  const Core = require('../js/core.js');
+  const t = Core.topDonor({ totalRaised: 1000, employers: [{ name: 'A', amount: 50 }, { name: 'B', amount: 20 }] });
+  assert.equal(t.name, 'A'); assert.equal(t.pct, 5); assert.equal(t.kind, 'employer');
+  assert.equal(Core.topDonor({ totalRaised: 1000, employers: [] }), null);
+  assert.equal(Core.topDonor(undefined), null);
+  assert.equal(Core.topDonor({ totalRaised: 1000, pacs: [{ name: 'P', amount: 300 }], employers: [{ name: 'A', amount: 50 }] }).kind, 'organization');
+});

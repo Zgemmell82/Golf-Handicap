@@ -50,7 +50,14 @@
         <span class="muted">${partyChip(o.party)} ${esc(seat(o))}${o.sample ? ' <span class="chip sample">sample</span>' : ''}</span></span>
       </a>
       <button class="star" data-fav="${o.id}" aria-pressed="${fav}" aria-label="${fav ? 'Remove from' : 'Add to'} favorites">${fav ? '★' : '☆'}</button></div>
+      ${donorLine(D.finance[o.id])}
       ${scoreBar(promisesOf(o.id))}</div>`;
+  }
+  function donorLine(fin) {
+    const t = Core.topDonor(fin);
+    if (!t) return '<p class="muted donor">Top donor: no campaign finance data on file yet.</p>';
+    const pct = t.pct < 0.1 ? '<0.1' : t.pct.toFixed(1);
+    return `<p class="muted donor">Top donor: <b>${esc(t.name)}</b>${t.kind === 'employer' ? ' (employees)' : ''}, ${pct}% of ${Core.money(fin.totalRaised)} raised</p>`;
   }
   const updatedLine = (d) => `<p class="muted">Last updated ${esc(fmtDate(d))}</p>`;
 

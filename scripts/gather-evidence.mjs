@@ -50,15 +50,17 @@ export function senateMeta(xml) {
   return { question: g('vote_question_text'), result: g('vote_result_text'), title: g('vote_title'), document: g('vote_document_text') };
 }
 
-async function getText(url, tries = 3) {
+const fetchStats = { ok: 0, notFound: 0, failed: 0 };
+async function getText(url, tries = 5) {
   for (let a = 1; a <= tries; a++) {
     try {
-      const r = await fetch(url, { headers: { 'User-Agent': 'promise-tracker' } });
-      if (r.ok) return await r.text();
-      if (r.status === 404) return null;
+      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PromiseTrackerBot/1.0)' } });
+      if (r.ok) { fetchStats.ok++; return await r.text(); }
+      if (r.status === 404) { fetchStats.notFound++; return null; }
     } catch { /* retry */ }
-    await sleep(1500 * a);
+    await sleep(2000 * a * a);
   }
+  fetchStats.failed++;
   return null;
 }
 
@@ -130,16 +132,26 @@ async function main() {
 
       const rollNumbers = Object.keys(castsByRoll);
       console.log(`${rollNumbers.length} roll calls with our members; verifying against the official record`);
-      await pool(rollNumbers, 12, async (rn) => {
+      await pool(rollNumbers, 6, async (rn) => {
         const meta = rolls[rn];
         if (!meta) return;
         summary.votes++;
         const year = meta.date.slice(0, 4);
         const sess = meta.session;
-        let official = {}, om = {};
+        let official = {}, om = {}, viaApi = false;
         if (chamber === 'house') {
           const xml = await getText(`https://clerk.house.gov/evs/${year}/roll${String(meta.clerkRoll).padStart(3, '0')}.xml`);
           if (xml) { official = parseClerkVotes(xml); om = clerkMeta(xml); }
+          else {
+            // The Clerk page could not be fetched; the Congress.gov House vote API carries the same roll call.
+            try {
+              const j = await getJson(`${CG}/house-vote/${congress}/${sess}/${meta.clerkRoll}/members?format=json&api_key=${key}`, { keys: [key], tries: 3 });
+              const d = j.houseRollCallVoteMemberVotes || {};
+              (d.results || []).forEach((r) => { official[r.bioguideID] = normCast(r.voteCast); });
+              om = { legisNum: '', question: d.voteQuestion || '', result: d.result || '', desc: '' };
+              viaApi = true;
+            } catch { /* leave official empty */ }
+          }
         } else {
           const xml = await getText(`https://www.senate.gov/legislative/LIS/roll_call_votes/vote${congress}${sess}/vote_${congress}_${sess}_${String(meta.clerkRoll).padStart(5, '0')}.xml`);
           if (xml) { official = parseSenateVotes(xml); om = senateMeta(xml); }
@@ -157,6 +169,7 @@ async function main() {
             bill: bn ? { congress, type: bn.type, number: bn.number } : null,
             question: om.question || meta.question, result: om.result || meta.result,
             desc: om.desc || om.title || meta.desc, document: om.document || '', cast: off,
+            officialVia: viaApi ? 'congress.gov house-vote API (Clerk data)' : 'official XML',
             sources: {
               official: chamber === 'house' ? `https://clerk.house.gov/evs/${year}/roll${String(meta.clerkRoll).padStart(3, '0')}.xml` : `https://www.senate.gov/legislative/LIS/roll_call_votes/vote${congress}${sess}/vote_${congress}_${sess}_${String(meta.clerkRoll).padStart(5, '0')}.htm`,
               voteview: `https://voteview.com/rollcall/R${letter}${congress}${String(rn).padStart(4, '0')}`,
@@ -203,7 +216,7 @@ async function main() {
     console.log(`${o.id}: ${out.sponsored.length} sponsored, ${out.cosponsored.length} cosponsored`);
   });
 
-  writeFileSync(join(outDir, 'summary.json'), JSON.stringify({ ...summary, gathered: new Date().toISOString() }, null, 1));
+  writeFileSync(join(outDir, 'summary.json'), JSON.stringify({ ...summary, fetchStats, gathered: new Date().toISOString() }, null, 1));
   console.log(summary);
 }
 

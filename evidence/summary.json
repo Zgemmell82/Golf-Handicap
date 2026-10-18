@@ -1,0 +1,14 @@
+{
+ "officials": 29,
+ "votes": 3515,
+ "verified": 42223,
+ "disagree": 0,
+ "officialMissing": 437,
+ "notMember": 374,
+ "fetchStats": {
+  "ok": 3376,
+  "notFound": 0,
+  "failed": 151
+ },
+ "gathered": "2026-10-18T01:29:47.204Z"
+}

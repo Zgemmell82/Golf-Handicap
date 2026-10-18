@@ -40,13 +40,36 @@ async function transcript(id) {
   return { info: { ...info, captionHttp: tr.status, captionBytes: body.length, transcriptChars: text.length }, sample: text.slice(0, 300) };
 }
 
-const queries = ['Don Davis for Congress 2022 ad', 'Jennifer Kiggans for Congress 2022 ad', 'Ben Cline for Congress 2020 ad', 'Thom Tillis 2020 campaign ad'];
-for (const q of queries) {
-  try {
-    const res = await search(q);
-    res.slice(0, 4).forEach((v) => console.log('  ', JSON.stringify(v)));
-    for (const v of res.slice(0, 2)) {
-      try { const t = await transcript(v.id); console.log('  transcript', JSON.stringify(t.info), t.sample ? '\n    ' + t.sample : ''); } catch (e) { console.log('  transcript error', v.id, e.message); }
-    }
-  } catch (e) { console.log('search error', q, e.message); }
+
+const CLIENTS = {
+  ANDROID_VR: { client: { clientName: 'ANDROID_VR', clientVersion: '1.60.19', deviceModel: 'Quest 3', androidSdkVersion: 32, hl: 'en', gl: 'US' }, name: '28', ver: '1.60.19', ua: 'com.google.android.apps.youtube.vr.oculus/1.60.19 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip' },
+  IOS: { client: { clientName: 'IOS', clientVersion: '20.10.4', deviceModel: 'iPhone16,2', osName: 'iPhone', osVersion: '18.3.2.22D82', hl: 'en', gl: 'US' }, name: '5', ver: '20.10.4', ua: 'com.google.ios.youtube/20.10.4 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)' },
+  TV_EMBED: { client: { clientName: 'TVHTML5_SIMPLY_EMBEDDED_PLAYER', clientVersion: '2.0', hl: 'en', gl: 'US' }, third: { embedUrl: 'https://www.google.com' }, name: '85', ver: '2.0', ua: UA },
+  WEB_EMBED: { client: { clientName: 'WEB_EMBEDDED_PLAYER', clientVersion: '1.20250310.01.00', hl: 'en', gl: 'US' }, third: { embedUrl: 'https://www.google.com' }, name: '56', ver: '1.20250310.01.00', ua: UA },
+  MWEB: { client: { clientName: 'MWEB', clientVersion: '2.20250311.03.00', hl: 'en', gl: 'US' }, name: '2', ver: '2.20250311.03.00', ua: UA },
+};
+const ids = ['PrZb75W1gOU', '3jAMcsdmDk0', 'QC5liztiwI8'];
+for (const id of ids) {
+  for (const [label, c] of Object.entries(CLIENTS)) {
+    try {
+      const r = await fetch('https://www.youtube.com/youtubei/v1/player?prettyPrint=false', { method: 'POST', headers: { 'content-type': 'application/json', 'user-agent': c.ua, 'x-youtube-client-name': c.name, 'x-youtube-client-version': c.ver }, body: JSON.stringify({ videoId: id, context: { client: c.client, ...(c.third ? { thirdParty: c.third } : {}) }, contentCheckOk: true, racyCheckOk: true }) });
+      const j = await r.json();
+      const tracks = j.captions?.playerCaptionsTracklistRenderer?.captionTracks || [];
+      let got = '';
+      if (tracks.length) {
+        const t = tracks.find((x) => x.languageCode.startsWith('en')) || tracks[0];
+        const tr = await fetch(t.baseUrl + '&fmt=json3', { headers: { 'user-agent': UA } });
+        const b = await tr.text();
+        got = ` caption http ${tr.status} bytes ${b.length}`;
+        try { got += ' text: ' + JSON.parse(b).events.filter((e) => e.segs).map((e) => e.segs.map((s) => s.utf8).join('')).join(' ').replace(/\s+/g, ' ').slice(0, 120); } catch {}
+      }
+      console.log(id, label, j.playabilityStatus?.status, (j.playabilityStatus?.reason || '').slice(0, 50), 'tracks', tracks.length, got);
+    } catch (e) { console.log(id, label, 'error', e.message); }
+  }
+  // watch page
+  const w = await fetch(`https://www.youtube.com/watch?v=${id}`, { headers: H });
+  const html = await w.text();
+  const m = html.match(/"captionTracks":(\[.*?\])/);
+  console.log(id, 'watch page', w.status, html.length, 'captionTracks', m ? 'found' : 'none');
+  if (m) { try { const t = JSON.parse(m[1])[0]; const u = t.baseUrl.replace(/\\u0026/g, '&'); const tr = await fetch(u + '&fmt=json3', { headers: { 'user-agent': UA } }); const b = await tr.text(); console.log('  watch caption http', tr.status, 'bytes', b.length, b.slice(0, 100)); } catch (e) { console.log('  watch caption error', e.message); } }
 }

@@ -27090,6 +27090,11 @@
     "promiseId": "va-04-m001227:1",
     "relation": "consistent",
     "explain": "He voted no on this bill, which is consistent with his stated position."
+   },
+   {
+    "promiseId": "va-04-m001227:2",
+    "relation": "consistent",
+    "explain": "She voted no on this abortion restriction bill."
    }
   ]
  },
@@ -27283,6 +27288,11 @@
     "promiseId": "nc-09-h001067:3",
     "relation": "consistent",
     "explain": "He voted yes on the 2025 reconciliation law, which extended the tax cuts."
+   },
+   {
+    "promiseId": "nc-05-f000450:1",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill that extended tax cuts, consistent with opposing tax increases."
    }
   ]
  },
@@ -27339,6 +27349,11 @@
     "promiseId": "nc-09-h001067:3",
     "relation": "consistent",
     "explain": "He voted yes on the 2025 reconciliation law, which extended the tax cuts."
+   },
+   {
+    "promiseId": "nc-05-f000450:1",
+    "relation": "consistent",
+    "explain": "A yes vote on the final version of the same bill."
    }
   ]
  },
@@ -28309,6 +28324,104 @@
     "promiseId": "va-09-g000568:1",
     "relation": "consistent",
     "explain": "He voted yes on a fentanyl bill."
+   }
+  ]
+ },
+ {
+  "id": "s119-1-7",
+  "date": "2025-01-20",
+  "chamber": "senate",
+  "rollCall": 7,
+  "billId": "S. 5",
+  "title": "Laken Riley Act",
+  "question": "On Passage of the Bill S. 5",
+  "result": "Bill Passed (64-35)",
+  "byOfficial": {
+   "nc-s-b001305": "Yea",
+   "nc-s-t000476": "Yea",
+   "va-s-w000805": "Yea",
+   "va-s-k000384": "Nay"
+  },
+  "issues": [],
+  "outletId": "senate-gov",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm",
+  "promiseLinks": [
+   {
+    "promiseId": "nc-s-b001305:4",
+    "relation": "consistent",
+    "explain": "The Laken Riley Act is an immigration enforcement bill that became law."
+   }
+  ]
+ },
+ {
+  "id": "s119-2-136",
+  "date": "2026-06-03",
+  "chamber": "senate",
+  "rollCall": 136,
+  "billId": "S. 2",
+  "title": "Secure America Act",
+  "question": "On the Motion to Proceed S. 2",
+  "result": "Motion to Proceed Agreed to (53-46)",
+  "byOfficial": {
+   "nc-s-b001305": "Yea",
+   "nc-s-t000476": "Yea",
+   "va-s-w000805": "Nay",
+   "va-s-k000384": "Nay"
+  },
+  "issues": [],
+  "outletId": "senate-gov",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00136.htm",
+  "promiseLinks": [
+   {
+    "promiseId": "nc-s-b001305:4",
+    "relation": "consistent",
+    "explain": "This vote moved the Secure America Act, an immigration bill that became law, forward."
+   }
+  ]
+ },
+ {
+  "id": "h119-1-168",
+  "date": "2025-06-12",
+  "chamber": "house",
+  "rollCall": 168,
+  "billId": "H.R. 4",
+  "title": "Rescissions Act of 2025",
+  "question": "On Passage",
+  "result": "Passed",
+  "byOfficial": {
+   "nc-01-d000230": "Nay",
+   "nc-02-r000305": "Nay",
+   "nc-03-m001210": "Yea",
+   "nc-04-f000477": "Nay",
+   "nc-05-f000450": "Yea",
+   "nc-06-m001240": "Yea",
+   "nc-07-r000603": "Yea",
+   "nc-08-h001102": "Yea",
+   "nc-09-h001067": "Yea",
+   "nc-10-h001101": "Yea",
+   "nc-11-e000246": "Yea",
+   "nc-12-a000370": "Nay",
+   "nc-13-k000405": "Yea",
+   "nc-14-m001236": "Yea",
+   "va-01-w000804": "Yea",
+   "va-02-k000399": "Yea",
+   "va-03-s000185": "Nay",
+   "va-04-m001227": "Nay",
+   "va-05-m001239": "Yea",
+   "va-06-c001118": "Yea",
+   "va-07-v000138": "Nay",
+   "va-08-b001292": "Nay",
+   "va-09-g000568": "Yea",
+   "va-10-s001230": "Nay"
+  },
+  "issues": [],
+  "outletId": "house-clerk",
+  "url": "https://clerk.house.gov/evs/2025/roll168.xml",
+  "promiseLinks": [
+   {
+    "promiseId": "nc-05-f000450:1",
+    "relation": "consistent",
+    "explain": "A yes vote on cancelling previously approved spending, consistent with opposing big spending programs."
    }
   ]
  }

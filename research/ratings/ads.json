@@ -1,0 +1,79 @@
+[
+ {
+  "promiseId": "nc-s-b001305:4",
+  "status": "partial",
+  "rationale": "He voted yes on the Laken Riley Act and to take up the Secure America Act, both immigration measures that became law, which fits stopping open-border policies. No recorded vote in our data is about building the wall, so that half of the promise is not rated.",
+  "votes": [
+   {
+    "id": "s119-1-7",
+    "relation": "consistent",
+    "explain": "The Laken Riley Act is an immigration enforcement bill that became law."
+   },
+   {
+    "id": "s119-2-136",
+    "relation": "consistent",
+    "explain": "This vote moved the Secure America Act, an immigration bill that became law, forward."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 118,
+    "type": "s",
+    "number": "422",
+    "role": "sponsored",
+    "explain": "He sponsored the Build the Wall Now Act. A sponsored bill alone does not count as a kept promise."
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-s-b001305:5",
+  "status": "unverifiable",
+  "rationale": "No recorded vote is clearly about stopping spending or ending a recession, and what counts as 'the spending' is not defined in the ad. He voted yes on several large spending bills; we do not judge those as for or against this promise.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-05-f000450:1",
+  "status": "kept",
+  "rationale": "She voted yes on the 2025 law that extended the tax cuts and yes on the Rescissions Act, which cancelled previously approved spending. We found no vote for a tax increase. She also voted yes on annual funding bills, which we do not treat as contrary to this promise.",
+  "votes": [
+   {
+    "id": "h119-1-145",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill that extended tax cuts, consistent with opposing tax increases."
+   },
+   {
+    "id": "h119-1-190",
+    "relation": "consistent",
+    "explain": "A yes vote on the final version of the same bill."
+   },
+   {
+    "id": "h119-1-168",
+    "relation": "consistent",
+    "explain": "A yes vote on cancelling previously approved spending, consistent with opposing big spending programs."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "va-04-m001227:2",
+  "status": "kept",
+  "rationale": "She voted no on the Born-Alive Abortion Survivors Protection Act, a bill that restricts abortion care, which is consistent with taking her stated fight for reproductive freedom to Congress. This is the only reproductive-health vote in our data for her.",
+  "votes": [
+   {
+    "id": "h119-1-27",
+    "relation": "consistent",
+    "explain": "She voted no on this abortion restriction bill."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "10600",
+    "role": "cosponsored",
+    "explain": "She also cosponsored a bill to expand abortion access."
+   }
+  ]
+ }
+]

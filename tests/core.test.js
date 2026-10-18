@@ -10,11 +10,13 @@ const sources = [
 ];
 const ev = (...ids) => ids.map((id) => ({ outletId: id, url: 'https://x/' + id }));
 const mk = (status, ids, extra = {}) => ({ id: 'a:1', officialId: 'a', status, evidence: ev(...ids), ...extra });
+// Kept needs a matching vote and Broken a contradicting one, so verdict fixtures carry vote evidence.
+const voted = (status, ids, extra = {}) => { const p = mk(status, ids, extra); p.evidence = p.evidence.map((e) => ({ ...e, type: 'vote', supports: status === 'broken' ? 'contradicts' : 'consistent' })); return p; };
 
 test('Kept/Broken need two independent sources, else Unverifiable', () => {
   assert.strictEqual(Core.effectiveStatus(mk('kept', ['gov'])).status, 'unverifiable');
   assert.strictEqual(Core.effectiveStatus(mk('broken', ['gov', 'gov'])).status, 'unverifiable'); // same outlet twice
-  assert.strictEqual(Core.effectiveStatus(mk('kept', ['gov', 'wire'])).status, 'kept');
+  assert.strictEqual(Core.effectiveStatus(voted('kept', ['gov', 'wire'])).status, 'kept');
   assert.strictEqual(Core.effectiveStatus(mk('progress', ['gov'])).status, 'progress');
   assert.ok(Core.effectiveStatus(mk('kept', ['gov'])).downgraded);
 });
@@ -34,13 +36,13 @@ test('contested rating without cross-spectrum sources is capped at Medium', () =
   assert.strictEqual(Core.confidence(mk('kept', ['gov', 'l', 'r'], { contested: true }), sources).level, 'High');
 });
 test('scorecard percentages use effective statuses', () => {
-  const sc = Core.scorecard([mk('kept', ['gov', 'wire']), mk('kept', ['gov']), mk('progress', ['gov']), mk('broken', ['gov', 'l'])]);
+  const sc = Core.scorecard([voted('kept', ['gov', 'wire']), voted('kept', ['gov']), mk('progress', ['gov']), voted('broken', ['gov', 'l'])]);
   assert.deepStrictEqual(sc.counts, { kept: 1, partial: 0, broken: 1, progress: 1, unverifiable: 1 });
   assert.strictEqual(sc.pct.kept, 25);
 });
 test('bias check counts by party', () => {
   const offs = [{ id: 'a', party: 'D' }, { id: 'b', party: 'R' }];
-  const ps = [mk('kept', ['gov', 'wire']), { ...mk('broken', ['gov', 'wire']), officialId: 'b', id: 'b:1' }];
+  const ps = [voted('kept', ['gov', 'wire']), { ...voted('broken', ['gov', 'wire']), officialId: 'b', id: 'b:1' }];
   const rows = Core.biasCheck(offs, ps);
   assert.strictEqual(rows.length, 2);
   assert.strictEqual(rows.find((r) => r.party === 'D').kept, 1);
@@ -77,4 +79,14 @@ test('topDonor returns the largest donor group and its share of money raised', (
   assert.equal(Core.topDonor({ totalRaised: 1000, employers: [] }), null);
   assert.equal(Core.topDonor(undefined), null);
   assert.equal(Core.topDonor({ totalRaised: 1000, pacs: [{ name: 'P', amount: 300 }], employers: [{ name: 'A', amount: 50 }] }).kind, 'organization');
+});
+
+test('Kept and Broken must rest on a recorded vote, not on bills or articles alone', () => {
+  assert.strictEqual(Core.effectiveStatus(mk('kept', ['gov', 'wire'])).status, 'unverifiable'); // two sources, no vote
+  assert.match(Core.effectiveStatus(mk('kept', ['gov', 'wire'])).reason, /recorded vote/);
+  assert.strictEqual(Core.effectiveStatus(voted('kept', ['gov', 'wire'])).status, 'kept');
+  const wrongWay = voted('kept', ['gov', 'wire']); wrongWay.evidence.forEach((e) => { e.supports = 'contradicts'; });
+  assert.strictEqual(Core.effectiveStatus(wrongWay).status, 'unverifiable'); // votes point the other way
+  assert.strictEqual(Core.effectiveStatus(voted('broken', ['gov', 'wire'])).status, 'broken');
+  assert.strictEqual(Core.effectiveStatus(mk('progress', ['gov'])).status, 'progress'); // other statuses unaffected
 });

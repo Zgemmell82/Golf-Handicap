@@ -2363,7 +2363,7 @@
    "url": "https://www.wjla.com/news/local/democrat-virginia-congressman-james-walkinshaw-capitol-hill-united-states-congress-district-11-special-election-votes-education-healthcare-crime-transportation-legislation-federal",
    "type": "interview"
   },
-  "status": "kept",
+  "status": "progress",
   "evidence": [
    {
     "type": "bill",
@@ -2374,7 +2374,7 @@
     "supports": "context"
    }
   ],
-  "howRated": "He sponsored the Limit on Sweeping Executive Reorganization Act within days of taking office. What the record shows: H.R. 5249 (sponsored): Limit on Sweeping Executive Reorganization Act. Latest action: Referred to the House Committee on Oversight and Government Reform.",
+  "howRated": "He sponsored the Limit on Sweeping Executive Reorganization Act within days of taking office. The bill is in committee and no vote has been held, so it is shown as In Progress. What the record shows: H.R. 5249 (sponsored): Limit on Sweeping Executive Reorganization Act. Latest action: Referred to the House Committee on Oversight and Government Reform.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
@@ -3063,14 +3063,55 @@
    "url": "https://spectrumlocalnews.com/nc/charlotte/news/2022/03/23/budd-runs-1st-ad-in-senate-primary--another-pac-pans-mccrory",
    "type": "campaign-ad"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "partial",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 7, 2025-01-20: On Passage of the Bill S. 5 on S. 5 (Laken Riley Act). Ted Budd voted yes.",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.htm",
+    "outletId": "senate-gov",
+    "date": "2025-01-20",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RS1190007",
+    "outletId": "voteview",
+    "date": "2025-01-20",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 136, 2026-06-03: On the Motion to Proceed S. 2 on S. 2 (Secure America Act). Ted Budd voted yes.",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00136.htm",
+    "outletId": "senate-gov",
+    "date": "2026-06-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RS1190795",
+    "outletId": "voteview",
+    "date": "2026-06-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "S. 422: Build the Wall Now Act (sponsored by Ted Budd; latest action 2023-02-14: Read twice and referred to the Committee on Homeland Security and Governmental Affairs.)",
+    "url": "https://www.congress.gov/bill/118th-congress/senate-bill/422",
+    "outletId": "congress-gov",
+    "date": "2023-02-14",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He voted yes on the Laken Riley Act and to take up the Secure America Act, both immigration measures that became law, which fits stopping open-border policies. No recorded vote in our data is about building the wall, so that half of the promise is not rated. What the record shows: 2025-01-20: voted yes on S. 5 (Laken Riley Act) (on passage of the bill s. 5, bill passed (64-35)). The Laken Riley Act is an immigration enforcement bill that became law. 2026-06-03: voted yes on S. 2 (Secure America Act) (on the motion to proceed s. 2, motion to proceed agreed to (53-46)). This vote moved the Secure America Act, an immigration bill that became law, forward. S. 422 (sponsored): Build the Wall Now Act. Latest action: Read twice and referred to the Committee on Homeland Security and Governmental Affairs. He sponsored the Build the Wall Now Act. A sponsored bill alone does not count as a kept promise.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-18",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-s-b001305:5",
@@ -3088,12 +3129,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No recorded vote is clearly about stopping spending or ending a recession, and what counts as 'the spending' is not defined in the ad. He voted yes on several large spending bills; we do not judge those as for or against this promise.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-18",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-05-f000450:1",
@@ -3109,14 +3150,63 @@
    "url": "https://awpc.cattcenter.iastate.edu/communication/solving-problem-oct-3-2008",
    "type": "campaign-ad"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 145, 2025-05-22: On Passage on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Virginia Foxx voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190144",
+    "outletId": "voteview",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 190, 2025-07-03: On Motion to Concur in the Senate Amendment on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Virginia Foxx voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+    "outletId": "house-clerk",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190189",
+    "outletId": "voteview",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 168, 2025-06-12: On Passage on H.R. 4 (Rescissions Act of 2025). Virginia Foxx voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll168.xml",
+    "outletId": "house-clerk",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190167",
+    "outletId": "voteview",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "She voted yes on the 2025 law that extended the tax cuts and yes on the Rescissions Act, which cancelled previously approved spending. We found no vote for a tax increase. She also voted yes on annual funding bills, which we do not treat as contrary to this promise. What the record shows: 2025-05-22: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on passage, passed). A yes vote on the 2025 reconciliation bill that extended tax cuts, consistent with opposing tax increases. 2025-07-03: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on motion to concur in the senate amendment, passed). A yes vote on the final version of the same bill. 2025-06-12: voted yes on H.R. 4 (Rescissions Act of 2025) (on passage, passed). A yes vote on cancelling previously approved spending, consistent with opposing big spending programs.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-18",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-04-m001227:2",
@@ -3132,13 +3222,38 @@
    "url": "https://www.whro.org/local-news/2023-02-21/democrats-look-to-close-u-s-house-gap-in-benjamin-mcclellan-matchup",
    "type": "campaign-ad"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 27, 2025-01-23: On Passage on H.R. 21 (Born-Alive Abortion Survivors Protection Act). Jennifer L. McClellan voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190026",
+    "outletId": "voteview",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 10600: Abortion is Health Care Everywhere Act of 2026 (cosponsored by Jennifer L. McClellan; latest action 2026-09-24: Referred to the House Committee on Foreign Affairs.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10600",
+    "outletId": "congress-gov",
+    "date": "2026-09-24",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She voted no on the Born-Alive Abortion Survivors Protection Act, a bill that restricts abortion care, which is consistent with taking her stated fight for reproductive freedom to Congress. This is the only reproductive-health vote in our data for her. What the record shows: 2025-01-23: voted no on H.R. 21 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). She voted no on this abortion restriction bill. H.R. 10600 (cosponsored): Abortion is Health Care Everywhere Act of 2026. Latest action: Referred to the House Committee on Foreign Affairs. She also cosponsored a bill to expand abortion access.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-18",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  }
 ]

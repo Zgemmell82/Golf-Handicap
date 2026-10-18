@@ -20,6 +20,8 @@
     conflictMinShare: 0.05, // share of total receipts
   };
 
+  RULES.verdictNeedsVote = true; // Kept / Broken must rest on a recorded vote that matches (Kept) or contradicts (Broken) the promise
+
   const PRIMARY_KINDS = new Set(['primary']);
 
   function sourceIndex(outlets) {
@@ -47,6 +49,17 @@
         reason: `Researchers proposed "${STATUSES[claimed].label}", but only ${n} independent source${n === 1 ? '' : 's'} ` +
           `${n === 1 ? 'is' : 'are'} on file. We require ${RULES.minIndependentSources}.`,
       };
+    }
+    if (RULES.verdictNeedsVote && (claimed === 'kept' || claimed === 'broken')) {
+      const want = claimed === 'kept' ? 'consistent' : 'contradicts';
+      const hasVote = (promise.evidence || []).some((e) => e.type === 'vote' && e.supports === want);
+      if (!hasVote) {
+        return {
+          status: 'unverifiable', claimed, downgraded: true,
+          reason: `Researchers proposed "${STATUSES[claimed].label}", but no recorded vote ${claimed === 'kept' ? 'consistent with' : 'against'} the promise is on file. ` +
+            'Kept and Broken ratings must rest on how the official voted.',
+        };
+      }
     }
     return { status: claimed, claimed, downgraded: false, reason: '' };
   }

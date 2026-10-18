@@ -62,6 +62,23 @@ async function getText(url, tries = 3) {
   return null;
 }
 
+// Congress.gov URL slug for a bill type: HR -> house-bill, SJRES -> senate-joint-resolution, ...
+export function billUrl(congress, type, number) {
+  const t = String(type).toLowerCase();
+  const chamber = t.startsWith('h') ? 'house' : 'senate';
+  const kind = t.includes('conres') ? 'concurrent-resolution' : t.includes('jres') ? 'joint-resolution' : t.includes('res') ? 'resolution' : 'bill';
+  return `https://www.congress.gov/bill/${congress}th-congress/${chamber}-${kind}/${number}`;
+}
+// One entry of member/{id}/sponsored-legislation; amendments and odd entries without a bill type are skipped.
+export function legislationItem(b) {
+  if (!b || !b.type || !b.number || !b.congress) return null;
+  return {
+    congress: b.congress, type: b.type, number: b.number, title: b.title || '', introduced: b.introducedDate || '',
+    policyArea: (b.policyArea && b.policyArea.name) || '', latestAction: (b.latestAction && b.latestAction.text) || '',
+    latestActionDate: (b.latestAction && b.latestAction.actionDate) || '', url: billUrl(b.congress, b.type, b.number),
+  };
+}
+
 const billKey = (c, t, n) => `${c}-${t.toLowerCase()}-${n}`;
 // Voteview "HR3424" / "HRES583" / "S5" / "HJRES12" -> { type:'hr', number:'3424' }
 export function parseBillNumber(s) {
@@ -113,7 +130,7 @@ async function main() {
 
       const rollNumbers = Object.keys(castsByRoll);
       console.log(`${rollNumbers.length} roll calls with our members; verifying against the official record`);
-      await pool(rollNumbers, 6, async (rn) => {
+      await pool(rollNumbers, 12, async (rn) => {
         const meta = rolls[rn];
         if (!meta) return;
         summary.votes++;
@@ -178,7 +195,7 @@ async function main() {
         let j;
         try { j = await getJson(`${CG}/member/${o.bioguide}/${kind}-legislation?limit=250&offset=${offset}&format=json&api_key=${key}`, { keys: [key] }); } catch (e) { console.log(`${o.id} ${kind}: ${e.message}`); break; }
         const items = j[`${kind}Legislation`] || [];
-        items.forEach((b) => out[kind].push({ congress: b.congress, type: b.type, number: b.number, title: b.title, introduced: b.introducedDate, policyArea: (b.policyArea && b.policyArea.name) || '', latestAction: (b.latestAction && b.latestAction.text) || '', latestActionDate: (b.latestAction && b.latestAction.actionDate) || '', url: `https://www.congress.gov/bill/${b.congress}th-congress/${b.type.toLowerCase().startsWith('h') ? 'house' : 'senate'}-${/res/i.test(b.type) ? (/con/i.test(b.type) ? 'concurrent-resolution' : /j/i.test(b.type) ? 'joint-resolution' : 'resolution') : 'bill'}/${b.number}` }));
+        items.map(legislationItem).filter(Boolean).forEach((x) => out[kind].push(x));
         if (!j.pagination || !j.pagination.next || !items.length) break;
       }
     }

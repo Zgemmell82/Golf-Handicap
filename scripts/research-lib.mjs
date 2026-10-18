@@ -133,6 +133,10 @@ export function findPublishedDate(html, url) {
     const d = m && toIsoDate(m[1].trim());
     if (d) return d;
   }
+  // Archive-style pages put the date in the title, e.g. "Solving the Problem - Oct. 3, 2008".
+  const t = String(html).match(/<title[^>]*>([^<]*)<\/title>/i);
+  const td = t && t[1].match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),?\s+((?:19|20)\d{2})\b/i);
+  if (td) { const mo = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'].indexOf(td[1].toLowerCase()) + 1; return `${td[3]}-${String(mo).padStart(2, '0')}-${td[2].padStart(2, '0')}`; }
   const u = String(url).match(/\/((?:19|20)\d{2})\/(0?[1-9]|1[0-2])\/(0?[1-9]|[12]\d|3[01])(?:\/|$)/);
   if (u) return `${u[1]}-${u[2].padStart(2, '0')}-${u[3].padStart(2, '0')}`;
   return null;

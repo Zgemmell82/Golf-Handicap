@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert';
 import { parseCsv, pool } from '../scripts/lib.mjs';
-import { castFromVoteview, normCast, parseClerkVotes, clerkMeta, parseSenateVotes, senateMeta, parseBillNumber } from '../scripts/gather-evidence.mjs';
+import { billUrl, legislationItem, castFromVoteview, normCast, parseClerkVotes, clerkMeta, parseSenateVotes, senateMeta, parseBillNumber } from '../scripts/gather-evidence.mjs';
 
 test('parseCsv handles quoted commas and quotes', () => {
   assert.deepStrictEqual(parseCsv('a,b\n"x, ""y""",2\n'), [['a', 'b'], ['x, "y"', '2']]);
@@ -35,4 +35,13 @@ test('Voteview bill numbers', () => {
   assert.deepStrictEqual(parseBillNumber('HR3424'), { type: 'hr', number: '3424' });
   assert.deepStrictEqual(parseBillNumber('HJRES12'), { type: 'hjres', number: '12' });
   assert.strictEqual(parseBillNumber(''), null);
+});
+
+test('legislation items: bill urls and entries without a type are handled', () => {
+  assert.strictEqual(billUrl(119, 'HR', '3424'), 'https://www.congress.gov/bill/119th-congress/house-bill/3424');
+  assert.strictEqual(billUrl(118, 'HJRES', '7'), 'https://www.congress.gov/bill/118th-congress/house-joint-resolution/7');
+  assert.strictEqual(billUrl(118, 'SCONRES', '2'), 'https://www.congress.gov/bill/118th-congress/senate-concurrent-resolution/2');
+  assert.strictEqual(billUrl(119, 'S', '5'), 'https://www.congress.gov/bill/119th-congress/senate-bill/5');
+  assert.strictEqual(legislationItem({ congress: 119, number: '9', title: 'An amendment' }), null);
+  assert.strictEqual(legislationItem({ congress: 119, type: 'HR', number: '10794', title: 'Improving Access to WIC Act', introducedDate: '2026-10-09', policyArea: { name: null }, latestAction: { actionDate: '2026-10-09', text: 'Referred.' } }).policyArea, '');
 });

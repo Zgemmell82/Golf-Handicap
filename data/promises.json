@@ -13,14 +13,31 @@
    "url": "https://wsoctv.com/news/local/rep-deborah-ross-shares-plan-affordable-housing-health-care-childcare/G6QMUD4KWZATLHYQUKAHUIPZKY",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 2725: Affordable Housing Credit Improvement Act of 2025 (cosponsored by Deborah K. Ross; latest action 2025-04-08: Referred to the House Committee on Ways and Means.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2725",
+    "outletId": "congress-gov",
+    "date": "2025-04-14",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 3238: Affordable Housing Credit Improvement Act of 2023 (cosponsored by Deborah K. Ross; latest action 2023-05-11: Referred to the House Committee on Ways and Means.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/3238",
+    "outletId": "congress-gov",
+    "date": "2023-07-26",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored the housing credit bill in two Congresses; it has not advanced past committee. What the record shows: H.R. 2725 (cosponsored): Affordable Housing Credit Improvement Act of 2025. Latest action: Referred to the House Committee on Ways and Means. H.R. 3238 (cosponsored): Affordable Housing Credit Improvement Act of 2023. Latest action: Referred to the House Committee on Ways and Means.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-02-r000305:2",
@@ -38,12 +55,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No bill or vote about pharmacy benefit managers was found in her record.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-s-b001305:1",
@@ -59,14 +76,39 @@
    "url": "https://abc11.com/amp/post/ted-budd-nc-senate-race-cheri-beasley-gop/12091123/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "S. 3655: Strategically Lowering Gas Prices Act (sponsored by Ted Budd; latest action 2024-01-24: Read twice and referred to the Committee on Energy and Natural Resources.)",
+    "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3655",
+    "outletId": "congress-gov",
+    "date": "2024-01-24",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "S. 1017: Safe and Secure Transportation of American Energy Act (cosponsored by Ted Budd; latest action 2025-03-13: Read twice and referred to the Committee on Commerce, Science, and Transportation.)",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1017",
+    "outletId": "congress-gov",
+    "date": "2025-03-13",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "S. 883: Unlocking Domestic LNG Potential Act of 2025 (cosponsored by Ted Budd; latest action 2025-03-06: Read twice and referred to the Committee on Energy and Natural Resources.)",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/883",
+    "outletId": "congress-gov",
+    "date": "2025-03-06",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored and cosponsored energy bills that are still in committee. What the record shows: S. 3655 (sponsored): Strategically Lowering Gas Prices Act. Latest action: Read twice and referred to the Committee on Energy and Natural Resources. S. 1017 (cosponsored): Safe and Secure Transportation of American Energy Act. Latest action: Read twice and referred to the Committee on Commerce, Science, and Transportation. S. 883 (cosponsored): Unlocking Domestic LNG Potential Act of 2025. Latest action: Read twice and referred to the Committee on Energy and Natural Resources.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-01-d000230:1",
@@ -84,12 +126,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-01-d000230:2",
@@ -107,12 +149,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "He sponsored a resolution supporting states that expand Medicaid, which is different from the federal alternative he described. No bill for that alternative was found.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-01-d000230:3",
@@ -130,12 +172,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-01-d000230:4",
@@ -151,14 +193,47 @@
    "url": "https://cardinalpine.com/2024/09/18/don-davis-agenda-congress/",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 154, 2026-04-30: On Passage on H.R. 7567 (Farm, Food, and National Security Act of 2026). Donald G. Davis voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll154.xml",
+    "outletId": "house-clerk",
+    "date": "2026-04-30",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190514",
+    "outletId": "voteview",
+    "date": "2026-04-30",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 2043: Agricultural Commodities Price Enhancement Act (sponsored by Donald G. Davis; latest action 2025-03-28: Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2043",
+    "outletId": "congress-gov",
+    "date": "2025-03-11",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 5101: Agricultural Commodities Price Enhancement Act of 2023 (sponsored by Donald G. Davis; latest action 2023-09-19: Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/5101",
+    "outletId": "congress-gov",
+    "date": "2023-08-01",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He voted yes on the House farm bill and sponsored a commodity prices bill. The farm bill has passed the House but is not law. What the record shows: 2026-04-30: voted yes on H.R. 7567 (Farm, Food, and National Security Act of 2026) (on passage, passed). Consistent with the promise. H.R. 2043 (sponsored): Agricultural Commodities Price Enhancement Act. Latest action: Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit. H.R. 5101 (sponsored): Agricultural Commodities Price Enhancement Act of 2023. Latest action: Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-01-d000230:5",
@@ -175,13 +250,46 @@
    "type": "news"
   },
   "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 27, 2025-01-23: On Passage on H.R. 21 (Born-Alive Abortion Survivors Protection Act). Donald G. Davis voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190026",
+    "outletId": "voteview",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 29, 2023-01-11: On Passage on H.R. 26 (Born-Alive Abortion Survivors Protection Act). Donald G. Davis voted no.",
+    "url": "https://clerk.house.gov/evs/2023/roll029.xml",
+    "outletId": "house-clerk",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1180028",
+    "outletId": "voteview",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "His votes are consistent with this stance, but no bill that codifies Roe v. Wade appears in his sponsored or cosponsored list. What the record shows: 2025-01-23: voted no on H.R. 21 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). He voted no on this bill, which is consistent with his stated position but does not codify Roe v. Wade. 2023-01-11: voted no on H.R. 26 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). He voted no on this bill, which is consistent with his stated position but does not codify Roe v. Wade.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:1",
@@ -199,12 +307,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No bill or vote on the child tax credit was found in her record.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:2",
@@ -220,14 +328,31 @@
    "url": "https://abc11.com/amp/post/highlighting-experience-foushee-seeks-congress-in-familiar-district-/11856685/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 2743: Raise the Wage Act of 2025 (cosponsored by Valerie P. Foushee; latest action 2025-04-08: Referred to the House Committee on Education and Workforce.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+    "outletId": "congress-gov",
+    "date": "2025-04-08",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 4889: Raise the Wage Act of 2023 (cosponsored by Valerie P. Foushee; latest action 2023-07-25: Referred to the House Committee on Education and the Workforce.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/4889",
+    "outletId": "congress-gov",
+    "date": "2023-07-25",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored the Raise the Wage Act in two Congresses; it has not advanced. What the record shows: H.R. 2743 (cosponsored): Raise the Wage Act of 2025. Latest action: Referred to the House Committee on Education and Workforce. H.R. 4889 (cosponsored): Raise the Wage Act of 2023. Latest action: Referred to the House Committee on Education and the Workforce.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:3",
@@ -243,14 +368,31 @@
    "url": "https://abc11.com/amp/post/highlighting-experience-foushee-seeks-congress-in-familiar-district-/11856685/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 14: John R. Lewis Voting Rights Advancement Act of 2025 (cosponsored by Valerie P. Foushee; latest action 2025-03-05: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/14",
+    "outletId": "congress-gov",
+    "date": "2025-03-05",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 14: John R. Lewis Voting Rights Advancement Act of 2023 (cosponsored by Valerie P. Foushee; latest action 2023-09-19: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/14",
+    "outletId": "congress-gov",
+    "date": "2023-09-19",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored the John R. Lewis Voting Rights Advancement Act in two Congresses; it has not advanced. What the record shows: H.R. 14 (cosponsored): John R. Lewis Voting Rights Advancement Act of 2025. Latest action: Referred to the House Committee on the Judiciary. H.R. 14 (cosponsored): John R. Lewis Voting Rights Advancement Act of 2023. Latest action: Referred to the House Committee on the Judiciary.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:4",
@@ -266,14 +408,31 @@
    "url": "https://abc11.com/amp/post/highlighting-experience-foushee-seeks-congress-in-familiar-district-/11856685/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 3069: Medicare for All Act (cosponsored by Valerie P. Foushee; latest action 2025-04-29: Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, Education and Workforce, Rules, Oversight and Government Reform, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069",
+    "outletId": "congress-gov",
+    "date": "2025-04-29",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 3421: Medicare for All Act (cosponsored by Valerie P. Foushee; latest action 2024-12-17: Referred to the Subcommittee on Health.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/3421",
+    "outletId": "congress-gov",
+    "date": "2023-05-17",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored the Medicare for All Act in two Congresses; it has not advanced. What the record shows: H.R. 3069 (cosponsored): Medicare for All Act. Latest action: Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, Education and Workforce, Rules, Oversight and Government Reform, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned. H.R. 3421 (cosponsored): Medicare for All Act. Latest action: Referred to the Subcommittee on Health.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:5",
@@ -289,14 +448,31 @@
    "url": "https://abc11.com/amp/post/highlighting-experience-foushee-seeks-congress-in-familiar-district-/11856685/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 4418: Child Care for Working Families Act (cosponsored by Valerie P. Foushee; latest action 2025-07-15: Referred to the House Committee on Education and Workforce.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4418",
+    "outletId": "congress-gov",
+    "date": "2025-12-18",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 953: Child Care for Every Community Act (cosponsored by Valerie P. Foushee; latest action 2023-02-09: Referred to the House Committee on Education and the Workforce.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/953",
+    "outletId": "congress-gov",
+    "date": "2023-07-12",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored child care bills. They are not the same as universal pre-K, and they remain in committee. What the record shows: H.R. 4418 (cosponsored): Child Care for Working Families Act. Latest action: Referred to the House Committee on Education and Workforce. H.R. 953 (cosponsored): Child Care for Every Community Act. Latest action: Referred to the House Committee on Education and the Workforce.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:6",
@@ -314,12 +490,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The votes found on health care in her record do not show how she voted on extending the subsidies.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:7",
@@ -335,14 +511,71 @@
    "url": "https://valeriefoushee.com/issues/",
    "type": "campaign-site"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 27, 2025-01-23: On Passage on H.R. 21 (Born-Alive Abortion Survivors Protection Act). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190026",
+    "outletId": "voteview",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 29, 2023-01-11: On Passage on H.R. 26 (Born-Alive Abortion Survivors Protection Act). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2023/roll029.xml",
+    "outletId": "house-clerk",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1180028",
+    "outletId": "voteview",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 999: Right to Contraception Act (cosponsored by Valerie P. Foushee; latest action 2025-02-05: Referred to the House Committee on Energy and Commerce.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/999",
+    "outletId": "congress-gov",
+    "date": "2025-02-05",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 4121: Right to Contraception Act (cosponsored by Valerie P. Foushee; latest action 2023-06-16: Referred to the Subcommittee on Health.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/4121",
+    "outletId": "congress-gov",
+    "date": "2023-06-14",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 1723: Abortion is Health Care Everywhere Act of 2023 (cosponsored by Valerie P. Foushee; latest action 2023-03-22: Referred to the House Committee on Foreign Affairs.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/1723",
+    "outletId": "congress-gov",
+    "date": "2023-03-22",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored contraception and abortion access bills; none has advanced. What the record shows: 2025-01-23: voted no on H.R. 21 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). She voted no on this bill. This is consistent with her stated position. 2023-01-11: voted no on H.R. 26 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). She voted no on this bill. This is consistent with her stated position. H.R. 999 (cosponsored): Right to Contraception Act. Latest action: Referred to the House Committee on Energy and Commerce. H.R. 4121 (cosponsored): Right to Contraception Act. Latest action: Referred to the Subcommittee on Health. H.R. 1723 (cosponsored): Abortion is Health Care Everywhere Act of 2023. Latest action: Referred to the House Committee on Foreign Affairs.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:8",
@@ -358,14 +591,55 @@
    "url": "https://valeriefoushee.com/issues/",
    "type": "campaign-site"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 234, 2023-05-24: On Passage on H.J.Res. 45 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Waivers and Modifications of Federal Student Loans\".). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2023/roll234.xml",
+    "outletId": "house-clerk",
+    "date": "2023-05-24",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1180233",
+    "outletId": "voteview",
+    "date": "2023-05-24",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 3543: College for All Act of 2025 (cosponsored by Valerie P. Foushee; latest action 2025-05-21: Referred to the Committee on Education and Workforce, and in addition to the Committees on Ways and Means, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3543",
+    "outletId": "congress-gov",
+    "date": "2025-05-21",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 4117: College for All Act of 2023 (cosponsored by Valerie P. Foushee; latest action 2023-06-14: Referred to the Committee on Education and the Workforce, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/4117",
+    "outletId": "congress-gov",
+    "date": "2023-07-12",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 4986: Student Loan Interest Elimination Act (cosponsored by Valerie P. Foushee; latest action 2023-07-27: Referred to the Committee on Education and the Workforce, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/4986",
+    "outletId": "congress-gov",
+    "date": "2024-10-29",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored debt and tuition bills that have not advanced, and voted no on a measure that would have overturned a student loan rule. What the record shows: 2023-05-24: voted no on H.J.Res. 45 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Waivers and Modifications of Federal Student Loans\".) (on passage, passed). She voted no on overturning the Education Department student loan waiver rule. H.R. 3543 (cosponsored): College for All Act of 2025. Latest action: Referred to the Committee on Education and Workforce, and in addition to the Committees on Ways and Means, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned. H.R. 4117 (cosponsored): College for All Act of 2023. Latest action: Referred to the Committee on Education and the Workforce, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned. H.R. 4986 (cosponsored): Student Loan Interest Elimination Act. Latest action: Referred to the Committee on Education and the Workforce, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:9",
@@ -381,14 +655,55 @@
    "url": "https://valeriefoushee.com/issues/",
    "type": "campaign-site"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 87, 2026-03-05: On Passage on H.R. 7744 (Department of Homeland Security Appropriations Act, 2026). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2026/roll087.xml",
+    "outletId": "house-clerk",
+    "date": "2026-03-05",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190447",
+    "outletId": "voteview",
+    "date": "2026-03-05",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 7335: Humanitarian Standards for Individuals in ICE and CBP Custody Act (cosponsored by Valerie P. Foushee; latest action 2026-02-04: Sponsor introductory remarks on measure. (CR H2018))",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7335",
+    "outletId": "congress-gov",
+    "date": "2026-07-21",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 7392: To impose a hiring freeze on United States Immigration and Customs Enforcement, and for other purposes. (cosponsored by Valerie P. Foushee; latest action 2026-02-06: Referred to the Subcommittee on Oversight, Investigations, and Accountability.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7392",
+    "outletId": "congress-gov",
+    "date": "2026-02-05",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 3172: To amend section 287 of the Immigration and Nationality Act with respect to certain uniform requirements for United States immigration officers. (cosponsored by Valerie P. Foushee; latest action 2025-05-01: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3172",
+    "outletId": "congress-gov",
+    "date": "2026-01-16",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored bills about ICE custody standards and a hiring freeze, and voted no on the Homeland Security appropriations bill. None of the bills has advanced. What the record shows: 2026-03-05: voted no on H.R. 7744 (Department of Homeland Security Appropriations Act, 2026) (on passage, passed). She voted no on the Department of Homeland Security appropriations bill. H.R. 7335 (cosponsored): Humanitarian Standards for Individuals in ICE and CBP Custody Act. Latest action: Sponsor introductory remarks on measure. (CR H2018) H.R. 7392 (cosponsored): To impose a hiring freeze on United States Immigration and Customs Enforcement, and for other purposes.. Latest action: Referred to the Subcommittee on Oversight, Investigations, and Accountability. H.R. 3172 (cosponsored): To amend section 287 of the Immigration and Nationality Act with respect to certain uniform requirements for United States immigration officers.. Latest action: Referred to the House Committee on the Judiciary.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:10",
@@ -404,14 +719,63 @@
    "url": "https://valeriefoushee.com/issues/",
    "type": "campaign-site"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 145, 2025-05-22: On Passage on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190144",
+    "outletId": "voteview",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 190, 2025-07-03: On Motion to Concur in the Senate Amendment on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+    "outletId": "house-clerk",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190189",
+    "outletId": "voteview",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 8085: Ultra-Millionaire Tax Act of 2026 (cosponsored by Valerie P. Foushee; latest action 2026-03-25: Referred to the House Committee on Ways and Means.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8085",
+    "outletId": "congress-gov",
+    "date": "2026-03-25",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 2671: Tax Fairness for Workers Act (cosponsored by Valerie P. Foushee; latest action 2025-04-07: Referred to the House Committee on Ways and Means.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2671",
+    "outletId": "congress-gov",
+    "date": "2026-06-02",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She voted no on the 2025 tax law and cosponsored taxes on very high wealth. Both are consistent with her stated tax position. What the record shows: 2025-05-22: voted no on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on passage, passed). She voted no on the 2025 reconciliation law, which cut taxes. This is consistent with her stated support for higher taxes on high earners. 2025-07-03: voted no on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on motion to concur in the senate amendment, passed). She voted no on the 2025 reconciliation law, which cut taxes. This is consistent with her stated support for higher taxes on high earners. H.R. 8085 (cosponsored): Ultra-Millionaire Tax Act of 2026. Latest action: Referred to the House Committee on Ways and Means. H.R. 2671 (cosponsored): Tax Fairness for Workers Act. Latest action: Referred to the House Committee on Ways and Means.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:11",
@@ -427,14 +791,63 @@
    "url": "https://valeriefoushee.com/issues/",
    "type": "campaign-site"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 52, 2025-02-26: On Passage on H.J.Res. 35 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll052.xml",
+    "outletId": "house-clerk",
+    "date": "2025-02-26",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190051",
+    "outletId": "voteview",
+    "date": "2025-02-26",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 438, 2024-09-20: On Passage on H.J.Res. 136 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Multi-Pollutant Emissions Standards for Model Years 2027 and Later Light-Duty and Medium-Duty Vehicles\".). Valerie P. Foushee voted no.",
+    "url": "https://clerk.house.gov/evs/2024/roll438.xml",
+    "outletId": "house-clerk",
+    "date": "2024-09-20",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1181156",
+    "outletId": "voteview",
+    "date": "2024-09-20",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.Res. 319: Recognizing the duty of the Federal Government to create a Green New Deal. (cosponsored by Valerie P. Foushee; latest action 2023-05-15: Referred to the Subcommittee on Conservation, Research, and Biotechnology.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-resolution/319",
+    "outletId": "congress-gov",
+    "date": "2023-04-24",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 5784: Green New Deal for Public Schools Act of 2023 (cosponsored by Valerie P. Foushee; latest action 2023-09-28: Referred to the House Committee on Education and the Workforce.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/5784",
+    "outletId": "congress-gov",
+    "date": "2023-09-28",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She voted no on repeated measures that rolled back climate rules and cosponsored Green New Deal bills. What the record shows: 2025-02-26: voted no on H.J.Res. 35 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".) (on passage, passed). She voted no on overturning an Environmental Protection Agency climate or pollution rule. 2024-09-20: voted no on H.J.Res. 136 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Multi-Pollutant Emissions Standards for Model Years 2027 and Later Light-Duty and Medium-Duty Vehicles\".) (on passage, passed). She voted no on overturning an Environmental Protection Agency climate or pollution rule. H.Res. 319 (cosponsored): Recognizing the duty of the Federal Government to create a Green New Deal.. Latest action: Referred to the Subcommittee on Conservation, Research, and Biotechnology. H.R. 5784 (cosponsored): Green New Deal for Public Schools Act of 2023. Latest action: Referred to the House Committee on Education and the Workforce.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-06-m001240:1",
@@ -452,12 +865,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-07-r000603:1",
@@ -473,14 +886,47 @@
    "url": "https://news.yahoo.com/heres-where-david-rouzer-charles-035900663.html",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 145, 2025-05-22: On Passage on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190144",
+    "outletId": "voteview",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 190, 2025-07-03: On Motion to Concur in the Senate Amendment on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+    "outletId": "house-clerk",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190189",
+    "outletId": "voteview",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the 2025 reconciliation law, which made the 2017 individual tax rates permanent. What the record shows: 2025-05-22: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on passage, passed). He voted yes on the 2025 reconciliation law that extended the 2017 tax cuts. 2025-07-03: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on motion to concur in the senate amendment, passed). He voted yes on the 2025 reconciliation law that extended the 2017 tax cuts.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-07-r000603:2",
@@ -496,14 +942,63 @@
    "url": "https://news.yahoo.com/heres-where-david-rouzer-charles-035900663.html",
    "type": "campaign-site"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 27, 2025-01-23: On Passage on H.R. 21 (Born-Alive Abortion Survivors Protection Act). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190026",
+    "outletId": "voteview",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 29, 2023-01-11: On Passage on H.R. 26 (Born-Alive Abortion Survivors Protection Act). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2023/roll029.xml",
+    "outletId": "house-clerk",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1180028",
+    "outletId": "voteview",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 30, 2023-01-11: On Agreeing to the Resolution on H.Con.Res. 3 (Expressing the sense of Congress condemning the recent attacks on pro-life facilities, groups, and churches.). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2023/roll030.xml",
+    "outletId": "house-clerk",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1180029",
+    "outletId": "voteview",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the Born-Alive Abortion Survivors Protection Act in two Congresses and on a resolution condemning attacks on pro-life groups. What the record shows: 2025-01-23: voted yes on H.R. 21 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). He voted yes on this pro-life measure. 2023-01-11: voted yes on H.R. 26 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). He voted yes on this pro-life measure. 2023-01-11: voted yes on H.Con.Res. 3 (Expressing the sense of Congress condemning the recent attacks on pro-life facilities, groups, and churches.) (on agreeing to the resolution, passed). He voted yes on this pro-life measure.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-07-r000603:3",
@@ -519,14 +1014,71 @@
    "url": "https://news.yahoo.com/u-house-district-7-congressional-090153500.html",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "partial",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 33, 2025-02-06: On Passage on H.R. 27 (HALT Fentanyl Act). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll033.xml",
+    "outletId": "house-clerk",
+    "date": "2025-02-06",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190032",
+    "outletId": "voteview",
+    "date": "2025-02-06",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 166, 2025-06-12: On Passage on S. 331 (HALT Fentanyl Act). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll166.xml",
+    "outletId": "house-clerk",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190165",
+    "outletId": "voteview",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 514, 2024-12-18: On Motion to Suspend the Rules and Concur in the Senate Amendments on H.R. 8663 (DETECT Fentanyl and Xylazine Act of 2024). David Rouzer voted yes.",
+    "url": "https://clerk.house.gov/evs/2024/roll514.xml",
+    "outletId": "house-clerk",
+    "date": "2024-12-18",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1181232",
+    "outletId": "voteview",
+    "date": "2024-12-18",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 5259: PFAS Exposure Assessment and Documentation Act (cosponsored by David Rouzer; latest action 2023-08-22: Referred to the House Committee on Armed Services.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/5259",
+    "outletId": "congress-gov",
+    "date": "2023-11-15",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He voted for fentanyl and opioid bills, but the PFAS clean-up promise is supported only by a cosponsored bill that has not advanced. What the record shows: 2025-02-06: voted yes on H.R. 27 (HALT Fentanyl Act) (on passage, passed). He voted yes on a bill about fentanyl or opioids. 2025-06-12: voted yes on S. 331 (HALT Fentanyl Act) (on passage, passed). He voted yes on a bill about fentanyl or opioids. 2024-12-18: voted yes on H.R. 8663 (DETECT Fentanyl and Xylazine Act of 2024) (on motion to suspend the rules and concur in the senate amendments, passed). He voted yes on a bill about fentanyl or opioids. H.R. 5259 (cosponsored): PFAS Exposure Assessment and Documentation Act. Latest action: Referred to the House Committee on Armed Services.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-08-h001102:1",
@@ -544,12 +1096,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-09-h001067:1",
@@ -567,12 +1119,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-09-h001067:2",
@@ -590,12 +1142,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-10-h001101:1",
@@ -613,12 +1165,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-10-h001101:2",
@@ -636,12 +1188,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-11-e000246:1",
@@ -659,12 +1211,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-11-e000246:2",
@@ -682,12 +1234,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "He voted yes on House Israel aid bills, but our data does not show the text of the bill so we cannot confirm the IRS offset.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-12-a000370:1",
@@ -705,12 +1257,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-12-a000370:2",
@@ -728,12 +1280,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-12-a000370:3",
@@ -751,12 +1303,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No bill or vote about preexisting condition coverage was found in her record.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-13-k000405:1",
@@ -774,12 +1326,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-13-k000405:2",
@@ -797,12 +1349,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-14-m001236:1",
@@ -820,12 +1372,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No term limit bill or vote was found in his record.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-s-k000384:1",
@@ -841,14 +1393,39 @@
    "url": "https://www.fox5dc.com/news/kaine-wins-re-election-virginia-senate",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 230, 2024-08-01: On Cloture on the Motion to Proceed H.R. 7024 on H.R. 7024 (Tax Relief for American Families and Workers Act of 2024). Tim Kaine voted yes.",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00230.htm",
+    "outletId": "senate-gov",
+    "date": "2024-08-01",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RS1180582",
+    "outletId": "voteview",
+    "date": "2024-08-01",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "S. 1372: Tax Cut for Workers Act of 2025 (cosponsored by Tim Kaine; latest action 2025-04-09: Read twice and referred to the Committee on Finance.)",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1372",
+    "outletId": "congress-gov",
+    "date": "2025-04-09",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He voted yes on cloture for a tax credit bill that was rejected, and cosponsored the Tax Cut for Workers Act, which has not advanced. What the record shows: 2024-08-01: voted yes on H.R. 7024 (Tax Relief for American Families and Workers Act of 2024) (on cloture on the motion to proceed h.r. 7024, cloture on the motion to proceed rejected (48-44, 3/5 majority required)). He voted yes on moving the Tax Relief for American Families and Workers Act forward. S. 1372 (cosponsored): Tax Cut for Workers Act of 2025. Latest action: Read twice and referred to the Committee on Finance.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-01-w000804:1",
@@ -864,14 +1441,47 @@
    "url": "https://virginiamercury.com/2026/09/21/with-us-house-control-hanging-in-the-balance-wittman-faces-taylor-in-contentious-va-01-race/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 154, 2026-04-30: On Passage on H.R. 7567 (Farm, Food, and National Security Act of 2026). Robert J. Wittman voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll154.xml",
+    "outletId": "house-clerk",
+    "date": "2026-04-30",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190514",
+    "outletId": "voteview",
+    "date": "2026-04-30",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 191, 2026-05-21: On Passage on H.R. 6047 (Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026). Robert J. Wittman voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll191.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-21",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190551",
+    "outletId": "voteview",
+    "date": "2026-05-21",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the House farm bill and on veterans benefits bills. The farm bill has passed the House but is not law. What the record shows: 2026-04-30: voted yes on H.R. 7567 (Farm, Food, and National Security Act of 2026) (on passage, passed). He voted yes on a farm or veterans bill. 2026-05-21: voted yes on H.R. 6047 (Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026) (on passage, passed). He voted yes on a farm or veterans bill.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-01-w000804:2",
@@ -889,12 +1499,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-01-w000804:3",
@@ -910,14 +1520,79 @@
    "url": "https://wjla.com/news/nation-world/rep-rob-wittman-says-house-majority-runs-right-through-virginia-as-midterms-approach-trump-administration-washington-congress-republican-democrat-ice-law-enforcement-abigial-spanberger-gleen-youngkin-immigration",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "partial",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 171, 2026-05-14: On Passage on H.R. 5625 (Cashless Bail Reporting Act). Robert J. Wittman voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll171.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190531",
+    "outletId": "voteview",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 169, 2026-05-14: On Passage on H.R. 6260 (Keeping Violent Offenders Off Our Streets Act of 2025). Robert J. Wittman voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll169.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190529",
+    "outletId": "voteview",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 165, 2026-05-13: On Agreeing to the Resolution on H.Con.Res. 96 (Expressing support for law enforcement officers.). Robert J. Wittman voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll165.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-13",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190525",
+    "outletId": "voteview",
+    "date": "2026-05-13",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 2091: Chesapeake Bay Conservation Acceleration Act of 2025 (sponsored by Robert J. Wittman; latest action 2025-03-11: Referred to the House Committee on Agriculture.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2091",
+    "outletId": "congress-gov",
+    "date": "2025-03-11",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 6893: Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act (cosponsored by Robert J. Wittman; latest action 2026-09-15: Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6893",
+    "outletId": "congress-gov",
+    "date": "2025-12-18",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored a Chesapeake Bay bill and voted yes on law enforcement bills. No evidence on local government assistance was found. What the record shows: 2026-05-14: voted yes on H.R. 5625 (Cashless Bail Reporting Act) (on passage, passed). He voted yes on a law enforcement bill. 2026-05-14: voted yes on H.R. 6260 (Keeping Violent Offenders Off Our Streets Act of 2025) (on passage, passed). He voted yes on a law enforcement bill. 2026-05-13: voted yes on H.Con.Res. 96 (Expressing support for law enforcement officers.) (on agreeing to the resolution, passed). He voted yes on a law enforcement bill. H.R. 2091 (sponsored): Chesapeake Bay Conservation Acceleration Act of 2025. Latest action: Referred to the House Committee on Agriculture. H.R. 6893 (cosponsored): Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act. Latest action: Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-02-k000399:1",
@@ -933,14 +1608,47 @@
    "url": "https://virginiamercury.com/2022/10/12/in-first-debate-luria-and-kiggans-battle-over-elections-abortion-and-inflation/",
    "type": "debate"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 27, 2025-01-23: On Passage on H.R. 21 (Born-Alive Abortion Survivors Protection Act). Jennifer A. Kiggans voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190026",
+    "outletId": "voteview",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 29, 2023-01-11: On Passage on H.R. 26 (Born-Alive Abortion Survivors Protection Act). Jennifer A. Kiggans voted yes.",
+    "url": "https://clerk.house.gov/evs/2023/roll029.xml",
+    "outletId": "house-clerk",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1180028",
+    "outletId": "voteview",
+    "date": "2023-01-11",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "She voted yes on the Born-Alive Abortion Survivors Protection Act in two Congresses. No recorded vote conflicts with her stated exceptions. What the record shows: 2025-01-23: voted yes on H.R. 21 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). She voted yes on this pro-life bill. 2023-01-11: voted yes on H.R. 26 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). She voted yes on this pro-life bill.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-04-m001227:1",
@@ -956,14 +1664,47 @@
    "url": "https://commonwealthtimes.org/2023/02/15/every-seat-counts-two-candidates-face-off-in-virginias-special-election/",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 27, 2025-01-23: On Passage on H.R. 21 (Born-Alive Abortion Survivors Protection Act). Jennifer L. McClellan voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190026",
+    "outletId": "voteview",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 10600: Abortion is Health Care Everywhere Act of 2026 (cosponsored by Jennifer L. McClellan; latest action 2026-09-24: Referred to the House Committee on Foreign Affairs.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10600",
+    "outletId": "congress-gov",
+    "date": "2026-09-24",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 4916: Youth Voting Rights Act (cosponsored by Jennifer L. McClellan; latest action 2025-08-05: Referred to the Committee on House Administration, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4916",
+    "outletId": "congress-gov",
+    "date": "2025-08-05",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He cosponsored abortion and voting rights bills that remain in committee and voted no on the Born-Alive bill. What the record shows: 2025-01-23: voted no on H.R. 21 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). He voted no on this bill, which is consistent with his stated position. H.R. 10600 (cosponsored): Abortion is Health Care Everywhere Act of 2026. Latest action: Referred to the House Committee on Foreign Affairs. H.R. 4916 (cosponsored): Youth Voting Rights Act. Latest action: Referred to the Committee on House Administration, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-06-c001118:1",
@@ -981,12 +1722,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "Town hall attendance is not recorded in votes or bills.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-06-c001118:2",
@@ -1004,12 +1745,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No data center bill or vote was found.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-06-c001118:3",
@@ -1027,12 +1768,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No Iran vote clearly fits this statement.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-06-c001118:4",
@@ -1050,12 +1791,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-06-c001118:5",
@@ -1071,14 +1812,79 @@
    "url": "https://www.whsv.com/2022/11/09/ap-rep-ben-cline-wins-reelection-vas-sixth-congressional-district",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 131, 2025-05-15: On Passage on H.R. 2240 (Improving Law Enforcement Officer Safety and Wellness Through Data Act). Ben Cline voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll131.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-15",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190130",
+    "outletId": "voteview",
+    "date": "2025-05-15",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 130, 2025-05-15: On Passage on H.R. 2255 (Federal Law Enforcement Officer Service Weapon Purchase Act of 2025). Ben Cline voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll130.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-15",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190129",
+    "outletId": "voteview",
+    "date": "2025-05-15",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 128, 2025-05-14: On Passage on H.R. 2243 (LEOSA Reform Act). Ben Cline voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll128.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190127",
+    "outletId": "voteview",
+    "date": "2025-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 42, 2025-02-13: On Passage on H.R. 35 (Agent Raul Gonzalez Officer Safety Act). Ben Cline voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll042.xml",
+    "outletId": "house-clerk",
+    "date": "2025-02-13",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190041",
+    "outletId": "voteview",
+    "date": "2025-02-13",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on four bills that give police equipment, data or protections. What the record shows: 2025-05-15: voted yes on H.R. 2240 (Improving Law Enforcement Officer Safety and Wellness Through Data Act) (on passage, passed). He voted yes on a bill for law enforcement. 2025-05-15: voted yes on H.R. 2255 (Federal Law Enforcement Officer Service Weapon Purchase Act of 2025) (on passage, passed). He voted yes on a bill for law enforcement. 2025-05-14: voted yes on H.R. 2243 (LEOSA Reform Act) (on passage, passed). He voted yes on a bill for law enforcement. 2025-02-13: voted yes on H.R. 35 (Agent Raul Gonzalez Officer Safety Act) (on passage, passed). He voted yes on a bill for law enforcement.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-07-v000138:1",
@@ -1094,14 +1900,63 @@
    "url": "https://www.armytimes.com/news/pentagon-congress/2023/11/15/army-vet-vindman-who-drew-trumps-ire-to-run-for-congress/",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "partial",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 191, 2026-05-21: On Passage on H.R. 6047 (Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026). Eugene Simon Vindman voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll191.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-21",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190551",
+    "outletId": "voteview",
+    "date": "2026-05-21",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 175, 2026-05-15: On Passage on H.R. 8469 (Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.). Eugene Simon Vindman voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll175.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-15",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190535",
+    "outletId": "voteview",
+    "date": "2026-05-15",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 9533: Veterans Health Administration Personnel Transparency and Accountability Act (sponsored by Eugene Simon Vindman; latest action 2026-07-17: Referred to the Subcommittee on Health.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9533",
+    "outletId": "congress-gov",
+    "date": "2026-06-29",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 9379: Affordable Homes for Veterans Act of 2026 (sponsored by Eugene Simon Vindman; latest action 2026-07-06: Referred to the Subcommittee on Economic Opportunity.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9379",
+    "outletId": "congress-gov",
+    "date": "2026-06-18",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He voted yes on veterans bills and sponsored two more. The statement about keeping the military non-political cannot be measured from votes. What the record shows: 2026-05-21: voted yes on H.R. 6047 (Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026) (on passage, passed). He voted yes on a veterans bill or the veterans funding bill. 2026-05-15: voted yes on H.R. 8469 (Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.) (on passage, passed). He voted yes on a veterans bill or the veterans funding bill. H.R. 9533 (sponsored): Veterans Health Administration Personnel Transparency and Accountability Act. Latest action: Referred to the Subcommittee on Health. H.R. 9379 (sponsored): Affordable Homes for Veterans Act of 2026. Latest action: Referred to the Subcommittee on Economic Opportunity.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-07-v000138:2",
@@ -1117,14 +1972,23 @@
    "url": "https://www.potomaclocal.com/2024/08/15/with-election-day-looming-vindman-rallies-supporters-at-invitation-only-event-in-dumfries",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 9036: American High-Speed Rail Act (cosponsored by Eugene Simon Vindman; latest action 2026-05-26: Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9036",
+    "outletId": "congress-gov",
+    "date": "2026-06-03",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He cosponsored the American High-Speed Rail Act, which has not advanced. What the record shows: H.R. 9036 (cosponsored): American High-Speed Rail Act. Latest action: Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-08-b001292:1",
@@ -1140,14 +2004,47 @@
    "url": "https://www.arlnow.com/press-releases/beyer-to-seek-sixth-term-in-u-s-house/",
    "type": "press-release"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 18: Bipartisan Background Checks Act of 2025 (cosponsored by Donald S. Beyer, Jr.; latest action 2025-06-10: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+    "outletId": "congress-gov",
+    "date": "2025-06-10",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 3868: Enhanced Background Checks Act of 2025 (cosponsored by Donald S. Beyer, Jr.; latest action 2025-06-10: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3868",
+    "outletId": "congress-gov",
+    "date": "2025-06-10",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 5390: FAMILY Act (cosponsored by Donald S. Beyer, Jr.; latest action 2025-09-16: Referred to the House Committee on Ways and Means.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5390",
+    "outletId": "congress-gov",
+    "date": "2025-09-16",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 9261: Comprehensive Paid Leave for Federal Employees Act (sponsored by Donald S. Beyer, Jr.; latest action 2026-06-26: Referred to the Subcommittee on Oversight and Investigations.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9261",
+    "outletId": "congress-gov",
+    "date": "2026-06-11",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He cosponsored gun safety and paid leave bills and sponsored a federal employee leave bill. None has advanced. What the record shows: H.R. 18 (cosponsored): Bipartisan Background Checks Act of 2025. Latest action: Referred to the House Committee on the Judiciary. H.R. 3868 (cosponsored): Enhanced Background Checks Act of 2025. Latest action: Referred to the House Committee on the Judiciary. H.R. 5390 (cosponsored): FAMILY Act. Latest action: Referred to the House Committee on Ways and Means. H.R. 9261 (sponsored): Comprehensive Paid Leave for Federal Employees Act. Latest action: Referred to the Subcommittee on Oversight and Investigations.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-08-b001292:2",
@@ -1163,14 +2060,63 @@
    "url": "https://www.arlnow.com/press-releases/beyer-to-seek-sixth-term-in-u-s-house/",
    "type": "press-release"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 52, 2025-02-26: On Passage on H.J.Res. 35 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".). Donald S. Beyer, Jr. voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll052.xml",
+    "outletId": "house-clerk",
+    "date": "2025-02-26",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190051",
+    "outletId": "voteview",
+    "date": "2025-02-26",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 438, 2024-09-20: On Passage on H.J.Res. 136 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Multi-Pollutant Emissions Standards for Model Years 2027 and Later Light-Duty and Medium-Duty Vehicles\".). Donald S. Beyer, Jr. voted no.",
+    "url": "https://clerk.house.gov/evs/2024/roll438.xml",
+    "outletId": "house-clerk",
+    "date": "2024-09-20",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1181156",
+    "outletId": "voteview",
+    "date": "2024-09-20",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 78, 2025-03-27: On Passage on H.J.Res. 75 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".). Donald S. Beyer, Jr. voted no.",
+    "url": "https://clerk.house.gov/evs/2025/roll078.xml",
+    "outletId": "house-clerk",
+    "date": "2025-03-27",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted no.",
+    "url": "https://voteview.com/rollcall/RH1190077",
+    "outletId": "voteview",
+    "date": "2025-03-27",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted no on repeated measures that rolled back climate rules. What the record shows: 2025-02-26: voted no on H.J.Res. 35 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".) (on passage, passed). He voted no on overturning a climate or energy efficiency rule. 2024-09-20: voted no on H.J.Res. 136 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Multi-Pollutant Emissions Standards for Model Years 2027 and Later Light-Duty and Medium-Duty Vehicles\".) (on passage, passed). He voted no on overturning a climate or energy efficiency rule. 2025-03-27: voted no on H.J.Res. 75 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".) (on passage, passed). He voted no on overturning a climate or energy efficiency rule.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-08-b001292:3",
@@ -1186,14 +2132,23 @@
    "url": "https://virginiamercury.com/2026/07/30/how-8th-congressional-district-democratic-primary-reflects-partys-shifting-identity-and-priorities/",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 7802: DISCLOSE Act of 2026 (cosponsored by Donald S. Beyer, Jr.; latest action 2026-03-04: Referred to the Committee on House Administration, and in addition to the Committees on Ways and Means, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7802",
+    "outletId": "congress-gov",
+    "date": "2026-08-06",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He cosponsored the DISCLOSE Act, which is in committee. What the record shows: H.R. 7802 (cosponsored): DISCLOSE Act of 2026. Latest action: Referred to the Committee on House Administration, and in addition to the Committees on Ways and Means, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-09-g000568:1",
@@ -1209,14 +2164,95 @@
    "url": "https://wsls.com/decision-2020/2020/10/08/rep-morgan-griffith-talks-police-reform-other-issues-ahead-of-all-but-assured-reelection",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 33, 2025-02-06: On Passage on H.R. 27 (HALT Fentanyl Act). H. Morgan Griffith voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll033.xml",
+    "outletId": "house-clerk",
+    "date": "2025-02-06",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190032",
+    "outletId": "voteview",
+    "date": "2025-02-06",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 237, 2023-05-25: On Passage on H.R. 467 (HALT Fentanyl Act). H. Morgan Griffith voted yes.",
+    "url": "https://clerk.house.gov/evs/2023/roll237.xml",
+    "outletId": "house-clerk",
+    "date": "2023-05-25",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1180236",
+    "outletId": "voteview",
+    "date": "2023-05-25",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 166, 2025-06-12: On Passage on S. 331 (HALT Fentanyl Act). H. Morgan Griffith voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll166.xml",
+    "outletId": "house-clerk",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190165",
+    "outletId": "voteview",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 514, 2024-12-18: On Motion to Suspend the Rules and Concur in the Senate Amendments on H.R. 8663 (DETECT Fentanyl and Xylazine Act of 2024). H. Morgan Griffith voted yes.",
+    "url": "https://clerk.house.gov/evs/2024/roll514.xml",
+    "outletId": "house-clerk",
+    "date": "2024-12-18",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1181232",
+    "outletId": "voteview",
+    "date": "2024-12-18",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 27: HALT Fentanyl Act (sponsored by H. Morgan Griffith; latest action 2025-02-10: Received in the Senate and Read twice and referred to the Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/27",
+    "outletId": "congress-gov",
+    "date": "2025-01-03",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 467: HALT Fentanyl Act (sponsored by H. Morgan Griffith; latest action 2023-05-30: Received in the Senate and Read twice and referred to the Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/467",
+    "outletId": "congress-gov",
+    "date": "2023-01-24",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored the HALT Fentanyl Act, voted yes on it, and it became law. What the record shows: 2025-02-06: voted yes on H.R. 27 (HALT Fentanyl Act) (on passage, passed). He voted yes on a fentanyl bill. 2023-05-25: voted yes on H.R. 467 (HALT Fentanyl Act) (on passage, passed). He voted yes on a fentanyl bill. 2025-06-12: voted yes on S. 331 (HALT Fentanyl Act) (on passage, passed). He voted yes on a fentanyl bill. 2024-12-18: voted yes on H.R. 8663 (DETECT Fentanyl and Xylazine Act of 2024) (on motion to suspend the rules and concur in the senate amendments, passed). He voted yes on a fentanyl bill. H.R. 27 (sponsored): HALT Fentanyl Act. Latest action: Received in the Senate and Read twice and referred to the Committee on the Judiciary. H.R. 467 (sponsored): HALT Fentanyl Act. Latest action: Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-09-g000568:2",
@@ -1232,14 +2268,63 @@
    "url": "https://wsls.com/decision-2020/2020/10/08/rep-morgan-griffith-talks-police-reform-other-issues-ahead-of-all-but-assured-reelection",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "partial",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 171, 2026-05-14: On Passage on H.R. 5625 (Cashless Bail Reporting Act). H. Morgan Griffith voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll171.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190531",
+    "outletId": "voteview",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 169, 2026-05-14: On Passage on H.R. 6260 (Keeping Violent Offenders Off Our Streets Act of 2025). H. Morgan Griffith voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll169.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190529",
+    "outletId": "voteview",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 165, 2026-05-13: On Agreeing to the Resolution on H.Con.Res. 96 (Expressing support for law enforcement officers.). H. Morgan Griffith voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll165.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-13",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190525",
+    "outletId": "voteview",
+    "date": "2026-05-13",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted for law enforcement bills, consistent with opposing defunding. No vote on no-knock warrants or chokeholds was found. What the record shows: 2026-05-14: voted yes on H.R. 5625 (Cashless Bail Reporting Act) (on passage, passed). He voted yes on a law enforcement bill. 2026-05-14: voted yes on H.R. 6260 (Keeping Violent Offenders Off Our Streets Act of 2025) (on passage, passed). He voted yes on a law enforcement bill. 2026-05-13: voted yes on H.Con.Res. 96 (Expressing support for law enforcement officers.) (on agreeing to the resolution, passed). He voted yes on a law enforcement bill.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-09-g000568:3",
@@ -1257,12 +2342,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-11-w000831:1",
@@ -1278,14 +2363,23 @@
    "url": "https://www.wjla.com/news/local/democrat-virginia-congressman-james-walkinshaw-capitol-hill-united-states-congress-district-11-special-election-votes-education-healthcare-crime-transportation-legislation-federal",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 5249: Limit on Sweeping Executive Reorganization Act (sponsored by James R. Walkinshaw; latest action 2025-09-10: Referred to the House Committee on Oversight and Government Reform.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5249",
+    "outletId": "congress-gov",
+    "date": "2025-09-10",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored the Limit on Sweeping Executive Reorganization Act within days of taking office. What the record shows: H.R. 5249 (sponsored): Limit on Sweeping Executive Reorganization Act. Latest action: Referred to the House Committee on Oversight and Government Reform.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-11-w000831:2",
@@ -1303,12 +2397,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No bill or vote about the possible health care cuts was found.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-11-w000831:3",
@@ -1324,13 +2418,635 @@
    "url": "https://www.fox5dc.com/news/meet-virginias-new-house-representative",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 3115: Assault Weapons Ban of 2025 (cosponsored by James R. Walkinshaw; latest action 2025-04-30: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+    "outletId": "congress-gov",
+    "date": "2025-10-03",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He cosponsored the Assault Weapons Ban of 2025, which is in committee. What the record shows: H.R. 3115 (cosponsored): Assault Weapons Ban of 2025. Latest action: Referred to the House Committee on the Judiciary.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
-  "reviewedOn": "2026-10-17",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-06-m001240:2",
+  "officialId": "nc-06-m001240",
+  "category": "immigration",
+  "text": "Names tackling the drug crisis and strengthening border security as his top priority in Congress.",
+  "quote": "McDowell’s top priority in Congress is to tackle the drug crisis and strengthen border security to protect families and communities from the dangers posed by illegal immigration.",
+  "madeOn": "2025-06-04",
+  "source": {
+   "outletId": "mcdowell-house-gov",
+   "title": "mcdowell.house.gov",
+   "date": "2025-06-04",
+   "url": "https://web.archive.org/web/20250601000000/https://mcdowell.house.gov/about",
+   "type": "official-site"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 33, 2025-02-06: On Passage on H.R. 27 (HALT Fentanyl Act). Addison P. McDowell voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll033.xml",
+    "outletId": "house-clerk",
+    "date": "2025-02-06",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190032",
+    "outletId": "voteview",
+    "date": "2025-02-06",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 166, 2025-06-12: On Passage on S. 331 (HALT Fentanyl Act). Addison P. McDowell voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll166.xml",
+    "outletId": "house-clerk",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190165",
+    "outletId": "voteview",
+    "date": "2025-06-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 214, 2026-06-09: On Passage on S. 2 (Secure America Act). Addison P. McDowell voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll214.xml",
+    "outletId": "house-clerk",
+    "date": "2026-06-09",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190574",
+    "outletId": "voteview",
+    "date": "2026-06-09",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the fentanyl scheduling law and on the Secure America Act. What the record shows: 2025-02-06: voted yes on H.R. 27 (HALT Fentanyl Act) (on passage, passed). He voted yes on a bill about fentanyl or border security. 2025-06-12: voted yes on S. 331 (HALT Fentanyl Act) (on passage, passed). He voted yes on a bill about fentanyl or border security. 2026-06-09: voted yes on S. 2 (Secure America Act) (on passage, passed). He voted yes on a bill about fentanyl or border security.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-08-h001102:2",
+  "officialId": "nc-08-h001102",
+  "category": "reproductive-health",
+  "text": "Says Congress must advocate for laws that protect unborn children.",
+  "quote": "Congress must advocate for laws that protect all people, especially our nation’s most vulnerable—unborn children.",
+  "madeOn": "2025-05-28",
+  "source": {
+   "outletId": "markharris-house-gov",
+   "title": "markharris.house.gov",
+   "date": "2025-05-28",
+   "url": "https://web.archive.org/web/20250601000000/https://markharris.house.gov/issues/pro-life-and-pro-family",
+   "type": "official-site"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 27, 2025-01-23: On Passage on H.R. 21 (Born-Alive Abortion Survivors Protection Act). Mark Harris voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190026",
+    "outletId": "voteview",
+    "date": "2025-01-23",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 729: Teleabortion Prevention Act of 2025 (sponsored by Mark Harris; latest action 2025-01-24: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/729",
+    "outletId": "congress-gov",
+    "date": "2025-01-24",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He voted yes on the Born-Alive Abortion Survivors Protection Act and sponsored related bills. What the record shows: 2025-01-23: voted yes on H.R. 21 (Born-Alive Abortion Survivors Protection Act) (on passage, passed). He voted yes on this pro-life bill. H.R. 729 (sponsored): Teleabortion Prevention Act of 2025. Latest action: Referred to the House Committee on the Judiciary.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-08-h001102:3",
+  "officialId": "nc-08-h001102",
+  "category": "immigration",
+  "text": "Says he is committed to prioritizing border security and restoring law and order.",
+  "quote": "Congressman Harris is fully committed to prioritizing border security, restoring law and order, and protecting American citizens",
+  "madeOn": "2025-05-28",
+  "source": {
+   "outletId": "markharris-house-gov",
+   "title": "markharris.house.gov",
+   "date": "2025-05-28",
+   "url": "https://web.archive.org/web/20250601000000/https://markharris.house.gov/issues/border-and-immigration",
+   "type": "official-site"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 214, 2026-06-09: On Passage on S. 2 (Secure America Act). Mark Harris voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll214.xml",
+    "outletId": "house-clerk",
+    "date": "2026-06-09",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190574",
+    "outletId": "voteview",
+    "date": "2026-06-09",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 171, 2026-05-14: On Passage on H.R. 5625 (Cashless Bail Reporting Act). Mark Harris voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll171.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190531",
+    "outletId": "voteview",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 169, 2026-05-14: On Passage on H.R. 6260 (Keeping Violent Offenders Off Our Streets Act of 2025). Mark Harris voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll169.xml",
+    "outletId": "house-clerk",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190529",
+    "outletId": "voteview",
+    "date": "2026-05-14",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the Secure America Act and on law enforcement bills, including one he sponsored. What the record shows: 2026-06-09: voted yes on S. 2 (Secure America Act) (on passage, passed). He voted yes on a bill about border security or law enforcement. 2026-05-14: voted yes on H.R. 5625 (Cashless Bail Reporting Act) (on passage, passed). He voted yes on a bill about border security or law enforcement. 2026-05-14: voted yes on H.R. 6260 (Keeping Violent Offenders Off Our Streets Act of 2025) (on passage, passed). He voted yes on a bill about border security or law enforcement.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-09-h001067:3",
+  "officialId": "nc-09-h001067",
+  "category": "taxes",
+  "text": "Committed to halting wasteful spending, making middle class tax cuts permanent and decreasing the size of government.",
+  "quote": "I'm committed to working with my House colleagues to find common-sense solutions to halt wasteful spending, make middle class tax cuts permanent, and dramatically decrease the size of government.",
+  "madeOn": "2025-05-24",
+  "source": {
+   "outletId": "hudson-house-gov",
+   "title": "hudson.house.gov",
+   "date": "2025-05-24",
+   "url": "https://web.archive.org/web/20250601000000/https://hudson.house.gov/issues/economy-and-jobs",
+   "type": "official-site"
+  },
+  "status": "partial",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 145, 2025-05-22: On Passage on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Richard Hudson voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190144",
+    "outletId": "voteview",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 190, 2025-07-03: On Motion to Concur in the Senate Amendment on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Richard Hudson voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+    "outletId": "house-clerk",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190189",
+    "outletId": "voteview",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the 2025 reconciliation law that made tax cuts permanent. No recorded vote shows a lower overall level of federal spending or a smaller government. What the record shows: 2025-05-22: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on passage, passed). He voted yes on the 2025 reconciliation law, which extended the tax cuts. 2025-07-03: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on motion to concur in the senate amendment, passed). He voted yes on the 2025 reconciliation law, which extended the tax cuts.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-09-h001067:4",
+  "officialId": "nc-09-h001067",
+  "category": "guns",
+  "text": "Said he will continue the fight to get national concealed carry reciprocity (H.R. 38) signed into law.",
+  "quote": "I will continue my fight to get it signed into law.",
+  "madeOn": "2025-05-24",
+  "source": {
+   "outletId": "hudson-house-gov",
+   "title": "hudson.house.gov",
+   "date": "2025-05-24",
+   "url": "https://web.archive.org/web/20250601000000/https://hudson.house.gov/issues/second-amendment",
+   "type": "official-site"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 38: Constitutional Concealed Carry Reciprocity Act of 2025 (sponsored by Richard Hudson; latest action 2025-10-03: Placed on the Union Calendar, Calendar No. 289.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/38",
+    "outletId": "congress-gov",
+    "date": "2025-01-03",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 38: Concealed Carry Reciprocity Act (sponsored by Richard Hudson; latest action 2023-01-09: Referred to the House Committee on the Judiciary.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/38",
+    "outletId": "congress-gov",
+    "date": "2023-01-09",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored the concealed carry reciprocity bill, which is on the House calendar but has not passed. What the record shows: H.R. 38 (sponsored): Constitutional Concealed Carry Reciprocity Act of 2025. Latest action: Placed on the Union Calendar, Calendar No. 289. H.R. 38 (sponsored): Concealed Carry Reciprocity Act. Latest action: Referred to the House Committee on the Judiciary.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-s-b001305:2",
+  "officialId": "nc-s-b001305",
+  "category": "immigration",
+  "text": "Believes a border wall is needed to keep drugs and dangerous criminals out.",
+  "quote": "Senator Budd believes that we need to build a wall and keep drugs and dangerous criminals out of our country.",
+  "madeOn": "2025-05-26",
+  "source": {
+   "outletId": "budd-senate-gov",
+   "title": "budd.senate.gov",
+   "date": "2025-05-26",
+   "url": "https://web.archive.org/web/20250601000000/https://www.budd.senate.gov/priority-issues/securing-the-border/",
+   "type": "official-site"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "S. 422: Build the Wall Now Act (sponsored by Ted Budd; latest action 2023-02-14: Read twice and referred to the Committee on Homeland Security and Governmental Affairs.)",
+    "url": "https://www.congress.gov/bill/118th-congress/senate-bill/422",
+    "outletId": "congress-gov",
+    "date": "2023-02-14",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored a border wall bill that is still in committee. What the record shows: S. 422 (sponsored): Build the Wall Now Act. Latest action: Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-s-b001305:3",
+  "officialId": "nc-s-b001305",
+  "category": "energy",
+  "text": "Supports an all-of-the-above energy strategy.",
+  "quote": "Senator Budd supports an “all of the above” energy strategy that embraces our country’s natural resources.",
+  "madeOn": "2025-05-26",
+  "source": {
+   "outletId": "budd-senate-gov",
+   "title": "budd.senate.gov",
+   "date": "2025-05-26",
+   "url": "https://web.archive.org/web/20250601000000/https://www.budd.senate.gov/priority-issues/achieving-energy-dominance/",
+   "type": "official-site"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "S.Res. 321: A resolution expressing the sense of the Senate relating to nuclear power and the commitment of the Senate to embracing and promoting nuclear power as a clean baseload energy source necessary to achieve a reliable, secure, and diversified electric grid. (sponsored by Ted Budd; latest action 2023-07-27: Referred to the Committee on Energy and Natural Resources. (text: CR S3770))",
+    "url": "https://www.congress.gov/bill/118th-congress/senate-resolution/321",
+    "outletId": "congress-gov",
+    "date": "2023-07-27",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "S. 4944: American Energy and Mineral Infrastructure Act of 2026 (cosponsored by Ted Budd; latest action 2026-06-24: Read twice and referred to the Committee on Environment and Public Works.)",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4944",
+    "outletId": "congress-gov",
+    "date": "2026-08-07",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored a nuclear power resolution and cosponsored an energy infrastructure bill; the bill is still in committee. What the record shows: S.Res. 321 (sponsored): A resolution expressing the sense of the Senate relating to nuclear power and the commitment of the Senate to embracing and promoting nuclear power as a clean baseload energy source necessary to achieve a reliable, secure, and diversified electric grid.. Latest action: Referred to the Committee on Energy and Natural Resources. (text: CR S3770) S. 4944 (cosponsored): American Energy and Mineral Infrastructure Act of 2026. Latest action: Read twice and referred to the Committee on Environment and Public Works.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-s-t000476:1",
+  "officialId": "nc-s-t000476",
+  "category": "veterans",
+  "text": "Names meeting veterans’ mental health needs as a top priority.",
+  "quote": "One of Thom’s top priorities is to deliver on the mental health needs of the many brave men and women who have served our nation.",
+  "madeOn": "2025-05-31",
+  "source": {
+   "outletId": "tillis-senate-gov",
+   "title": "tillis.senate.gov",
+   "date": "2025-05-31",
+   "url": "https://web.archive.org/web/20250601000000/https://www.tillis.senate.gov/veterans",
+   "type": "official-site"
+  },
+  "status": "unverifiable",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 480, 2025-08-01: On Passage of the Bill H.R. 3944 on H.R. 3944 (Military Construction and Veterans Affairs, Agriculture, and Legislative Branch Appropriations Act, 2026). Thom Tillis voted yes.",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00480.htm",
+    "outletId": "senate-gov",
+    "date": "2025-08-01",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RS1190480",
+    "outletId": "voteview",
+    "date": "2025-08-01",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "S. 2392: Veterans’ Compensation Cost-of-Living Adjustment Act of 2025 (cosponsored by Thom Tillis; latest action 2025-11-25: Became Public Law No: 119-42.)",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2392",
+    "outletId": "congress-gov",
+    "date": "2025-07-23",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "S. 4744: Take Care of America’s Veterans Act (cosponsored by Thom Tillis; latest action 2026-06-11: Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 433.)",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4744",
+    "outletId": "congress-gov",
+    "date": "2026-06-17",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He voted yes on veterans funding and cosponsored veterans bills, one of which became law, but no vote or bill is specific to veterans mental health. What the record shows: 2025-08-01: voted yes on H.R. 3944 (Military Construction and Veterans Affairs, Agriculture, and Legislative Branch Appropriations Act, 2026) (on passage of the bill h.r. 3944, bill passed (87-9, 3/5 majority required)). He voted yes on the military construction and veterans affairs appropriations bill. S. 2392 (cosponsored): Veterans’ Compensation Cost-of-Living Adjustment Act of 2025. Latest action: Became Public Law No: 119-42. S. 4744 (cosponsored): Take Care of America’s Veterans Act. Latest action: Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 433.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-s-t000476:2",
+  "officialId": "nc-s-t000476",
+  "category": "healthcare",
+  "text": "Strong supporter of the Children’s Health Insurance Program (CHIP).",
+  "quote": "Senator Tillis is a strong supporter of the Children’s Health Insurance Program",
+  "madeOn": "2025-05-31",
+  "source": {
+   "outletId": "tillis-senate-gov",
+   "title": "tillis.senate.gov",
+   "date": "2025-05-31",
+   "url": "https://web.archive.org/web/20250601000000/https://www.tillis.senate.gov/health-care",
+   "type": "official-site"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "No vote or bill specific to the Children's Health Insurance Program was found.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "va-03-s000185:1",
+  "officialId": "va-03-s000185",
+  "category": "education",
+  "text": "Lead sponsor of the Child Care for Working Families Act to ensure affordable, high-quality child care.",
+  "quote": "he is the lead sponsor of the Child Care for Working Families Act, a comprehensive early learning and child care bill to ensure affordable, high-quality child care for working middle class families",
+  "madeOn": "2025-06-01",
+  "source": {
+   "outletId": "bobbyscott-house-gov",
+   "title": "bobbyscott.house.gov",
+   "date": "2025-06-01",
+   "url": "https://web.archive.org/web/20250601000000/https://bobbyscott.house.gov/issues/education",
+   "type": "official-site"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 4418: Child Care for Working Families Act (sponsored by Robert C. \"Bobby\" Scott; latest action 2025-07-15: Referred to the House Committee on Education and Workforce.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4418",
+    "outletId": "congress-gov",
+    "date": "2025-07-15",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 2976: Child Care for Working Families Act (sponsored by Robert C. \"Bobby\" Scott; latest action 2023-04-27: Referred to the House Committee on Education and the Workforce.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/2976",
+    "outletId": "congress-gov",
+    "date": "2023-04-27",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored the Child Care for Working Families Act in two Congresses; it is still in committee. What the record shows: H.R. 4418 (sponsored): Child Care for Working Families Act. Latest action: Referred to the House Committee on Education and Workforce. H.R. 2976 (sponsored): Child Care for Working Families Act. Latest action: Referred to the House Committee on Education and the Workforce.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "va-03-s000185:2",
+  "officialId": "va-03-s000185",
+  "category": "education",
+  "text": "Strong supporter of Head Start.",
+  "quote": "Congressman Scott is also a strong supporter of Head Start.",
+  "madeOn": "2025-06-01",
+  "source": {
+   "outletId": "bobbyscott-house-gov",
+   "title": "bobbyscott.house.gov",
+   "date": "2025-06-01",
+   "url": "https://web.archive.org/web/20250601000000/https://bobbyscott.house.gov/issues/education",
+   "type": "official-site"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "No vote or bill specific to Head Start was found.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "va-05-m001239:1",
+  "officialId": "va-05-m001239",
+  "category": "other",
+  "text": "Says he is focused on keeping costs low for families, protecting Americans at home and abroad, and shrinking the federal government.",
+  "quote": "John is focused on keeping costs low for families, protecting and defending the American people and our interests at home and abroad, shrinking the size and scope of the federal government",
+  "madeOn": "2025-05-23",
+  "source": {
+   "outletId": "mcguire-house-gov",
+   "title": "mcguire.house.gov",
+   "date": "2025-05-23",
+   "url": "https://web.archive.org/web/20250601000000/https://mcguire.house.gov/about",
+   "type": "official-site"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "The statement is too broad to match to a specific vote or bill, so no rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "va-s-w000805:1",
+  "officialId": "va-s-w000805",
+  "category": "technology",
+  "text": "Pushing for bipartisan solutions to protect and retrain workers affected by AI.",
+  "quote": "pushing for bipartisan solutions to protect and retrain workers amid the massive upheaval AI is causing in the job market",
+  "madeOn": "2026-04-15",
+  "source": {
+   "outletId": "warner-senate-gov",
+   "title": "warner.senate.gov",
+   "date": "2026-04-15",
+   "url": "https://web.archive.org/web/20250601000000/https://www.warner.senate.gov/about/priorities/technology/",
+   "type": "official-site"
+  },
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "S. 5055: National Workforce Transition Fund Act of 2026 (sponsored by Mark R. Warner; latest action 2026-07-21: Read twice and referred to the Committee on Finance.)",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5055",
+    "outletId": "congress-gov",
+    "date": "2026-07-21",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He sponsored the National Workforce Transition Fund Act, which is in committee. What the record shows: S. 5055 (sponsored): National Workforce Transition Fund Act of 2026. Latest action: Read twice and referred to the Committee on Finance.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-10-h001101:3",
+  "officialId": "nc-10-h001101",
+  "category": "defense",
+  "text": "Committed to strengthening the military and giving troops the resources they need.",
+  "quote": "He is committed to strengthening our military, investing in cutting-edge technology, and ensuring our troops have the resources they need to succeed.",
+  "madeOn": "2025-06-01",
+  "source": {
+   "outletId": "harrigan-house-gov",
+   "title": "harrigan.house.gov",
+   "date": "2025-06-01",
+   "url": "https://web.archive.org/web/20250601000000/https://harrigan.house.gov/issues",
+   "type": "official-site"
+  },
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 278, 2026-07-22: On Passage on H.R. 8800 (National Defense Authorization Act for Fiscal Year 2027). Pat Harrigan voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll278.xml",
+    "outletId": "house-clerk",
+    "date": "2026-07-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190638",
+    "outletId": "voteview",
+    "date": "2026-07-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 262, 2025-09-10: On Passage on H.R. 3838 (Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026). Pat Harrigan voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll262.xml",
+    "outletId": "house-clerk",
+    "date": "2025-09-10",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190261",
+    "outletId": "voteview",
+    "date": "2025-09-10",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the defense authorization acts for fiscal years 2026 and 2027. What the record shows: 2026-07-22: voted yes on H.R. 8800 (National Defense Authorization Act for Fiscal Year 2027) (on passage, passed). He voted yes on the National Defense Authorization Act. 2025-09-10: voted yes on H.R. 3838 (Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026) (on passage, passed). He voted yes on the National Defense Authorization Act.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  }
 ]

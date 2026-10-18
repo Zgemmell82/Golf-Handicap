@@ -1,0 +1,474 @@
+{
+ "nc-02-r000305:1": {
+  "keywords": [
+   "housing credit",
+   "low-income housing",
+   "affordable housing",
+   "housing tax"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-02-r000305:2": {
+  "keywords": [
+   "pharmacy benefit",
+   "drug price",
+   "prescription drug",
+   "pharmacy"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-b001305:1": {
+  "keywords": [
+   "pipeline",
+   "oil and gas",
+   "natural gas",
+   "energy",
+   "permitting",
+   "drilling",
+   "LNG"
+  ],
+  "since": "2022-08-01"
+ },
+ "nc-01-d000230:2": {
+  "keywords": [
+   "Medicaid"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-01-d000230:4": {
+  "keywords": [
+   "farm bill",
+   "agricultur",
+   "commodity",
+   "crop"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-01-d000230:5": {
+  "keywords": [
+   "Women's Health Protection",
+   "abortion",
+   "reproductive",
+   "contracept"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:1": {
+  "keywords": [
+   "child tax credit",
+   "Child Tax"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:2": {
+  "keywords": [
+   "minimum wage",
+   "Raise the Wage"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:3": {
+  "keywords": [
+   "Voting Rights"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:4": {
+  "keywords": [
+   "Medicare for All",
+   "single-payer",
+   "single payer"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:5": {
+  "keywords": [
+   "pre-K",
+   "prekindergarten",
+   "preschool",
+   "child care",
+   "early childhood"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:6": {
+  "keywords": [
+   "Affordable Care Act",
+   "premium tax credit",
+   "health insurance",
+   "enhanced"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:7": {
+  "keywords": [
+   "Women's Health Protection",
+   "Right to Contraception",
+   "abortion",
+   "contracept"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:8": {
+  "keywords": [
+   "student loan",
+   "tuition",
+   "college",
+   "debt relief"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:9": {
+  "keywords": [
+   "ICE",
+   "Immigration and Customs",
+   "immigration enforcement",
+   "Homeland Security"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:10": {
+  "keywords": [
+   "tax"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-04-f000477:11": {
+  "keywords": [
+   "climate",
+   "clean energy",
+   "Green New Deal",
+   "emissions"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-07-r000603:1": {
+  "keywords": [
+   "One Big Beautiful",
+   "Tax Cuts and Jobs",
+   "tax relief",
+   "reconciliation"
+  ],
+  "since": "2022-08-01"
+ },
+ "nc-07-r000603:2": {
+  "keywords": [
+   "abortion",
+   "born-alive",
+   "unborn",
+   "pro-life",
+   "Hyde",
+   "Dobbs"
+  ],
+  "since": "2022-08-01"
+ },
+ "nc-07-r000603:3": {
+  "keywords": [
+   "PFAS",
+   "perfluoro",
+   "opioid",
+   "fentanyl"
+  ],
+  "since": "2022-03-01"
+ },
+ "nc-11-e000246:2": {
+  "keywords": [
+   "Israel",
+   "IRS",
+   "Internal Revenue Service"
+  ],
+  "since": "2023-10-01"
+ },
+ "nc-12-a000370:3": {
+  "keywords": [
+   "pre-existing",
+   "preexisting",
+   "Affordable Care Act",
+   "Protecting Americans"
+  ],
+  "since": "2020-10-01"
+ },
+ "nc-14-m001236:1": {
+  "keywords": [
+   "term limit",
+   "term-limit"
+  ],
+  "since": "2025-01-01"
+ },
+ "va-s-k000384:1": {
+  "keywords": [
+   "child tax credit",
+   "earned income",
+   "tax credit",
+   "tax relief",
+   "tax cut"
+  ],
+  "since": "2024-01-01"
+ },
+ "va-01-w000804:1": {
+  "keywords": [
+   "farm bill",
+   "Farm, Food",
+   "agricultur",
+   "veteran"
+  ],
+  "since": "2025-01-01"
+ },
+ "va-01-w000804:3": {
+  "keywords": [
+   "Chesapeake",
+   "law enforcement",
+   "police"
+  ],
+  "since": "2025-01-01"
+ },
+ "va-02-k000399:1": {
+  "keywords": [
+   "abortion",
+   "born-alive",
+   "unborn",
+   "pro-life",
+   "Hyde",
+   "Dobbs"
+  ],
+  "since": "2022-10-01"
+ },
+ "va-04-m001227:1": {
+  "keywords": [
+   "Women's Health Protection",
+   "abortion",
+   "Voting Rights",
+   "contracept",
+   "reproductive"
+  ],
+  "since": "2023-02-15"
+ },
+ "va-06-c001118:5": {
+  "keywords": [
+   "police",
+   "law enforcement",
+   "Back the Blue",
+   "officer"
+  ],
+  "since": "2022-11-01"
+ },
+ "va-07-v000138:1": {
+  "keywords": [
+   "veteran"
+  ],
+  "since": "2024-01-01"
+ },
+ "va-07-v000138:2": {
+  "keywords": [
+   "rail",
+   "transit",
+   "Interstate",
+   "transportation"
+  ],
+  "since": "2024-08-01"
+ },
+ "va-08-b001292:1": {
+  "keywords": [
+   "firearm",
+   "gun",
+   "background check",
+   "paid family",
+   "paid leave",
+   "FAMILY Act"
+  ],
+  "since": "2023-12-01"
+ },
+ "va-08-b001292:2": {
+  "keywords": [
+   "climate",
+   "clean energy",
+   "emissions",
+   "renewable"
+  ],
+  "since": "2023-12-01"
+ },
+ "va-08-b001292:3": {
+  "keywords": [
+   "stock",
+   "campaign finance",
+   "DISCLOSE",
+   "insider trading",
+   "congressional stock",
+   "Citizens United"
+  ],
+  "since": "2025-01-01"
+ },
+ "va-09-g000568:1": {
+  "keywords": [
+   "opioid",
+   "fentanyl",
+   "substance use",
+   "SUPPORT",
+   "addiction",
+   "drug"
+  ],
+  "since": "2020-10-01"
+ },
+ "va-09-g000568:2": {
+  "keywords": [
+   "police",
+   "George Floyd",
+   "no-knock",
+   "chokehold",
+   "law enforcement",
+   "Back the Blue"
+  ],
+  "since": "2020-10-01"
+ },
+ "va-11-w000831:1": {
+  "keywords": [
+   "agency",
+   "reorganiz",
+   "Reorganization",
+   "dismantle",
+   "executive branch"
+  ],
+  "since": "2025-09-01"
+ },
+ "va-11-w000831:2": {
+  "keywords": [
+   "Medicaid",
+   "Affordable Care Act",
+   "health insurance"
+  ],
+  "since": "2025-09-01"
+ },
+ "va-11-w000831:3": {
+  "keywords": [
+   "assault weapon",
+   "gerrymander",
+   "sexual assault"
+  ],
+  "since": "2025-09-01"
+ },
+ "nc-06-m001240:2": {
+  "keywords": [
+   "fentanyl",
+   "border",
+   "opioid",
+   "illegal",
+   "secure"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-08-h001102:2": {
+  "keywords": [
+   "born-alive",
+   "unborn",
+   "abortion",
+   "pro-life"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-08-h001102:3": {
+  "keywords": [
+   "border",
+   "immigration",
+   "secure",
+   "law enforcement",
+   "police"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-09-h001067:3": {
+  "keywords": [
+   "tax cuts",
+   "tax relief",
+   "spending",
+   "rescission",
+   "appropriations"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-09-h001067:4": {
+  "keywords": [
+   "concealed carry",
+   "reciprocity"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-b001305:2": {
+  "keywords": [
+   "border",
+   "wall",
+   "fentanyl",
+   "illegal"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-b001305:3": {
+  "keywords": [
+   "energy",
+   "drilling",
+   "pipeline",
+   "gas",
+   "nuclear"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-t000476:1": {
+  "keywords": [
+   "veteran",
+   "mental health",
+   "suicide"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-s-t000476:2": {
+  "keywords": [
+   "children's health",
+   "chip",
+   "medicaid"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-03-s000185:1": {
+  "keywords": [
+   "child care",
+   "childcare"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-03-s000185:2": {
+  "keywords": [
+   "head start",
+   "early childhood",
+   "child care"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-05-m001239:1": {
+  "keywords": [
+   "cost",
+   "tax",
+   "spending",
+   "reorganization",
+   "federal workforce"
+  ],
+  "since": "2023-01-01"
+ },
+ "va-s-w000805:1": {
+  "keywords": [
+   "artificial intelligence",
+   "ai",
+   "workforce",
+   "workers"
+  ],
+  "since": "2023-01-01"
+ },
+ "nc-10-h001101:3": {
+  "keywords": [
+   "national defense",
+   "military",
+   "troops",
+   "pay raise",
+   "ndaa"
+  ],
+  "since": "2023-01-01"
+ }
+}

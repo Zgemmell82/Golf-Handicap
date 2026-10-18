@@ -6,10 +6,10 @@
   "promisesAdded": 2
  },
  "nc-s-b001305": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-18",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 3
+  "promisesAdded": 5
  },
  "nc-01-d000230": {
   "ranAt": "2026-10-17",
@@ -96,10 +96,10 @@
   "promisesAdded": 1
  },
  "va-04-m001227": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-18",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 1
+  "promisesAdded": 2
  },
  "va-06-c001118": {
   "ranAt": "2026-10-17",
@@ -151,6 +151,12 @@
  },
  "va-s-w000805": {
   "ranAt": "2026-10-17",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 1
+ },
+ "nc-05-f000450": {
+  "ranAt": "2026-10-18",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
   "promisesAdded": 1

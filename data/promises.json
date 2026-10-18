@@ -3048,5 +3048,97 @@
   "opposesIndustries": [],
   "reviewedOn": "2026-10-18",
   "review": "unreviewed (automated rating; votes checked against two publishers)"
+ },
+ {
+  "id": "nc-s-b001305:4",
+  "officialId": "nc-s-b001305",
+  "category": "immigration",
+  "text": "Said in his first 2022 Senate primary ad that, if elected, he would vote to stop open-border policies and finish the border wall.",
+  "quote": "if elected to the Senate, he will vote to stop President Joe Biden's “reckless open-border policies and yeah, finish this wall.",
+  "madeOn": "2022-03-23",
+  "source": {
+   "outletId": "spectrumlocalnews-com",
+   "title": "spectrumlocalnews.com",
+   "date": "2022-03-23",
+   "url": "https://spectrumlocalnews.com/nc/charlotte/news/2022/03/23/budd-runs-1st-ad-in-senate-primary--another-pac-pans-mccrory",
+   "type": "campaign-ad"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+ },
+ {
+  "id": "nc-s-b001305:5",
+  "officialId": "nc-s-b001305",
+  "category": "economy",
+  "text": "Said in his first 2022 general-election ad that he was running to stop federal spending and end the recession.",
+  "quote": "he’s running for U.S. Senate to stop the spending and end the recession",
+  "madeOn": "2022-08-11",
+  "source": {
+   "outletId": "nsjonline-com",
+   "title": "nsjonline.com",
+   "date": "2022-08-11",
+   "url": "https://nsjonline.com/?p=81797",
+   "type": "campaign-ad"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+ },
+ {
+  "id": "nc-05-f000450:1",
+  "officialId": "nc-05-f000450",
+  "category": "taxes",
+  "text": "In her first 2008 TV ad, the campaign said she is against tax increases and against big spending programs.",
+  "quote": "She's against tax increases and against big spending programs.",
+  "madeOn": "2008-10-03",
+  "source": {
+   "outletId": "awpc-cattcenter-iastate-edu",
+   "title": "awpc.cattcenter.iastate.edu",
+   "date": "2008-10-03",
+   "url": "https://awpc.cattcenter.iastate.edu/communication/solving-problem-oct-3-2008",
+   "type": "campaign-ad"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+ },
+ {
+  "id": "va-04-m001227:2",
+  "officialId": "va-04-m001227",
+  "category": "reproductive-health",
+  "text": "Said in a 2023 special election ad that she would take the fight for reproductive freedom to Congress.",
+  "quote": "I’ll take that same fight to Congress.",
+  "madeOn": "2023-02-21",
+  "source": {
+   "outletId": "whro-org",
+   "title": "whro.org",
+   "date": "2023-02-21",
+   "url": "https://www.whro.org/local-news/2023-02-21/democrats-look-to-close-u-s-house-gap-in-benjamin-mcclellan-matchup",
+   "type": "campaign-ad"
+  },
+  "status": "unverifiable",
+  "evidence": [],
+  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "statusNote": "",
+  "contested": false,
+  "opposesIndustries": [],
+  "reviewedOn": "2026-10-18",
+  "review": "unreviewed (automated; quote checked word-for-word against the source)"
  }
 ]

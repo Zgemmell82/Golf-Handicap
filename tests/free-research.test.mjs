@@ -50,3 +50,7 @@ test('undated pages and duplicates are rejected', () => {
   applyCandidates({ candidates: [mk({})], pages: { [`nc-01-x|${page.url}`]: page }, data, today: 't' });
   assert.strictEqual(applyCandidates({ candidates: [mk({})], pages: { [`nc-01-x|${page.url}`]: page }, data, today: 't' }).rejected[0].reason, 'duplicate');
 });
+
+test('findPublishedDate reads a date written in the page title', () => {
+  assert.strictEqual(findPublishedDate('<html><title>Solving the Problem - Oct. 3, 2008 - Archives</title></html>', 'https://x.org/a'), '2008-10-03');
+});

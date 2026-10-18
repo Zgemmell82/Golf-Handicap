@@ -366,5 +366,37 @@
   "reliability": "high",
   "lean": "n/a",
   "note": "Independent research database of every congressional roll-call vote."
+ },
+ {
+  "id": "spectrumlocalnews-com",
+  "name": "spectrumlocalnews.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "nsjonline-com",
+  "name": "nsjonline.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "awpc-cattcenter-iastate-edu",
+  "name": "awpc.cattcenter.iastate.edu",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "whro-org",
+  "name": "whro.org",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
  }
 ]

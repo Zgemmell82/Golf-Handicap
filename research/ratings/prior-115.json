@@ -1,0 +1,29 @@
+[
+ {
+  "promiseId": "nc-05-f000450:2",
+  "status": "kept",
+  "rationale": "She voted yes on the American Health Care Act in 2017, the House bill to repeal and replace major parts of the Affordable Care Act. The Senate did not pass it, so the ACA remains law.",
+  "votes": [
+   {
+    "id": "h115-1-256",
+    "relation": "consistent",
+    "explain": "A yes vote on the House bill that would have repealed major parts of the Affordable Care Act."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-s-t000476:3",
+  "status": "unverifiable",
+  "rationale": "Votes on repealing the Affordable Care Act in 2015 and 2017 would decide this, but we could not confirm his Senate roll-call votes from two independent publishers, so no rating is given yet.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-s-t000476:4",
+  "status": "unverifiable",
+  "rationale": "The Keystone XL votes took place in 2015, a Congress we have not been able to load, so no rating is given yet.",
+  "votes": [],
+  "bills": []
+ }
+]

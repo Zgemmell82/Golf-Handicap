@@ -3272,12 +3272,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "Votes on repealing the Affordable Care Act in 2015 and 2017 would decide this, but we could not confirm his Senate roll-call votes from two independent publishers, so no rating is given yet.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-s-t000476:4",
@@ -3295,12 +3295,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "The Keystone XL votes took place in 2015, a Congress we have not been able to load, so no rating is given yet.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-02-r000305:3",
@@ -3767,14 +3767,31 @@
    "url": "https://www.salisburypost.com/?p=75041",
    "type": "debate"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 256, 2017-05-04: On Passage on H.R. 1628 (American Health Care Act of 2017). Virginia Foxx voted yes.",
+    "url": "https://clerk.house.gov/evs/2017/roll256.xml",
+    "outletId": "house-clerk",
+    "date": "2017-05-04",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1150255",
+    "outletId": "voteview",
+    "date": "2017-05-04",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "She voted yes on the American Health Care Act in 2017, the House bill to repeal and replace major parts of the Affordable Care Act. The Senate did not pass it, so the ACA remains law. What the record shows: 2017-05-04: voted yes on H.R. 1628 (American Health Care Act of 2017) (on passage, passed). A yes vote on the House bill that would have repealed major parts of the Affordable Care Act.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-09-h001067:5",

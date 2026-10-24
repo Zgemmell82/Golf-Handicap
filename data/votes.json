@@ -28581,5 +28581,35 @@
     "explain": "A yes vote on the Social Security Fairness Act, which increases benefits for some retirees."
    }
   ]
+ },
+ {
+  "id": "h115-1-256",
+  "date": "2017-05-04",
+  "chamber": "house",
+  "rollCall": 256,
+  "billId": "H.R. 1628",
+  "title": "American Health Care Act of 2017",
+  "question": "On Passage",
+  "result": "Passed",
+  "byOfficial": {
+   "nc-05-f000450": "Yea",
+   "nc-07-r000603": "Yea",
+   "nc-09-h001067": "Yea",
+   "nc-12-a000370": "Nay",
+   "va-01-w000804": "Yea",
+   "va-03-s000185": "Nay",
+   "va-08-b001292": "Nay",
+   "va-09-g000568": "Yea"
+  },
+  "issues": [],
+  "outletId": "house-clerk",
+  "url": "https://clerk.house.gov/evs/2017/roll256.xml",
+  "promiseLinks": [
+   {
+    "promiseId": "nc-05-f000450:2",
+    "relation": "consistent",
+    "explain": "A yes vote on the House bill that would have repealed major parts of the Affordable Care Act."
+   }
+  ]
  }
 ]

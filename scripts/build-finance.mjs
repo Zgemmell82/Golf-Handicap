@@ -11,11 +11,26 @@ const FEC = 'https://api.open.fec.gov/v1';
 const CYCLES = [2026, 2024];
 const NOT_AN_EMPLOYER = /^(N\/?A|NONE|NULL|NOT APPLICABLE|NOT EMPLOYED|RETIRED|SELF|SELF[- ]?EMPLOYED|HOMEMAKER|UNEMPLOYED|STUDENT|REQUESTED|INFORMATION REQUESTED.*|ATTORNEY|REFUSED|\.)$/i;
 
+// Pass-through and fundraising vehicles are not donors with their own interests.
+const NOT_A_DONOR = /^(ACTBLUE|WINRED|NGP VAN)\b|VICTORY (FUND|COMMITTEE)|JOINT FUNDRAISING|\bJFC\b/i;
+
+// rows: itemized committee contributions (OpenFEC schedule_a). Returns the largest donors by name.
+export function aggregatePacs(rows) {
+  const by = {};
+  for (const r of rows || []) {
+    const name = String(r.contributor_name || '').trim();
+    const amt = num(r.contribution_receipt_amount);
+    if (!name || amt <= 0 || NOT_A_DONOR.test(name)) continue;
+    by[name] = (by[name] || 0) + amt;
+  }
+  return Object.entries(by).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([name, amount]) => ({ name, amount: Math.round(amount) }));
+}
+
 const num = (x) => (typeof x === 'number' && isFinite(x) ? x : 0);
 const pct = (part, whole) => (whole > 0 ? Math.max(0, Math.min(100, Math.round((part / whole) * 100))) : 0);
 
 // totals: one entry of /candidate/{id}/totals results. employers: by_employer results.
-export function buildFinance(candidateId, cycle, totals, employers, today) {
+export function buildFinance(candidateId, cycle, totals, employers, today, pacRows = []) {
   const raised = num(totals.receipts) || num(totals.contributions);
   const small = pct(num(totals.individual_unitemized_contributions), raised);
   const self = pct(num(totals.candidate_contribution), raised);
@@ -31,7 +46,8 @@ export function buildFinance(candidateId, cycle, totals, employers, today) {
       .slice(0, 10),
     industries: [],
     topDonors: [],
-    pacs: [],
+    pacs: aggregatePacs(pacRows),
+    pacTotal: Math.round(num(totals.other_political_committee_contributions)),
     source: { label: 'FEC filings via OpenFEC', url: `https://www.fec.gov/data/candidate/${candidateId}/` },
     updated: today,
   };
@@ -65,12 +81,14 @@ async function main() {
         if (!totals || !(num(totals.receipts) || num(totals.contributions))) continue;
         const c = await getJson(`${FEC}/candidate/${id}/committees/?cycle=${cycle}&designation=P&per_page=1&api_key=${key}`, { keys: [key] });
         const committee = (c.results || [])[0];
-        let employers = [];
+        let employers = [], pacRows = [];
         if (committee) {
           const e = await getJson(`${FEC}/schedules/schedule_a/by_employer/?committee_id=${committee.committee_id}&cycle=${cycle}&sort=-total&per_page=20&api_key=${key}`, { keys: [key] });
           employers = e.results || [];
+          const p = await getJson(`${FEC}/schedules/schedule_a/?committee_id=${committee.committee_id}&two_year_transaction_period=${cycle}&contributor_type=committee&is_individual=false&sort=-contribution_receipt_amount&per_page=100&api_key=${key}`, { keys: [key] });
+          pacRows = p.results || [];
         }
-        entry = buildFinance(id, cycle, totals, employers, today);
+        entry = buildFinance(id, cycle, totals, employers, today, pacRows);
         break;
       }
       if (entry) finance[o.id] = entry;

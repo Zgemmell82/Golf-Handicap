@@ -214,12 +214,13 @@
     return `<div class="card"><div class="name">${Core.money(fin.totalRaised)} raised (${esc(fin.cycle)} cycle)</div>
       <div class="money-bar" role="img" aria-label="Small-dollar ${fin.smallDollarPct}%, large-dollar ${fin.largeDollarPct}%, self-funded ${fin.selfFundedPct}%">
         <span style="width:${fin.smallDollarPct}%"></span><span style="width:${fin.largeDollarPct}%"></span><span style="width:${fin.selfFundedPct}%"></span></div>
-      <div class="legend"><span>Small-dollar <b>${fin.smallDollarPct}%</b></span><span>Large-dollar <b>${fin.largeDollarPct}%</b></span><span>Self-funded <b>${fin.selfFundedPct}%</b></span></div></div>
+      <div class="legend"><span>Small-dollar <b>${fin.smallDollarPct}%</b></span><span>Large-dollar <b>${fin.largeDollarPct}%</b></span><span>Self-funded <b>${fin.selfFundedPct}%</b></span></div>
+      ${fin.pacTotal > 0 && fin.totalRaised > 0 ? `<p class="muted">Political action committees gave ${Core.money(fin.pacTotal)}, <b>${((fin.pacTotal / fin.totalRaised) * 100).toFixed(1)}%</b> of the money raised.</p>` : ''}</div>
       ${cs.length ? `<h2>Possible conflicts</h2>${cs.map((c) => `<div class="note">${esc(c.text)}</div>`).join('')}` : ''}
       ${section('Top industries', fin.industries, (i) => i.name, 'amount')}
       ${section('Top employers of donors <span class="muted">(as reported to the FEC; not an industry classification)</span>', fin.employers, (i) => i.name, 'amount')}
       ${section('Top donors', fin.topDonors, (i) => i.name, 'amount')}
-      ${section('PACs', fin.pacs, (i) => i.name, 'amount')}
+      ${section('Largest PAC donors <span class="muted">(itemized contributions to the campaign committee)</span>', fin.pacs, (i) => i.name, 'amount')}
       <p class="muted">Source: <a href="${esc(fin.source.url)}" rel="noopener">${esc(fin.source.label)}</a>. Industry totals group donors by employer or committee type and can be imperfect. A donation is not proof of influence.</p>${updatedLine(fin.updated)}`;
   }
 

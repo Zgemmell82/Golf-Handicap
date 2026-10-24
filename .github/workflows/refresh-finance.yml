@@ -38,6 +38,10 @@ jobs:
           git add data
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Refresh campaign finance data"
-          git pull --rebase origin main
-          git push
-          gh workflow run pages.yml
+          if [ "$GITHUB_REF_NAME" = "main" ]; then
+            git pull --rebase origin main
+            git push
+            gh workflow run pages.yml
+          else
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi

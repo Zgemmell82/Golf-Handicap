@@ -72,13 +72,13 @@ test('buildZip rejects an unexpected layout', () => {
   assert.throws(() => buildZip('a|b\n1|2'), /Unexpected column layout/);
 });
 
-test('aggregatePacs sums by donor name, skips pass-through vehicles and keeps the top ten', () => {
+test('aggregatePacs sums by donor name, skips pass-through vehicles and keeps the top 25', () => {
   const rows = [
     { contributor_name: 'ACME PAC', contribution_receipt_amount: 5000 }, { contributor_name: 'ACME PAC', contribution_receipt_amount: 2500 },
     { contributor_name: 'ACTBLUE', contribution_receipt_amount: 99999 }, { contributor_name: 'MOORE NC VICTORY FUND', contribution_receipt_amount: 99999 },
     { contributor_name: 'BETA PAC', contribution_receipt_amount: 1000 }, { contributor_name: 'REFUND PAC', contribution_receipt_amount: -50 },
   ];
   assert.deepStrictEqual(aggregatePacs(rows), [{ name: 'ACME PAC', amount: 7500 }, { name: 'BETA PAC', amount: 1000 }]);
-  assert.strictEqual(aggregatePacs(Array.from({ length: 30 }, (_, i) => ({ contributor_name: 'P' + i, contribution_receipt_amount: 100 + i }))).length, 10);
+  assert.strictEqual(aggregatePacs(Array.from({ length: 40 }, (_, i) => ({ contributor_name: 'P' + i, contribution_receipt_amount: 100 + i }))).length, 25);
   assert.deepStrictEqual(buildFinance('H1', 2024, { receipts: 1000, other_political_committee_contributions: 400 }, [], '2026-10-24', rows.slice(0, 1)).pacs, [{ name: 'ACME PAC', amount: 5000 }]);
 });

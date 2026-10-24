@@ -23,7 +23,7 @@ export function aggregatePacs(rows) {
     if (!name || amt <= 0 || NOT_A_DONOR.test(name)) continue;
     by[name] = (by[name] || 0) + amt;
   }
-  return Object.entries(by).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([name, amount]) => ({ name, amount: Math.round(amount) }));
+  return Object.entries(by).sort((a, b) => b[1] - a[1]).slice(0, 25).map(([name, amount]) => ({ name, amount: Math.round(amount) }));
 }
 
 const num = (x) => (typeof x === 'number' && isFinite(x) ? x : 0);

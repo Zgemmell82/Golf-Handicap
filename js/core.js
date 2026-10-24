@@ -139,6 +139,60 @@
     const own = (finance.pacs || []).includes(top) || (finance.topDonors || []).includes(top);
     return { name: top.name, amount: top.amount, pct: (top.amount / finance.totalRaised) * 100, kind: own ? 'organization' : 'employer' };
   }
+
+  // Donor money against documented organization positions on a vote.
+  // positions: [{ org, patterns:[regex source], voteIds:[...], position:'support'|'oppose', url }]
+  // Only donors whose organization published a position count; everyone else is left out, not guessed.
+  // This measures overlap. It does not show that money caused a vote.
+  function donorAlignment(finance, positions, voteId, cast) {
+    if (!finance || !(finance.totalRaised > 0)) return null;
+    const recs = (positions || []).filter((p) => (p.voteIds || []).includes(voteId));
+    if (!recs.length) return null;
+    const donors = [...(finance.pacs || []), ...(finance.topDonors || []), ...(finance.employers || [])];
+    const sum = { support: 0, oppose: 0 };
+    const rows = [];
+    const seen = new Set();
+    for (const p of recs) {
+      const re = new RegExp((p.patterns || []).join('|'), 'i');
+      for (const d of donors) {
+        const key = `${d.name}|${p.position}`;
+        if (!re.test(d.name) || seen.has(key)) continue;
+        seen.add(key);
+        sum[p.position] += d.amount;
+        rows.push({ donor: d.name, org: p.org, position: p.position, amount: d.amount, url: p.url });
+      }
+    }
+    const pct = (n) => (n / finance.totalRaised) * 100;
+    const moneyFavors = sum.support > sum.oppose ? 'support' : sum.oppose > sum.support ? 'oppose' : null;
+    const c = { Aye: 'Yea', Yes: 'Yea', No: 'Nay' }[cast] || cast;
+    const votedSide = c === 'Yea' ? 'support' : c === 'Nay' ? 'oppose' : null;
+    return {
+      supportAmount: sum.support, opposeAmount: sum.oppose, supportPct: pct(sum.support), opposePct: pct(sum.oppose), rows,
+      moneyFavors, votedSide, votedWithMoney: moneyFavors && votedSide ? moneyFavors === votedSide : null,
+    };
+  }
+
+  // Overlap across every (official, vote) pair that has donor money on at least one documented side.
+  // Compared with how often the same officials voted with the majority of their own party on those votes.
+  function donorSummary(officials, votes, finance, positions) {
+    const pairs = [];
+    for (const v of votes) {
+      const casts = Object.entries(v.byOfficial || {}).filter(([, c]) => c === 'Yea' || c === 'Nay' || c === 'Aye' || c === 'No');
+      for (const [id, cast] of casts) {
+        const o = officials.find((x) => x.id === id);
+        const a = o && donorAlignment(finance[id], positions, v.id, cast);
+        if (!a || a.votedWithMoney === null) continue;
+        const mates = casts.filter(([oid]) => { const m = officials.find((x) => x.id === oid); return m && m.party === o.party; });
+        const yea = mates.filter(([, c]) => c === 'Yea' || c === 'Aye').length;
+        const partySide = yea * 2 === mates.length ? null : yea * 2 > mates.length ? 'Yea' : 'Nay';
+        const norm = { Aye: 'Yea', No: 'Nay' }[cast] || cast;
+        pairs.push({ officialId: id, voteId: v.id, cast: norm, votedWithMoney: a.votedWithMoney, votedWithParty: partySide ? partySide === norm : null, supportPct: a.supportPct, opposePct: a.opposePct });
+      }
+    }
+    const rate = (xs, k) => { const d = xs.filter((x) => x[k] !== null); return d.length ? { n: d.length, withCount: d.filter((x) => x[k]).length, pct: Math.round((d.filter((x) => x[k]).length / d.length) * 100) } : { n: 0, withCount: 0, pct: null }; };
+    return { pairs, withMoney: rate(pairs, 'votedWithMoney'), withParty: rate(pairs, 'votedWithParty') };
+  }
+
   const money = (n) => '$' + Math.round(n).toLocaleString('en-US');
 
   // Possible conflicts: a promise that names industries it would oppose, and
@@ -225,5 +279,5 @@
     return errors;
   }
 
-  return { LOADED, STATUSES, RULES, effectiveStatus, confidence, scorecard, biasCheck, conflicts, votesForPromise, alertsFor, validateData, independentSources, money, topDonor };
+  return { LOADED, STATUSES, RULES, effectiveStatus, confidence, scorecard, biasCheck, conflicts, votesForPromise, alertsFor, validateData, independentSources, money, topDonor, donorAlignment, donorSummary };
 });

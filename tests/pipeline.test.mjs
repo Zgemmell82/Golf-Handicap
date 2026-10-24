@@ -71,3 +71,15 @@ test('buildZip groups districts per ZIP, ignores slivers, maps delegates to 00',
 test('buildZip rejects an unexpected layout', () => {
   assert.throws(() => buildZip('a|b\n1|2'), /Unexpected column layout/);
 });
+
+import { applyPositions } from '../scripts/apply-positions.mjs';
+test('applyPositions keeps only positions whose quote is on the downloaded page and whose votes are on file', () => {
+  const pages = { 'o|https://org.test/a': { url: 'https://org.test/a', text: 'Our group strongly urges a YES vote on this bill today.', date: '2025-01-02' } };
+  const mk = (over) => ({ org: 'Org', patterns: ['ORG PAC'], voteIds: ['h1'], position: 'support', url: 'https://org.test/a', quote: 'strongly urges a YES vote on this bill', ...over });
+  const data = { votes: [{ id: 'h1', byOfficial: {} }], positions: [] };
+  const r = applyPositions({ candidates: [mk(), mk({ quote: 'this sentence is not on the page at all' }), mk({ position: 'maybe' }), mk({ voteIds: ['h9'] }), mk({ url: 'https://org.test/missing' })], pages, data });
+  assert.strictEqual(r.accepted, 1);
+  assert.strictEqual(r.rejected.length, 4);
+  assert.strictEqual(data.positions[0].position, 'support');
+  assert.strictEqual(data.positions[0].date, '2025-01-02');
+});

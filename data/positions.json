@@ -1,0 +1,164 @@
+[
+ {
+  "id": "club-for-growth-support-h119-1-168",
+  "org": "Club for Growth",
+  "patterns": [
+   "CLUB FOR GROWTH"
+  ],
+  "voteIds": [
+   "h119-1-168"
+  ],
+  "position": "support",
+  "quote": "The Club for Growth urges all Representatives to vote YES on the H.R. 4, the Rescissions Act of 2025.",
+  "url": "https://www.clubforgrowth.org/key-vote-alert-house-yes-on-h-r-4-the-rescissions-act-of-2025/",
+  "date": "2025-06-11"
+ },
+ {
+  "id": "communications-workers-of-america-oppose-h119-1-190",
+  "org": "Communications Workers of America",
+  "patterns": [
+   "COMMUNICATIONS WORKERS",
+   "\\bCWA\\b"
+  ],
+  "voteIds": [
+   "h119-1-190"
+  ],
+  "position": "oppose",
+  "quote": "This is Bad for working people.",
+  "url": "https://scorecard.cwa-union.org/scorecard/votes/85",
+  "date": null
+ },
+ {
+  "id": "communications-workers-of-america-oppose-h119-1-168",
+  "org": "Communications Workers of America",
+  "patterns": [
+   "COMMUNICATIONS WORKERS",
+   "\\bCWA\\b"
+  ],
+  "voteIds": [
+   "h119-1-168"
+  ],
+  "position": "oppose",
+  "quote": "This is Bad for working people.",
+  "url": "https://scorecard.cwa-union.org/scorecard/votes/81",
+  "date": null
+ },
+ {
+  "id": "league-of-conservation-voters-oppose-h119-1-52",
+  "org": "League of Conservation Voters",
+  "patterns": [
+   "LEAGUE OF CONSERVATION VOTERS",
+   "\\bLCV\\b"
+  ],
+  "voteIds": [
+   "h119-1-52"
+  ],
+  "position": "oppose",
+  "quote": "Rolling Back the Methane Polluter Fee House Roll Call Vote 52 2025 Scorecard Vote Pro-environment vote No",
+  "url": "https://www.lcv.org/roll-call-vote/rolling-back-the-methane-polluter-fee-2",
+  "date": "2026-02-18"
+ },
+ {
+  "id": "league-of-conservation-voters-oppose-h119-1-114",
+  "org": "League of Conservation Voters",
+  "patterns": [
+   "LEAGUE OF CONSERVATION VOTERS",
+   "\\bLCV\\b"
+  ],
+  "voteIds": [
+   "h119-1-114"
+  ],
+  "position": "oppose",
+  "quote": "Blocking States’ Cleaner Cars Standards House Roll Call Vote 114 2025 Scorecard Vote Pro-environment vote No",
+  "url": "https://www.lcv.org/roll-call-vote/blocking-states-cleaner-cars-standards/",
+  "date": "2026-02-18"
+ },
+ {
+  "id": "league-of-conservation-voters-oppose-h119-1-143",
+  "org": "League of Conservation Voters",
+  "patterns": [
+   "LEAGUE OF CONSERVATION VOTERS",
+   "\\bLCV\\b"
+  ],
+  "voteIds": [
+   "h119-1-143"
+  ],
+  "position": "oppose",
+  "quote": "Rolling Back Clean Air Act Protections House Roll Call Vote 143 2025 Scorecard Vote Pro-environment vote No",
+  "url": "https://www.lcv.org/roll-call-vote/rolling-back-clean-air-act-protections/",
+  "date": "2026-02-18"
+ },
+ {
+  "id": "national-rifle-association-support-h118-1-252",
+  "org": "National Rifle Association",
+  "patterns": [
+   "NATIONAL RIFLE ASSOCIATION",
+   "\\bNRA\\b"
+  ],
+  "voteIds": [
+   "h118-1-252"
+  ],
+  "position": "support",
+  "quote": "for their leadership in protecting the rights of millions of law-abiding persons caught in ATF’s dragnet against braced pistols",
+  "url": "https://nraila.org/articles/20230619/bi-partisan-house-coalition-votes-to-nullify-biden-administration-pistol-brace-rule",
+  "date": null
+ },
+ {
+  "id": "national-shooting-sports-foundation-support-h118-1-252",
+  "org": "National Shooting Sports Foundation",
+  "patterns": [
+   "NATIONAL SHOOTING SPORTS",
+   "\\bNSSF\\b"
+  ],
+  "voteIds": [
+   "h118-1-252"
+  ],
+  "position": "support",
+  "quote": "NSSF Hails House of Representatives’ Passage of H.J. Res. 44 to Restore Congressional Authority to Make Law",
+  "url": "https://www.nssf.org/articles/nssf-hails-house-of-representatives-passage-of-h-j-res-44-to-restore-congressional-authority-to-make-law-and-rein-in-administrative-overreach/",
+  "date": "2023-06-14"
+ },
+ {
+  "id": "u-s-chamber-of-commerce-support-h119-1-145",
+  "org": "U.S. Chamber of Commerce",
+  "patterns": [
+   "U\\.?S\\.? CHAMBER OF COMMERCE",
+   "CHAMBER OF COMMERCE OF THE UNITED STATES"
+  ],
+  "voteIds": [
+   "h119-1-145"
+  ],
+  "position": "support",
+  "quote": "The U.S. Chamber of Commerce strongly supports the One Big Beautiful Bill Act",
+  "url": "https://www.uschamber.com/improving-government/u-s-chamber-key-vote-letter-on-h-r-1-the-one-big-beautiful-bill-act",
+  "date": "2025-05-22"
+ },
+ {
+  "id": "aipac-support-h118-1-577",
+  "org": "AIPAC",
+  "patterns": [
+   "AMERICAN ISRAEL PUBLIC AFFAIRS"
+  ],
+  "voteIds": [
+   "h118-1-577"
+  ],
+  "position": "support",
+  "quote": "We commend the strong bipartisan majority in the House of Representatives that adopted the historic $14.3 billion emergency supplemental security assistance for Israel.",
+  "url": "https://aipac.org/press-release/congress-stands-with-israel-approves-aid",
+  "date": "2024-03-21"
+ },
+ {
+  "id": "american-postal-workers-union-support-h118-2-456",
+  "org": "American Postal Workers Union",
+  "patterns": [
+   "AMERICAN POSTAL WORKERS UNION"
+  ],
+  "voteIds": [
+   "h118-2-456"
+  ],
+  "position": "support",
+  "quote": "House representatives set aside their differences and voted in favor of the people",
+  "url": "https://apwu.org/node/28800",
+  "date": "2024-11-13"
+ }
+]

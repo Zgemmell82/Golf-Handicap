@@ -1,5 +1,5 @@
 // Cache-first shell, network-first data, so the app opens fast and works offline.
-const VERSION = 'pt-v2';
+const VERSION = 'pt-v3';
 const SHELL = ['./', 'index.html', 'css/style.css', 'js/core.js', 'js/states.js', 'js/app.js', 'manifest.webmanifest', 'icons/icon.svg'];
 self.addEventListener('install', (e) => e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())));
 self.addEventListener('activate', (e) => e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim())));

@@ -53,6 +53,33 @@
       ${donorLine(D.finance[o.id])}
       ${scoreBar(promisesOf(o.id))}</div>`;
   }
+  // Donor money next to a vote: only donors whose organization published a position on it are counted.
+  function donorVoteLine(officialId, v) {
+    const a = Core.donorAlignment(D.finance[officialId], D.positions, v.id, v.byOfficial[officialId]);
+    if (!a) return '';
+    const fmt = (p) => (p > 0 && p < 0.1 ? '<0.1' : p.toFixed(1));
+    const sides = [a.supportAmount > 0 ? `${Core.money(a.supportAmount)} (${fmt(a.supportPct)}%) from donors that <b>supported</b> it` : '', a.opposeAmount > 0 ? `${Core.money(a.opposeAmount)} (${fmt(a.opposePct)}%) from donors that <b>opposed</b> it` : ''].filter(Boolean);
+    const orgs = [...new Set(D.positions.filter((p) => p.voteIds.includes(v.id)).map((p) => p.org))];
+    if (!sides.length) return '';
+    return `<p class="muted donor">Campaign money from organizations with a published position on this vote: ${sides.join(' and ')}. <a href="#/money-votes">How this is measured</a>${orgs.length ? ` · positions found for ${esc(orgs.join(', '))}` : ''}</p>`;
+  }
+  function viewMoneyVotes() {
+    const sum = Core.donorSummary(D.officials, D.votes, D.finance, D.positions);
+    const name = (id) => (D.byOfficial[id] ? D.byOfficial[id].name : id);
+    const vote = (id) => D.votes.find((v) => v.id === id);
+    const pctOf = (r) => (r.n ? `${r.pct}% (${r.withCount} of ${r.n})` : 'not enough data');
+    const rows = sum.pairs.sort((a, b) => (a.voteId < b.voteId ? 1 : -1));
+    return `<h1>Money and votes</h1>
+      <p>This page compares how officials voted with campaign money from organizations that <strong>published a position</strong> on that vote. Organizations without a published position are left out, not guessed. Positions come from the organization's own page, with the quote checked word-for-word. Only the largest donors on file for each official are included, so the totals are a floor, not the full picture.</p>
+      <div class="card"><div class="name">What the data shows so far</div>
+        <p>Votes on the side with more documented donor money: <strong>${pctOf(sum.withMoney)}</strong></p>
+        <p>Votes with the majority of the official's own party on the same votes: <strong>${pctOf(sum.withParty)}</strong></p>
+        <p class="muted">${sum.pairs.length} official-and-vote pairs have documented donor money on at least one side. This is a small, hand-built sample. Matching a donor's position is not evidence that money changed a vote: donors tend to give to officials who already agree with them, and party membership explains much of the same pattern.</p></div>
+      <h2>Pairs</h2>
+      ${rows.length ? `<div class="card"><table><thead><tr><th>Official</th><th>Vote</th><th>Cast</th><th>With donor money?</th></tr></thead><tbody>${rows.map((r) => { const v = vote(r.voteId); return `<tr><td><a href="#/official/${r.officialId}?tab=votes">${esc(name(r.officialId))}</a></td><td>${esc(v ? v.billId : r.voteId)}</td><td>${esc(r.cast)}</td><td>${r.votedWithMoney ? 'Yes' : 'No'}</td></tr>`; }).join('')}</tbody></table></div>` : '<p class="muted">No pairs yet. This fills in as donor lists and organization positions are added.</p>'}
+      <h2>Organization positions used</h2>
+      <div class="card"><table><tbody>${D.positions.map((p) => { const v = vote(p.voteIds[0]); return `<tr><td>${esc(p.org)}</td><td>${esc(p.position === 'support' ? 'supported' : 'opposed')} ${esc(v ? v.billId : p.voteIds[0])}</td><td><a href="${esc(p.url)}" rel="noopener">source</a></td></tr>`; }).join('')}</tbody></table></div>`;
+  }
   function donorLine(fin) {
     const t = Core.topDonor(fin);
     if (!t) return '<p class="muted donor">Top donor: no campaign finance data on file yet.</p>';
@@ -180,7 +207,7 @@
       const vs = D.votes.filter((v) => v.byOfficial[id]).sort((a, b) => (a.date < b.date ? 1 : -1));
       body = vs.length ? vs.map((v) => `<div class="card"><div class="name">${esc(v.title)}</div>
         <p class="muted">${esc(v.billId)} · ${esc(fmtDate(v.date))} · ${esc(v.result)} · <a href="${esc(v.url)}" rel="noopener">source</a></p>
-        <p>Voted: <strong>${esc(castLabel(v.byOfficial[id]))}</strong></p></div>`).join('') : `<p class="muted">No votes on file.</p>`;
+        <p>Voted: <strong>${esc(castLabel(v.byOfficial[id]))}</strong></p>${donorVoteLine(id, v)}</div>`).join('') : `<p class="muted">No votes on file.</p>`;
     } else if (tab === 'money') {
       body = moneyView(o, fin);
     } else {
@@ -307,7 +334,7 @@
       <div class="card"><h3>Appearance</h3><label for="theme">Theme</label>
         <select id="theme"><option value="system" ${theme === 'system' ? 'selected' : ''}>Match my device</option><option value="light" ${theme === 'light' ? 'selected' : ''}>Light</option><option value="dark" ${theme === 'dark' ? 'selected' : ''}>Dark</option></select></div>
       <div class="card"><h3>Data</h3><p class="muted">Dataset updated ${esc(fmtDate(D.meta.generated))}. ${D.meta.isSample ? 'This is a fictional sample dataset.' : ''}</p>
-        <button id="clear-favs">Clear favorites</button> <a class="btn" href="#/methodology">Methodology</a></div>`;
+        <button id="clear-favs">Clear favorites</button> <a class="btn" href="#/methodology">Methodology</a> <a class="btn" href="#/money-votes">Money and votes</a></div>`;
   }
 
   function viewMethodology() {
@@ -435,7 +462,7 @@
     const p = profile();
     const tabsEl = document.getElementById('tabs');
     let html, tab = '';
-    if (!p && parts[0] !== 'states' && parts[0] !== 'state' && parts[0] !== 'official' && parts[0] !== 'methodology' && parts[0] !== 'directory' && parts[0] !== 'compare' && parts[0] !== 'set-state') {
+    if (!p && parts[0] !== 'states' && parts[0] !== 'state' && parts[0] !== 'official' && parts[0] !== 'methodology' && parts[0] !== 'money-votes' && parts[0] !== 'directory' && parts[0] !== 'compare' && parts[0] !== 'set-state') {
       html = viewOnboarding();
     } else if (!parts.length) { html = viewHome(); tab = 'home'; }
     else if (parts[0] === 'onboarding') { html = viewOnboarding(); }
@@ -448,6 +475,7 @@
     else if (parts[0] === 'alerts') { html = viewAlerts(); tab = 'alerts'; }
     else if (parts[0] === 'settings') { html = viewSettings(); tab = 'settings'; }
     else if (parts[0] === 'methodology') { html = viewMethodology(); tab = 'settings'; }
+    else if (parts[0] === 'money-votes') { html = viewMoneyVotes(); tab = 'settings'; }
     else html = '<p>Page not found. <a href="#/">Home</a></p>';
     $app.innerHTML = html;
     tabsEl.hidden = false;
@@ -510,7 +538,7 @@
   async function boot() {
     applyTheme();
     try {
-      const names = ['categories', 'sources', 'officials', 'promises', 'votes', 'finance', 'meta'];
+      const names = ['categories', 'sources', 'officials', 'promises', 'votes', 'finance', 'positions', 'meta'];
       const res = await Promise.all(names.map((n) => fetch(`data/${n}.json`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); })));
       names.forEach((n, i) => { D[n] = res[i]; });
     } catch (err) {

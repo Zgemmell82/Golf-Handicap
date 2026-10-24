@@ -90,3 +90,29 @@ test('Kept and Broken must rest on a recorded vote, not on bills or articles alo
   assert.strictEqual(Core.effectiveStatus(voted('broken', ['gov', 'wire'])).status, 'broken');
   assert.strictEqual(Core.effectiveStatus(mk('progress', ['gov'])).status, 'progress'); // other statuses unaffected
 });
+
+test('donorAlignment sums only donors whose organization has a documented position on that vote', () => {
+  const fin = { totalRaised: 100000, pacs: [{ name: 'CLUB FOR GROWTH PAC', amount: 10000 }, { name: 'AFL-CIO COPE', amount: 4000 }, { name: 'UNRELATED PAC', amount: 9000 }], employers: [] };
+  const pos = [
+    { org: 'Club for Growth', patterns: ['CLUB FOR GROWTH'], voteIds: ['v1'], position: 'support', url: 'https://x/a' },
+    { org: 'AFL-CIO', patterns: ['AFL-CIO'], voteIds: ['v1'], position: 'oppose', url: 'https://x/b' },
+    { org: 'Club for Growth', patterns: ['CLUB FOR GROWTH'], voteIds: ['v2'], position: 'support', url: 'https://x/c' },
+  ];
+  const a = Core.donorAlignment(fin, pos, 'v1', 'Yea');
+  assert.strictEqual(a.supportAmount, 10000); assert.strictEqual(a.opposeAmount, 4000);
+  assert.strictEqual(a.supportPct, 10); assert.strictEqual(a.opposePct, 4);
+  assert.strictEqual(a.moneyFavors, 'support'); assert.strictEqual(a.votedWithMoney, true);
+  assert.strictEqual(Core.donorAlignment(fin, pos, 'v1', 'Nay').votedWithMoney, false);
+  assert.strictEqual(Core.donorAlignment(fin, pos, 'v9', 'Yea'), null); // no documented positions on that vote
+  assert.strictEqual(Core.donorAlignment({ totalRaised: 0 }, pos, 'v1', 'Yea'), null);
+  assert.strictEqual(Core.donorAlignment({ totalRaised: 1000, pacs: [] }, pos, 'v1', 'Yea').votedWithMoney, null); // no donors on either side
+});
+test('donorSummary reports overlap with documented donor money next to overlap with party', () => {
+  const offs = [{ id: 'a', party: 'R' }, { id: 'b', party: 'R' }, { id: 'c', party: 'D' }];
+  const fin = { a: { totalRaised: 1000, pacs: [{ name: 'PRO PAC', amount: 100 }] }, b: { totalRaised: 1000, pacs: [{ name: 'PRO PAC', amount: 100 }] }, c: { totalRaised: 1000, pacs: [{ name: 'CON PAC', amount: 100 }] } };
+  const pos = [{ org: 'Pro', patterns: ['PRO PAC'], voteIds: ['v'], position: 'support' }, { org: 'Con', patterns: ['CON PAC'], voteIds: ['v'], position: 'oppose' }];
+  const s = Core.donorSummary(offs, [{ id: 'v', byOfficial: { a: 'Yea', b: 'Nay', c: 'Nay' } }], fin, pos);
+  assert.strictEqual(s.pairs.length, 3);
+  assert.strictEqual(s.withMoney.withCount, 2); // a yea with support money, c nay with oppose money; b nay against support money
+  assert.strictEqual(s.withMoney.n, 3);
+});

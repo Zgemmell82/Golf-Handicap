@@ -1,0 +1,142 @@
+[
+ {
+  "org": "Club for Growth",
+  "patterns": [
+   "CLUB FOR GROWTH"
+  ],
+  "voteIds": [
+   "h119-1-168"
+  ],
+  "position": "support",
+  "url": "https://www.clubforgrowth.org/key-vote-alert-house-yes-on-h-r-4-the-rescissions-act-of-2025/",
+  "quote": "The Club for Growth urges all Representatives to vote YES on the H.R. 4, the Rescissions Act of 2025."
+ },
+ {
+  "org": "Communications Workers of America",
+  "patterns": [
+   "COMMUNICATIONS WORKERS",
+   "\\bCWA\\b"
+  ],
+  "voteIds": [
+   "h119-1-190"
+  ],
+  "position": "oppose",
+  "url": "https://scorecard.cwa-union.org/scorecard/votes/85",
+  "quote": "This is Bad for working people."
+ },
+ {
+  "org": "Communications Workers of America",
+  "patterns": [
+   "COMMUNICATIONS WORKERS",
+   "\\bCWA\\b"
+  ],
+  "voteIds": [
+   "h119-1-168"
+  ],
+  "position": "oppose",
+  "url": "https://scorecard.cwa-union.org/scorecard/votes/81",
+  "quote": "This is Bad for working people."
+ },
+ {
+  "org": "League of Conservation Voters",
+  "patterns": [
+   "LEAGUE OF CONSERVATION VOTERS",
+   "\\bLCV\\b"
+  ],
+  "voteIds": [
+   "h119-1-52"
+  ],
+  "position": "oppose",
+  "url": "https://www.lcv.org/roll-call-vote/rolling-back-the-methane-polluter-fee-2",
+  "quote": "Rolling Back the Methane Polluter Fee House Roll Call Vote 52 2025 Scorecard Vote Pro-environment vote No"
+ },
+ {
+  "org": "League of Conservation Voters",
+  "patterns": [
+   "LEAGUE OF CONSERVATION VOTERS",
+   "\\bLCV\\b"
+  ],
+  "voteIds": [
+   "h119-1-114"
+  ],
+  "position": "oppose",
+  "url": "https://www.lcv.org/roll-call-vote/blocking-states-cleaner-cars-standards/",
+  "quote": "Blocking States\u2019 Cleaner Cars Standards House Roll Call Vote 114 2025 Scorecard Vote Pro-environment vote No"
+ },
+ {
+  "org": "League of Conservation Voters",
+  "patterns": [
+   "LEAGUE OF CONSERVATION VOTERS",
+   "\\bLCV\\b"
+  ],
+  "voteIds": [
+   "h119-1-143"
+  ],
+  "position": "oppose",
+  "url": "https://www.lcv.org/roll-call-vote/rolling-back-clean-air-act-protections/",
+  "quote": "Rolling Back Clean Air Act Protections House Roll Call Vote 143 2025 Scorecard Vote Pro-environment vote No"
+ },
+ {
+  "org": "National Rifle Association",
+  "patterns": [
+   "NATIONAL RIFLE ASSOCIATION",
+   "\\bNRA\\b"
+  ],
+  "voteIds": [
+   "h118-1-252"
+  ],
+  "position": "support",
+  "url": "https://nraila.org/articles/20230619/bi-partisan-house-coalition-votes-to-nullify-biden-administration-pistol-brace-rule",
+  "quote": "for their leadership in protecting the rights of millions of law-abiding persons caught in ATF\u2019s dragnet against braced pistols"
+ },
+ {
+  "org": "National Shooting Sports Foundation",
+  "patterns": [
+   "NATIONAL SHOOTING SPORTS",
+   "\\bNSSF\\b"
+  ],
+  "voteIds": [
+   "h118-1-252"
+  ],
+  "position": "support",
+  "url": "https://www.nssf.org/articles/nssf-hails-house-of-representatives-passage-of-h-j-res-44-to-restore-congressional-authority-to-make-law-and-rein-in-administrative-overreach/",
+  "quote": "NSSF Hails House of Representatives\u2019 Passage of H.J. Res. 44 to Restore Congressional Authority to Make Law"
+ },
+ {
+  "org": "U.S. Chamber of Commerce",
+  "patterns": [
+   "U\\.?S\\.? CHAMBER OF COMMERCE",
+   "CHAMBER OF COMMERCE OF THE UNITED STATES"
+  ],
+  "voteIds": [
+   "h119-1-145"
+  ],
+  "position": "support",
+  "url": "https://www.uschamber.com/improving-government/u-s-chamber-key-vote-letter-on-h-r-1-the-one-big-beautiful-bill-act",
+  "quote": "The U.S. Chamber of Commerce strongly supports the One Big Beautiful Bill Act"
+ },
+ {
+  "org": "AIPAC",
+  "patterns": [
+   "AMERICAN ISRAEL PUBLIC AFFAIRS"
+  ],
+  "voteIds": [
+   "h118-1-577"
+  ],
+  "position": "support",
+  "url": "https://aipac.org/press-release/congress-stands-with-israel-approves-aid",
+  "quote": "We commend the strong bipartisan majority in the House of Representatives that adopted the historic $14.3 billion emergency supplemental security assistance for Israel."
+ },
+ {
+  "org": "American Postal Workers Union",
+  "patterns": [
+   "AMERICAN POSTAL WORKERS UNION"
+  ],
+  "voteIds": [
+   "h118-2-456"
+  ],
+  "position": "support",
+  "url": "https://apwu.org/node/28800",
+  "quote": "House representatives set aside their differences and voted in favor of the people"
+ }
+]

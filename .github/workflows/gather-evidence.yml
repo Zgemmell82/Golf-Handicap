@@ -5,6 +5,12 @@ on:
       states:
         description: 'Comma-separated state codes'
         default: 'NC,VA'
+      congresses:
+        description: 'Comma-separated Congress numbers'
+        default: '118,119'
+      branch:
+        description: 'Branch the evidence is published to'
+        default: 'research-evidence'
 permissions:
   contents: write
 jobs:
@@ -18,14 +24,14 @@ jobs:
       - name: Gather
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-        run: node scripts/gather-evidence.mjs /tmp/evidence --states "${{ inputs.states }}"
+        run: node scripts/gather-evidence.mjs /tmp/evidence --states "${{ inputs.states }}" --congresses "${{ inputs.congresses }}"
       - name: Publish to the research-evidence branch
         run: |
           mkdir -p /tmp/publish/evidence && cp -r /tmp/evidence/. /tmp/publish/evidence/
           cd /tmp/publish
-          git init -q -b research-evidence
+          git init -q -b "${{ inputs.branch }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -q -m "Gathered voting evidence"
-          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" research-evidence
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "${{ inputs.branch }}"

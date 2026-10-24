@@ -398,5 +398,37 @@
   "reliability": "unrated",
   "lean": "unrated",
   "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "indyweek-com",
+  "name": "indyweek.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "digital-release-wavy-com",
+  "name": "digital-release.wavy.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "aol-com",
+  "name": "aol.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
+ },
+ {
+  "id": "salisburypost-com",
+  "name": "salisburypost.com",
+  "kind": "unrated",
+  "reliability": "unrated",
+  "lean": "unrated",
+  "note": "Added automatically. Reliability and lean have not been rated yet."
  }
 ]

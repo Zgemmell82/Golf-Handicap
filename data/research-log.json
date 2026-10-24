@@ -1,9 +1,9 @@
 {
  "nc-02-r000305": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 2
+  "promisesAdded": 5
  },
  "nc-s-b001305": {
   "ranAt": "2026-10-18",
@@ -18,10 +18,10 @@
   "promisesAdded": 5
  },
  "nc-04-f000477": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 11
+  "promisesAdded": 13
  },
  "nc-06-m001240": {
   "ranAt": "2026-10-17",
@@ -42,10 +42,10 @@
   "promisesAdded": 3
  },
  "nc-09-h001067": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 4
+  "promisesAdded": 5
  },
  "nc-10-h001101": {
   "ranAt": "2026-10-17",
@@ -72,10 +72,10 @@
   "promisesAdded": 2
  },
  "nc-14-m001236": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 1
+  "promisesAdded": 4
  },
  "va-s-k000384": {
   "ranAt": "2026-10-17",
@@ -102,10 +102,10 @@
   "promisesAdded": 2
  },
  "va-06-c001118": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 5
+  "promisesAdded": 7
  },
  "va-07-v000138": {
   "ranAt": "2026-10-17",
@@ -114,10 +114,10 @@
   "promisesAdded": 2
  },
  "va-08-b001292": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 3
+  "promisesAdded": 4
  },
  "va-09-g000568": {
   "ranAt": "2026-10-17",
@@ -132,10 +132,10 @@
   "promisesAdded": 3
  },
  "nc-s-t000476": {
-  "ranAt": "2026-10-17",
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
-  "promisesAdded": 2
+  "promisesAdded": 4
  },
  "va-03-s000185": {
   "ranAt": "2026-10-17",
@@ -156,7 +156,13 @@
   "promisesAdded": 1
  },
  "nc-05-f000450": {
-  "ranAt": "2026-10-18",
+  "ranAt": "2026-10-24",
+  "method": "search + CI fetch + Claude session extraction + verbatim check",
+  "sources": [],
+  "promisesAdded": 2
+ },
+ "nc-03-m001210": {
+  "ranAt": "2026-10-24",
   "method": "search + CI fetch + Claude session extraction + verbatim check",
   "sources": [],
   "promisesAdded": 1

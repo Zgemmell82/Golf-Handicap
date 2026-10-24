@@ -137,6 +137,12 @@ export function findPublishedDate(html, url) {
   const t = String(html).match(/<title[^>]*>([^<]*)<\/title>/i);
   const td = t && t[1].match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),?\s+((?:19|20)\d{2})\b/i);
   if (td) { const mo = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'].indexOf(td[1].toLowerCase()) + 1; return `${td[3]}-${String(mo).padStart(2, '0')}-${td[2].padStart(2, '0')}`; }
+  // Newspaper pages often print "Published 12:00 am Wednesday, June 20, 2012" in the body.
+  const pub = String(html).match(/Published[^<\n]{0,40}?\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+(\d{1,2}),?\s+((?:19|20)\d{2})\b/i);
+  if (pub) { const mo = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'].indexOf(pub[1].toLowerCase()) + 1; return `${pub[3]}-${String(mo).padStart(2, '0')}-${pub[2].padStart(2, '0')}`; }
+  // URLs like /news/2014/oct/16/slug
+  const um = String(url).match(/\/((?:19|20)\d{2})\/(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\/(\d{1,2})(?:\/|$)/i);
+  if (um) return `${um[1]}-${String(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'].indexOf(um[2].toLowerCase()) + 1).padStart(2, '0')}-${um[3].padStart(2, '0')}`;
   const u = String(url).match(/\/((?:19|20)\d{2})\/(0?[1-9]|1[0-2])\/(0?[1-9]|[12]\d|3[01])(?:\/|$)/);
   if (u) return `${u[1]}-${u[2].padStart(2, '0')}-${u[3].padStart(2, '0')}`;
   return null;

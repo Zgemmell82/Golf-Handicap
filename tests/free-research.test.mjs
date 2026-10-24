@@ -54,3 +54,8 @@ test('undated pages and duplicates are rejected', () => {
 test('findPublishedDate reads a date written in the page title', () => {
   assert.strictEqual(findPublishedDate('<html><title>Solving the Problem - Oct. 3, 2008 - Archives</title></html>', 'https://x.org/a'), '2008-10-03');
 });
+
+test('findPublishedDate reads a printed "Published" line and month-name URLs', () => {
+  assert.strictEqual(findPublishedDate('<p>Published 12:00 am Wednesday, June 20, 2012</p>', 'https://x.com/a'), '2012-06-20');
+  assert.strictEqual(findPublishedDate('<p>no date</p>', 'https://x.com/news/2014/oct/16/slug'), '2014-10-16');
+});

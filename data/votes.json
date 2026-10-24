@@ -27019,6 +27019,11 @@
     "promiseId": "nc-08-h001102:3",
     "relation": "consistent",
     "explain": "He voted yes on a bill about border security or law enforcement."
+   },
+   {
+    "promiseId": "nc-14-m001236:2",
+    "relation": "consistent",
+    "explain": "A yes vote on the Secure America Act, an immigration bill that became law."
    }
   ]
  },
@@ -27409,6 +27414,11 @@
     "promiseId": "nc-04-f000477:9",
     "relation": "consistent",
     "explain": "She voted no on the Department of Homeland Security appropriations bill."
+   },
+   {
+    "promiseId": "nc-14-m001236:2",
+    "relation": "consistent",
+    "explain": "A yes vote on Department of Homeland Security funding."
    }
   ]
  },
@@ -27541,6 +27551,16 @@
    },
    {
     "promiseId": "nc-05-f000450:1",
+    "relation": "consistent",
+    "explain": "A yes vote on the final version of the same bill."
+   },
+   {
+    "promiseId": "nc-14-m001236:3",
+    "relation": "consistent",
+    "explain": "A yes vote on the final version of the same bill."
+   },
+   {
+    "promiseId": "va-06-c001118:7",
     "relation": "consistent",
     "explain": "A yes vote on the final version of the same bill."
    }
@@ -27706,6 +27726,21 @@
     "promiseId": "nc-05-f000450:1",
     "relation": "consistent",
     "explain": "A yes vote on the 2025 reconciliation bill that extended tax cuts, consistent with opposing tax increases."
+   },
+   {
+    "promiseId": "nc-14-m001236:2",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill."
+   },
+   {
+    "promiseId": "nc-14-m001236:3",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill that extended the tax cuts."
+   },
+   {
+    "promiseId": "va-06-c001118:7",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill that extended the 2017 tax cuts."
    }
   ]
  },
@@ -28422,6 +28457,128 @@
     "promiseId": "va-02-k000399:1",
     "relation": "consistent",
     "explain": "She voted yes on this pro-life bill."
+   }
+  ]
+ },
+ {
+  "id": "h119-1-23",
+  "date": "2025-01-22",
+  "chamber": "house",
+  "rollCall": 23,
+  "billId": "S. 5",
+  "title": "Laken Riley Act",
+  "question": "On Passage",
+  "result": "Passed",
+  "byOfficial": {
+   "nc-01-d000230": "Yea",
+   "nc-02-r000305": "Nay",
+   "nc-03-m001210": "Yea",
+   "nc-04-f000477": "Nay",
+   "nc-05-f000450": "Yea",
+   "nc-06-m001240": "Yea",
+   "nc-07-r000603": "Yea",
+   "nc-08-h001102": "Yea",
+   "nc-09-h001067": "Yea",
+   "nc-10-h001101": "Yea",
+   "nc-11-e000246": "Yea",
+   "nc-12-a000370": "Nay",
+   "nc-13-k000405": "Yea",
+   "nc-14-m001236": "Yea",
+   "va-01-w000804": "Yea",
+   "va-02-k000399": "Yea",
+   "va-03-s000185": "Nay",
+   "va-04-m001227": "Nay",
+   "va-05-m001239": "Yea",
+   "va-06-c001118": "Yea",
+   "va-07-v000138": "Yea",
+   "va-08-b001292": "Nay",
+   "va-09-g000568": "Yea",
+   "va-10-s001230": "Yea"
+  },
+  "issues": [],
+  "outletId": "house-clerk",
+  "url": "https://clerk.house.gov/evs/2025/roll023.xml",
+  "promiseLinks": [
+   {
+    "promiseId": "nc-14-m001236:2",
+    "relation": "consistent",
+    "explain": "The Laken Riley Act is an immigration enforcement bill."
+   }
+  ]
+ },
+ {
+  "id": "h118-1-252",
+  "date": "2023-06-13",
+  "chamber": "house",
+  "rollCall": 252,
+  "billId": "H.J.Res. 44",
+  "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Alcohol, Tobacco, Firearms, and Explosives relating to \"Factoring Criteria for Firearms with Attached 'Stabilizing Braces'\".",
+  "question": "On Passage",
+  "result": "Passed",
+  "byOfficial": {
+   "nc-01-d000230": "Nay",
+   "nc-02-r000305": "Nay",
+   "nc-03-m001210": "Yea",
+   "nc-04-f000477": "Nay",
+   "nc-05-f000450": "Yea",
+   "nc-07-r000603": "Yea",
+   "nc-09-h001067": "Yea",
+   "nc-11-e000246": "Yea",
+   "nc-12-a000370": "Nay",
+   "va-01-w000804": "Yea",
+   "va-02-k000399": "Yea",
+   "va-03-s000185": "Nay",
+   "va-04-m001227": "Nay",
+   "va-06-c001118": "Yea",
+   "va-08-b001292": "Nay",
+   "va-09-g000568": "Yea"
+  },
+  "issues": [],
+  "outletId": "house-clerk",
+  "url": "https://clerk.house.gov/evs/2023/roll252.xml",
+  "promiseLinks": [
+   {
+    "promiseId": "nc-03-m001210:1",
+    "relation": "consistent",
+    "explain": "A yes vote on overturning the Bureau of Alcohol, Tobacco, Firearms and Explosives stabilizing brace rule."
+   }
+  ]
+ },
+ {
+  "id": "h118-2-456",
+  "date": "2024-11-12",
+  "chamber": "house",
+  "rollCall": 456,
+  "billId": "H.R. 82",
+  "title": "Social Security Fairness Act of 2023",
+  "question": "On Motion to Suspend the Rules and Pass",
+  "result": "Passed",
+  "byOfficial": {
+   "nc-01-d000230": "Yea",
+   "nc-02-r000305": "Yea",
+   "nc-03-m001210": "Nay",
+   "nc-04-f000477": "Yea",
+   "nc-05-f000450": "Nay",
+   "nc-07-r000603": "Nay",
+   "nc-09-h001067": "Yea",
+   "nc-11-e000246": "Nay",
+   "nc-12-a000370": "Yea",
+   "va-01-w000804": "Not Voting",
+   "va-02-k000399": "Yea",
+   "va-03-s000185": "Yea",
+   "va-04-m001227": "Yea",
+   "va-06-c001118": "Nay",
+   "va-08-b001292": "Yea",
+   "va-09-g000568": "Nay"
+  },
+  "issues": [],
+  "outletId": "house-clerk",
+  "url": "https://clerk.house.gov/evs/2024/roll456.xml",
+  "promiseLinks": [
+   {
+    "promiseId": "nc-04-f000477:12",
+    "relation": "consistent",
+    "explain": "A yes vote on the Social Security Fairness Act, which increases benefits for some retirees."
    }
   ]
  }

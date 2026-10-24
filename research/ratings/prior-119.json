@@ -1,0 +1,193 @@
+[
+ {
+  "promiseId": "nc-14-m001236:2",
+  "status": "kept",
+  "rationale": "As a member, he voted yes on the Laken Riley Act, the Secure America Act, the Homeland Security appropriations bill and the 2025 reconciliation law, which together fund and enforce border security.",
+  "votes": [
+   {
+    "id": "h119-1-23",
+    "relation": "consistent",
+    "explain": "The Laken Riley Act is an immigration enforcement bill."
+   },
+   {
+    "id": "h119-2-214",
+    "relation": "consistent",
+    "explain": "A yes vote on the Secure America Act, an immigration bill that became law."
+   },
+   {
+    "id": "h119-2-87",
+    "relation": "consistent",
+    "explain": "A yes vote on Department of Homeland Security funding."
+   },
+   {
+    "id": "h119-1-145",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-14-m001236:3",
+  "status": "partial",
+  "rationale": "He voted yes on the 2025 reconciliation law that extended the tax cuts. No recorded vote addresses lessening energy regulations or lowering the corporate income tax rate to zero, so those parts are not rated.",
+  "votes": [
+   {
+    "id": "h119-1-145",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill that extended the tax cuts."
+   },
+   {
+    "id": "h119-1-190",
+    "relation": "consistent",
+    "explain": "A yes vote on the final version of the same bill."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-14-m001236:4",
+  "status": "unverifiable",
+  "rationale": "No bill or vote on a 15-week abortion limit has come up in his record.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "va-06-c001118:7",
+  "status": "kept",
+  "rationale": "He voted yes on the 2025 reconciliation law that made the 2017 individual tax rates permanent.",
+  "votes": [
+   {
+    "id": "h119-1-145",
+    "relation": "consistent",
+    "explain": "A yes vote on the 2025 reconciliation bill that extended the 2017 tax cuts."
+   },
+   {
+    "id": "h119-1-190",
+    "relation": "consistent",
+    "explain": "A yes vote on the final version of the same bill."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-03-m001210:1",
+  "status": "kept",
+  "rationale": "He voted yes on overturning the federal rule on firearm stabilizing braces, a vote that protects the ability to own those firearm accessories.",
+  "votes": [
+   {
+    "id": "h118-1-252",
+    "relation": "consistent",
+    "explain": "A yes vote on overturning the Bureau of Alcohol, Tobacco, Firearms and Explosives stabilizing brace rule."
+   }
+  ],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-04-f000477:12",
+  "status": "progress",
+  "rationale": "She voted yes on the Social Security Fairness Act, which became law, and cosponsored bills to protect and expand Social Security. No vote targeted a Medicare cut, so she is shown as In Progress.",
+  "votes": [
+   {
+    "id": "h118-2-456",
+    "relation": "consistent",
+    "explain": "A yes vote on the Social Security Fairness Act, which increases benefits for some retirees."
+   }
+  ],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "4734",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "1700",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-04-f000477:13",
+  "status": "progress",
+  "rationale": "She cosponsored campaign finance disclosure bills in two Congresses; neither has advanced.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "7802",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "1118",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "va-08-b001292:4",
+  "status": "progress",
+  "rationale": "He cosponsored the Medicare for All Act in every Congress since 2017; none has advanced.",
+  "votes": [],
+  "bills": [
+   {
+    "congress": 119,
+    "type": "hr",
+    "number": "3069",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 118,
+    "type": "hr",
+    "number": "3421",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 117,
+    "type": "hr",
+    "number": "1976",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 116,
+    "type": "hr",
+    "number": "1384",
+    "role": "cosponsored",
+    "explain": ""
+   },
+   {
+    "congress": 115,
+    "type": "hr",
+    "number": "676",
+    "role": "cosponsored",
+    "explain": ""
+   }
+  ]
+ },
+ {
+  "promiseId": "nc-02-r000305:5",
+  "status": "unverifiable",
+  "rationale": "No public option bill or vote is in her record.",
+  "votes": [],
+  "bills": []
+ },
+ {
+  "promiseId": "nc-09-h001067:5",
+  "status": "unverifiable",
+  "rationale": "No bill or vote to abolish the EPA or the Department of Education appears in his record.",
+  "votes": [],
+  "bills": []
+ }
+]

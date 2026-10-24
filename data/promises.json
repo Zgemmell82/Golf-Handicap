@@ -3364,12 +3364,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No public option bill or vote is in her record.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-03-m001210:1",
@@ -3385,14 +3385,31 @@
    "url": "https://digital-release.wavy.com/?p=616311",
    "type": "other"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 252, 2023-06-13: On Passage on H.J.Res. 44 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Alcohol, Tobacco, Firearms, and Explosives relating to \"Factoring Criteria for Firearms with Attached 'Stabilizing Braces'\".). Gregory F. Murphy voted yes.",
+    "url": "https://clerk.house.gov/evs/2023/roll252.xml",
+    "outletId": "house-clerk",
+    "date": "2023-06-13",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1180251",
+    "outletId": "voteview",
+    "date": "2023-06-13",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on overturning the federal rule on firearm stabilizing braces, a vote that protects the ability to own those firearm accessories. What the record shows: 2023-06-13: voted yes on H.J.Res. 44 (Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Alcohol, Tobacco, Firearms, and Explosives relating to \"Factoring Criteria for Firearms with Attached 'Stabilizing Braces'\".) (on passage, passed). A yes vote on overturning the Bureau of Alcohol, Tobacco, Firearms and Explosives stabilizing brace rule.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:12",
@@ -3408,14 +3425,47 @@
    "url": "https://abc11.com/amp/post/highlighting-experience-foushee-seeks-congress-in-familiar-district-/11856685/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 456, 2024-11-12: On Motion to Suspend the Rules and Pass on H.R. 82 (Social Security Fairness Act of 2023). Valerie P. Foushee voted yes.",
+    "url": "https://clerk.house.gov/evs/2024/roll456.xml",
+    "outletId": "house-clerk",
+    "date": "2024-11-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1181174",
+    "outletId": "voteview",
+    "date": "2024-11-12",
+    "supports": "consistent"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 4734: Hands Off Our Social Security Act (cosponsored by Valerie P. Foushee; latest action 2025-07-23: Referred to the House Committee on Ways and Means.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4734",
+    "outletId": "congress-gov",
+    "date": "2025-08-08",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 1700: Social Security Expansion Act (cosponsored by Valerie P. Foushee; latest action 2025-02-27: Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1700",
+    "outletId": "congress-gov",
+    "date": "2025-04-03",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She voted yes on the Social Security Fairness Act, which became law, and cosponsored bills to protect and expand Social Security. No vote targeted a Medicare cut, so she is shown as In Progress. What the record shows: 2024-11-12: voted yes on H.R. 82 (Social Security Fairness Act of 2023) (on motion to suspend the rules and pass, passed). A yes vote on the Social Security Fairness Act, which increases benefits for some retirees. H.R. 4734 (cosponsored): Hands Off Our Social Security Act. Latest action: Referred to the House Committee on Ways and Means. H.R. 1700 (cosponsored): Social Security Expansion Act. Latest action: Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-04-f000477:13",
@@ -3431,14 +3481,31 @@
    "url": "https://abc11.com/amp/post/highlighting-experience-foushee-seeks-congress-in-familiar-district-/11856685/",
    "type": "interview"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 7802: DISCLOSE Act of 2026 (cosponsored by Valerie P. Foushee; latest action 2026-03-04: Referred to the Committee on House Administration, and in addition to the Committees on Ways and Means, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7802",
+    "outletId": "congress-gov",
+    "date": "2026-03-04",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 1118: DISCLOSE Act of 2023 (cosponsored by Valerie P. Foushee; latest action 2023-07-11: ASSUMING FIRST SPONSORSHIP - Mr. Pappas asked unanimous consent that he may hereafter be considered as the first sponsor of H.R. 1118, a bill originally introduced by Representative Cicilline, for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/1118",
+    "outletId": "congress-gov",
+    "date": "2024-01-18",
+    "supports": "context"
+   }
+  ],
+  "howRated": "She cosponsored campaign finance disclosure bills in two Congresses; neither has advanced. What the record shows: H.R. 7802 (cosponsored): DISCLOSE Act of 2026. Latest action: Referred to the Committee on House Administration, and in addition to the Committees on Ways and Means, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned. H.R. 1118 (cosponsored): DISCLOSE Act of 2023. Latest action: ASSUMING FIRST SPONSORSHIP - Mr. Pappas asked unanimous consent that he may hereafter be considered as the first sponsor of H.R. 1118, a bill originally introduced by Representative Cicilline, for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-14-m001236:2",
@@ -3454,14 +3521,79 @@
    "url": "https://www.aol.com/tim-moore-candidate-us-house-141041545.html",
    "type": "other"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 23, 2025-01-22: On Passage on S. 5 (Laken Riley Act). Tim Moore voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll023.xml",
+    "outletId": "house-clerk",
+    "date": "2025-01-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190022",
+    "outletId": "voteview",
+    "date": "2025-01-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 214, 2026-06-09: On Passage on S. 2 (Secure America Act). Tim Moore voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll214.xml",
+    "outletId": "house-clerk",
+    "date": "2026-06-09",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190574",
+    "outletId": "voteview",
+    "date": "2026-06-09",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 87, 2026-03-05: On Passage on H.R. 7744 (Department of Homeland Security Appropriations Act, 2026). Tim Moore voted yes.",
+    "url": "https://clerk.house.gov/evs/2026/roll087.xml",
+    "outletId": "house-clerk",
+    "date": "2026-03-05",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190447",
+    "outletId": "voteview",
+    "date": "2026-03-05",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 145, 2025-05-22: On Passage on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Tim Moore voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190144",
+    "outletId": "voteview",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "As a member, he voted yes on the Laken Riley Act, the Secure America Act, the Homeland Security appropriations bill and the 2025 reconciliation law, which together fund and enforce border security. What the record shows: 2025-01-22: voted yes on S. 5 (Laken Riley Act) (on passage, passed). The Laken Riley Act is an immigration enforcement bill. 2026-06-09: voted yes on S. 2 (Secure America Act) (on passage, passed). A yes vote on the Secure America Act, an immigration bill that became law. 2026-03-05: voted yes on H.R. 7744 (Department of Homeland Security Appropriations Act, 2026) (on passage, passed). A yes vote on Department of Homeland Security funding. 2025-05-22: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on passage, passed). A yes vote on the 2025 reconciliation bill.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-14-m001236:3",
@@ -3477,14 +3609,47 @@
    "url": "https://www.aol.com/tim-moore-candidate-us-house-141041545.html",
    "type": "other"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "partial",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 145, 2025-05-22: On Passage on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Tim Moore voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190144",
+    "outletId": "voteview",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 190, 2025-07-03: On Motion to Concur in the Senate Amendment on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Tim Moore voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+    "outletId": "house-clerk",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190189",
+    "outletId": "voteview",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the 2025 reconciliation law that extended the tax cuts. No recorded vote addresses lessening energy regulations or lowering the corporate income tax rate to zero, so those parts are not rated. What the record shows: 2025-05-22: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on passage, passed). A yes vote on the 2025 reconciliation bill that extended the tax cuts. 2025-07-03: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on motion to concur in the senate amendment, passed). A yes vote on the final version of the same bill.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-14-m001236:4",
@@ -3502,12 +3667,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No bill or vote on a 15-week abortion limit has come up in his record.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-06-c001118:6",
@@ -3546,14 +3711,47 @@
    "url": "https://www.whsv.com/content/news/Cline-vows-to-take-conservative-policies-to-dc-499909921.html",
    "type": "news"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "kept",
+  "evidence": [
+   {
+    "type": "vote",
+    "label": "Roll call 145, 2025-05-22: On Passage on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Ben Cline voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+    "outletId": "house-clerk",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190144",
+    "outletId": "voteview",
+    "date": "2025-05-22",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Roll call 190, 2025-07-03: On Motion to Concur in the Senate Amendment on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.). Ben Cline voted yes.",
+    "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+    "outletId": "house-clerk",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   },
+   {
+    "type": "vote",
+    "label": "Same vote as recorded by Voteview (independent database): voted yes.",
+    "url": "https://voteview.com/rollcall/RH1190189",
+    "outletId": "voteview",
+    "date": "2025-07-03",
+    "supports": "consistent"
+   }
+  ],
+  "howRated": "He voted yes on the 2025 reconciliation law that made the 2017 individual tax rates permanent. What the record shows: 2025-05-22: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on passage, passed). A yes vote on the 2025 reconciliation bill that extended the 2017 tax cuts. 2025-07-03: voted yes on H.R. 1 (An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.) (on motion to concur in the senate amendment, passed). A yes vote on the final version of the same bill.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "nc-05-f000450:2",
@@ -3594,12 +3792,12 @@
   },
   "status": "unverifiable",
   "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "howRated": "No bill or vote to abolish the EPA or the Department of Education appears in his record.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  },
  {
   "id": "va-08-b001292:4",
@@ -3615,13 +3813,54 @@
    "url": "https://www.arlnow.com/?p=209318",
    "type": "other"
   },
-  "status": "unverifiable",
-  "evidence": [],
-  "howRated": "Not yet rated. This statement was found in the source linked above and its wording was checked word-for-word against the page. No evidence about whether it was kept has been reviewed yet, so no rating is given.",
+  "status": "progress",
+  "evidence": [
+   {
+    "type": "bill",
+    "label": "H.R. 3069: Medicare for All Act (cosponsored by Donald S. Beyer, Jr.; latest action 2025-04-29: Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, Education and Workforce, Rules, Oversight and Government Reform, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.)",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069",
+    "outletId": "congress-gov",
+    "date": "2025-04-29",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 3421: Medicare for All Act (cosponsored by Donald S. Beyer, Jr.; latest action 2024-12-17: Referred to the Subcommittee on Health.)",
+    "url": "https://www.congress.gov/bill/118th-congress/house-bill/3421",
+    "outletId": "congress-gov",
+    "date": "2023-05-17",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 1976: Medicare for All Act of 2021 (cosponsored by Donald S. Beyer, Jr.; latest action 2021-05-18: Referred to the Subcommittee on Crime, Terrorism, and Homeland Security.)",
+    "url": "https://www.congress.gov/bill/117th-congress/house-bill/1976",
+    "outletId": "congress-gov",
+    "date": "2021-03-17",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 1384: Medicare for All Act of 2019 (cosponsored by Donald S. Beyer, Jr.; latest action 2019-12-10: Subcommittee Hearings Held.)",
+    "url": "https://www.congress.gov/bill/116th-congress/house-bill/1384",
+    "outletId": "congress-gov",
+    "date": "2019-02-27",
+    "supports": "context"
+   },
+   {
+    "type": "bill",
+    "label": "H.R. 676: Expanded & Improved Medicare For All Act (cosponsored by Donald S. Beyer, Jr.; latest action 2018-03-07: ASSUMING FIRST SPONSORSHIP - Mr. Ellison asked unanimous consent that he may hereafter be considered as the first sponsor of H.R. 676, a bill originally introduced by former Representative Conyers, for purposes of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.)",
+    "url": "https://www.congress.gov/bill/115th-congress/house-bill/676",
+    "outletId": "congress-gov",
+    "date": "2017-09-26",
+    "supports": "context"
+   }
+  ],
+  "howRated": "He cosponsored the Medicare for All Act in every Congress since 2017; none has advanced. What the record shows: H.R. 3069 (cosponsored): Medicare for All Act. Latest action: Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, Education and Workforce, Rules, Oversight and Government Reform, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned. H.R. 3421 (cosponsored): Medicare for All Act. Latest action: Referred to the Subcommittee on Health. H.R. 1976 (cosponsored): Medicare for All Act of 2021. Latest action: Referred to the Subcommittee on Crime, Terrorism, and Homeland Security. H.R. 1384 (cosponsored): Medicare for All Act of 2019. Latest action: Subcommittee Hearings Held. H.R. 676 (cosponsored): Expanded & Improved Medicare For All Act. Latest action: ASSUMING FIRST SPONSORSHIP - Mr. Ellison asked unanimous consent that he may hereafter be considered as the first sponsor of H.R. 676, a bill originally introduced by former Representative Conyers, for purposes of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.",
   "statusNote": "",
   "contested": false,
   "opposesIndustries": [],
   "reviewedOn": "2026-10-24",
-  "review": "unreviewed (automated; quote checked word-for-word against the source)"
+  "review": "unreviewed (automated rating; votes checked against two publishers)"
  }
 ]
